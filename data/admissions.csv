@@ -1,0 +1,245 @@
+admission_id,patient_id,fecha_ingreso,fecha_alta,motivo_ingreso,servicio
+A_ZVEBXXDU,P_015FZFXC,2024-02-02 20:11:48,2024-02-09 20:11:48,Crisis asmática,Oncología
+A_2L326ZV5,P_015FZFXC,2024-07-11 07:59:17,2024-07-13 07:59:17,Fractura de cadera,Pediatría
+A_XKHY02Y8,P_04B5M51R,2024-05-10 03:23:14,2024-05-13 03:23:14,Accidente cerebrovascular isquémico,Geriatría
+A_FHP07HXC,P_04B5M51R,2025-08-19 15:53:59,2025-08-25 15:53:59,Cetoacidosis diabética,Pediatría
+A_CFPFIU5X,P_06VZG7VY,2025-09-19 07:43:22,2025-09-26 07:43:22,Dolor abdominal / Apendicitis,UCI
+A_73N4H68H,P_0KGK5G65,2024-02-25 22:49:04,2024-03-01 22:49:04,Fractura de cadera,Medicina Interna
+A_4LFYG5JU,P_0LXZN49R,2024-04-27 13:33:15,2024-05-07 13:33:15,Cetoacidosis diabética,Neurología
+A_N738AWXU,P_0NO48PLG,2024-08-17 12:28:26,2024-08-19 12:28:26,Cetoacidosis diabética,UCI
+A_C7GOI2EB,P_0NO48PLG,2025-04-10 15:53:02,2025-04-18 15:53:02,Accidente cerebrovascular isquémico,Oncología
+A_BNWUEBYT,P_105UMIL2,2024-07-22 13:36:07,2024-07-27 13:36:07,Crisis asmática,Neurología
+A_O86WOCMY,P_11YW82KN,2024-07-16 10:37:00,2024-07-22 10:37:00,Exacerbación EPOC,UCI
+A_9DUPRW5K,P_12SJQ4GY,2024-10-27 09:58:50,2024-11-04 09:58:50,Crisis asmática,Neurología
+A_RQYWSSMK,P_15UB2MMR,2025-02-01 19:49:59,2025-02-08 19:49:59,Accidente cerebrovascular isquémico,Oncología
+A_1I1SR9DX,P_1L1C1B12,2024-02-10 05:15:19,2024-02-17 05:15:19,Cetoacidosis diabética,Pediatría
+A_E95GKL0C,P_1L1C1B12,2025-08-06 21:31:28,2025-08-16 21:31:28,Cetoacidosis diabética,Neumología
+A_W5KYXPS2,P_1XZ2Q2Y1,2024-02-01 15:37:34,2024-02-08 15:37:34,Crisis asmática,UCI
+A_4T0V9UV7,P_1XZ2Q2Y1,2024-02-12 02:13:19,2024-02-17 02:13:19,Accidente cerebrovascular isquémico,Pediatría
+A_OEBR9Y33,P_2AXY8ZCL,2025-02-20 12:56:55,2025-03-02 12:56:55,Accidente cerebrovascular isquémico,Cirugía General
+A_WHZRRVGI,P_2AXY8ZCL,2025-07-12 01:52:38,2025-07-23 01:52:38,Insuficiencia cardíaca descompensada,Pediatría
+A_05ZU0CST,P_2DPNS8CM,2024-04-03 20:02:35,2024-04-08 20:02:35,Neumonía adquirida en la comunidad,Cardiología
+A_CT1YN6N4,P_2KCK3JWJ,2024-11-24 13:52:14,2024-12-01 13:52:14,COVID-19,UCI
+A_Y8S796NF,P_2MV9XPV5,2025-06-19 05:31:33,2025-06-30 05:31:33,Sepsis de origen urinario,Neumología
+A_C296QVRN,P_2NW8R5GE,2024-08-04 09:22:53,2024-08-14 09:22:53,Sepsis de origen urinario,Neumología
+A_TOZR3LSB,P_2NW8R5GE,2024-08-17 19:08:31,2024-08-21 19:08:31,Neumonía adquirida en la comunidad,Cardiología
+A_3V6QS4XI,P_3BND0DUH,2024-09-11 14:28:15,2024-09-17 14:28:15,Dolor abdominal / Apendicitis,Oncología
+A_IXHCQ5A3,P_3CCY5LJP,2025-02-06 05:42:19,2025-02-08 05:42:19,Accidente cerebrovascular isquémico,Pediatría
+A_43B08NCS,P_3L1VLZDT,2024-12-06 07:39:32,2024-12-11 07:39:32,Crisis asmática,Cirugía General
+A_GYHEPJWE,P_3NMNH35J,2024-02-10 13:04:39,2024-02-15 13:04:39,COVID-19,Pediatría
+A_4EPLG012,P_3NMNH35J,2025-01-22 07:12:47,2025-02-01 07:12:47,Exacerbación EPOC,Neurología
+A_A300VRCQ,P_44TVTPBM,2025-07-17 01:20:17,2025-07-19 01:20:17,Insuficiencia cardíaca descompensada,Cirugía General
+A_2H11F4PF,P_4E92BQJO,2024-06-24 21:57:22,2024-07-03 21:57:22,Fractura de cadera,Medicina Interna
+A_14HUCF6A,P_4L6Z04IQ,2024-09-27 07:01:38,2024-10-02 07:01:38,Neumonía adquirida en la comunidad,Cirugía General
+A_USPBU62T,P_4P3G3N5E,2025-03-20 21:51:15,2025-03-25 21:51:15,Exacerbación EPOC,UCI
+A_Z16L4E2F,P_4URTQDM4,2024-01-10 13:02:18,2024-01-17 13:02:18,Dolor abdominal / Apendicitis,UCI
+A_1MCWP28V,P_54VWDSEQ,2025-02-06 23:22:10,2025-02-10 23:22:10,Sepsis de origen urinario,Oncología
+A_M95D1BLN,P_55T24OIX,2024-08-20 20:01:52,2024-08-24 20:01:52,Crisis asmática,Geriatría
+A_GEQR94ZM,P_55T24OIX,2025-05-14 05:00:23,2025-05-19 05:00:23,Sepsis de origen urinario,Oncología
+A_K72IMW7Y,P_573I0IQK,2025-06-27 14:06:03,2025-06-28 14:06:03,Cetoacidosis diabética,Geriatría
+A_DMICDUBZ,P_5JR7X4RW,2024-04-01 08:58:28,2024-04-06 08:58:28,Accidente cerebrovascular isquémico,UCI
+A_Q3V0S0MX,P_5K4QRLKH,2025-04-26 14:34:02,2025-05-04 14:34:02,Neumonía adquirida en la comunidad,Medicina Interna
+A_05KNFOUZ,P_5S4GSL94,2024-04-09 20:54:27,2024-04-22 20:54:27,Dolor abdominal / Apendicitis,Geriatría
+A_WHY83UUD,P_5TPCH6UQ,2024-08-07 14:39:24,2024-08-19 14:39:24,COVID-19,Oncología
+A_EUQ03WX2,P_5TPCH6UQ,2025-04-03 10:18:06,2025-04-11 10:18:06,Accidente cerebrovascular isquémico,Cirugía General
+A_LW3YH4FH,P_5VVDOSYE,2025-09-10 17:11:34,2025-09-17 17:11:34,Exacerbación EPOC,Traumatología
+A_2LIFID9K,P_69J9KMXL,2024-04-17 16:37:43,2024-04-18 16:37:43,Cetoacidosis diabética,Traumatología
+A_J4JG53WZ,P_69J9KMXL,2024-11-28 12:39:54,2024-12-01 12:39:54,Accidente cerebrovascular isquémico,Neumología
+A_LNBLETO0,P_6G2VO955,2024-09-23 07:24:10,2024-10-03 07:24:10,Insuficiencia cardíaca descompensada,Geriatría
+A_45IQN93E,P_6UI6CI2L,2025-01-15 14:37:12,2025-01-24 14:37:12,Accidente cerebrovascular isquémico,Pediatría
+A_RA8B7MLU,P_7498S6F7,2024-04-29 10:29:10,2024-05-07 10:29:10,Neumonía adquirida en la comunidad,Medicina Interna
+A_PB7XFYPX,P_7IJW64DL,2024-06-01 13:25:22,2024-06-04 13:25:22,Cetoacidosis diabética,Pediatría
+A_M43TBDXE,P_7LV7IFCE,2025-01-08 19:23:52,2025-01-13 19:23:52,Crisis asmática,Neumología
+A_95NCMVB3,P_7LV7IFCE,2025-03-20 08:18:25,2025-03-30 08:18:25,Insuficiencia cardíaca descompensada,Neurología
+A_CNPX6RGV,P_7PMWOMTH,2025-06-20 23:35:34,2025-06-24 23:35:34,Crisis asmática,Oncología
+A_C5LXG168,P_7RC1REF0,2024-12-18 16:38:06,2024-12-24 16:38:06,Sepsis de origen urinario,Neurología
+A_BY69GA8L,P_7RXDJ81N,2025-03-21 09:59:12,2025-03-25 09:59:12,COVID-19,Geriatría
+A_AZLDV62R,P_7VY8PPVK,2024-04-20 05:25:49,2024-04-29 05:25:49,Dolor abdominal / Apendicitis,Pediatría
+A_RUZSBT2B,P_81DDTWD1,2025-05-08 12:33:42,2025-05-17 12:33:42,Dolor abdominal / Apendicitis,Pediatría
+A_5YD46YO0,P_82L3Q7PE,2025-05-19 12:21:52,2025-05-23 12:21:52,Insuficiencia cardíaca descompensada,Neumología
+A_2C1R0ONE,P_82L3Q7PE,2025-08-19 20:18:12,2025-08-29 20:18:12,Neumonía adquirida en la comunidad,Pediatría
+A_SP8GSG6F,P_86BAHDH0,2024-04-17 06:41:48,2024-04-26 06:41:48,Accidente cerebrovascular isquémico,Oncología
+A_QNJRTWNB,P_86CYJIDG,2024-04-15 07:29:27,2024-04-21 07:29:27,Crisis asmática,Geriatría
+A_SMM178UI,P_898PME2J,2024-02-27 19:14:47,2024-02-29 19:14:47,Exacerbación EPOC,Cardiología
+A_YG7VMSCK,P_89FNA2PN,2024-04-19 16:51:51,2024-04-22 16:51:51,Cetoacidosis diabética,Pediatría
+A_HVHUTTB7,P_8CAQM6EM,2024-06-20 19:09:21,2024-06-21 19:09:21,Exacerbación EPOC,UCI
+A_ZCYVKQDA,P_8DL3C1LT,2024-09-08 21:00:21,2024-09-09 21:00:21,Crisis asmática,Oncología
+A_ME77LIIM,P_8DP3HCV8,2024-03-15 19:44:21,2024-03-17 19:44:21,Cetoacidosis diabética,Neumología
+A_PR6X1OUN,P_8QD5ZI9Z,2024-02-16 13:37:35,2024-02-20 13:37:35,Accidente cerebrovascular isquémico,UCI
+A_8J2774QZ,P_8QD5ZI9Z,2025-04-20 04:37:53,2025-04-24 04:37:53,Fractura de cadera,Neurología
+A_OXD9Y8UI,P_8XTU9F4V,2024-10-26 13:06:32,2024-10-30 13:06:32,Dolor abdominal / Apendicitis,Neurología
+A_YU7L4O8F,P_8ZC9A19U,2025-05-04 02:20:31,2025-05-14 02:20:31,Cetoacidosis diabética,Pediatría
+A_FDI4OOV2,P_960IKLLK,2024-06-21 00:12:08,2024-06-23 00:12:08,COVID-19,Geriatría
+A_90TBOJ8T,P_960IKLLK,2025-06-27 13:39:19,2025-07-06 13:39:19,Cetoacidosis diabética,Pediatría
+A_BXQ1PSUI,P_9EHLEQV7,2024-05-27 02:19:28,2024-06-04 02:19:28,Fractura de cadera,UCI
+A_ZQI900EO,P_9ODPI1CA,2024-04-13 07:47:02,2024-04-22 07:47:02,Crisis asmática,Traumatología
+A_WHTRAM8X,P_9ODPI1CA,2024-12-15 05:52:28,2024-12-22 05:52:28,Sepsis de origen urinario,Traumatología
+A_BP1O5FXM,P_9Y10BFIW,2025-08-28 20:56:03,2025-09-07 20:56:03,Dolor abdominal / Apendicitis,Pediatría
+A_BATAJD32,P_A8620MWR,2025-08-27 02:08:22,2025-09-01 02:08:22,Neumonía adquirida en la comunidad,Neumología
+A_F7XC1IGM,P_ARKWVTHG,2024-12-07 12:21:01,2024-12-08 12:21:01,Accidente cerebrovascular isquémico,Cardiología
+A_W8GFSBLT,P_AX8VMKRW,2024-06-16 15:43:05,2024-06-18 15:43:05,Fractura de cadera,Pediatría
+A_JRIMK9GZ,P_AX8VMKRW,2025-08-15 00:25:23,2025-08-19 00:25:23,Neumonía adquirida en la comunidad,Cardiología
+A_YZTJQH9V,P_B2HT7UD4,2024-10-20 21:40:41,2024-10-28 21:40:41,Sepsis de origen urinario,Neurología
+A_2Q1G1MGB,P_BFKI7F23,2025-07-04 06:51:29,2025-07-15 06:51:29,Crisis asmática,Traumatología
+A_7CDHNI7L,P_BG5JCCOM,2025-07-26 02:48:10,2025-08-04 02:48:10,Neumonía adquirida en la comunidad,Traumatología
+A_Q8XMZ80H,P_BR0Q62R1,2024-10-03 22:00:39,2024-10-11 22:00:39,Dolor abdominal / Apendicitis,Medicina Interna
+A_W7U8ZVT1,P_BR0Q62R1,2024-10-18 09:20:55,2024-10-27 09:20:55,COVID-19,Traumatología
+A_M02OBXYS,P_BWC1E9E2,2024-02-23 23:03:43,2024-03-04 23:03:43,Exacerbación EPOC,Neumología
+A_H6KI56IJ,P_BWC1E9E2,2024-05-11 10:01:08,2024-05-18 10:01:08,Neumonía adquirida en la comunidad,Pediatría
+A_4XZ5U2HX,P_C11FVTVE,2024-10-03 04:08:02,2024-10-10 04:08:02,Cetoacidosis diabética,Cardiología
+A_2FIOAG1I,P_C6NQX47N,2024-04-10 02:43:19,2024-04-15 02:43:19,Sepsis de origen urinario,Traumatología
+A_BM0C9CAE,P_C6XLS2JH,2025-06-01 12:53:55,2025-06-04 12:53:55,COVID-19,Oncología
+A_8C7SQNMR,P_C7WS5U43,2024-02-01 00:36:59,2024-02-04 00:36:59,Accidente cerebrovascular isquémico,Neurología
+A_YDSL3AJF,P_C7WS5U43,2025-02-08 15:09:59,2025-02-18 15:09:59,Crisis asmática,Cardiología
+A_DAINWKRW,P_CDPBTCNA,2025-06-17 16:33:23,2025-06-28 16:33:23,Neumonía adquirida en la comunidad,Neurología
+A_RV0PGRE6,P_CXEJNA36,2024-05-10 03:39:14,2024-05-18 03:39:14,Neumonía adquirida en la comunidad,Cardiología
+A_AV41CY76,P_CXTH5X2T,2025-08-10 12:17:44,2025-08-20 12:17:44,Exacerbación EPOC,Medicina Interna
+A_AJ9XTI3A,P_D5KEA1WO,2025-05-13 13:06:58,2025-05-22 13:06:58,Crisis asmática,Geriatría
+A_QZWRAQ18,P_DF45POM6,2025-01-11 05:55:24,2025-01-19 05:55:24,Accidente cerebrovascular isquémico,Geriatría
+A_5C5ELWT4,P_DF45POM6,2025-06-14 02:39:44,2025-06-21 02:39:44,COVID-19,Cirugía General
+A_88J22RJU,P_DGZ6W4FH,2024-10-21 08:31:01,2024-10-25 08:31:01,Sepsis de origen urinario,Cardiología
+A_94W0FR10,P_DWBZLBLC,2024-10-22 14:11:49,2024-11-02 14:11:49,Dolor abdominal / Apendicitis,UCI
+A_S016CX9H,P_DWRDIIP4,2024-05-21 00:32:14,2024-05-27 00:32:14,Accidente cerebrovascular isquémico,Geriatría
+A_QFKDTJI3,P_DWRDIIP4,2025-05-15 12:14:15,2025-05-23 12:14:15,Cetoacidosis diabética,Cirugía General
+A_AM0I8AQC,P_E1IP1CWU,2024-05-24 10:12:18,2024-06-01 10:12:18,Insuficiencia cardíaca descompensada,UCI
+A_58LXMJEL,P_E4M16JN5,2024-09-10 00:05:46,2024-09-14 00:05:46,Fractura de cadera,Neumología
+A_AJ5ALNEK,P_E64XFOU9,2024-03-12 18:42:41,2024-03-19 18:42:41,COVID-19,Cirugía General
+A_BCR60XDC,P_E64XFOU9,2024-09-02 12:38:49,2024-09-07 12:38:49,Accidente cerebrovascular isquémico,UCI
+A_C083QTPZ,P_EB5KKNU4,2024-10-22 21:09:24,2024-10-30 21:09:24,Exacerbación EPOC,Neumología
+A_J1KDYIRG,P_EDOXD9LB,2025-03-31 09:40:39,2025-04-04 09:40:39,Fractura de cadera,Cirugía General
+A_564QV1SJ,P_EOPJH9MW,2024-05-26 10:28:08,2024-06-03 10:28:08,Neumonía adquirida en la comunidad,Neurología
+A_HQFQHSH8,P_ESD1OW2V,2024-12-21 06:52:59,2024-12-23 06:52:59,Neumonía adquirida en la comunidad,Traumatología
+A_RUJDOW9P,P_ESD1OW2V,2025-04-26 13:39:52,2025-05-05 13:39:52,Accidente cerebrovascular isquémico,Geriatría
+A_AMDBYWOC,P_F4NRZUYO,2024-04-03 04:34:52,2024-04-08 04:34:52,Crisis asmática,Medicina Interna
+A_FYSLBPFT,P_FCNMFR7Y,2025-07-10 10:18:10,2025-07-16 10:18:10,Crisis asmática,Cirugía General
+A_JW9DURIB,P_FLI9HA0R,2024-11-10 07:54:39,2024-11-14 07:54:39,COVID-19,Pediatría
+A_CEKY1295,P_FQC50RQZ,2025-04-17 21:07:54,2025-04-22 21:07:54,COVID-19,Cirugía General
+A_SCGZM6BY,P_FQI9TEB0,2024-10-05 02:32:12,2024-10-10 02:32:12,Exacerbación EPOC,Traumatología
+A_V30VTQWC,P_FXO0MYTM,2025-06-22 09:22:18,2025-07-01 09:22:18,Insuficiencia cardíaca descompensada,Cardiología
+A_C2DNRNHR,P_G9HBVR5G,2024-01-09 12:50:42,2024-01-11 12:50:42,Crisis asmática,Geriatría
+A_WMY6SAH0,P_G9HBVR5G,2024-12-06 01:37:33,2024-12-07 01:37:33,Sepsis de origen urinario,Neumología
+A_IO32JQWD,P_GADEJ83W,2025-07-10 01:00:50,2025-07-14 01:00:50,Neumonía adquirida en la comunidad,Medicina Interna
+A_PEGSUWY3,P_GHAUM5U2,2025-03-25 15:56:41,2025-04-05 15:56:41,Cetoacidosis diabética,Cirugía General
+A_JGGW1515,P_GLELBF7X,2025-05-04 16:53:53,2025-05-10 16:53:53,Accidente cerebrovascular isquémico,Geriatría
+A_0XRL8450,P_GNRBL8AU,2025-06-01 05:12:51,2025-06-05 05:12:51,Insuficiencia cardíaca descompensada,Medicina Interna
+A_YF9MLGIZ,P_GNRBL8AU,2025-08-24 17:34:29,2025-09-01 17:34:29,Cetoacidosis diabética,Cirugía General
+A_PU6UD1CA,P_GR4A7C99,2024-10-30 07:16:55,2024-11-08 07:16:55,Cetoacidosis diabética,Geriatría
+A_5NVLNVQA,P_GR4A7C99,2024-12-18 22:31:28,2024-12-23 22:31:28,Sepsis de origen urinario,Oncología
+A_MAH0RP20,P_GVMZX0LK,2024-05-17 04:39:03,2024-05-21 04:39:03,Fractura de cadera,Medicina Interna
+A_RUJ2SKZ9,P_GVMZX0LK,2025-09-26 08:38:05,2025-10-06 08:38:05,Dolor abdominal / Apendicitis,Cardiología
+A_6QMLP8JR,P_H7JO4K98,2025-07-06 09:44:15,2025-07-16 09:44:15,Cetoacidosis diabética,Neurología
+A_344T2PWZ,P_HNYNRLY0,2024-02-03 07:29:47,2024-02-10 07:29:47,Cetoacidosis diabética,Traumatología
+A_1ABS74WU,P_HYVTL8Z7,2024-07-16 03:16:36,2024-07-24 03:16:36,Crisis asmática,Medicina Interna
+A_7JY5IYR4,P_I0M6RWH9,2024-06-30 05:13:41,2024-07-11 05:13:41,Fractura de cadera,Oncología
+A_CUSJM0HI,P_I22DRV4A,2024-05-29 13:37:59,2024-06-03 13:37:59,Fractura de cadera,Pediatría
+A_9W7SNRO4,P_IC8DNKBN,2024-02-16 15:09:27,2024-02-24 15:09:27,Sepsis de origen urinario,Geriatría
+A_G866D38U,P_ICA9969V,2025-05-31 07:37:28,2025-06-03 07:37:28,Sepsis de origen urinario,Oncología
+A_JWQV99QL,P_IH7W0K23,2024-06-28 13:34:47,2024-07-11 13:34:47,Exacerbación EPOC,Geriatría
+A_WX17WF2Z,P_IM5FKURO,2024-12-25 17:24:15,2025-01-04 17:24:15,Dolor abdominal / Apendicitis,UCI
+A_GJFNYRPD,P_INDA2Z6M,2025-04-09 12:07:20,2025-04-14 12:07:20,Insuficiencia cardíaca descompensada,Geriatría
+A_DS9U4YIJ,P_INDA2Z6M,2025-09-18 22:36:18,2025-09-27 22:36:18,Crisis asmática,Cardiología
+A_I1F8IGKJ,P_IVKMLW3M,2024-05-01 17:13:58,2024-05-04 17:13:58,Sepsis de origen urinario,Cirugía General
+A_H1Y6GAVT,P_J16QMCP5,2025-08-30 08:02:42,2025-09-04 08:02:42,Exacerbación EPOC,Cirugía General
+A_WVXGEOZL,P_JBTA8J1N,2025-02-15 19:31:22,2025-02-24 19:31:22,Exacerbación EPOC,Medicina Interna
+A_DFN6W0V8,P_JSJAYG6R,2025-01-01 05:32:39,2025-01-05 05:32:39,Insuficiencia cardíaca descompensada,Pediatría
+A_DKI7EUXQ,P_K2K4X3V0,2024-04-08 11:24:42,2024-04-14 11:24:42,Sepsis de origen urinario,Cirugía General
+A_E15NPB21,P_K2K4X3V0,2025-06-11 00:20:49,2025-06-18 00:20:49,Insuficiencia cardíaca descompensada,Cardiología
+A_FOIPQE80,P_KJ5EF5DF,2024-03-09 14:32:14,2024-03-14 14:32:14,Fractura de cadera,Pediatría
+A_XDRX70OZ,P_KJ5EF5DF,2024-09-27 09:35:10,2024-10-08 09:35:10,Fractura de cadera,Medicina Interna
+A_54MWRAO5,P_KLOV3ARM,2024-03-17 22:59:11,2024-03-25 22:59:11,Crisis asmática,Neumología
+A_34QUIYQ8,P_KLOV3ARM,2025-04-17 11:03:11,2025-04-25 11:03:11,Fractura de cadera,Oncología
+A_UJOW5LBG,P_KY7EK2XW,2025-02-06 08:54:56,2025-02-15 08:54:56,Cetoacidosis diabética,Geriatría
+A_NSLJFQSN,P_L06I0DBP,2025-07-12 10:29:57,2025-07-19 10:29:57,Fractura de cadera,UCI
+A_NO4XSR7F,P_L0U9ZW74,2024-06-27 16:07:00,2024-07-06 16:07:00,Cetoacidosis diabética,Pediatría
+A_YY5CKFAJ,P_L6LGSX4K,2024-02-22 01:40:07,2024-03-01 01:40:07,Crisis asmática,Cardiología
+A_GZ6BN8HQ,P_LCL28WFC,2024-11-12 20:52:14,2024-11-19 20:52:14,Fractura de cadera,Cirugía General
+A_JZCJOHSN,P_LD8HPO4J,2024-07-16 07:58:03,2024-07-25 07:58:03,Insuficiencia cardíaca descompensada,Pediatría
+A_GEQERRSV,P_LD8HPO4J,2024-12-01 17:35:08,2024-12-09 17:35:08,Sepsis de origen urinario,Neumología
+A_C213VY1A,P_LNOF8TSB,2025-04-08 01:04:13,2025-04-18 01:04:13,Exacerbación EPOC,Cardiología
+A_VRHL9G2G,P_M7NM66FY,2025-02-08 03:31:35,2025-02-17 03:31:35,Neumonía adquirida en la comunidad,Neurología
+A_6SK5PICN,P_M80P4AIR,2024-03-09 08:16:04,2024-03-15 08:16:04,Cetoacidosis diabética,Medicina Interna
+A_MH43NBG0,P_MJ63FGJI,2025-07-26 12:33:47,2025-07-28 12:33:47,Fractura de cadera,Neumología
+A_5NCHKNLP,P_N3BAHT1T,2025-06-26 14:00:03,2025-07-02 14:00:03,Cetoacidosis diabética,Oncología
+A_YIXLAQJI,P_NCF98WES,2025-09-16 20:04:13,2025-09-19 20:04:13,Fractura de cadera,Oncología
+A_IA0X3GK6,P_NIFJTG7J,2024-07-08 15:16:17,2024-07-14 15:16:17,Fractura de cadera,Cardiología
+A_C514N9E5,P_NYYMLYQ5,2024-05-27 14:29:16,2024-06-02 14:29:16,Sepsis de origen urinario,Cardiología
+A_A8I5HX4K,P_O1Q50YBM,2025-06-07 11:48:41,2025-06-11 11:48:41,Sepsis de origen urinario,Pediatría
+A_YO16Q23G,P_O1XGWZSX,2024-07-14 10:12:34,2024-07-15 10:12:34,Neumonía adquirida en la comunidad,Neurología
+A_5MYHX5H0,P_OGHZC2A9,2024-03-27 17:15:12,2024-04-04 17:15:12,Exacerbación EPOC,UCI
+A_FVR1I3KT,P_OJYHLMZ9,2024-08-04 03:30:22,2024-08-15 03:30:22,Fractura de cadera,Pediatría
+A_BU39V1T3,P_P8GIEAQ2,2025-09-24 03:20:59,2025-09-29 03:20:59,Exacerbación EPOC,Traumatología
+A_V82D1383,P_POAJTD05,2025-09-30 02:51:53,2025-10-05 02:51:53,Neumonía adquirida en la comunidad,Cardiología
+A_WNR8XERY,P_PW6SY5O0,2024-06-04 05:23:41,2024-06-12 05:23:41,Neumonía adquirida en la comunidad,Pediatría
+A_4GJ9O3NU,P_Q82LY6QJ,2024-10-12 17:58:08,2024-10-20 17:58:08,Exacerbación EPOC,Traumatología
+A_OBIOHHVT,P_QCTJPXUS,2025-04-29 05:04:18,2025-05-04 05:04:18,Accidente cerebrovascular isquémico,Pediatría
+A_35WCUFKJ,P_QGT8FMMJ,2024-01-22 15:42:42,2024-01-27 15:42:42,Accidente cerebrovascular isquémico,Cardiología
+A_LG93D6AV,P_QGT8FMMJ,2025-08-30 11:03:32,2025-09-04 11:03:32,Insuficiencia cardíaca descompensada,Cardiología
+A_2E8JMXV2,P_QK7XAYOO,2025-06-13 04:37:59,2025-06-15 04:37:59,Crisis asmática,Oncología
+A_F4KR8TXL,P_QTJ1LWLS,2024-05-25 00:41:04,2024-05-31 00:41:04,Accidente cerebrovascular isquémico,Cirugía General
+A_DY10ZE88,P_QV2W65UT,2025-07-20 14:11:41,2025-08-01 14:11:41,Fractura de cadera,Cardiología
+A_62XME7UE,P_R369B7UH,2025-02-08 08:35:02,2025-02-11 08:35:02,Neumonía adquirida en la comunidad,Oncología
+A_324BDVL0,P_R7A29C0K,2024-10-03 11:07:20,2024-10-06 11:07:20,Neumonía adquirida en la comunidad,Oncología
+A_1JNZDVFL,P_RWOQZENN,2024-05-13 12:27:55,2024-05-21 12:27:55,Neumonía adquirida en la comunidad,Pediatría
+A_PA9TWMTP,P_RWZRX1RC,2024-12-29 09:15:53,2025-01-07 09:15:53,Insuficiencia cardíaca descompensada,Traumatología
+A_3PQBYXIU,P_RYGCG8X2,2025-08-07 22:09:54,2025-08-17 22:09:54,Accidente cerebrovascular isquémico,Oncología
+A_S4QASMGM,P_SBQ5DSD6,2024-09-15 18:21:23,2024-09-21 18:21:23,Sepsis de origen urinario,Neumología
+A_SK71Y9R8,P_SBWZ5P7M,2025-07-23 11:41:18,2025-07-25 11:41:18,Sepsis de origen urinario,Neumología
+A_H8N7A59Q,P_SMG825MS,2024-10-16 22:50:16,2024-10-23 22:50:16,Fractura de cadera,Medicina Interna
+A_JCPEVE8D,P_SMG825MS,2025-08-30 18:33:29,2025-08-31 18:33:29,Neumonía adquirida en la comunidad,Geriatría
+A_Q42FAN44,P_SPP8TKZW,2025-09-06 01:35:48,2025-09-15 01:35:48,Accidente cerebrovascular isquémico,Medicina Interna
+A_3I7FSB57,P_SRPJLAAP,2025-09-24 05:45:29,2025-10-03 05:45:29,Insuficiencia cardíaca descompensada,Cardiología
+A_7T2SXPB2,P_SWNH4E4C,2025-03-08 13:36:32,2025-03-14 13:36:32,Dolor abdominal / Apendicitis,Neumología
+A_KDW7LAN5,P_SX0WFXJY,2024-07-31 04:59:37,2024-08-12 04:59:37,Exacerbación EPOC,Cardiología
+A_ZHMPNJ81,P_T6I4L6LU,2024-09-14 14:20:15,2024-09-25 14:20:15,Dolor abdominal / Apendicitis,Medicina Interna
+A_YGR7GHJ7,P_TAN54XMW,2024-04-04 18:58:10,2024-04-14 18:58:10,Exacerbación EPOC,UCI
+A_7V5N80OO,P_TAN54XMW,2024-09-19 18:38:20,2024-10-02 18:38:20,Neumonía adquirida en la comunidad,Traumatología
+A_678UB5WM,P_TAQYYM0S,2024-04-13 06:41:50,2024-04-22 06:41:50,COVID-19,Medicina Interna
+A_1CX89GPH,P_TH8UZ4AI,2024-08-25 05:35:38,2024-09-03 05:35:38,Exacerbación EPOC,Traumatología
+A_67KR6A4Y,P_TS2P3NRL,2024-02-19 19:18:51,2024-02-26 19:18:51,Dolor abdominal / Apendicitis,Neumología
+A_W17YT6U7,P_TZ43FI77,2025-03-02 04:19:05,2025-03-06 04:19:05,Accidente cerebrovascular isquémico,Neurología
+A_4PKJLXWZ,P_U4W37WTR,2024-01-02 05:48:07,2024-01-07 05:48:07,Exacerbación EPOC,Medicina Interna
+A_9NNWXVJ0,P_U8NWJ0NZ,2025-09-14 04:01:51,2025-09-23 04:01:51,Accidente cerebrovascular isquémico,Traumatología
+A_APN6LEZ9,P_U9D6EP04,2024-09-04 04:58:51,2024-09-08 04:58:51,Cetoacidosis diabética,Neurología
+A_8XDNSU0L,P_U9D6EP04,2025-09-09 00:08:50,2025-09-15 00:08:50,Insuficiencia cardíaca descompensada,Cardiología
+A_GZM8A8Z4,P_UIB90L6W,2025-08-28 03:21:08,2025-09-06 03:21:08,Cetoacidosis diabética,Traumatología
+A_1HDPYVUY,P_UW7A59F0,2025-08-31 22:10:12,2025-09-07 22:10:12,Cetoacidosis diabética,Neurología
+A_OM71E29T,P_V3GDAKP8,2024-01-13 06:28:08,2024-01-19 06:28:08,COVID-19,Traumatología
+A_4O67ODVQ,P_V3GDAKP8,2024-11-25 04:31:00,2024-11-26 04:31:00,Fractura de cadera,Neumología
+A_SIZT9ZEF,P_VA08N2WM,2024-01-08 23:10:37,2024-01-16 23:10:37,Accidente cerebrovascular isquémico,Oncología
+A_RG1JBXZ8,P_VPESI8HX,2024-05-08 01:33:05,2024-05-17 01:33:05,Neumonía adquirida en la comunidad,UCI
+A_2USW84HP,P_VZTRPB3H,2025-09-21 21:25:15,2025-09-30 21:25:15,Sepsis de origen urinario,Cardiología
+A_LKIUK0YI,P_W14124J0,2024-07-14 04:07:54,2024-07-21 04:07:54,Sepsis de origen urinario,Pediatría
+A_VG9O30JL,P_WAOB1K66,2024-04-01 06:54:16,2024-04-09 06:54:16,Insuficiencia cardíaca descompensada,Neurología
+A_HOQTRXTU,P_WHIM5Y8Q,2025-01-19 06:11:07,2025-01-27 06:11:07,Cetoacidosis diabética,Geriatría
+A_Z0CZ0AHX,P_WK8K0077,2025-06-24 08:55:12,2025-07-01 08:55:12,Insuficiencia cardíaca descompensada,Pediatría
+A_LAH0AORC,P_WPGVJ9G1,2024-05-22 06:12:30,2024-05-25 06:12:30,Crisis asmática,Cirugía General
+A_IOWQ9I7D,P_WTNVF3N2,2024-04-11 23:41:54,2024-04-15 23:41:54,Cetoacidosis diabética,Neumología
+A_82OWZ31U,P_WXMQU0BZ,2024-08-10 03:31:52,2024-08-13 03:31:52,COVID-19,Medicina Interna
+A_H1QJ3FVC,P_X0PS70OH,2025-01-18 12:17:02,2025-01-25 12:17:02,Insuficiencia cardíaca descompensada,Medicina Interna
+A_THL7KNHV,P_X0PS70OH,2025-06-16 22:11:26,2025-06-18 22:11:26,Exacerbación EPOC,Pediatría
+A_E5XNPM6Y,P_XF16X38N,2025-06-19 09:21:16,2025-06-26 09:21:16,Sepsis de origen urinario,Geriatría
+A_PFTPNM9I,P_XJOH4H89,2024-03-25 08:50:14,2024-03-26 08:50:14,Exacerbación EPOC,Cirugía General
+A_R9RWGNPM,P_XJOH4H89,2025-06-25 06:18:08,2025-07-01 06:18:08,COVID-19,Neurología
+A_KS62WNLH,P_XJSDWEYE,2024-02-14 09:33:21,2024-02-20 09:33:21,Sepsis de origen urinario,Pediatría
+A_8GIVPBUD,P_XJSE2ZB3,2024-01-03 07:32:16,2024-01-04 07:32:16,Fractura de cadera,Pediatría
+A_QAJVOWU5,P_YB8ITJ7L,2024-11-03 19:37:59,2024-11-04 19:37:59,Crisis asmática,Neumología
+A_92FLS0V7,P_YEMU2TJG,2024-02-26 05:59:46,2024-03-04 05:59:46,Cetoacidosis diabética,UCI
+A_P6V4HT7O,P_YI55YFCN,2024-01-10 20:10:03,2024-01-19 20:10:03,Insuficiencia cardíaca descompensada,UCI
+A_ZES6CGLC,P_YNWFCOT7,2024-03-15 20:47:45,2024-03-21 20:47:45,Insuficiencia cardíaca descompensada,Neumología
+A_NBGBTHSR,P_YT1KNNS1,2024-09-24 20:22:48,2024-09-29 20:22:48,Neumonía adquirida en la comunidad,Cardiología
+A_X76AMYBM,P_YXTVTBL3,2025-06-26 04:55:59,2025-07-01 04:55:59,Accidente cerebrovascular isquémico,Neurología
+A_5XA6M6KI,P_Z08RTT20,2024-04-10 12:15:29,2024-04-14 12:15:29,Cetoacidosis diabética,UCI
+A_XI4JDJJ5,P_Z31TSVGT,2025-03-23 21:33:13,2025-03-26 21:33:13,Dolor abdominal / Apendicitis,Oncología
+A_83I8QWTT,P_Z6BK8CQN,2024-05-15 17:33:24,2024-05-26 17:33:24,Fractura de cadera,Neurología
+A_4WIF13TO,P_Z6BK8CQN,2024-12-26 18:56:01,2025-01-06 18:56:01,Fractura de cadera,Medicina Interna
+A_YS43F1CG,P_Z86LCPTJ,2025-01-04 02:06:43,2025-01-13 02:06:43,Crisis asmática,Neumología
+A_PQOZGO70,P_ZEV3JWIV,2025-01-11 12:16:18,2025-01-18 12:16:18,Cetoacidosis diabética,Neurología
+A_EDJOF843,P_ZEV3JWIV,2025-09-19 17:33:47,2025-09-24 17:33:47,Sepsis de origen urinario,Cardiología
+A_QVTS3BJ3,P_ZJQMIVGJ,2024-09-21 19:46:06,2024-09-26 19:46:06,Crisis asmática,Cirugía General
+A_KIPMSQZX,P_ZJQMIVGJ,2024-09-23 04:09:56,2024-09-30 04:09:56,Dolor abdominal / Apendicitis,UCI
+A_7ILOE8LM,P_ZLBVXL7T,2025-06-06 21:26:01,2025-06-14 21:26:01,Accidente cerebrovascular isquémico,Neumología
+A_VES0OHG1,P_ZQFCAWP1,2025-05-20 22:50:42,2025-05-25 22:50:42,Sepsis de origen urinario,Neurología
+A_X4D0VYJE,P_ZR8N58ZF,2024-01-01 05:09:49,2024-01-07 05:09:49,Insuficiencia cardíaca descompensada,Neurología
+A_7M5N05MC,P_ZR8N58ZF,2024-06-03 03:52:45,2024-06-07 03:52:45,Accidente cerebrovascular isquémico,Oncología
+A_DGX7JR0G,P_ZRLGZUSG,2025-03-10 15:28:56,2025-03-15 15:28:56,Neumonía adquirida en la comunidad,Traumatología
+A_OPN1JTN0,P_ZZIQY6WS,2025-03-08 11:50:40,2025-03-11 11:50:40,Dolor abdominal / Apendicitis,Medicina Interna

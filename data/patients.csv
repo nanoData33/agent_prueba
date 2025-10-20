@@ -1,0 +1,201 @@
+patient_id,edad,sexo,antecedentes,alergias
+P_WTNVF3N2,52,F,"Cardiopatía isquémica, FA",Ninguna conocida
+P_PW6SY5O0,56,F,"Cardiopatía isquémica, HTA, IRC",Ninguna conocida
+P_Q82LY6QJ,59,M,"DM2, HTA, Tabaquismo",Mariscos
+P_86BAHDH0,33,F,Cardiopatía isquémica,Mariscos
+P_UIB90L6W,68,M,"EPOC, Obesidad, Sin antecedentes relevantes",Sulfas
+P_BR0Q62R1,28,F,"EPOC, IRC, Sin antecedentes relevantes",Ninguna conocida
+P_Z86LCPTJ,54,M,"EPOC, Obesidad, Sin antecedentes relevantes",Latex
+P_Z6BK8CQN,71,M,"FA, IRC",Penicilina
+P_EOPJH9MW,92,F,Tabaquismo,Latex
+P_ZLBVXL7T,40,F,"FA, IRC",Mariscos
+P_U8NWJ0NZ,90,F,"Cardiopatía isquémica, HTA, Sin antecedentes relevantes",AINEs
+P_R369B7UH,59,F,FA,AINEs
+P_B2HT7UD4,54,M,"EPOC, HTA, Tabaquismo",Ninguna conocida
+P_FQC50RQZ,86,M,EPOC,Penicilina
+P_1XZ2Q2Y1,95,M,"Cardiopatía isquémica, Obesidad, Sin antecedentes relevantes",Sulfas
+P_DGZ6W4FH,34,M,Sin antecedentes relevantes,Sulfas
+P_6UI6CI2L,52,F,"DM2, FA",Ninguna conocida
+P_CXEJNA36,75,M,Sin antecedentes relevantes,Latex
+P_7498S6F7,82,F,"Cardiopatía isquémica, Tabaquismo",Ninguna conocida
+P_1L1C1B12,43,F,"EPOC, Tabaquismo",Ninguna conocida
+P_RYGCG8X2,41,M,"DM2, FA",Penicilina
+P_SPP8TKZW,64,F,Tabaquismo,AINEs
+P_3L1VLZDT,41,M,"Obesidad, Sin antecedentes relevantes",Ninguna conocida
+P_2AXY8ZCL,58,F,"FA, HTA, Sin antecedentes relevantes",Mariscos
+P_9Y10BFIW,87,M,FA,Sulfas
+P_3NMNH35J,67,M,"EPOC, IRC, Tabaquismo",Penicilina
+P_015FZFXC,67,F,IRC,Penicilina
+P_X0PS70OH,15,M,"Cardiopatía isquémica, FA, Sin antecedentes relevantes",Latex
+P_960IKLLK,58,M,"Cardiopatía isquémica, Obesidad",AINEs
+P_YXTVTBL3,65,M,"Sin antecedentes relevantes, Tabaquismo",Sulfas
+P_2MV9XPV5,91,F,"FA, IRC, Obesidad",Latex
+P_RWOQZENN,47,M,"Cardiopatía isquémica, EPOC",AINEs
+P_XJSDWEYE,88,M,"Cardiopatía isquémica, EPOC, Obesidad",AINEs
+P_YT1KNNS1,47,M,FA,Penicilina
+P_ICA9969V,73,M,"Cardiopatía isquémica, EPOC, IRC",AINEs
+P_IVKMLW3M,64,M,Sin antecedentes relevantes,Latex
+P_9ODPI1CA,71,M,"Cardiopatía isquémica, IRC",AINEs
+P_QCTJPXUS,85,F,Cardiopatía isquémica,Ninguna conocida
+P_12SJQ4GY,64,F,"IRC, Obesidad, Tabaquismo",Latex
+P_U4W37WTR,73,F,"EPOC, Tabaquismo",Latex
+P_44TVTPBM,87,M,"Cardiopatía isquémica, HTA, Obesidad",Latex
+P_7IJW64DL,48,M,"Cardiopatía isquémica, DM2, FA",Sulfas
+P_6G2VO955,46,M,EPOC,Sulfas
+P_I0M6RWH9,75,F,"Cardiopatía isquémica, EPOC, IRC",Latex
+P_82L3Q7PE,76,M,FA,Sulfas
+P_KJ5EF5DF,69,F,EPOC,Sulfas
+P_JSJAYG6R,86,F,"DM2, IRC, Obesidad",Latex
+P_5S4GSL94,46,F,Obesidad,Sulfas
+P_KY7EK2XW,67,F,IRC,Latex
+P_W14124J0,33,M,"Cardiopatía isquémica, EPOC, FA",AINEs
+P_TAN54XMW,62,F,EPOC,Sulfas
+P_IM5FKURO,41,M,"Cardiopatía isquémica, IRC",Ninguna conocida
+P_GLELBF7X,25,M,"Cardiopatía isquémica, FA",Mariscos
+P_GHAUM5U2,45,F,IRC,Ninguna conocida
+P_5K4QRLKH,64,M,"IRC, Obesidad",Latex
+P_A8620MWR,91,F,Tabaquismo,AINEs
+P_SBQ5DSD6,80,M,"Obesidad, Tabaquismo",AINEs
+P_I22DRV4A,77,M,"FA, IRC",Latex
+P_MJ63FGJI,77,F,"Cardiopatía isquémica, HTA, IRC",Ninguna conocida
+P_7PMWOMTH,60,M,Cardiopatía isquémica,Latex
+P_EDOXD9LB,75,M,"FA, Obesidad",Ninguna conocida
+P_IH7W0K23,70,F,HTA,Ninguna conocida
+P_8ZC9A19U,46,F,"EPOC, IRC, Tabaquismo",Mariscos
+P_OJYHLMZ9,20,M,"EPOC, FA",AINEs
+P_DF45POM6,69,M,"EPOC, FA, HTA",Penicilina
+P_NIFJTG7J,78,F,Sin antecedentes relevantes,Ninguna conocida
+P_5JR7X4RW,36,F,"Cardiopatía isquémica, DM2",AINEs
+P_2KCK3JWJ,68,M,"FA, Sin antecedentes relevantes",Penicilina
+P_YB8ITJ7L,66,M,"Sin antecedentes relevantes, Tabaquismo",Penicilina
+P_CDPBTCNA,76,F,Obesidad,Latex
+P_C6XLS2JH,50,M,Sin antecedentes relevantes,Latex
+P_FQI9TEB0,78,M,"Cardiopatía isquémica, Sin antecedentes relevantes",Latex
+P_7VY8PPVK,29,M,Cardiopatía isquémica,Latex
+P_69J9KMXL,41,F,"DM2, FA",Penicilina
+P_XJOH4H89,45,M,"DM2, Obesidad",Penicilina
+P_ZQFCAWP1,65,F,IRC,Penicilina
+P_GVMZX0LK,78,F,"Cardiopatía isquémica, Sin antecedentes relevantes",AINEs
+P_AX8VMKRW,49,M,"DM2, FA, Obesidad",Penicilina
+P_T6I4L6LU,67,M,"FA, HTA, IRC",AINEs
+P_ZJQMIVGJ,76,M,IRC,AINEs
+P_HYVTL8Z7,84,M,"HTA, IRC, Obesidad",Sulfas
+P_O1Q50YBM,59,M,Tabaquismo,AINEs
+P_E64XFOU9,92,F,Tabaquismo,Penicilina
+P_QGT8FMMJ,49,M,"HTA, IRC, Obesidad",Ninguna conocida
+P_8DL3C1LT,59,M,"DM2, Tabaquismo",Latex
+P_OGHZC2A9,63,M,"EPOC, FA",Ninguna conocida
+P_ARKWVTHG,61,M,FA,Penicilina
+P_DWRDIIP4,25,F,"FA, Sin antecedentes relevantes",Penicilina
+P_L0U9ZW74,81,F,Obesidad,Latex
+P_POAJTD05,78,F,"Cardiopatía isquémica, IRC, Obesidad",Penicilina
+P_3BND0DUH,54,F,"DM2, FA",Ninguna conocida
+P_INDA2Z6M,58,F,"DM2, EPOC, IRC",Latex
+P_NCF98WES,78,F,IRC,Latex
+P_TH8UZ4AI,45,M,"DM2, IRC",AINEs
+P_15UB2MMR,78,F,"Cardiopatía isquémica, Sin antecedentes relevantes, Tabaquismo",Sulfas
+P_7LV7IFCE,64,F,"Cardiopatía isquémica, HTA, Tabaquismo",Mariscos
+P_WXMQU0BZ,42,F,"HTA, IRC",Ninguna conocida
+P_LNOF8TSB,70,M,"FA, IRC, Obesidad",Penicilina
+P_YI55YFCN,55,M,"IRC, Sin antecedentes relevantes",Penicilina
+P_WPGVJ9G1,46,F,FA,Mariscos
+P_WHIM5Y8Q,51,F,"HTA, IRC",Ninguna conocida
+P_HNYNRLY0,62,F,"DM2, Tabaquismo",Penicilina
+P_GADEJ83W,55,F,"Cardiopatía isquémica, EPOC, Tabaquismo",Ninguna conocida
+P_2NW8R5GE,67,M,Obesidad,Mariscos
+P_CXTH5X2T,81,M,"Cardiopatía isquémica, DM2, Obesidad",Sulfas
+P_WK8K0077,87,F,"IRC, Obesidad",Mariscos
+P_898PME2J,85,M,"DM2, Sin antecedentes relevantes",AINEs
+P_ZR8N58ZF,52,M,Tabaquismo,Ninguna conocida
+P_F4NRZUYO,80,M,Cardiopatía isquémica,Latex
+P_86CYJIDG,32,M,"FA, IRC, Tabaquismo",Penicilina
+P_BFKI7F23,70,M,"Sin antecedentes relevantes, Tabaquismo",Mariscos
+P_TAQYYM0S,59,F,Tabaquismo,Ninguna conocida
+P_YEMU2TJG,81,M,"DM2, HTA, IRC",Mariscos
+P_J16QMCP5,49,M,FA,Sulfas
+P_BWC1E9E2,81,M,HTA,Ninguna conocida
+P_SBWZ5P7M,67,M,Obesidad,Penicilina
+P_L6LGSX4K,57,F,"Obesidad, Sin antecedentes relevantes",Latex
+P_UW7A59F0,65,F,"IRC, Obesidad",Latex
+P_N3BAHT1T,44,M,"Cardiopatía isquémica, EPOC",AINEs
+P_V3GDAKP8,62,F,"EPOC, FA, Obesidad",Latex
+P_SRPJLAAP,84,F,"Cardiopatía isquémica, Obesidad",Sulfas
+P_U9D6EP04,92,F,"DM2, EPOC, Sin antecedentes relevantes",Sulfas
+P_89FNA2PN,81,F,"Cardiopatía isquémica, EPOC, Obesidad",Sulfas
+P_M7NM66FY,66,M,"Cardiopatía isquémica, EPOC, IRC",Sulfas
+P_54VWDSEQ,59,F,"EPOC, Obesidad",Penicilina
+P_E1IP1CWU,73,M,"DM2, IRC",Ninguna conocida
+P_LCL28WFC,62,M,DM2,Mariscos
+P_Z31TSVGT,97,M,"DM2, EPOC, Tabaquismo",Penicilina
+P_VPESI8HX,61,F,EPOC,Latex
+P_06VZG7VY,63,F,"DM2, HTA, Tabaquismo",Sulfas
+P_8XTU9F4V,75,F,HTA,Mariscos
+P_XJSE2ZB3,43,F,Sin antecedentes relevantes,Ninguna conocida
+P_C7WS5U43,56,F,"EPOC, FA, HTA",Penicilina
+P_5VVDOSYE,33,M,HTA,Ninguna conocida
+P_GNRBL8AU,64,M,"Cardiopatía isquémica, EPOC, IRC",Sulfas
+P_EB5KKNU4,25,M,Tabaquismo,Ninguna conocida
+P_105UMIL2,72,F,DM2,Ninguna conocida
+P_9EHLEQV7,67,F,Tabaquismo,AINEs
+P_SWNH4E4C,66,F,HTA,Latex
+P_O1XGWZSX,56,F,"Cardiopatía isquémica, FA, HTA",AINEs
+P_4P3G3N5E,46,F,"FA, HTA, IRC",Ninguna conocida
+P_C11FVTVE,72,F,Obesidad,AINEs
+P_FLI9HA0R,51,M,Obesidad,Mariscos
+P_ZEV3JWIV,90,M,FA,Mariscos
+P_04B5M51R,100,F,"Obesidad, Tabaquismo",Sulfas
+P_IC8DNKBN,72,M,"DM2, HTA",AINEs
+P_3CCY5LJP,73,F,"EPOC, Obesidad",Latex
+P_TS2P3NRL,79,F,"Cardiopatía isquémica, EPOC, Sin antecedentes relevantes",Sulfas
+P_YNWFCOT7,55,F,"DM2, Obesidad",Latex
+P_573I0IQK,67,F,Obesidad,Sulfas
+P_SX0WFXJY,65,F,"IRC, Obesidad",Ninguna conocida
+P_VZTRPB3H,53,M,Obesidad,Mariscos
+P_NYYMLYQ5,77,F,FA,AINEs
+P_VA08N2WM,82,M,"FA, Obesidad, Sin antecedentes relevantes",Ninguna conocida
+P_7RXDJ81N,53,F,"DM2, EPOC, Sin antecedentes relevantes",Sulfas
+P_FXO0MYTM,49,M,Obesidad,Ninguna conocida
+P_RWZRX1RC,57,F,FA,Latex
+P_DWBZLBLC,40,F,"EPOC, IRC, Sin antecedentes relevantes",Sulfas
+P_D5KEA1WO,42,F,"FA, IRC",Latex
+P_QTJ1LWLS,80,M,"Cardiopatía isquémica, IRC, Obesidad",Sulfas
+P_K2K4X3V0,81,M,"Cardiopatía isquémica, EPOC",Penicilina
+P_LD8HPO4J,52,F,"EPOC, IRC, Sin antecedentes relevantes",AINEs
+P_ZRLGZUSG,67,F,"DM2, HTA",Ninguna conocida
+P_GR4A7C99,85,M,Tabaquismo,Sulfas
+P_P8GIEAQ2,56,M,"DM2, EPOC",AINEs
+P_ESD1OW2V,95,F,"DM2, EPOC, Obesidad",Latex
+P_G9HBVR5G,72,M,EPOC,Mariscos
+P_SMG825MS,72,F,"Obesidad, Sin antecedentes relevantes",Sulfas
+P_7RC1REF0,82,F,"Cardiopatía isquémica, FA, Obesidad",Mariscos
+P_81DDTWD1,82,M,Cardiopatía isquémica,AINEs
+P_11YW82KN,45,F,IRC,AINEs
+P_TZ43FI77,74,M,"DM2, Obesidad",Mariscos
+P_55T24OIX,80,M,"EPOC, Obesidad, Tabaquismo",Latex
+P_0LXZN49R,81,F,"FA, Sin antecedentes relevantes, Tabaquismo",Latex
+P_ZZIQY6WS,50,M,FA,Ninguna conocida
+P_XF16X38N,73,F,HTA,Latex
+P_8CAQM6EM,58,F,Obesidad,Penicilina
+P_8DP3HCV8,86,F,EPOC,Mariscos
+P_WAOB1K66,73,M,Cardiopatía isquémica,Penicilina
+P_QV2W65UT,44,F,"EPOC, Obesidad",Penicilina
+P_4URTQDM4,71,M,DM2,Sulfas
+P_JBTA8J1N,52,M,"Cardiopatía isquémica, Obesidad",Mariscos
+P_5TPCH6UQ,86,M,HTA,Sulfas
+P_4L6Z04IQ,99,M,"Cardiopatía isquémica, DM2, EPOC",Mariscos
+P_L06I0DBP,74,M,"DM2, HTA, IRC",Sulfas
+P_0NO48PLG,78,F,"Obesidad, Tabaquismo",Ninguna conocida
+P_FCNMFR7Y,61,F,HTA,Ninguna conocida
+P_E4M16JN5,62,F,"DM2, EPOC",Mariscos
+P_KLOV3ARM,29,M,"DM2, EPOC",Penicilina
+P_QK7XAYOO,65,M,"Cardiopatía isquémica, DM2, IRC",Latex
+P_4E92BQJO,66,F,IRC,Sulfas
+P_Z08RTT20,33,M,"IRC, Sin antecedentes relevantes, Tabaquismo",AINEs
+P_2DPNS8CM,74,F,EPOC,Penicilina
+P_BG5JCCOM,69,F,"EPOC, Sin antecedentes relevantes",Mariscos
+P_R7A29C0K,95,M,"Cardiopatía isquémica, IRC, Sin antecedentes relevantes",Penicilina
+P_C6NQX47N,21,M,"Sin antecedentes relevantes, Tabaquismo",Sulfas
+P_8QD5ZI9Z,57,M,"Cardiopatía isquémica, EPOC, IRC",AINEs
+P_M80P4AIR,86,F,Obesidad,Sulfas
+P_0KGK5G65,71,F,Obesidad,AINEs
+P_H7JO4K98,40,F,"EPOC, HTA, Obesidad",AINEs

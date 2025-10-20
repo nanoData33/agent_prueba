@@ -1,0 +1,860 @@
+treatment_id,admission_id,farmaco,dosis,via_administracion,fecha_inicio,fecha_fin,motivo_cambio
+T_I3RFT44V,A_X4D0VYJE,Azitromicina,40 mg/24h,IV,2024-01-01 18:59:40,2024-01-01 18:59:40,Ajuste por respuesta clínica
+T_K6YL9EXT,A_X4D0VYJE,Ceftriaxona,1 g/12h,SC,2024-01-02 02:41:33,2024-01-03 02:41:33,Ajuste por respuesta clínica
+T_U3OOPU1I,A_4PKJLXWZ,Insulina basal,2 g/24h,IV,2024-01-02 10:47:10,2024-01-05 10:47:10,
+T_YHALMFBC,A_4PKJLXWZ,Azitromicina,500 mg/8h,Oral,2024-01-02 11:39:16,2024-01-02 11:39:16,
+T_NMYMZ1YN,A_8GIVPBUD,Salbutamol,2 g/24h,IM,2024-01-03 08:45:34,2024-01-04 07:32:16,Ajuste por respuesta clínica
+T_6ZD7DBJZ,A_4PKJLXWZ,Piperacilina/Tazobactam,10 UI según pauta,SC,2024-01-03 17:09:29,2024-01-03 17:09:29,
+T_S0NGKKEK,A_4PKJLXWZ,Insulina basal,2 g/24h,IV,2024-01-03 21:45:55,2024-01-05 21:45:55,Ajuste por respuesta clínica
+T_IHIR6TOF,A_X4D0VYJE,Salbutamol,500 mg/8h,IM,2024-01-04 04:19:07,2024-01-07 04:19:07,
+T_5ZPET9TO,A_8GIVPBUD,Azitromicina,1 g/12h,Oral,2024-01-04 05:25:10,2024-01-04 07:32:16,
+T_O0RE7PFV,A_X4D0VYJE,Dexametasona,1 g/12h,IV,2024-01-04 10:16:46,2024-01-07 05:09:49,Ajuste por respuesta clínica
+T_8P9XJVIC,A_4PKJLXWZ,Omeprazol,2 g/24h,IV,2024-01-04 17:50:16,2024-01-07 05:48:07,
+T_NT0UTG6Y,A_X4D0VYJE,Omeprazol,500 mg/8h,IV,2024-01-06 04:29:42,2024-01-07 04:29:42,
+T_7N8BUBLX,A_C2DNRNHR,Paracetamol,40 mg/24h,Inhalada,2024-01-09 22:34:40,2024-01-09 22:34:40,Ajuste por respuesta clínica
+T_AOLBPFYQ,A_C2DNRNHR,Heparina de bajo peso molecular,500 mg/8h,Oral,2024-01-11 00:54:06,2024-01-11 12:50:42,
+T_JWA9EXC0,A_C2DNRNHR,Furosemida,40 mg/24h,IM,2024-01-11 00:56:56,2024-01-11 12:50:42,
+T_HUAU4G98,A_C2DNRNHR,Amoxicilina/Ácido clavulánico,500 mg/8h,IV,2024-01-11 01:54:24,2024-01-11 01:54:24,
+T_7239OKJH,A_SIZT9ZEF,Metronidazol,1 g/12h,Inhalada,2024-01-13 07:14:13,2024-01-16 23:10:37,Ajuste por respuesta clínica
+T_5RK8USDU,A_OM71E29T,Amoxicilina/Ácido clavulánico,2 g/24h,Oral,2024-01-13 18:59:06,2024-01-14 18:59:06,
+T_3P7S4PK3,A_SIZT9ZEF,Paracetamol,1 g/12h,Oral,2024-01-14 03:33:45,2024-01-14 03:33:45,
+T_YTJL94PD,A_OM71E29T,Amoxicilina/Ácido clavulánico,40 mg/24h,IM,2024-01-14 05:15:51,2024-01-14 05:15:51,Ajuste por respuesta clínica
+T_QI25SR4Z,A_OM71E29T,Paracetamol,40 mg/24h,Inhalada,2024-01-14 08:35:38,2024-01-16 08:35:38,
+T_819QUHO5,A_SIZT9ZEF,Ceftriaxona,1 g/12h,Inhalada,2024-01-14 12:13:38,2024-01-14 12:13:38,Ajuste por respuesta clínica
+T_Q6FDQ4F8,A_Z16L4E2F,Salbutamol,1 g/12h,Oral,2024-01-15 07:37:10,2024-01-17 07:37:10,Ajuste por respuesta clínica
+T_W9XNNFMI,A_Z16L4E2F,Omeprazol,2 g/24h,IV,2024-01-15 12:56:00,2024-01-15 12:56:00,
+T_QNUZYREC,A_SIZT9ZEF,Salbutamol,40 mg/24h,Inhalada,2024-01-16 07:06:32,2024-01-16 07:06:32,Ajuste por respuesta clínica
+T_N6UO6CLP,A_Z16L4E2F,Amoxicilina/Ácido clavulánico,500 mg/8h,IM,2024-01-16 12:08:02,2024-01-17 13:02:18,
+T_8W83YG02,A_P6V4HT7O,Amoxicilina/Ácido clavulánico,500 mg/8h,IV,2024-01-17 12:22:42,2024-01-17 12:22:42,
+T_RP4V5PB5,A_P6V4HT7O,Levofloxacino,1 g/12h,Inhalada,2024-01-17 12:46:08,2024-01-18 12:46:08,
+T_M1S0V8JT,A_35WCUFKJ,Insulina rápida,500 mg/8h,IM,2024-01-22 20:06:10,2024-01-22 20:06:10,
+T_8A0YEIZD,A_35WCUFKJ,Insulina rápida,1 g/12h,Oral,2024-01-23 08:48:58,2024-01-24 08:48:58,Ajuste por respuesta clínica
+T_23W6F36L,A_35WCUFKJ,Metronidazol,2 g/24h,Inhalada,2024-01-24 05:09:09,2024-01-26 05:09:09,
+T_DUY2CEA8,A_35WCUFKJ,Insulina basal,2 g/24h,Inhalada,2024-01-25 21:50:57,2024-01-25 21:50:57,
+T_816YJIAQ,A_35WCUFKJ,Paracetamol,1 g/12h,IV,2024-01-27 02:49:46,2024-01-27 15:42:42,Ajuste por respuesta clínica
+T_L6TZVHNM,A_8C7SQNMR,Dexametasona,1 g/12h,SC,2024-02-01 06:45:13,2024-02-01 06:45:13,
+T_W5NAI2X8,A_8C7SQNMR,Levofloxacino,40 mg/24h,Oral,2024-02-01 23:21:01,2024-02-02 23:21:01,
+T_PTFWNPGG,A_ZVEBXXDU,Azitromicina,1 g/12h,IM,2024-02-02 21:50:29,2024-02-04 21:50:29,
+T_0UGRN8Q7,A_344T2PWZ,Salbutamol,500 mg/8h,Inhalada,2024-02-04 14:37:20,2024-02-06 14:37:20,
+T_S8W6D60M,A_344T2PWZ,Salbutamol,2 g/24h,IV,2024-02-04 15:50:28,2024-02-04 15:50:28,Ajuste por respuesta clínica
+T_ZUVD7D0H,A_W5KYXPS2,Levofloxacino,40 mg/24h,SC,2024-02-05 00:03:55,2024-02-05 00:03:55,
+T_86GO9B6Z,A_W5KYXPS2,Heparina de bajo peso molecular,40 mg/24h,IM,2024-02-05 08:51:22,2024-02-06 08:51:22,Ajuste por respuesta clínica
+T_NU4Q67TK,A_W5KYXPS2,Heparina de bajo peso molecular,500 mg/8h,Oral,2024-02-05 23:21:46,2024-02-05 23:21:46,
+T_81P94VD6,A_344T2PWZ,Insulina rápida,500 mg/8h,Oral,2024-02-06 11:31:59,2024-02-10 07:29:47,
+T_KRBY79S7,A_344T2PWZ,Amoxicilina/Ácido clavulánico,500 mg/8h,IV,2024-02-06 12:14:25,2024-02-10 07:29:47,Ajuste por respuesta clínica
+T_TECG40HK,A_344T2PWZ,Salbutamol,1 g/12h,Oral,2024-02-06 14:04:58,2024-02-06 14:04:58,
+T_99PU7MGR,A_ZVEBXXDU,Furosemida,10 UI según pauta,Oral,2024-02-07 00:36:02,2024-02-09 20:11:48,
+T_MC23XZBD,A_GYHEPJWE,Paracetamol,10 UI según pauta,SC,2024-02-11 12:37:00,2024-02-13 12:37:00,
+T_TCNT7TQZ,A_4T0V9UV7,Omeprazol,40 mg/24h,IM,2024-02-12 04:37:08,2024-02-15 04:37:08,Ajuste por respuesta clínica
+T_8B5BDXDX,A_1I1SR9DX,Amoxicilina/Ácido clavulánico,1 g/12h,IV,2024-02-13 05:19:29,2024-02-17 05:15:19,Ajuste por respuesta clínica
+T_R7MBJKIW,A_4T0V9UV7,Dexametasona,40 mg/24h,SC,2024-02-13 12:11:19,2024-02-13 12:11:19,Ajuste por respuesta clínica
+T_VVTQT372,A_GYHEPJWE,Piperacilina/Tazobactam,1 g/12h,Inhalada,2024-02-14 07:25:02,2024-02-15 13:04:39,Ajuste por respuesta clínica
+T_VC2867VI,A_1I1SR9DX,Insulina rápida,500 mg/8h,IV,2024-02-15 17:17:11,2024-02-16 17:17:11,Ajuste por respuesta clínica
+T_KLJBCQ5V,A_4T0V9UV7,Dexametasona,2 g/24h,Inhalada,2024-02-15 19:16:10,2024-02-16 19:16:10,
+T_HI1QT7Z2,A_4T0V9UV7,Piperacilina/Tazobactam,1 g/12h,Inhalada,2024-02-16 10:32:54,2024-02-17 02:13:19,Ajuste por respuesta clínica
+T_Q6FBW024,A_KS62WNLH,Metronidazol,1 g/12h,Oral,2024-02-16 13:15:59,2024-02-19 13:15:59,Ajuste por respuesta clínica
+T_3WGROI9K,A_KS62WNLH,Piperacilina/Tazobactam,500 mg/8h,Oral,2024-02-16 19:06:30,2024-02-17 19:06:30,Ajuste por respuesta clínica
+T_CZROXCN7,A_1I1SR9DX,Piperacilina/Tazobactam,2 g/24h,Inhalada,2024-02-16 19:12:25,2024-02-16 19:12:25,Ajuste por respuesta clínica
+T_DRY1H7BW,A_9W7SNRO4,Omeprazol,1 g/12h,Inhalada,2024-02-17 00:17:12,2024-02-19 00:17:12,
+T_TN3FCH88,A_PR6X1OUN,Insulina basal,10 UI según pauta,SC,2024-02-17 04:08:01,2024-02-18 04:08:01,Ajuste por respuesta clínica
+T_XMN8IIKF,A_PR6X1OUN,Amoxicilina/Ácido clavulánico,1 g/12h,IV,2024-02-17 17:56:39,2024-02-18 17:56:39,Ajuste por respuesta clínica
+T_25HYR9P0,A_PR6X1OUN,Azitromicina,40 mg/24h,Oral,2024-02-17 19:30:04,2024-02-20 13:37:35,Ajuste por respuesta clínica
+T_30FQRAPG,A_KS62WNLH,Piperacilina/Tazobactam,1 g/12h,IM,2024-02-18 13:57:30,2024-02-18 13:57:30,
+T_G9FICKG1,A_PR6X1OUN,Amoxicilina/Ácido clavulánico,1 g/12h,IV,2024-02-18 22:33:10,2024-02-20 13:37:35,
+T_UCO2VY1C,A_9W7SNRO4,Omeprazol,40 mg/24h,IM,2024-02-20 11:30:21,2024-02-22 11:30:21,
+T_5VT48PAC,A_9W7SNRO4,Levofloxacino,2 g/24h,Inhalada,2024-02-22 21:34:24,2024-02-22 21:34:24,Ajuste por respuesta clínica
+T_V0IFW8Y3,A_9W7SNRO4,Omeprazol,1 g/12h,SC,2024-02-23 11:03:18,2024-02-24 11:03:18,
+T_7DPUHS9M,A_67KR6A4Y,Omeprazol,40 mg/24h,Inhalada,2024-02-24 04:54:02,2024-02-24 04:54:02,
+T_4VQC53V8,A_YY5CKFAJ,Paracetamol,500 mg/8h,IM,2024-02-24 08:54:26,2024-02-24 08:54:26,Ajuste por respuesta clínica
+T_QCB89QFS,A_67KR6A4Y,Ceftriaxona,40 mg/24h,Oral,2024-02-25 09:36:44,2024-02-26 09:36:44,Ajuste por respuesta clínica
+T_IF68WD57,A_YY5CKFAJ,Paracetamol,2 g/24h,Inhalada,2024-02-25 13:10:32,2024-02-26 13:10:32,
+T_P1A47F7L,A_M02OBXYS,Amoxicilina/Ácido clavulánico,2 g/24h,IM,2024-02-25 19:45:32,2024-02-25 19:45:32,
+T_XJ2NRB24,A_YY5CKFAJ,Levofloxacino,40 mg/24h,Oral,2024-02-26 01:20:51,2024-02-26 01:20:51,
+T_ZWFCXHOA,A_73N4H68H,Piperacilina/Tazobactam,10 UI según pauta,Oral,2024-02-26 22:48:56,2024-02-28 22:48:56,Ajuste por respuesta clínica
+T_8YDO1B2Y,A_M02OBXYS,Dexametasona,40 mg/24h,Oral,2024-02-27 13:13:40,2024-03-04 23:03:43,
+T_DE4DXVHF,A_SMM178UI,Furosemida,2 g/24h,IV,2024-02-28 06:09:21,2024-02-28 06:09:21,
+T_OZNXAION,A_SMM178UI,Ceftriaxona,500 mg/8h,Oral,2024-02-28 11:37:30,2024-02-29 11:37:30,
+T_J4S6Q1OW,A_SMM178UI,Furosemida,1 g/12h,Oral,2024-02-29 01:48:49,2024-02-29 01:48:49,Ajuste por respuesta clínica
+T_5B8HGGXJ,A_YY5CKFAJ,Metronidazol,10 UI según pauta,Inhalada,2024-02-29 10:33:09,2024-03-01 01:40:07,Ajuste por respuesta clínica
+T_2MXL6W51,A_92FLS0V7,Insulina basal,2 g/24h,IV,2024-02-29 11:00:11,2024-02-29 11:00:11,Ajuste por respuesta clínica
+T_I5BMCXYW,A_M02OBXYS,Heparina de bajo peso molecular,2 g/24h,Inhalada,2024-02-29 11:16:52,2024-02-29 11:16:52,Ajuste por respuesta clínica
+T_YCWDIVSJ,A_92FLS0V7,Ceftriaxona,10 UI según pauta,Inhalada,2024-02-29 13:39:36,2024-03-02 13:39:36,Ajuste por respuesta clínica
+T_KX1VJL7V,A_SMM178UI,Dexametasona,2 g/24h,Oral,2024-02-29 16:36:00,2024-02-29 16:36:00,
+T_R8A5V7B9,A_73N4H68H,Amoxicilina/Ácido clavulánico,500 mg/8h,Inhalada,2024-03-01 01:11:01,2024-03-01 01:11:01,
+T_3VE08X0D,A_73N4H68H,Metronidazol,2 g/24h,Inhalada,2024-03-01 07:46:56,2024-03-01 22:49:04,
+T_6LP9GAMB,A_92FLS0V7,Insulina rápida,500 mg/8h,IV,2024-03-01 09:19:34,2024-03-02 09:19:34,Ajuste por respuesta clínica
+T_AISUQLWR,A_92FLS0V7,Ceftriaxona,40 mg/24h,Oral,2024-03-02 15:08:18,2024-03-04 05:59:46,
+T_BT3Y6Y82,A_92FLS0V7,Levofloxacino,1 g/12h,IV,2024-03-02 23:57:14,2024-03-04 05:59:46,
+T_PD3VO92N,A_M02OBXYS,Levofloxacino,1 g/12h,Oral,2024-03-03 08:17:37,2024-03-03 08:17:37,Ajuste por respuesta clínica
+T_WICOFMQB,A_6SK5PICN,Piperacilina/Tazobactam,40 mg/24h,SC,2024-03-09 21:20:07,2024-03-15 08:16:04,Ajuste por respuesta clínica
+T_S7DDQG2B,A_FOIPQE80,Levofloxacino,40 mg/24h,Oral,2024-03-09 23:54:00,2024-03-10 23:54:00,Ajuste por respuesta clínica
+T_P4IIGW07,A_6SK5PICN,Salbutamol,10 UI según pauta,IV,2024-03-10 03:44:28,2024-03-15 08:16:04,
+T_PWL6QEL1,A_FOIPQE80,Dexametasona,1 g/12h,Oral,2024-03-11 15:23:22,2024-03-11 15:23:22,Ajuste por respuesta clínica
+T_4GNSB35W,A_FOIPQE80,Omeprazol,1 g/12h,Oral,2024-03-11 20:32:54,2024-03-11 20:32:54,
+T_NPBE5FV2,A_FOIPQE80,Paracetamol,40 mg/24h,IM,2024-03-12 02:14:38,2024-03-14 02:14:38,
+T_JRMXOPN5,A_FOIPQE80,Furosemida,500 mg/8h,SC,2024-03-13 16:17:55,2024-03-14 14:32:14,Ajuste por respuesta clínica
+T_XSQWWTZM,A_AJ5ALNEK,Paracetamol,40 mg/24h,IV,2024-03-14 18:17:23,2024-03-14 18:17:23,Ajuste por respuesta clínica
+T_5HX3O8XT,A_6SK5PICN,Azitromicina,40 mg/24h,SC,2024-03-15 00:35:23,2024-03-15 00:35:23,
+T_X64MNC3S,A_AJ5ALNEK,Paracetamol,500 mg/8h,Inhalada,2024-03-15 02:16:24,2024-03-17 02:16:24,
+T_C4K13XS8,A_6SK5PICN,Amoxicilina/Ácido clavulánico,40 mg/24h,IV,2024-03-15 07:47:08,2024-03-15 08:16:04,
+T_RVYT8UWC,A_AJ5ALNEK,Omeprazol,500 mg/8h,IM,2024-03-15 08:57:10,2024-03-16 08:57:10,
+T_U344FVSM,A_ME77LIIM,Levofloxacino,1 g/12h,Oral,2024-03-16 16:36:06,2024-03-17 16:36:06,
+T_HLQOV7PZ,A_AJ5ALNEK,Levofloxacino,500 mg/8h,SC,2024-03-17 07:34:39,2024-03-19 07:34:39,
+T_SLZCTXDQ,A_ME77LIIM,Levofloxacino,2 g/24h,Inhalada,2024-03-17 14:39:38,2024-03-17 14:39:38,
+T_DRMY4QS0,A_AJ5ALNEK,Piperacilina/Tazobactam,2 g/24h,IM,2024-03-17 15:33:46,2024-03-18 15:33:46,Ajuste por respuesta clínica
+T_CLOG7KJJ,A_ZES6CGLC,Levofloxacino,1 g/12h,Oral,2024-03-19 04:35:19,2024-03-19 04:35:19,Ajuste por respuesta clínica
+T_J6KYFTAA,A_54MWRAO5,Levofloxacino,500 mg/8h,IV,2024-03-20 16:35:46,2024-03-22 16:35:46,Ajuste por respuesta clínica
+T_H0HA544Z,A_54MWRAO5,Ceftriaxona,1 g/12h,Oral,2024-03-21 00:24:04,2024-03-25 22:59:11,
+T_8R1O8M47,A_ZES6CGLC,Omeprazol,40 mg/24h,SC,2024-03-21 06:52:05,2024-03-21 20:47:45,Ajuste por respuesta clínica
+T_9TIVL8RQ,A_PFTPNM9I,Heparina de bajo peso molecular,500 mg/8h,IM,2024-03-25 15:20:11,2024-03-25 15:20:11,
+T_WA6E2FZF,A_54MWRAO5,Insulina rápida,40 mg/24h,IV,2024-03-25 18:40:06,2024-03-25 18:40:06,
+T_EX09G63Z,A_PFTPNM9I,Heparina de bajo peso molecular,1 g/12h,Inhalada,2024-03-26 05:54:22,2024-03-26 08:50:14,
+T_62JN4LME,A_5MYHX5H0,Levofloxacino,1 g/12h,SC,2024-03-31 02:58:00,2024-03-31 02:58:00,Ajuste por respuesta clínica
+T_OQ6355H8,A_5MYHX5H0,Salbutamol,40 mg/24h,IM,2024-03-31 16:54:17,2024-04-01 16:54:17,Ajuste por respuesta clínica
+T_PUTFP4I4,A_5MYHX5H0,Azitromicina,500 mg/8h,Inhalada,2024-04-01 03:31:01,2024-04-01 03:31:01,
+T_2D7NN1AG,A_DMICDUBZ,Metronidazol,500 mg/8h,SC,2024-04-01 15:09:21,2024-04-01 15:09:21,
+T_PL6SYDIB,A_DMICDUBZ,Azitromicina,500 mg/8h,IV,2024-04-01 15:39:13,2024-04-02 15:39:13,
+T_DJTVQ0YB,A_VG9O30JL,Furosemida,40 mg/24h,Inhalada,2024-04-02 15:17:54,2024-04-02 15:17:54,
+T_PGHQPZ9O,A_AMDBYWOC,Metronidazol,10 UI según pauta,SC,2024-04-03 16:30:35,2024-04-06 16:30:35,Ajuste por respuesta clínica
+T_8JY4KGC0,A_AMDBYWOC,Salbutamol,500 mg/8h,Oral,2024-04-03 18:59:36,2024-04-06 18:59:36,Ajuste por respuesta clínica
+T_SZPQ0G4I,A_05ZU0CST,Omeprazol,500 mg/8h,Inhalada,2024-04-03 22:49:17,2024-04-04 22:49:17,
+T_ABNT68V8,A_05ZU0CST,Piperacilina/Tazobactam,1 g/12h,IM,2024-04-04 00:50:21,2024-04-05 00:50:21,Ajuste por respuesta clínica
+T_8KHVVI2O,A_DMICDUBZ,Salbutamol,2 g/24h,SC,2024-04-04 11:13:02,2024-04-04 11:13:02,
+T_O7Q6XBM9,A_05ZU0CST,Metronidazol,1 g/12h,IM,2024-04-06 00:55:24,2024-04-06 00:55:24,
+T_G2IT3W4D,A_05ZU0CST,Omeprazol,10 UI según pauta,Inhalada,2024-04-06 06:22:19,2024-04-08 20:02:35,
+T_SD0WMJMS,A_VG9O30JL,Insulina basal,2 g/24h,IV,2024-04-06 15:10:31,2024-04-09 06:54:16,
+T_312S4ZSK,A_YGR7GHJ7,Paracetamol,40 mg/24h,Inhalada,2024-04-06 22:10:00,2024-04-07 22:10:00,
+T_X6X4COE2,A_VG9O30JL,Ceftriaxona,10 UI según pauta,SC,2024-04-07 13:23:58,2024-04-09 06:54:16,
+T_Q2VPUNDJ,A_2FIOAG1I,Insulina rápida,1 g/12h,SC,2024-04-10 08:13:56,2024-04-11 08:13:56,
+T_7T84X1U9,A_DKI7EUXQ,Piperacilina/Tazobactam,10 UI según pauta,Inhalada,2024-04-10 12:23:50,2024-04-12 12:23:50,
+T_O4LIWTP3,A_5XA6M6KI,Ceftriaxona,40 mg/24h,Inhalada,2024-04-11 01:45:15,2024-04-11 01:45:15,
+T_RPQRYOIC,A_05KNFOUZ,Levofloxacino,500 mg/8h,IM,2024-04-11 21:34:24,2024-04-11 21:34:24,Ajuste por respuesta clínica
+T_H55WOMUA,A_IOWQ9I7D,Piperacilina/Tazobactam,500 mg/8h,Oral,2024-04-12 07:28:46,2024-04-15 07:28:46,
+T_UI2QNKEG,A_IOWQ9I7D,Paracetamol,1 g/12h,Oral,2024-04-12 12:30:39,2024-04-13 12:30:39,Ajuste por respuesta clínica
+T_KVAFXYAQ,A_05KNFOUZ,Ceftriaxona,500 mg/8h,IV,2024-04-12 13:34:33,2024-04-12 13:34:33,Ajuste por respuesta clínica
+T_P6TUQ8SF,A_5XA6M6KI,Salbutamol,40 mg/24h,SC,2024-04-12 18:08:01,2024-04-13 18:08:01,Ajuste por respuesta clínica
+T_VZX3FE51,A_05KNFOUZ,Amoxicilina/Ácido clavulánico,500 mg/8h,IM,2024-04-13 01:14:55,2024-04-13 01:14:55,
+T_9W9CGN8N,A_YGR7GHJ7,Levofloxacino,40 mg/24h,IM,2024-04-13 07:11:08,2024-04-13 07:11:08,Ajuste por respuesta clínica
+T_5LSW5TAQ,A_YGR7GHJ7,Piperacilina/Tazobactam,500 mg/8h,Inhalada,2024-04-13 15:52:55,2024-04-14 18:58:10,Ajuste por respuesta clínica
+T_QZCQT7M9,A_2FIOAG1I,Furosemida,40 mg/24h,SC,2024-04-13 17:02:20,2024-04-15 02:43:19,
+T_DPY761M6,A_DKI7EUXQ,Paracetamol,10 UI según pauta,IV,2024-04-13 20:24:25,2024-04-14 11:24:42,Ajuste por respuesta clínica
+T_ZM8J306W,A_ZQI900EO,Metronidazol,40 mg/24h,IM,2024-04-14 02:49:42,2024-04-16 02:49:42,Ajuste por respuesta clínica
+T_6EJAM512,A_QNJRTWNB,Insulina rápida,1 g/12h,IM,2024-04-15 18:11:14,2024-04-19 18:11:14,
+T_4V9RCKA6,A_IOWQ9I7D,Heparina de bajo peso molecular,40 mg/24h,Oral,2024-04-15 18:18:39,2024-04-15 18:18:39,Ajuste por respuesta clínica
+T_FGRAI19Q,A_ZQI900EO,Insulina basal,2 g/24h,IM,2024-04-17 17:25:46,2024-04-17 17:25:46,Ajuste por respuesta clínica
+T_XO7BD5MQ,A_2LIFID9K,Omeprazol,1 g/12h,Inhalada,2024-04-18 02:44:52,2024-04-18 16:37:43,
+T_W3S04V1R,A_2LIFID9K,Ceftriaxona,10 UI según pauta,Oral,2024-04-18 02:51:35,2024-04-18 16:37:43,Ajuste por respuesta clínica
+T_695ZWM0L,A_QNJRTWNB,Piperacilina/Tazobactam,2 g/24h,Inhalada,2024-04-18 11:47:34,2024-04-21 07:29:27,
+T_NI7SO0KC,A_2LIFID9K,Levofloxacino,1 g/12h,SC,2024-04-18 13:00:02,2024-04-18 16:37:43,Ajuste por respuesta clínica
+T_G4WTY3W6,A_SP8GSG6F,Furosemida,500 mg/8h,SC,2024-04-19 00:38:41,2024-04-19 00:38:41,
+T_EEZBJEWX,A_678UB5WM,Salbutamol,1 g/12h,IV,2024-04-19 13:03:47,2024-04-19 13:03:47,
+T_XKODU96N,A_YG7VMSCK,Furosemida,10 UI según pauta,IV,2024-04-20 01:22:47,2024-04-20 01:22:47,
+T_06B5H96W,A_YG7VMSCK,Salbutamol,500 mg/8h,IM,2024-04-20 01:34:55,2024-04-22 16:51:51,
+T_MWV0BGWG,A_YG7VMSCK,Insulina basal,2 g/24h,Oral,2024-04-20 17:09:05,2024-04-20 17:09:05,
+T_ZWSPSM3D,A_678UB5WM,Furosemida,1 g/12h,IV,2024-04-20 19:11:41,2024-04-22 06:41:50,
+T_TJP3JHFQ,A_YG7VMSCK,Metronidazol,1 g/12h,Inhalada,2024-04-21 14:18:55,2024-04-21 14:18:55,
+T_S0UUSEIN,A_05KNFOUZ,Azitromicina,40 mg/24h,IM,2024-04-22 15:12:45,2024-04-22 20:54:27,
+T_4C4UD8Z3,A_SP8GSG6F,Insulina rápida,500 mg/8h,SC,2024-04-25 17:10:50,2024-04-25 17:10:50,
+T_VTSZBD9K,A_SP8GSG6F,Omeprazol,10 UI según pauta,Inhalada,2024-04-26 04:51:09,2024-04-26 06:41:48,Ajuste por respuesta clínica
+T_FS7YQVRH,A_AZLDV62R,Furosemida,40 mg/24h,Oral,2024-04-27 04:24:39,2024-04-29 04:24:39,
+T_CDI745S2,A_AZLDV62R,Insulina basal,10 UI según pauta,Inhalada,2024-04-27 10:52:01,2024-04-28 10:52:01,Ajuste por respuesta clínica
+T_FGO6LFD9,A_AZLDV62R,Piperacilina/Tazobactam,1 g/12h,Inhalada,2024-04-29 00:15:56,2024-04-29 05:25:49,Ajuste por respuesta clínica
+T_MF7WT3WX,A_AZLDV62R,Heparina de bajo peso molecular,1 g/12h,SC,2024-04-29 01:35:40,2024-04-29 05:25:49,
+T_HRYTK9RZ,A_4LFYG5JU,Azitromicina,10 UI según pauta,SC,2024-04-29 23:24:29,2024-04-30 23:24:29,
+T_GQ5GS8E6,A_4LFYG5JU,Omeprazol,40 mg/24h,IV,2024-04-30 15:20:08,2024-05-02 15:20:08,
+T_HKVEKEUT,A_RA8B7MLU,Levofloxacino,40 mg/24h,SC,2024-05-01 07:20:18,2024-05-01 07:20:18,
+T_W7CKDUHP,A_I1F8IGKJ,Paracetamol,1 g/12h,IV,2024-05-02 00:55:43,2024-05-03 00:55:43,
+T_3NGAZITE,A_I1F8IGKJ,Piperacilina/Tazobactam,10 UI según pauta,IM,2024-05-02 14:54:38,2024-05-04 14:54:38,
+T_1NOIPO5Z,A_4LFYG5JU,Paracetamol,1 g/12h,IV,2024-05-02 17:42:40,2024-05-02 17:42:40,Ajuste por respuesta clínica
+T_IM8XP0RF,A_I1F8IGKJ,Salbutamol,1 g/12h,IM,2024-05-03 03:38:50,2024-05-04 17:13:58,
+T_OF1DVHR7,A_I1F8IGKJ,Insulina rápida,10 UI según pauta,Oral,2024-05-03 22:04:48,2024-05-04 17:13:58,Ajuste por respuesta clínica
+T_3RVKEAHX,A_I1F8IGKJ,Levofloxacino,500 mg/8h,SC,2024-05-04 05:32:23,2024-05-04 05:32:23,
+T_PH5ZNGMU,A_4LFYG5JU,Levofloxacino,10 UI según pauta,Oral,2024-05-04 17:35:11,2024-05-05 17:35:11,
+T_R77DWIA4,A_RA8B7MLU,Furosemida,40 mg/24h,Oral,2024-05-06 00:58:58,2024-05-06 00:58:58,
+T_OMD0XXZS,A_RA8B7MLU,Furosemida,1 g/12h,Oral,2024-05-06 13:49:42,2024-05-07 10:29:10,Ajuste por respuesta clínica
+T_71OPIRX1,A_RG1JBXZ8,Paracetamol,40 mg/24h,IV,2024-05-09 08:48:36,2024-05-09 08:48:36,Ajuste por respuesta clínica
+T_VFPSNE55,A_XKHY02Y8,Insulina basal,10 UI según pauta,SC,2024-05-10 05:41:22,2024-05-10 05:41:22,
+T_Q3V5INQK,A_RV0PGRE6,Furosemida,2 g/24h,SC,2024-05-10 09:39:46,2024-05-12 09:39:46,Ajuste por respuesta clínica
+T_HIUN4LS6,A_RV0PGRE6,Furosemida,2 g/24h,Oral,2024-05-10 10:15:56,2024-05-13 10:15:56,
+T_L4DCY870,A_RG1JBXZ8,Amoxicilina/Ácido clavulánico,10 UI según pauta,IM,2024-05-10 15:39:32,2024-05-11 15:39:32,Ajuste por respuesta clínica
+T_YBNS7NTV,A_XKHY02Y8,Insulina basal,40 mg/24h,Oral,2024-05-10 18:56:39,2024-05-13 03:23:14,
+T_7VD6M6IK,A_XKHY02Y8,Piperacilina/Tazobactam,2 g/24h,SC,2024-05-11 14:51:27,2024-05-12 14:51:27,Ajuste por respuesta clínica
+T_VEHPFY6C,A_H6KI56IJ,Ceftriaxona,2 g/24h,Inhalada,2024-05-11 18:03:13,2024-05-16 18:03:13,Ajuste por respuesta clínica
+T_IVPW2CNV,A_H6KI56IJ,Insulina rápida,500 mg/8h,SC,2024-05-11 18:07:36,2024-05-12 18:07:36,
+T_7O9BOBMH,A_RV0PGRE6,Omeprazol,2 g/24h,IV,2024-05-11 20:01:54,2024-05-14 20:01:54,Ajuste por respuesta clínica
+T_6WTP8HJO,A_1JNZDVFL,Omeprazol,2 g/24h,SC,2024-05-13 16:11:58,2024-05-14 16:11:58,
+T_O84755XA,A_RV0PGRE6,Metronidazol,2 g/24h,SC,2024-05-13 18:45:27,2024-05-14 18:45:27,
+T_XHL45VNH,A_RG1JBXZ8,Insulina rápida,40 mg/24h,SC,2024-05-14 05:54:35,2024-05-15 05:54:35,Ajuste por respuesta clínica
+T_GR051GHN,A_RV0PGRE6,Insulina rápida,1 g/12h,SC,2024-05-14 07:38:47,2024-05-14 07:38:47,
+T_S12X1FGO,A_RG1JBXZ8,Heparina de bajo peso molecular,500 mg/8h,Oral,2024-05-15 19:43:24,2024-05-15 19:43:24,
+T_IZTH8MZS,A_H6KI56IJ,Levofloxacino,40 mg/24h,SC,2024-05-16 07:20:42,2024-05-16 07:20:42,Ajuste por respuesta clínica
+T_7O0776DN,A_1JNZDVFL,Dexametasona,10 UI según pauta,SC,2024-05-16 10:16:18,2024-05-20 10:16:18,Ajuste por respuesta clínica
+T_27AZSMZW,A_1JNZDVFL,Levofloxacino,500 mg/8h,Oral,2024-05-16 23:15:55,2024-05-18 23:15:55,
+T_BAW6XLRS,A_MAH0RP20,Metronidazol,10 UI según pauta,IM,2024-05-17 06:52:31,2024-05-17 06:52:31,Ajuste por respuesta clínica
+T_DYL5YNBB,A_MAH0RP20,Levofloxacino,40 mg/24h,SC,2024-05-17 12:35:41,2024-05-17 12:35:41,
+T_30HK7KEB,A_MAH0RP20,Insulina rápida,500 mg/8h,Oral,2024-05-17 16:47:28,2024-05-18 16:47:28,
+T_SV0IAGR3,A_MAH0RP20,Metronidazol,500 mg/8h,SC,2024-05-17 22:24:31,2024-05-17 22:24:31,
+T_QY44YSQG,A_83I8QWTT,Omeprazol,40 mg/24h,IM,2024-05-18 02:55:31,2024-05-26 17:33:24,
+T_NQ5253YI,A_MAH0RP20,Ceftriaxona,1 g/12h,Oral,2024-05-18 15:18:18,2024-05-18 15:18:18,Ajuste por respuesta clínica
+T_2C75USDK,A_S016CX9H,Piperacilina/Tazobactam,40 mg/24h,SC,2024-05-22 00:28:57,2024-05-23 00:28:57,
+T_H7BFMY4Q,A_83I8QWTT,Heparina de bajo peso molecular,500 mg/8h,Oral,2024-05-22 08:33:50,2024-05-24 08:33:50,
+T_Q7D68GA2,A_LAH0AORC,Azitromicina,40 mg/24h,SC,2024-05-23 10:58:47,2024-05-25 06:12:30,
+T_YBIH7ZDD,A_LAH0AORC,Ceftriaxona,500 mg/8h,Inhalada,2024-05-23 18:25:56,2024-05-25 06:12:30,Ajuste por respuesta clínica
+T_RSEU19G5,A_LAH0AORC,Heparina de bajo peso molecular,40 mg/24h,SC,2024-05-24 08:57:55,2024-05-24 08:57:55,
+T_ZK032GW9,A_83I8QWTT,Salbutamol,500 mg/8h,IV,2024-05-25 01:09:45,2024-05-25 01:09:45,
+T_53KJUERD,A_S016CX9H,Paracetamol,1 g/12h,Oral,2024-05-25 16:14:14,2024-05-25 16:14:14,
+T_QJIAIBVA,A_F4KR8TXL,Metronidazol,10 UI según pauta,Inhalada,2024-05-26 01:12:12,2024-05-28 01:12:12,
+T_UKCLC5IA,A_S016CX9H,Omeprazol,10 UI según pauta,IV,2024-05-26 05:50:14,2024-05-27 00:32:14,Ajuste por respuesta clínica
+T_BYKYFC1Q,A_AM0I8AQC,Furosemida,40 mg/24h,Inhalada,2024-05-26 07:14:24,2024-05-28 07:14:24,Ajuste por respuesta clínica
+T_CUREII29,A_S016CX9H,Piperacilina/Tazobactam,10 UI según pauta,IM,2024-05-26 11:54:50,2024-05-27 00:32:14,Ajuste por respuesta clínica
+T_WWHU25VB,A_AM0I8AQC,Omeprazol,10 UI según pauta,IV,2024-05-26 19:35:47,2024-05-26 19:35:47,
+T_8JJ5X65M,A_F4KR8TXL,Paracetamol,1 g/12h,SC,2024-05-27 22:43:13,2024-05-31 00:41:04,
+T_HG4JTSSC,A_AM0I8AQC,Azitromicina,500 mg/8h,SC,2024-05-28 18:37:53,2024-05-29 18:37:53,
+T_CP9RHRBR,A_AM0I8AQC,Levofloxacino,500 mg/8h,SC,2024-05-29 17:24:38,2024-05-29 17:24:38,
+T_7CRKDKOY,A_C514N9E5,Insulina basal,500 mg/8h,Oral,2024-05-29 21:25:23,2024-05-31 21:25:23,Ajuste por respuesta clínica
+T_T1L1QJOQ,A_564QV1SJ,Paracetamol,10 UI según pauta,SC,2024-05-29 22:15:02,2024-06-03 10:28:08,Ajuste por respuesta clínica
+T_7XWTC69Q,A_564QV1SJ,Paracetamol,1 g/12h,IV,2024-05-30 03:53:25,2024-05-31 03:53:25,
+T_LRBH96WX,A_BXQ1PSUI,Ceftriaxona,1 g/12h,Inhalada,2024-05-30 12:08:57,2024-05-30 12:08:57,Ajuste por respuesta clínica
+T_9P2C9C83,A_CUSJM0HI,Piperacilina/Tazobactam,1 g/12h,IM,2024-05-30 21:00:35,2024-06-03 13:37:59,
+T_F8EM0FND,A_AM0I8AQC,Insulina rápida,10 UI según pauta,Inhalada,2024-05-31 06:53:34,2024-05-31 06:53:34,Ajuste por respuesta clínica
+T_M3YD9EVL,A_CUSJM0HI,Insulina basal,1 g/12h,SC,2024-05-31 07:51:39,2024-06-02 07:51:39,
+T_T0DSWCTS,A_C514N9E5,Insulina basal,10 UI según pauta,Inhalada,2024-05-31 10:15:52,2024-06-02 14:29:16,
+T_ZRXGCI7E,A_564QV1SJ,Furosemida,1 g/12h,Oral,2024-05-31 12:41:15,2024-05-31 12:41:15,Ajuste por respuesta clínica
+T_RYSRT0BT,A_C514N9E5,Paracetamol,1 g/12h,IM,2024-05-31 19:24:31,2024-06-02 14:29:16,
+T_LOJMANBQ,A_CUSJM0HI,Dexametasona,1 g/12h,IV,2024-06-01 00:02:20,2024-06-01 00:02:20,
+T_M9CG7GTR,A_CUSJM0HI,Metronidazol,500 mg/8h,SC,2024-06-01 01:14:26,2024-06-01 01:14:26,Ajuste por respuesta clínica
+T_I488Y5QE,A_BXQ1PSUI,Insulina rápida,10 UI según pauta,IM,2024-06-01 12:13:54,2024-06-04 02:19:28,Ajuste por respuesta clínica
+T_TP3CY7IK,A_CUSJM0HI,Paracetamol,10 UI según pauta,Oral,2024-06-01 19:37:16,2024-06-03 13:37:59,
+T_VX1BGOES,A_C514N9E5,Dexametasona,2 g/24h,IM,2024-06-01 22:52:56,2024-06-01 22:52:56,
+T_8M947TRM,A_BXQ1PSUI,Paracetamol,40 mg/24h,IM,2024-06-01 23:04:45,2024-06-02 23:04:45,
+T_G1PLUKXK,A_PB7XFYPX,Ceftriaxona,10 UI según pauta,Inhalada,2024-06-02 04:44:05,2024-06-03 04:44:05,
+T_HUYP42DK,A_PB7XFYPX,Levofloxacino,500 mg/8h,Oral,2024-06-02 06:34:59,2024-06-03 06:34:59,Ajuste por respuesta clínica
+T_NSRJ66RP,A_C514N9E5,Furosemida,500 mg/8h,Inhalada,2024-06-02 10:46:43,2024-06-02 10:46:43,Ajuste por respuesta clínica
+T_CJNRFQ8G,A_PB7XFYPX,Piperacilina/Tazobactam,500 mg/8h,IV,2024-06-03 06:04:50,2024-06-04 13:25:22,
+T_RR0KQM96,A_PB7XFYPX,Heparina de bajo peso molecular,10 UI según pauta,IV,2024-06-03 20:03:41,2024-06-04 13:25:22,
+T_GDD3OAZF,A_WNR8XERY,Amoxicilina/Ácido clavulánico,500 mg/8h,IV,2024-06-04 21:36:42,2024-06-08 21:36:42,
+T_8ME6DZ1Q,A_7M5N05MC,Heparina de bajo peso molecular,10 UI según pauta,IM,2024-06-05 06:40:45,2024-06-05 06:40:45,
+T_ZXBRTDJZ,A_7M5N05MC,Paracetamol,2 g/24h,SC,2024-06-05 22:44:53,2024-06-05 22:44:53,Ajuste por respuesta clínica
+T_DJ9196HZ,A_7M5N05MC,Insulina basal,500 mg/8h,Inhalada,2024-06-05 23:29:24,2024-06-07 03:52:45,Ajuste por respuesta clínica
+T_9ML0NQN5,A_7M5N05MC,Dexametasona,10 UI según pauta,Oral,2024-06-06 06:11:56,2024-06-06 06:11:56,Ajuste por respuesta clínica
+T_JW0LGBLD,A_WNR8XERY,Paracetamol,500 mg/8h,Inhalada,2024-06-08 02:01:20,2024-06-09 02:01:20,Ajuste por respuesta clínica
+T_25NQYY5L,A_WNR8XERY,Metronidazol,2 g/24h,SC,2024-06-10 02:57:19,2024-06-10 02:57:19,
+T_R9MX78C7,A_WNR8XERY,Ceftriaxona,500 mg/8h,Inhalada,2024-06-10 20:14:38,2024-06-10 20:14:38,Ajuste por respuesta clínica
+T_XQXNQYYG,A_W8GFSBLT,Furosemida,10 UI según pauta,Inhalada,2024-06-17 01:10:09,2024-06-18 15:43:05,
+T_6Y93J8W2,A_W8GFSBLT,Salbutamol,1 g/12h,SC,2024-06-17 03:43:53,2024-06-18 15:43:05,
+T_A2RLIW3F,A_W8GFSBLT,Furosemida,2 g/24h,IV,2024-06-17 05:41:44,2024-06-17 05:41:44,Ajuste por respuesta clínica
+T_M61L55FE,A_W8GFSBLT,Omeprazol,10 UI según pauta,Oral,2024-06-17 14:12:41,2024-06-17 14:12:41,
+T_D5C38E1O,A_W8GFSBLT,Paracetamol,40 mg/24h,IM,2024-06-18 05:51:21,2024-06-18 05:51:21,Ajuste por respuesta clínica
+T_B7XDH73D,A_HVHUTTB7,Dexametasona,2 g/24h,Oral,2024-06-20 21:12:24,2024-06-20 21:12:24,
+T_X82XSY9S,A_HVHUTTB7,Insulina rápida,2 g/24h,Inhalada,2024-06-21 02:24:09,2024-06-21 19:09:21,Ajuste por respuesta clínica
+T_Y3XZXNJP,A_HVHUTTB7,Paracetamol,1 g/12h,Inhalada,2024-06-21 05:37:13,2024-06-21 19:09:21,Ajuste por respuesta clínica
+T_MH2DFEE9,A_HVHUTTB7,Amoxicilina/Ácido clavulánico,2 g/24h,IM,2024-06-21 07:15:40,2024-06-21 07:15:40,
+T_QEX6ZBRF,A_FDI4OOV2,Insulina rápida,40 mg/24h,IM,2024-06-21 07:31:52,2024-06-23 00:12:08,Ajuste por respuesta clínica
+T_P5JSZ596,A_FDI4OOV2,Azitromicina,1 g/12h,Oral,2024-06-21 08:40:08,2024-06-22 08:40:08,
+T_232R862L,A_HVHUTTB7,Ceftriaxona,2 g/24h,IV,2024-06-21 11:45:41,2024-06-21 11:45:41,
+T_0FTCSJZP,A_FDI4OOV2,Insulina rápida,2 g/24h,SC,2024-06-21 21:16:10,2024-06-23 00:12:08,
+T_Y629I6IJ,A_FDI4OOV2,Azitromicina,40 mg/24h,IV,2024-06-22 22:12:56,2024-06-23 00:12:08,
+T_2644ICQE,A_2H11F4PF,Salbutamol,10 UI según pauta,IM,2024-06-25 10:01:54,2024-06-25 10:01:54,
+T_O8IWF851,A_2H11F4PF,Paracetamol,10 UI según pauta,Oral,2024-06-26 11:43:35,2024-06-30 11:43:35,
+T_RH77SZR3,A_NO4XSR7F,Insulina basal,1 g/12h,Oral,2024-06-28 10:00:07,2024-06-29 10:00:07,
+T_DYCYQRYO,A_JWQV99QL,Heparina de bajo peso molecular,10 UI según pauta,SC,2024-06-28 20:03:07,2024-06-29 20:03:07,Ajuste por respuesta clínica
+T_VDVACZNP,A_JWQV99QL,Dexametasona,40 mg/24h,IV,2024-06-30 04:51:06,2024-06-30 04:51:06,Ajuste por respuesta clínica
+T_8F032RMV,A_2H11F4PF,Heparina de bajo peso molecular,500 mg/8h,SC,2024-06-30 06:36:42,2024-07-03 21:57:22,
+T_MD8FDQWS,A_7JY5IYR4,Paracetamol,1 g/12h,Inhalada,2024-07-01 16:33:52,2024-07-03 16:33:52,
+T_H2Z41ZZ3,A_NO4XSR7F,Insulina rápida,10 UI según pauta,IM,2024-07-01 18:46:23,2024-07-01 18:46:23,
+T_1YW9SJIF,A_NO4XSR7F,Paracetamol,2 g/24h,IM,2024-07-01 22:48:29,2024-07-02 22:48:29,Ajuste por respuesta clínica
+T_TIPNBBHM,A_2H11F4PF,Omeprazol,500 mg/8h,IV,2024-07-02 03:47:52,2024-07-03 21:57:22,
+T_DKW6LX5G,A_NO4XSR7F,Piperacilina/Tazobactam,500 mg/8h,Inhalada,2024-07-05 18:10:47,2024-07-06 16:07:00,Ajuste por respuesta clínica
+T_SUF4WPRI,A_7JY5IYR4,Omeprazol,1 g/12h,Oral,2024-07-09 07:26:23,2024-07-11 05:13:41,
+T_WIW54H3A,A_IA0X3GK6,Salbutamol,2 g/24h,Inhalada,2024-07-09 21:28:36,2024-07-10 21:28:36,
+T_DDREEK0O,A_7JY5IYR4,Amoxicilina/Ácido clavulánico,40 mg/24h,Oral,2024-07-10 00:53:25,2024-07-10 00:53:25,
+T_BSW14SXW,A_7JY5IYR4,Metronidazol,2 g/24h,IV,2024-07-10 15:18:08,2024-07-11 05:13:41,Ajuste por respuesta clínica
+T_D1UC9NUM,A_7JY5IYR4,Dexametasona,2 g/24h,Inhalada,2024-07-10 19:45:12,2024-07-10 19:45:12,
+T_KFQQHHH1,A_2L326ZV5,Insulina basal,10 UI según pauta,IV,2024-07-12 04:29:49,2024-07-13 07:59:17,Ajuste por respuesta clínica
+T_X4PO42DH,A_IA0X3GK6,Azitromicina,10 UI según pauta,SC,2024-07-12 06:24:41,2024-07-14 15:16:17,
+T_HIQ7MRVB,A_2L326ZV5,Omeprazol,2 g/24h,Inhalada,2024-07-13 06:32:21,2024-07-13 07:59:17,
+T_UOFDU2RY,A_IA0X3GK6,Furosemida,500 mg/8h,Oral,2024-07-13 11:43:31,2024-07-14 11:43:31,Ajuste por respuesta clínica
+T_DBC4W0JU,A_IA0X3GK6,Ceftriaxona,1 g/12h,Inhalada,2024-07-13 23:30:40,2024-07-13 23:30:40,Ajuste por respuesta clínica
+T_7W8ZLIGQ,A_YO16Q23G,Omeprazol,2 g/24h,IM,2024-07-15 02:28:01,2024-07-15 10:12:34,
+T_Q55LGDX7,A_YO16Q23G,Levofloxacino,2 g/24h,Inhalada,2024-07-15 08:38:21,2024-07-15 10:12:34,Ajuste por respuesta clínica
+T_4QY78SWJ,A_JZCJOHSN,Azitromicina,1 g/12h,IV,2024-07-17 03:45:15,2024-07-17 03:45:15,
+T_JA9NM94G,A_1ABS74WU,Insulina basal,500 mg/8h,IM,2024-07-17 04:17:06,2024-07-17 04:17:06,Ajuste por respuesta clínica
+T_SQR9IRFT,A_LKIUK0YI,Furosemida,40 mg/24h,Inhalada,2024-07-17 06:19:11,2024-07-18 06:19:11,
+T_IG8XTZ5Y,A_JZCJOHSN,Ceftriaxona,40 mg/24h,SC,2024-07-19 02:20:59,2024-07-19 02:20:59,
+T_O04WO9TM,A_O86WOCMY,Omeprazol,2 g/24h,IM,2024-07-20 18:51:25,2024-07-20 18:51:25,Ajuste por respuesta clínica
+T_5WOBPWNE,A_LKIUK0YI,Ceftriaxona,40 mg/24h,SC,2024-07-20 23:33:36,2024-07-20 23:33:36,
+T_E9GXTP6V,A_JZCJOHSN,Ceftriaxona,40 mg/24h,IV,2024-07-21 08:55:51,2024-07-22 08:55:51,
+T_XKAXT127,A_1ABS74WU,Dexametasona,2 g/24h,IM,2024-07-21 18:51:05,2024-07-22 18:51:05,
+T_VZ3M0XXF,A_O86WOCMY,Insulina basal,1 g/12h,Inhalada,2024-07-21 19:12:26,2024-07-22 10:37:00,
+T_J3HDBWH1,A_JZCJOHSN,Paracetamol,10 UI según pauta,IM,2024-07-22 10:51:49,2024-07-23 10:51:49,Ajuste por respuesta clínica
+T_PK377KT0,A_JZCJOHSN,Furosemida,1 g/12h,SC,2024-07-23 09:30:28,2024-07-24 09:30:28,Ajuste por respuesta clínica
+T_R9X8MSST,A_BNWUEBYT,Furosemida,10 UI según pauta,Oral,2024-07-23 15:28:38,2024-07-23 15:28:38,
+T_T713X4WC,A_BNWUEBYT,Insulina basal,10 UI según pauta,Inhalada,2024-07-24 04:49:04,2024-07-24 04:49:04,
+T_4IOOE976,A_BNWUEBYT,Azitromicina,2 g/24h,Inhalada,2024-07-25 06:42:12,2024-07-25 06:42:12,Ajuste por respuesta clínica
+T_ODA3F6BN,A_BNWUEBYT,Insulina basal,2 g/24h,SC,2024-07-26 00:33:33,2024-07-26 00:33:33,
+T_LWSBH8ZB,A_FVR1I3KT,Levofloxacino,500 mg/8h,IV,2024-08-05 12:46:01,2024-08-05 12:46:01,Ajuste por respuesta clínica
+T_ERHYLRVY,A_KDW7LAN5,Metronidazol,10 UI según pauta,SC,2024-08-06 08:18:02,2024-08-06 08:18:02,Ajuste por respuesta clínica
+T_NCE6Q1EK,A_FVR1I3KT,Furosemida,500 mg/8h,IM,2024-08-06 12:00:34,2024-08-08 12:00:34,
+T_3ZZZ8O27,A_FVR1I3KT,Furosemida,500 mg/8h,Oral,2024-08-06 20:36:29,2024-08-10 20:36:29,Ajuste por respuesta clínica
+T_SE8UDY0U,A_KDW7LAN5,Salbutamol,2 g/24h,IM,2024-08-08 05:58:29,2024-08-12 04:59:37,Ajuste por respuesta clínica
+T_4AAT0N8U,A_WHY83UUD,Amoxicilina/Ácido clavulánico,10 UI según pauta,SC,2024-08-09 04:14:55,2024-08-11 04:14:55,
+T_4Q9XGQOU,A_WHY83UUD,Azitromicina,40 mg/24h,IM,2024-08-09 14:16:11,2024-08-10 14:16:11,Ajuste por respuesta clínica
+T_IOA2XYME,A_FVR1I3KT,Dexametasona,40 mg/24h,IM,2024-08-09 21:14:34,2024-08-11 21:14:34,
+T_4UH0WSMA,A_KDW7LAN5,Piperacilina/Tazobactam,500 mg/8h,IV,2024-08-10 02:59:08,2024-08-12 02:59:08,Ajuste por respuesta clínica
+T_HXGE12KO,A_82OWZ31U,Insulina rápida,1 g/12h,Inhalada,2024-08-10 07:41:27,2024-08-12 07:41:27,
+T_OVKLRAQ5,A_C296QVRN,Omeprazol,2 g/24h,SC,2024-08-10 10:09:30,2024-08-13 10:09:30,
+T_NKGASQ9W,A_WHY83UUD,Insulina basal,1 g/12h,IV,2024-08-10 18:48:01,2024-08-11 18:48:01,
+T_4RNDZK9O,A_C296QVRN,Omeprazol,2 g/24h,SC,2024-08-10 19:44:01,2024-08-10 19:44:01,Ajuste por respuesta clínica
+T_M81FBGHR,A_82OWZ31U,Furosemida,10 UI según pauta,IM,2024-08-12 16:12:27,2024-08-13 03:31:52,Ajuste por respuesta clínica
+T_B2Y034QY,A_C296QVRN,Ceftriaxona,40 mg/24h,Inhalada,2024-08-13 06:55:01,2024-08-14 09:22:53,
+T_8WHNNA8J,A_N738AWXU,Insulina basal,1 g/12h,IV,2024-08-18 01:39:55,2024-08-19 01:39:55,
+T_HP8QT6HA,A_N738AWXU,Insulina rápida,10 UI según pauta,SC,2024-08-18 12:45:34,2024-08-18 12:45:34,
+T_Y7L8K4HZ,A_TOZR3LSB,Piperacilina/Tazobactam,2 g/24h,IV,2024-08-18 20:25:00,2024-08-20 20:25:00,
+T_PJZMMVF2,A_N738AWXU,Salbutamol,2 g/24h,IM,2024-08-19 03:28:22,2024-08-19 12:28:26,
+T_84ERU59U,A_N738AWXU,Omeprazol,40 mg/24h,IV,2024-08-19 11:29:03,2024-08-19 12:28:26,Ajuste por respuesta clínica
+T_8H6F71G5,A_TOZR3LSB,Piperacilina/Tazobactam,40 mg/24h,SC,2024-08-19 13:45:25,2024-08-21 13:45:25,
+T_UWJMSWZ6,A_TOZR3LSB,Furosemida,2 g/24h,IM,2024-08-20 05:03:32,2024-08-21 19:08:31,
+T_N7AHMKA9,A_TOZR3LSB,Insulina basal,40 mg/24h,SC,2024-08-20 18:24:09,2024-08-21 19:08:31,
+T_LCV6VU37,A_M95D1BLN,Salbutamol,500 mg/8h,Inhalada,2024-08-21 13:56:51,2024-08-21 13:56:51,Ajuste por respuesta clínica
+T_TAN5TJZ9,A_M95D1BLN,Levofloxacino,2 g/24h,IV,2024-08-22 16:08:50,2024-08-23 16:08:50,
+T_0ABOMCGU,A_M95D1BLN,Levofloxacino,500 mg/8h,IM,2024-08-23 02:20:29,2024-08-24 20:01:52,Ajuste por respuesta clínica
+T_1K1WXRBT,A_M95D1BLN,Insulina basal,10 UI según pauta,Inhalada,2024-08-24 19:05:23,2024-08-24 19:05:23,Ajuste por respuesta clínica
+T_EIBC2P83,A_M95D1BLN,Ceftriaxona,2 g/24h,IM,2024-08-24 20:00:27,2024-08-24 20:00:27,Ajuste por respuesta clínica
+T_T3JQ1MV5,A_1CX89GPH,Dexametasona,2 g/24h,Inhalada,2024-08-27 03:53:59,2024-08-27 03:53:59,
+T_YCO9Q9MN,A_1CX89GPH,Levofloxacino,1 g/12h,Inhalada,2024-08-27 23:24:21,2024-08-28 23:24:21,Ajuste por respuesta clínica
+T_0RTNUVZR,A_1CX89GPH,Ceftriaxona,40 mg/24h,IM,2024-08-28 09:31:13,2024-09-03 05:35:38,
+T_DPB0BRH6,A_1CX89GPH,Insulina rápida,2 g/24h,Inhalada,2024-08-30 14:57:22,2024-09-02 14:57:22,
+T_M03D7X6N,A_BCR60XDC,Salbutamol,2 g/24h,SC,2024-09-03 10:32:27,2024-09-06 10:32:27,
+T_98T7HSR2,A_BCR60XDC,Heparina de bajo peso molecular,40 mg/24h,Inhalada,2024-09-04 03:48:44,2024-09-07 03:48:44,Ajuste por respuesta clínica
+T_H4UWCAQJ,A_APN6LEZ9,Ceftriaxona,500 mg/8h,IV,2024-09-04 05:35:48,2024-09-06 05:35:48,
+T_8EK7AVL6,A_APN6LEZ9,Dexametasona,10 UI según pauta,IM,2024-09-05 14:44:51,2024-09-06 14:44:51,
+T_M5HJ26UA,A_APN6LEZ9,Omeprazol,500 mg/8h,IV,2024-09-06 07:22:46,2024-09-06 07:22:46,Ajuste por respuesta clínica
+T_TMD32VRD,A_BCR60XDC,Azitromicina,10 UI según pauta,SC,2024-09-06 20:56:05,2024-09-07 12:38:49,Ajuste por respuesta clínica
+T_W7A2BUAH,A_APN6LEZ9,Furosemida,40 mg/24h,IV,2024-09-08 00:43:05,2024-09-08 00:43:05,Ajuste por respuesta clínica
+T_JS73WNFP,A_ZCYVKQDA,Azitromicina,40 mg/24h,IM,2024-09-09 02:55:19,2024-09-09 02:55:19,
+T_TVM1L8QG,A_ZCYVKQDA,Omeprazol,500 mg/8h,IV,2024-09-09 03:50:52,2024-09-09 03:50:52,
+T_ZPUCPE1A,A_ZCYVKQDA,Heparina de bajo peso molecular,40 mg/24h,IV,2024-09-09 16:35:41,2024-09-09 21:00:21,
+T_WPMPJDOK,A_ZCYVKQDA,Amoxicilina/Ácido clavulánico,40 mg/24h,SC,2024-09-09 18:16:27,2024-09-09 21:00:21,Ajuste por respuesta clínica
+T_2XK5LOLR,A_58LXMJEL,Piperacilina/Tazobactam,40 mg/24h,IM,2024-09-11 21:56:11,2024-09-11 21:56:11,Ajuste por respuesta clínica
+T_GNTW2G2K,A_58LXMJEL,Piperacilina/Tazobactam,40 mg/24h,IV,2024-09-12 10:02:28,2024-09-13 10:02:28,Ajuste por respuesta clínica
+T_6C7GSRIM,A_58LXMJEL,Paracetamol,10 UI según pauta,SC,2024-09-12 17:23:15,2024-09-12 17:23:15,
+T_SJS6OKO6,A_58LXMJEL,Omeprazol,40 mg/24h,IV,2024-09-13 02:46:33,2024-09-13 02:46:33,
+T_F1U6PHZL,A_3V6QS4XI,Furosemida,2 g/24h,IV,2024-09-13 03:05:23,2024-09-14 03:05:23,Ajuste por respuesta clínica
+T_M3KWI3FM,A_3V6QS4XI,Dexametasona,500 mg/8h,Oral,2024-09-13 19:18:32,2024-09-13 19:18:32,
+T_9TZO575E,A_3V6QS4XI,Levofloxacino,1 g/12h,SC,2024-09-13 19:43:35,2024-09-13 19:43:35,
+T_XMCJ070B,A_58LXMJEL,Piperacilina/Tazobactam,500 mg/8h,IM,2024-09-13 23:00:23,2024-09-14 00:05:46,Ajuste por respuesta clínica
+T_MPXYHID4,A_3V6QS4XI,Levofloxacino,1 g/12h,IM,2024-09-14 06:28:03,2024-09-16 06:28:03,
+T_V7Z96XW0,A_S4QASMGM,Salbutamol,10 UI según pauta,Oral,2024-09-15 21:22:42,2024-09-15 21:22:42,Ajuste por respuesta clínica
+T_WPTO0CG3,A_S4QASMGM,Furosemida,10 UI según pauta,IV,2024-09-16 01:23:52,2024-09-16 01:23:52,Ajuste por respuesta clínica
+T_YEQVEY1P,A_ZHMPNJ81,Insulina basal,1 g/12h,Oral,2024-09-16 10:05:28,2024-09-16 10:05:28,
+T_I03SJGZY,A_3V6QS4XI,Insulina rápida,2 g/24h,SC,2024-09-16 21:55:54,2024-09-16 21:55:54,Ajuste por respuesta clínica
+T_48GWGSS6,A_S4QASMGM,Insulina basal,40 mg/24h,Inhalada,2024-09-17 10:10:53,2024-09-19 10:10:53,
+T_A4ZH5GZ3,A_ZHMPNJ81,Heparina de bajo peso molecular,2 g/24h,Oral,2024-09-17 20:08:41,2024-09-17 20:08:41,
+T_0Y52XDY9,A_S4QASMGM,Dexametasona,1 g/12h,IV,2024-09-21 07:14:50,2024-09-21 07:14:50,
+T_XN7NUA7A,A_7V5N80OO,Insulina rápida,40 mg/24h,IM,2024-09-22 04:51:37,2024-09-24 04:51:37,Ajuste por respuesta clínica
+T_78D0MUQV,A_QVTS3BJ3,Insulina basal,2 g/24h,Inhalada,2024-09-23 01:15:14,2024-09-23 01:15:14,
+T_S9TUHZW1,A_ZHMPNJ81,Levofloxacino,10 UI según pauta,Inhalada,2024-09-24 06:11:06,2024-09-25 06:11:06,
+T_V8LJYQ60,A_QVTS3BJ3,Salbutamol,2 g/24h,Inhalada,2024-09-24 18:19:51,2024-09-25 18:19:51,Ajuste por respuesta clínica
+T_HMR0VHS4,A_NBGBTHSR,Azitromicina,10 UI según pauta,SC,2024-09-25 05:10:19,2024-09-28 05:10:19,
+T_MY0DJJK3,A_NBGBTHSR,Azitromicina,10 UI según pauta,IV,2024-09-25 14:06:29,2024-09-29 20:22:48,
+T_0JBLS05D,A_KIPMSQZX,Heparina de bajo peso molecular,2 g/24h,IM,2024-09-25 15:45:43,2024-09-27 15:45:43,
+T_2DKSNS1B,A_7V5N80OO,Amoxicilina/Ácido clavulánico,1 g/12h,IM,2024-09-25 21:24:28,2024-09-27 21:24:28,
+T_6TVDP849,A_NBGBTHSR,Amoxicilina/Ácido clavulánico,40 mg/24h,IM,2024-09-26 00:43:28,2024-09-28 00:43:28,
+T_U6MK0GA8,A_14HUCF6A,Dexametasona,10 UI según pauta,SC,2024-09-27 08:20:34,2024-09-27 08:20:34,
+T_T57H8HMP,A_7V5N80OO,Ceftriaxona,500 mg/8h,Oral,2024-09-27 13:43:12,2024-09-29 13:43:12,
+T_SXPRE623,A_14HUCF6A,Amoxicilina/Ácido clavulánico,2 g/24h,IV,2024-09-28 00:30:10,2024-09-28 00:30:10,
+T_0V84A33L,A_KIPMSQZX,Heparina de bajo peso molecular,40 mg/24h,IM,2024-09-28 02:19:24,2024-09-28 02:19:24,Ajuste por respuesta clínica
+T_GHQ1WW37,A_7V5N80OO,Insulina rápida,1 g/12h,Inhalada,2024-09-28 22:37:29,2024-10-02 18:38:20,
+T_XGDA4J9J,A_XDRX70OZ,Salbutamol,1 g/12h,Inhalada,2024-09-29 01:29:03,2024-10-01 01:29:03,
+T_L652HFKD,A_14HUCF6A,Dexametasona,500 mg/8h,IM,2024-09-29 07:22:47,2024-09-30 07:22:47,
+T_C4VSXNWQ,A_14HUCF6A,Salbutamol,1 g/12h,IV,2024-09-30 18:06:11,2024-09-30 18:06:11,
+T_8OBA06MR,A_14HUCF6A,Piperacilina/Tazobactam,10 UI según pauta,Oral,2024-09-30 19:11:25,2024-10-02 07:01:38,
+T_2YSKGXAW,A_7V5N80OO,Metronidazol,1 g/12h,Inhalada,2024-10-01 15:07:57,2024-10-02 18:38:20,Ajuste por respuesta clínica
+T_FJIA6IIC,A_LNBLETO0,Insulina basal,500 mg/8h,Inhalada,2024-10-02 09:05:58,2024-10-03 07:24:10,
+T_LD03BKI4,A_LNBLETO0,Levofloxacino,40 mg/24h,IV,2024-10-03 04:11:10,2024-10-03 04:11:10,
+T_SRZYIT5J,A_324BDVL0,Azitromicina,1 g/12h,Inhalada,2024-10-03 23:05:29,2024-10-04 23:05:29,
+T_BT9VIHRA,A_324BDVL0,Ceftriaxona,500 mg/8h,SC,2024-10-04 17:25:11,2024-10-04 17:25:11,Ajuste por respuesta clínica
+T_ILLH40NK,A_324BDVL0,Metronidazol,1 g/12h,IM,2024-10-05 03:14:38,2024-10-06 11:07:20,Ajuste por respuesta clínica
+T_Z9V06MMJ,A_324BDVL0,Furosemida,10 UI según pauta,IM,2024-10-05 10:40:06,2024-10-05 10:40:06,
+T_O0LKVOWO,A_Q8XMZ80H,Omeprazol,500 mg/8h,SC,2024-10-06 03:08:36,2024-10-06 03:08:36,Ajuste por respuesta clínica
+T_0IVW752K,A_4XZ5U2HX,Salbutamol,500 mg/8h,Oral,2024-10-06 03:56:07,2024-10-10 04:08:02,Ajuste por respuesta clínica
+T_5XMLY8IZ,A_SCGZM6BY,Insulina basal,1 g/12h,Oral,2024-10-07 16:56:35,2024-10-07 16:56:35,
+T_LOQ56BSL,A_XDRX70OZ,Amoxicilina/Ácido clavulánico,1 g/12h,IV,2024-10-08 01:33:29,2024-10-08 09:35:10,
+T_RCV8K4G0,A_4XZ5U2HX,Furosemida,40 mg/24h,IV,2024-10-08 02:18:50,2024-10-08 02:18:50,
+T_SYXC807P,A_XDRX70OZ,Insulina rápida,500 mg/8h,Oral,2024-10-08 03:51:14,2024-10-08 03:51:14,
+T_1RCRIUA9,A_4XZ5U2HX,Dexametasona,10 UI según pauta,IV,2024-10-08 05:24:48,2024-10-08 05:24:48,
+T_R5C78QHG,A_Q8XMZ80H,Azitromicina,1 g/12h,IM,2024-10-08 07:27:19,2024-10-10 07:27:19,
+T_KDHPJT0K,A_SCGZM6BY,Amoxicilina/Ácido clavulánico,500 mg/8h,SC,2024-10-08 09:45:40,2024-10-09 09:45:40,
+T_2FBI4BKK,A_Q8XMZ80H,Heparina de bajo peso molecular,40 mg/24h,IM,2024-10-08 18:02:28,2024-10-08 18:02:28,Ajuste por respuesta clínica
+T_LZVXKOAG,A_SCGZM6BY,Piperacilina/Tazobactam,1 g/12h,Oral,2024-10-08 18:15:38,2024-10-08 18:15:38,
+T_N0AKU8EQ,A_4XZ5U2HX,Amoxicilina/Ácido clavulánico,40 mg/24h,IV,2024-10-08 18:21:10,2024-10-10 04:08:02,Ajuste por respuesta clínica
+T_7516HHLB,A_4XZ5U2HX,Amoxicilina/Ácido clavulánico,2 g/24h,Inhalada,2024-10-09 09:26:15,2024-10-10 04:08:02,
+T_AQCE57KW,A_4GJ9O3NU,Furosemida,40 mg/24h,IM,2024-10-14 03:16:19,2024-10-15 03:16:19,Ajuste por respuesta clínica
+T_OYDX5VTZ,A_4GJ9O3NU,Furosemida,500 mg/8h,IM,2024-10-14 23:44:35,2024-10-20 17:58:08,
+T_XECS3X2V,A_4GJ9O3NU,Insulina rápida,1 g/12h,IV,2024-10-15 01:56:48,2024-10-20 17:58:08,Ajuste por respuesta clínica
+T_BT03LK1A,A_4GJ9O3NU,Piperacilina/Tazobactam,10 UI según pauta,Inhalada,2024-10-17 18:58:45,2024-10-17 18:58:45,
+T_Y2V2MF82,A_W7U8ZVT1,Insulina basal,500 mg/8h,SC,2024-10-19 02:10:25,2024-10-19 02:10:25,
+T_WTB71XK8,A_H8N7A59Q,Levofloxacino,1 g/12h,IM,2024-10-19 15:29:53,2024-10-22 15:29:53,
+T_ZM5L4E7G,A_W7U8ZVT1,Salbutamol,500 mg/8h,Oral,2024-10-19 22:46:53,2024-10-21 22:46:53,
+T_2F89DDEG,A_H8N7A59Q,Omeprazol,500 mg/8h,Oral,2024-10-20 07:32:14,2024-10-22 07:32:14,Ajuste por respuesta clínica
+T_PWMAN7XK,A_H8N7A59Q,Omeprazol,500 mg/8h,Inhalada,2024-10-20 20:33:57,2024-10-21 20:33:57,
+T_6XSV9BMB,A_YZTJQH9V,Dexametasona,40 mg/24h,SC,2024-10-21 03:18:06,2024-10-21 03:18:06,Ajuste por respuesta clínica
+T_65TEV6V8,A_88J22RJU,Azitromicina,2 g/24h,Oral,2024-10-21 15:37:09,2024-10-23 15:37:09,
+T_HLZ1BL20,A_YZTJQH9V,Furosemida,40 mg/24h,IV,2024-10-22 15:54:49,2024-10-22 15:54:49,Ajuste por respuesta clínica
+T_PCFUGQ6U,A_H8N7A59Q,Paracetamol,500 mg/8h,Oral,2024-10-22 18:22:44,2024-10-23 18:22:44,Ajuste por respuesta clínica
+T_IOZDXCB0,A_88J22RJU,Heparina de bajo peso molecular,2 g/24h,IV,2024-10-22 21:38:40,2024-10-22 21:38:40,
+T_12J0KSFJ,A_W7U8ZVT1,Piperacilina/Tazobactam,10 UI según pauta,IV,2024-10-22 22:49:30,2024-10-22 22:49:30,Ajuste por respuesta clínica
+T_WF6ROZXS,A_C083QTPZ,Ceftriaxona,2 g/24h,IV,2024-10-23 04:03:17,2024-10-23 04:03:17,
+T_3BU0SHXT,A_YZTJQH9V,Insulina basal,1 g/12h,Oral,2024-10-23 06:32:24,2024-10-28 21:40:41,Ajuste por respuesta clínica
+T_VZ2E4PT4,A_88J22RJU,Azitromicina,1 g/12h,IV,2024-10-23 16:13:06,2024-10-24 16:13:06,
+T_DJX2HMBA,A_88J22RJU,Paracetamol,10 UI según pauta,IM,2024-10-23 18:42:50,2024-10-23 18:42:50,
+T_V5Q3S8CN,A_94W0FR10,Furosemida,40 mg/24h,Oral,2024-10-24 03:07:09,2024-10-24 03:07:09,
+T_KLDVYNMQ,A_C083QTPZ,Levofloxacino,40 mg/24h,Inhalada,2024-10-24 22:06:13,2024-10-24 22:06:13,
+T_FWA7QS9V,A_YZTJQH9V,Salbutamol,10 UI según pauta,IV,2024-10-25 01:43:37,2024-10-27 01:43:37,Ajuste por respuesta clínica
+T_TP8JTME7,A_C083QTPZ,Paracetamol,500 mg/8h,IV,2024-10-25 06:49:29,2024-10-26 06:49:29,
+T_FKCTXMAE,A_W7U8ZVT1,Paracetamol,2 g/24h,IV,2024-10-26 09:28:05,2024-10-27 09:20:55,
+T_1U7ORASE,A_W7U8ZVT1,Ceftriaxona,1 g/12h,Oral,2024-10-26 11:41:34,2024-10-27 09:20:55,
+T_ZF72738O,A_OXD9Y8UI,Salbutamol,500 mg/8h,IV,2024-10-26 19:07:56,2024-10-26 19:07:56,
+T_MVWMO7OR,A_YZTJQH9V,Amoxicilina/Ácido clavulánico,1 g/12h,IM,2024-10-26 23:16:46,2024-10-28 21:40:41,
+T_EH3FOS17,A_OXD9Y8UI,Ceftriaxona,10 UI según pauta,IV,2024-10-27 21:33:27,2024-10-27 21:33:27,
+T_F4B5B0I4,A_C083QTPZ,Amoxicilina/Ácido clavulánico,10 UI según pauta,Inhalada,2024-10-27 23:11:13,2024-10-29 23:11:13,
+T_7H52X5AT,A_OXD9Y8UI,Insulina rápida,10 UI según pauta,Inhalada,2024-10-28 00:15:18,2024-10-28 00:15:18,
+T_01XROFH2,A_OXD9Y8UI,Amoxicilina/Ácido clavulánico,500 mg/8h,SC,2024-10-28 23:29:55,2024-10-29 23:29:55,
+T_NOH9KGV5,A_OXD9Y8UI,Furosemida,1 g/12h,IV,2024-10-29 15:46:16,2024-10-30 13:06:32,
+T_JDUNJ6O8,A_94W0FR10,Ceftriaxona,500 mg/8h,SC,2024-10-29 21:10:48,2024-11-02 14:11:49,Ajuste por respuesta clínica
+T_PNN3E90M,A_9DUPRW5K,Insulina basal,500 mg/8h,Oral,2024-10-30 04:35:58,2024-10-31 04:35:58,
+T_WOZ41FDS,A_9DUPRW5K,Azitromicina,40 mg/24h,Oral,2024-11-01 08:45:40,2024-11-03 08:45:40,
+T_6RRBAJPG,A_94W0FR10,Insulina rápida,10 UI según pauta,IV,2024-11-01 09:07:59,2024-11-02 09:07:59,
+T_YOLGNA4D,A_9DUPRW5K,Furosemida,1 g/12h,IM,2024-11-02 02:09:11,2024-11-04 09:58:50,
+T_1WSCJ82E,A_PU6UD1CA,Paracetamol,1 g/12h,IV,2024-11-02 09:27:24,2024-11-02 09:27:24,Ajuste por respuesta clínica
+T_WL34YE70,A_PU6UD1CA,Omeprazol,10 UI según pauta,Oral,2024-11-03 04:57:51,2024-11-04 04:57:51,
+T_QBCWAPDE,A_PU6UD1CA,Heparina de bajo peso molecular,1 g/12h,SC,2024-11-03 17:11:37,2024-11-05 17:11:37,
+T_4U1O302I,A_QAJVOWU5,Azitromicina,1 g/12h,Oral,2024-11-04 00:40:40,2024-11-04 19:37:59,
+T_PASJCRHZ,A_QAJVOWU5,Furosemida,10 UI según pauta,Oral,2024-11-04 08:27:47,2024-11-04 08:27:47,Ajuste por respuesta clínica
+T_7R96F9DV,A_QAJVOWU5,Omeprazol,2 g/24h,IV,2024-11-04 08:47:09,2024-11-04 19:37:59,Ajuste por respuesta clínica
+T_7UWCOD9H,A_QAJVOWU5,Omeprazol,40 mg/24h,Inhalada,2024-11-04 12:40:23,2024-11-04 12:40:23,
+T_1DXLPYFY,A_QAJVOWU5,Amoxicilina/Ácido clavulánico,1 g/12h,Oral,2024-11-04 17:12:42,2024-11-04 19:37:59,
+T_1RHAMT7G,A_PU6UD1CA,Paracetamol,2 g/24h,Oral,2024-11-08 06:07:02,2024-11-08 07:16:55,Ajuste por respuesta clínica
+T_D7TWI8TD,A_JW9DURIB,Heparina de bajo peso molecular,1 g/12h,IV,2024-11-10 17:59:05,2024-11-11 17:59:05,Ajuste por respuesta clínica
+T_ZC6QJBPQ,A_JW9DURIB,Dexametasona,2 g/24h,IM,2024-11-11 08:08:52,2024-11-13 08:08:52,
+T_7WYXU8OL,A_JW9DURIB,Levofloxacino,10 UI según pauta,IM,2024-11-13 11:10:07,2024-11-13 11:10:07,
+T_DE2T7V1R,A_JW9DURIB,Salbutamol,1 g/12h,IM,2024-11-14 06:43:34,2024-11-14 07:54:39,Ajuste por respuesta clínica
+T_LSENFQQA,A_GZ6BN8HQ,Amoxicilina/Ácido clavulánico,1 g/12h,Oral,2024-11-14 07:51:27,2024-11-14 07:51:27,Ajuste por respuesta clínica
+T_H4ZWEX30,A_GZ6BN8HQ,Heparina de bajo peso molecular,500 mg/8h,IV,2024-11-19 18:06:47,2024-11-19 20:52:14,
+T_HPV6G8PM,A_GZ6BN8HQ,Piperacilina/Tazobactam,2 g/24h,Inhalada,2024-11-19 18:20:32,2024-11-19 20:52:14,
+T_BE2UD98N,A_4O67ODVQ,Azitromicina,1 g/12h,SC,2024-11-25 09:31:19,2024-11-26 04:31:00,
+T_T1IVF92T,A_4O67ODVQ,Amoxicilina/Ácido clavulánico,2 g/24h,SC,2024-11-25 09:44:29,2024-11-26 04:31:00,
+T_SPVIUSVA,A_4O67ODVQ,Salbutamol,1 g/12h,IV,2024-11-25 10:24:22,2024-11-26 04:31:00,
+T_HJ3WCI2Q,A_4O67ODVQ,Omeprazol,500 mg/8h,IV,2024-11-25 19:54:58,2024-11-26 04:31:00,
+T_9WEKFR01,A_4O67ODVQ,Insulina rápida,10 UI según pauta,IM,2024-11-25 21:52:47,2024-11-26 04:31:00,Ajuste por respuesta clínica
+T_MHPREG5K,A_CT1YN6N4,Levofloxacino,10 UI según pauta,Oral,2024-11-25 22:19:07,2024-11-26 22:19:07,Ajuste por respuesta clínica
+T_GH9OWYL4,A_CT1YN6N4,Salbutamol,40 mg/24h,Oral,2024-11-27 05:35:30,2024-11-29 05:35:30,Ajuste por respuesta clínica
+T_FXE034HU,A_CT1YN6N4,Dexametasona,40 mg/24h,Oral,2024-11-27 06:15:40,2024-11-29 06:15:40,
+T_5GGE4N5E,A_J4JG53WZ,Paracetamol,1 g/12h,Oral,2024-11-29 04:54:38,2024-12-01 12:39:54,Ajuste por respuesta clínica
+T_B01EMJKI,A_CT1YN6N4,Piperacilina/Tazobactam,40 mg/24h,Inhalada,2024-11-30 14:41:49,2024-11-30 14:41:49,
+T_521YZXR6,A_J4JG53WZ,Insulina basal,10 UI según pauta,Oral,2024-11-30 15:07:30,2024-11-30 15:07:30,Ajuste por respuesta clínica
+T_FKE3WWDP,A_J4JG53WZ,Dexametasona,1 g/12h,SC,2024-12-01 02:25:08,2024-12-01 02:25:08,
+T_WNSDBLTU,A_J4JG53WZ,Ceftriaxona,40 mg/24h,Inhalada,2024-12-01 10:06:39,2024-12-01 12:39:54,
+T_IYRK55HN,A_WMY6SAH0,Insulina basal,40 mg/24h,Oral,2024-12-06 04:35:58,2024-12-07 01:37:33,
+T_UYIMXMG7,A_WMY6SAH0,Heparina de bajo peso molecular,500 mg/8h,IM,2024-12-06 09:54:04,2024-12-06 09:54:04,
+T_ITE9C16D,A_WMY6SAH0,Metronidazol,10 UI según pauta,Oral,2024-12-06 10:26:13,2024-12-07 01:37:33,Ajuste por respuesta clínica
+T_ECRIB1QI,A_F7XC1IGM,Ceftriaxona,40 mg/24h,Inhalada,2024-12-07 16:20:50,2024-12-08 12:21:01,Ajuste por respuesta clínica
+T_QQIH3RGB,A_F7XC1IGM,Metronidazol,1 g/12h,SC,2024-12-07 17:12:35,2024-12-08 12:21:01,Ajuste por respuesta clínica
+T_XYFNA9MI,A_43B08NCS,Paracetamol,10 UI según pauta,IV,2024-12-07 20:51:21,2024-12-08 20:51:21,
+T_NLJ2G8QA,A_F7XC1IGM,Azitromicina,2 g/24h,Inhalada,2024-12-07 21:23:05,2024-12-08 12:21:01,
+T_1GY8M00O,A_F7XC1IGM,Omeprazol,2 g/24h,IV,2024-12-08 07:38:20,2024-12-08 07:38:20,
+T_XH0A7QMK,A_GEQERRSV,Furosemida,2 g/24h,IV,2024-12-08 08:59:28,2024-12-09 08:59:28,
+T_14G71921,A_F7XC1IGM,Omeprazol,10 UI según pauta,IV,2024-12-08 09:33:14,2024-12-08 12:21:01,Ajuste por respuesta clínica
+T_C8GPN3IK,A_43B08NCS,Azitromicina,1 g/12h,IM,2024-12-08 13:40:42,2024-12-09 13:40:42,Ajuste por respuesta clínica
+T_R1WZJIOP,A_43B08NCS,Azitromicina,40 mg/24h,Oral,2024-12-09 03:50:30,2024-12-11 07:39:32,
+T_RQ3QX9F2,A_GEQERRSV,Piperacilina/Tazobactam,2 g/24h,IV,2024-12-09 04:17:44,2024-12-09 17:35:08,
+T_AJTG9WH3,A_GEQERRSV,Salbutamol,1 g/12h,Oral,2024-12-09 11:06:59,2024-12-09 11:06:59,Ajuste por respuesta clínica
+T_R5WO93AL,A_43B08NCS,Azitromicina,40 mg/24h,SC,2024-12-10 17:36:31,2024-12-10 17:36:31,Ajuste por respuesta clínica
+T_WXIL7442,A_43B08NCS,Insulina rápida,2 g/24h,IM,2024-12-10 22:27:23,2024-12-11 07:39:32,
+T_LQULKWYR,A_WHTRAM8X,Dexametasona,40 mg/24h,IM,2024-12-16 17:26:54,2024-12-19 17:26:54,
+T_CA85Q2FP,A_WHTRAM8X,Ceftriaxona,10 UI según pauta,IV,2024-12-16 19:54:03,2024-12-17 19:54:03,
+T_TED3GIIZ,A_WHTRAM8X,Piperacilina/Tazobactam,500 mg/8h,IM,2024-12-18 15:20:51,2024-12-21 15:20:51,Ajuste por respuesta clínica
+T_14RJMT08,A_5NVLNVQA,Piperacilina/Tazobactam,1 g/12h,IV,2024-12-19 15:56:49,2024-12-22 15:56:49,Ajuste por respuesta clínica
+T_QU70DCVI,A_5NVLNVQA,Amoxicilina/Ácido clavulánico,500 mg/8h,Oral,2024-12-20 08:30:56,2024-12-20 08:30:56,
+T_HSL4OX19,A_C5LXG168,Insulina basal,500 mg/8h,IV,2024-12-21 00:49:03,2024-12-21 00:49:03,
+T_SLQQPN7K,A_C5LXG168,Ceftriaxona,10 UI según pauta,SC,2024-12-21 21:57:18,2024-12-24 16:38:06,
+T_7H0TZ5HW,A_HQFQHSH8,Dexametasona,10 UI según pauta,Oral,2024-12-22 08:12:37,2024-12-22 08:12:37,
+T_3EOSHPBX,A_5NVLNVQA,Amoxicilina/Ácido clavulánico,10 UI según pauta,Inhalada,2024-12-22 18:58:57,2024-12-22 18:58:57,
+T_9FU74M09,A_HQFQHSH8,Omeprazol,500 mg/8h,IM,2024-12-22 20:20:27,2024-12-22 20:20:27,
+T_EUXK5NP8,A_HQFQHSH8,Levofloxacino,2 g/24h,IM,2024-12-23 01:22:03,2024-12-23 06:52:59,
+T_BPTOXU44,A_C5LXG168,Azitromicina,1 g/12h,IV,2024-12-23 15:35:18,2024-12-23 15:35:18,Ajuste por respuesta clínica
+T_0ILG3EUC,A_WX17WF2Z,Amoxicilina/Ácido clavulánico,500 mg/8h,Inhalada,2024-12-31 03:05:50,2025-01-04 03:05:50,
+T_RLXJQW0L,A_PA9TWMTP,Piperacilina/Tazobactam,10 UI según pauta,SC,2024-12-31 12:20:59,2024-12-31 12:20:59,
+T_NSVGCP7F,A_WX17WF2Z,Piperacilina/Tazobactam,40 mg/24h,Inhalada,2024-12-31 23:02:54,2024-12-31 23:02:54,
+T_V2REQIH4,A_4WIF13TO,Omeprazol,2 g/24h,IM,2025-01-01 09:45:46,2025-01-05 09:45:46,Ajuste por respuesta clínica
+T_2GBDVYZ5,A_WX17WF2Z,Amoxicilina/Ácido clavulánico,500 mg/8h,Oral,2025-01-01 16:16:23,2025-01-04 17:24:15,
+T_60FD1IAD,A_4WIF13TO,Paracetamol,40 mg/24h,Oral,2025-01-02 09:57:18,2025-01-02 09:57:18,
+T_M2285KUF,A_WX17WF2Z,Piperacilina/Tazobactam,1 g/12h,Inhalada,2025-01-03 00:51:01,2025-01-04 17:24:15,
+T_DXUCK3R8,A_DFN6W0V8,Levofloxacino,500 mg/8h,IV,2025-01-03 01:33:22,2025-01-03 01:33:22,Ajuste por respuesta clínica
+T_KMN7NTCC,A_DFN6W0V8,Dexametasona,1 g/12h,IV,2025-01-03 10:08:00,2025-01-03 10:08:00,
+T_ALR905B8,A_DFN6W0V8,Levofloxacino,500 mg/8h,IM,2025-01-03 11:13:47,2025-01-04 11:13:47,
+T_DO7Q4GH8,A_4WIF13TO,Heparina de bajo peso molecular,10 UI según pauta,IM,2025-01-04 00:16:02,2025-01-04 00:16:02,
+T_4KFZXNXX,A_DFN6W0V8,Paracetamol,2 g/24h,Oral,2025-01-04 13:59:24,2025-01-05 05:32:39,Ajuste por respuesta clínica
+T_H2ZTMY38,A_PA9TWMTP,Insulina rápida,10 UI según pauta,IM,2025-01-04 21:50:32,2025-01-07 09:15:53,
+T_T392ZIM3,A_PA9TWMTP,Insulina basal,10 UI según pauta,IM,2025-01-05 06:03:34,2025-01-07 06:03:34,
+T_P4UPJY8G,A_4WIF13TO,Paracetamol,10 UI según pauta,IM,2025-01-05 12:37:18,2025-01-06 18:56:01,Ajuste por respuesta clínica
+T_0NZPQ9YA,A_4WIF13TO,Insulina rápida,500 mg/8h,SC,2025-01-06 13:34:18,2025-01-06 13:34:18,Ajuste por respuesta clínica
+T_JPMLTIN6,A_PA9TWMTP,Dexametasona,40 mg/24h,Oral,2025-01-07 02:59:40,2025-01-07 02:59:40,
+T_J39A0YMG,A_YS43F1CG,Amoxicilina/Ácido clavulánico,10 UI según pauta,IV,2025-01-08 03:44:49,2025-01-08 03:44:49,Ajuste por respuesta clínica
+T_ZVQRWVH1,A_M43TBDXE,Insulina basal,1 g/12h,Oral,2025-01-09 05:46:44,2025-01-09 05:46:44,
+T_HKSWZWZD,A_YS43F1CG,Furosemida,2 g/24h,IM,2025-01-11 07:30:17,2025-01-11 07:30:17,
+T_EHJ1913Q,A_M43TBDXE,Omeprazol,40 mg/24h,IV,2025-01-12 17:59:37,2025-01-13 19:23:52,
+T_ZW2SNH2R,A_PQOZGO70,Levofloxacino,2 g/24h,Oral,2025-01-12 18:51:15,2025-01-15 18:51:15,
+T_Y1TAO9D7,A_QZWRAQ18,Heparina de bajo peso molecular,40 mg/24h,IV,2025-01-12 21:43:12,2025-01-12 21:43:12,Ajuste por respuesta clínica
+T_SZK1A0QA,A_PQOZGO70,Azitromicina,1 g/12h,Inhalada,2025-01-16 13:59:15,2025-01-17 13:59:15,
+T_3VZAUYB1,A_QZWRAQ18,Omeprazol,10 UI según pauta,Inhalada,2025-01-17 19:53:40,2025-01-17 19:53:40,
+T_ON5Y9TF9,A_45IQN93E,Insulina basal,500 mg/8h,Inhalada,2025-01-18 04:45:30,2025-01-18 04:45:30,
+T_EV6QTI13,A_45IQN93E,Furosemida,40 mg/24h,SC,2025-01-19 09:38:45,2025-01-20 09:38:45,Ajuste por respuesta clínica
+T_LC0IK83O,A_H1QJ3FVC,Insulina basal,10 UI según pauta,IV,2025-01-20 06:20:46,2025-01-21 06:20:46,
+T_NAFHG9MO,A_H1QJ3FVC,Salbutamol,10 UI según pauta,Oral,2025-01-21 05:00:03,2025-01-22 05:00:03,
+T_TY9O2FOI,A_45IQN93E,Salbutamol,1 g/12h,IM,2025-01-21 14:22:34,2025-01-24 14:37:12,
+T_KNUQOWY9,A_H1QJ3FVC,Azitromicina,500 mg/8h,IV,2025-01-21 21:11:01,2025-01-21 21:11:01,
+T_N2SI6O8D,A_H1QJ3FVC,Salbutamol,500 mg/8h,IM,2025-01-22 06:05:49,2025-01-23 06:05:49,
+T_RD8S1T3A,A_4EPLG012,Insulina basal,2 g/24h,Inhalada,2025-01-22 07:19:15,2025-01-25 07:19:15,
+T_4SF4XPQH,A_45IQN93E,Furosemida,500 mg/8h,Oral,2025-01-22 11:59:04,2025-01-22 11:59:04,Ajuste por respuesta clínica
+T_YNNWPFY0,A_4EPLG012,Omeprazol,2 g/24h,Oral,2025-01-24 11:00:41,2025-01-26 11:00:41,
+T_XWFCLD08,A_HOQTRXTU,Piperacilina/Tazobactam,2 g/24h,Inhalada,2025-01-24 23:52:22,2025-01-24 23:52:22,Ajuste por respuesta clínica
+T_M6BP91DX,A_HOQTRXTU,Piperacilina/Tazobactam,1 g/12h,SC,2025-01-25 20:50:16,2025-01-27 06:11:07,
+T_FG72HNO9,A_4EPLG012,Insulina basal,2 g/24h,IM,2025-01-27 19:03:41,2025-01-27 19:03:41,
+T_FWNPHZZU,A_RQYWSSMK,Ceftriaxona,40 mg/24h,IM,2025-02-01 20:38:29,2025-02-01 20:38:29,
+T_OV2QHUTL,A_RQYWSSMK,Insulina rápida,10 UI según pauta,SC,2025-02-06 13:48:06,2025-02-06 13:48:06,Ajuste por respuesta clínica
+T_Q2H14I41,A_IXHCQ5A3,Levofloxacino,500 mg/8h,IM,2025-02-06 15:11:57,2025-02-06 15:11:57,Ajuste por respuesta clínica
+T_UT605A50,A_UJOW5LBG,Dexametasona,1 g/12h,SC,2025-02-06 15:57:27,2025-02-07 15:57:27,
+T_B6RXUIHT,A_IXHCQ5A3,Furosemida,1 g/12h,IM,2025-02-07 17:23:17,2025-02-07 17:23:17,
+T_ALS69JL4,A_1MCWP28V,Omeprazol,40 mg/24h,IM,2025-02-07 18:22:59,2025-02-07 18:22:59,Ajuste por respuesta clínica
+T_O00WK81A,A_VRHL9G2G,Piperacilina/Tazobactam,10 UI según pauta,IV,2025-02-08 17:16:31,2025-02-08 17:16:31,Ajuste por respuesta clínica
+T_FNDZGCVR,A_1MCWP28V,Furosemida,40 mg/24h,IV,2025-02-08 19:57:27,2025-02-08 19:57:27,
+T_8JYHU95Z,A_62XME7UE,Piperacilina/Tazobactam,2 g/24h,SC,2025-02-08 21:53:49,2025-02-11 08:35:02,Ajuste por respuesta clínica
+T_H7MU0Y8M,A_62XME7UE,Paracetamol,500 mg/8h,SC,2025-02-09 06:40:36,2025-02-09 06:40:36,Ajuste por respuesta clínica
+T_I994FYVS,A_62XME7UE,Dexametasona,1 g/12h,IV,2025-02-09 09:12:38,2025-02-11 08:35:02,
+T_B3JFQG34,A_62XME7UE,Furosemida,500 mg/8h,SC,2025-02-09 09:49:32,2025-02-09 09:49:32,Ajuste por respuesta clínica
+T_A7XVLV74,A_VRHL9G2G,Insulina basal,1 g/12h,IM,2025-02-09 14:51:50,2025-02-13 14:51:50,
+T_1UUF69GD,A_1MCWP28V,Amoxicilina/Ácido clavulánico,10 UI según pauta,SC,2025-02-09 17:51:03,2025-02-09 17:51:03,Ajuste por respuesta clínica
+T_AV1LIF35,A_1MCWP28V,Amoxicilina/Ácido clavulánico,10 UI según pauta,IV,2025-02-10 02:27:40,2025-02-10 23:22:10,Ajuste por respuesta clínica
+T_6B5UFO7I,A_VRHL9G2G,Azitromicina,1 g/12h,IM,2025-02-10 10:15:20,2025-02-10 10:15:20,Ajuste por respuesta clínica
+T_DV1KSM1R,A_62XME7UE,Dexametasona,1 g/12h,Inhalada,2025-02-11 06:45:55,2025-02-11 08:35:02,
+T_4C4LOXN7,A_YDSL3AJF,Ceftriaxona,10 UI según pauta,Inhalada,2025-02-12 03:36:07,2025-02-14 03:36:07,
+T_6BOAR7VV,A_UJOW5LBG,Heparina de bajo peso molecular,2 g/24h,Oral,2025-02-12 07:15:54,2025-02-12 07:15:54,Ajuste por respuesta clínica
+T_PU91OO6V,A_VRHL9G2G,Azitromicina,500 mg/8h,Inhalada,2025-02-13 00:55:55,2025-02-14 00:55:55,
+T_ZVYMU7Q7,A_VRHL9G2G,Azitromicina,10 UI según pauta,Inhalada,2025-02-13 21:45:51,2025-02-17 03:31:35,
+T_CKDOZ3FT,A_YDSL3AJF,Salbutamol,40 mg/24h,Oral,2025-02-15 18:24:58,2025-02-16 18:24:58,
+T_4C74C1X7,A_WVXGEOZL,Heparina de bajo peso molecular,1 g/12h,IV,2025-02-18 19:20:08,2025-02-19 19:20:08,
+T_IU4XQ3H8,A_WVXGEOZL,Salbutamol,40 mg/24h,SC,2025-02-21 19:29:56,2025-02-24 19:29:56,
+T_ZXHZDFAS,A_OEBR9Y33,Furosemida,40 mg/24h,Oral,2025-02-24 17:54:36,2025-02-26 17:54:36,Ajuste por respuesta clínica
+T_PCX4XTQK,A_OEBR9Y33,Insulina rápida,500 mg/8h,IM,2025-02-25 21:42:39,2025-02-26 21:42:39,Ajuste por respuesta clínica
+T_UJJH4CZY,A_W17YT6U7,Amoxicilina/Ácido clavulánico,2 g/24h,IM,2025-03-02 09:03:30,2025-03-03 09:03:30,
+T_7PNSUW0N,A_W17YT6U7,Ceftriaxona,40 mg/24h,SC,2025-03-05 04:12:29,2025-03-05 04:12:29,Ajuste por respuesta clínica
+T_7W28H15Q,A_W17YT6U7,Insulina basal,500 mg/8h,Oral,2025-03-05 12:53:30,2025-03-06 04:19:05,
+T_CJGXRKJS,A_7T2SXPB2,Heparina de bajo peso molecular,1 g/12h,SC,2025-03-08 18:38:53,2025-03-10 18:38:53,
+T_AD6LZIZO,A_7T2SXPB2,Dexametasona,2 g/24h,SC,2025-03-08 19:28:12,2025-03-08 19:28:12,Ajuste por respuesta clínica
+T_G6AB5UB2,A_OPN1JTN0,Heparina de bajo peso molecular,10 UI según pauta,SC,2025-03-08 21:43:07,2025-03-11 11:50:40,
+T_163VXEA7,A_OPN1JTN0,Levofloxacino,40 mg/24h,Oral,2025-03-10 03:27:00,2025-03-11 03:27:00,Ajuste por respuesta clínica
+T_EIPUEQ84,A_OPN1JTN0,Furosemida,40 mg/24h,Oral,2025-03-10 09:40:13,2025-03-11 11:50:40,
+T_PJADMF8H,A_7T2SXPB2,Heparina de bajo peso molecular,2 g/24h,SC,2025-03-10 23:45:50,2025-03-12 23:45:50,Ajuste por respuesta clínica
+T_3CF8YSEY,A_7T2SXPB2,Insulina basal,1 g/12h,Inhalada,2025-03-11 06:38:20,2025-03-12 06:38:20,Ajuste por respuesta clínica
+T_YQVGRNV3,A_DGX7JR0G,Omeprazol,1 g/12h,SC,2025-03-11 18:09:43,2025-03-13 18:09:43,Ajuste por respuesta clínica
+T_C2UW6NF2,A_7T2SXPB2,Heparina de bajo peso molecular,10 UI según pauta,SC,2025-03-11 20:32:31,2025-03-12 20:32:31,Ajuste por respuesta clínica
+T_S6BZN1I4,A_DGX7JR0G,Insulina rápida,1 g/12h,Inhalada,2025-03-14 07:33:21,2025-03-15 07:33:21,
+T_7D6PTMG9,A_DGX7JR0G,Omeprazol,10 UI según pauta,IV,2025-03-15 04:00:20,2025-03-15 04:00:20,
+T_TOXRULWR,A_DGX7JR0G,Piperacilina/Tazobactam,2 g/24h,IM,2025-03-15 15:17:11,2025-03-15 15:17:11,Ajuste por respuesta clínica
+T_PSZD816D,A_USPBU62T,Omeprazol,40 mg/24h,IM,2025-03-21 06:46:35,2025-03-21 06:46:35,
+T_NIAGT3ZO,A_95NCMVB3,Dexametasona,40 mg/24h,IV,2025-03-21 19:16:50,2025-03-21 19:16:50,
+T_F0KFXZ7W,A_BY69GA8L,Insulina rápida,10 UI según pauta,IM,2025-03-21 23:28:58,2025-03-22 23:28:58,
+T_5UPS06IO,A_BY69GA8L,Dexametasona,1 g/12h,IV,2025-03-22 08:36:32,2025-03-22 08:36:32,
+T_E53GJ76R,A_95NCMVB3,Azitromicina,1 g/12h,Inhalada,2025-03-22 17:59:42,2025-03-23 17:59:42,
+T_XWUIQHTD,A_USPBU62T,Furosemida,40 mg/24h,Inhalada,2025-03-22 20:35:43,2025-03-25 21:51:15,Ajuste por respuesta clínica
+T_BRIW9CO7,A_BY69GA8L,Levofloxacino,500 mg/8h,SC,2025-03-23 07:12:57,2025-03-24 07:12:57,
+T_L0FY4R9A,A_BY69GA8L,Salbutamol,2 g/24h,Inhalada,2025-03-24 04:47:48,2025-03-24 04:47:48,Ajuste por respuesta clínica
+T_1EF92RO5,A_BY69GA8L,Insulina rápida,2 g/24h,Oral,2025-03-24 05:11:55,2025-03-25 05:11:55,
+T_KPR2K63B,A_95NCMVB3,Metronidazol,40 mg/24h,SC,2025-03-24 06:31:52,2025-03-27 06:31:52,
+T_G6146NHZ,A_USPBU62T,Dexametasona,10 UI según pauta,SC,2025-03-24 07:06:19,2025-03-24 07:06:19,
+T_4MJH4PNI,A_XI4JDJJ5,Insulina rápida,500 mg/8h,IM,2025-03-25 22:14:40,2025-03-26 21:33:13,
+T_CGI9VD2A,A_XI4JDJJ5,Salbutamol,500 mg/8h,Inhalada,2025-03-26 00:24:18,2025-03-26 21:33:13,
+T_V967WVRH,A_XI4JDJJ5,Azitromicina,2 g/24h,SC,2025-03-26 05:02:05,2025-03-26 21:33:13,Ajuste por respuesta clínica
+T_HHVDKUS8,A_XI4JDJJ5,Insulina rápida,1 g/12h,IV,2025-03-26 19:50:34,2025-03-26 21:33:13,
+T_WLZJEHZH,A_PEGSUWY3,Heparina de bajo peso molecular,40 mg/24h,Oral,2025-03-26 22:44:54,2025-03-29 22:44:54,
+T_CB1AAUS6,A_PEGSUWY3,Furosemida,1 g/12h,IV,2025-03-27 21:00:54,2025-03-30 21:00:54,
+T_2EADZBI0,A_PEGSUWY3,Furosemida,1 g/12h,Oral,2025-03-28 21:59:52,2025-03-29 21:59:52,Ajuste por respuesta clínica
+T_E1LESZVB,A_J1KDYIRG,Omeprazol,2 g/24h,IM,2025-03-31 19:20:37,2025-03-31 19:20:37,
+T_JWBHS51L,A_J1KDYIRG,Metronidazol,10 UI según pauta,IV,2025-03-31 20:43:27,2025-03-31 20:43:27,
+T_QHJROF6H,A_PEGSUWY3,Levofloxacino,2 g/24h,Oral,2025-04-01 07:23:06,2025-04-04 07:23:06,Ajuste por respuesta clínica
+T_BHONYCO1,A_EUQ03WX2,Insulina rápida,500 mg/8h,IV,2025-04-04 12:30:05,2025-04-04 12:30:05,Ajuste por respuesta clínica
+T_3ZDDY3O0,A_EUQ03WX2,Metronidazol,2 g/24h,IV,2025-04-05 15:46:50,2025-04-07 15:46:50,
+T_Z23U9D49,A_C213VY1A,Levofloxacino,10 UI según pauta,Oral,2025-04-09 22:42:42,2025-04-09 22:42:42,Ajuste por respuesta clínica
+T_XTEHJW6D,A_GJFNYRPD,Insulina rápida,500 mg/8h,IV,2025-04-10 06:38:12,2025-04-11 06:38:12,
+T_65WATAP0,A_C213VY1A,Amoxicilina/Ácido clavulánico,1 g/12h,Inhalada,2025-04-10 14:12:26,2025-04-18 01:04:13,Ajuste por respuesta clínica
+T_7BH1KREX,A_C7GOI2EB,Piperacilina/Tazobactam,500 mg/8h,IV,2025-04-11 08:36:53,2025-04-11 08:36:53,
+T_X5F8SSVV,A_C213VY1A,Insulina basal,500 mg/8h,IM,2025-04-12 06:28:38,2025-04-13 06:28:38,
+T_9NMQ2AZH,A_C7GOI2EB,Piperacilina/Tazobactam,40 mg/24h,Oral,2025-04-12 20:02:26,2025-04-12 20:02:26,
+T_T863NENR,A_GJFNYRPD,Dexametasona,500 mg/8h,Oral,2025-04-14 01:08:12,2025-04-14 12:07:20,
+T_FNVC8W28,A_C7GOI2EB,Piperacilina/Tazobactam,40 mg/24h,IM,2025-04-15 06:52:39,2025-04-15 06:52:39,
+T_HINLSODJ,A_C7GOI2EB,Metronidazol,40 mg/24h,IV,2025-04-15 12:35:14,2025-04-18 15:53:02,
+T_Z4JLDX84,A_C213VY1A,Amoxicilina/Ácido clavulánico,1 g/12h,Oral,2025-04-16 21:17:46,2025-04-16 21:17:46,
+T_XQHVESJD,A_C7GOI2EB,Levofloxacino,500 mg/8h,SC,2025-04-17 14:23:01,2025-04-18 14:23:01,
+T_5S5ELTO5,A_CEKY1295,Paracetamol,10 UI según pauta,IV,2025-04-20 01:10:56,2025-04-22 21:07:54,
+T_Y8JSGY6N,A_CEKY1295,Furosemida,40 mg/24h,Oral,2025-04-20 18:32:52,2025-04-20 18:32:52,
+T_20H3SCBJ,A_8J2774QZ,Salbutamol,10 UI según pauta,IV,2025-04-20 19:57:57,2025-04-20 19:57:57,Ajuste por respuesta clínica
+T_W04UL1AH,A_34QUIYQ8,Salbutamol,10 UI según pauta,Oral,2025-04-21 16:59:47,2025-04-23 16:59:47,
+T_X5OM3LDU,A_34QUIYQ8,Dexametasona,1 g/12h,IV,2025-04-22 12:46:05,2025-04-22 12:46:05,Ajuste por respuesta clínica
+T_T88YCGOZ,A_8J2774QZ,Furosemida,10 UI según pauta,Inhalada,2025-04-23 16:44:19,2025-04-23 16:44:19,
+T_P5UYJ0N6,A_Q3V0S0MX,Furosemida,10 UI según pauta,IV,2025-04-28 01:52:18,2025-04-29 01:52:18,
+T_6OP2QNKC,A_RUJDOW9P,Ceftriaxona,40 mg/24h,IV,2025-04-28 15:38:43,2025-04-29 15:38:43,
+T_CCNJ65LE,A_RUJDOW9P,Azitromicina,500 mg/8h,Oral,2025-04-29 05:50:30,2025-05-01 05:50:30,
+T_LDR6QZY3,A_OBIOHHVT,Levofloxacino,500 mg/8h,IM,2025-04-29 05:55:01,2025-04-29 05:55:01,
+T_2G3DVRCI,A_OBIOHHVT,Piperacilina/Tazobactam,10 UI según pauta,IM,2025-04-30 10:19:08,2025-05-03 10:19:08,Ajuste por respuesta clínica
+T_CNYED97K,A_Q3V0S0MX,Metronidazol,1 g/12h,Oral,2025-04-30 17:07:01,2025-05-04 14:34:02,
+T_J5ZNEJRP,A_OBIOHHVT,Dexametasona,40 mg/24h,SC,2025-04-30 18:06:20,2025-04-30 18:06:20,
+T_CP488IX4,A_OBIOHHVT,Paracetamol,500 mg/8h,Inhalada,2025-04-30 23:20:25,2025-05-02 23:20:25,
+T_DGKTI2UV,A_Q3V0S0MX,Salbutamol,500 mg/8h,Oral,2025-05-02 00:39:06,2025-05-03 00:39:06,
+T_1V0OOEWJ,A_OBIOHHVT,Paracetamol,1 g/12h,IM,2025-05-03 10:38:04,2025-05-04 05:04:18,
+T_BY2AZTQR,A_Q3V0S0MX,Levofloxacino,40 mg/24h,IV,2025-05-03 14:30:43,2025-05-04 14:30:43,Ajuste por respuesta clínica
+T_EPKV4NUZ,A_Q3V0S0MX,Paracetamol,1 g/12h,Oral,2025-05-03 14:48:16,2025-05-03 14:48:16,
+T_LQH075U3,A_RUJDOW9P,Azitromicina,2 g/24h,Oral,2025-05-04 22:09:54,2025-05-05 13:39:52,
+T_Q76HSRQ5,A_JGGW1515,Ceftriaxona,500 mg/8h,Inhalada,2025-05-05 00:35:37,2025-05-05 00:35:37,
+T_8NTKAD0Q,A_JGGW1515,Salbutamol,40 mg/24h,IM,2025-05-05 22:50:37,2025-05-05 22:50:37,Ajuste por respuesta clínica
+T_8KSD9NA1,A_RUZSBT2B,Levofloxacino,40 mg/24h,SC,2025-05-08 21:39:20,2025-05-09 21:39:20,
+T_1KZYQO9N,A_YU7L4O8F,Levofloxacino,40 mg/24h,IM,2025-05-09 23:48:30,2025-05-09 23:48:30,
+T_3R8UEQU7,A_JGGW1515,Paracetamol,500 mg/8h,IM,2025-05-10 07:43:39,2025-05-10 07:43:39,
+T_LMG7LO4V,A_RUZSBT2B,Omeprazol,10 UI según pauta,IV,2025-05-10 20:09:26,2025-05-12 20:09:26,
+T_DGTGIRJG,A_YU7L4O8F,Paracetamol,500 mg/8h,SC,2025-05-11 02:35:12,2025-05-12 02:35:12,
+T_JTGDY16P,A_YU7L4O8F,Salbutamol,40 mg/24h,SC,2025-05-11 22:12:53,2025-05-11 22:12:53,Ajuste por respuesta clínica
+T_IZOBIZV4,A_YU7L4O8F,Paracetamol,1 g/12h,SC,2025-05-13 10:02:03,2025-05-13 10:02:03,
+T_ZJ3S3VZ2,A_GEQR94ZM,Amoxicilina/Ácido clavulánico,500 mg/8h,Inhalada,2025-05-14 06:42:57,2025-05-14 06:42:57,Ajuste por respuesta clínica
+T_HZTU11UW,A_GEQR94ZM,Insulina basal,1 g/12h,Oral,2025-05-15 01:20:41,2025-05-19 05:00:23,
+T_541AZ27B,A_QFKDTJI3,Omeprazol,2 g/24h,Oral,2025-05-16 11:36:17,2025-05-16 11:36:17,Ajuste por respuesta clínica
+T_3LBMSI0U,A_GEQR94ZM,Metronidazol,10 UI según pauta,Inhalada,2025-05-16 13:50:43,2025-05-16 13:50:43,
+T_U9EGHF7E,A_AJ9XTI3A,Salbutamol,10 UI según pauta,IV,2025-05-17 02:32:18,2025-05-20 02:32:18,
+T_PF4I1I04,A_AJ9XTI3A,Metronidazol,500 mg/8h,IV,2025-05-17 04:12:22,2025-05-17 04:12:22,Ajuste por respuesta clínica
+T_0VDLRERY,A_AJ9XTI3A,Furosemida,500 mg/8h,SC,2025-05-17 08:34:42,2025-05-18 08:34:42,
+T_ITWKYMTI,A_QFKDTJI3,Piperacilina/Tazobactam,1 g/12h,Inhalada,2025-05-17 19:03:36,2025-05-18 19:03:36,
+T_XWO3XUPA,A_QFKDTJI3,Azitromicina,1 g/12h,SC,2025-05-17 23:17:07,2025-05-17 23:17:07,Ajuste por respuesta clínica
+T_CYLYJPEH,A_AJ9XTI3A,Azitromicina,500 mg/8h,IM,2025-05-18 22:37:07,2025-05-18 22:37:07,
+T_CQCAL5K1,A_AJ9XTI3A,Heparina de bajo peso molecular,40 mg/24h,Oral,2025-05-19 20:40:12,2025-05-19 20:40:12,Ajuste por respuesta clínica
+T_K4K6J3SD,A_5YD46YO0,Azitromicina,10 UI según pauta,IM,2025-05-21 12:45:10,2025-05-21 12:45:10,
+T_5KZ19I0B,A_5YD46YO0,Piperacilina/Tazobactam,10 UI según pauta,Oral,2025-05-22 02:02:07,2025-05-22 02:02:07,
+T_YZ8HFEJA,A_VES0OHG1,Insulina basal,2 g/24h,IV,2025-05-22 14:42:46,2025-05-23 14:42:46,
+T_8P50FXK6,A_QFKDTJI3,Piperacilina/Tazobactam,1 g/12h,Oral,2025-05-22 14:58:29,2025-05-23 12:14:15,Ajuste por respuesta clínica
+T_ZA2DQ8CU,A_QFKDTJI3,Omeprazol,500 mg/8h,IM,2025-05-22 18:01:08,2025-05-23 12:14:15,Ajuste por respuesta clínica
+T_NZN5XND0,A_VES0OHG1,Piperacilina/Tazobactam,40 mg/24h,SC,2025-05-22 21:21:30,2025-05-23 21:21:30,
+T_WZIP362V,A_5YD46YO0,Heparina de bajo peso molecular,500 mg/8h,IV,2025-05-23 00:13:48,2025-05-23 00:13:48,
+T_G9X91IGR,A_VES0OHG1,Furosemida,10 UI según pauta,Inhalada,2025-05-24 21:33:58,2025-05-24 21:33:58,Ajuste por respuesta clínica
+T_W4MGBYME,A_VES0OHG1,Ceftriaxona,40 mg/24h,Oral,2025-05-25 00:25:24,2025-05-25 00:25:24,Ajuste por respuesta clínica
+T_CQYPNZTT,A_0XRL8450,Insulina rápida,40 mg/24h,Inhalada,2025-06-01 05:44:11,2025-06-01 05:44:11,
+T_2N3I6BXM,A_0XRL8450,Ceftriaxona,2 g/24h,IV,2025-06-01 11:11:31,2025-06-01 11:11:31,Ajuste por respuesta clínica
+T_E4WLW5AH,A_G866D38U,Insulina basal,40 mg/24h,SC,2025-06-01 12:02:04,2025-06-02 12:02:04,
+T_C8SR3VHI,A_G866D38U,Ceftriaxona,2 g/24h,Inhalada,2025-06-01 19:43:48,2025-06-01 19:43:48,
+T_ARI6IOZA,A_BM0C9CAE,Ceftriaxona,500 mg/8h,Oral,2025-06-02 14:24:59,2025-06-03 14:24:59,
+T_GDFAYZLQ,A_BM0C9CAE,Insulina basal,10 UI según pauta,IM,2025-06-02 20:43:18,2025-06-03 20:43:18,
+T_I6BJZYBK,A_0XRL8450,Salbutamol,1 g/12h,SC,2025-06-03 03:40:25,2025-06-05 05:12:51,Ajuste por respuesta clínica
+T_XBCB1MEP,A_BM0C9CAE,Levofloxacino,2 g/24h,IM,2025-06-03 04:14:57,2025-06-04 12:53:55,Ajuste por respuesta clínica
+T_40O3VPKC,A_G866D38U,Ceftriaxona,10 UI según pauta,SC,2025-06-03 05:09:41,2025-06-03 07:37:28,
+T_R2G188DV,A_BM0C9CAE,Salbutamol,2 g/24h,IM,2025-06-03 11:23:38,2025-06-04 12:53:55,Ajuste por respuesta clínica
+T_L0E3DZX3,A_0XRL8450,Dexametasona,500 mg/8h,IM,2025-06-03 16:43:40,2025-06-05 05:12:51,
+T_DLYJO3LV,A_BM0C9CAE,Levofloxacino,500 mg/8h,Inhalada,2025-06-04 02:47:49,2025-06-04 12:53:55,
+T_ISQZSKTG,A_A8I5HX4K,Amoxicilina/Ácido clavulánico,40 mg/24h,Inhalada,2025-06-07 16:42:17,2025-06-08 16:42:17,Ajuste por respuesta clínica
+T_JU7EPQ4Z,A_7ILOE8LM,Heparina de bajo peso molecular,1 g/12h,IM,2025-06-10 02:49:06,2025-06-10 02:49:06,
+T_ZX814XNE,A_A8I5HX4K,Dexametasona,10 UI según pauta,IM,2025-06-10 13:33:00,2025-06-10 13:33:00,Ajuste por respuesta clínica
+T_F73OZILR,A_E15NPB21,Dexametasona,40 mg/24h,IV,2025-06-11 07:26:56,2025-06-14 07:26:56,Ajuste por respuesta clínica
+T_42M797MF,A_7ILOE8LM,Omeprazol,2 g/24h,SC,2025-06-12 17:03:28,2025-06-12 17:03:28,
+T_47QEYAXB,A_7ILOE8LM,Amoxicilina/Ácido clavulánico,10 UI según pauta,SC,2025-06-13 07:42:47,2025-06-14 21:26:01,
+T_81STOJJ4,A_2E8JMXV2,Furosemida,1 g/12h,Inhalada,2025-06-14 05:38:03,2025-06-15 04:37:59,Ajuste por respuesta clínica
+T_L07O4E1Z,A_E15NPB21,Paracetamol,500 mg/8h,Inhalada,2025-06-14 11:28:08,2025-06-16 11:28:08,
+T_VX8H075O,A_2E8JMXV2,Omeprazol,10 UI según pauta,IM,2025-06-14 16:17:48,2025-06-14 16:17:48,
+T_GZU1UVN1,A_2E8JMXV2,Heparina de bajo peso molecular,1 g/12h,Oral,2025-06-14 23:59:31,2025-06-15 04:37:59,Ajuste por respuesta clínica
+T_M8ICCQIL,A_E15NPB21,Omeprazol,2 g/24h,IM,2025-06-15 06:42:26,2025-06-17 06:42:26,
+T_B3GKDZ5V,A_5C5ELWT4,Ceftriaxona,1 g/12h,IV,2025-06-16 04:26:58,2025-06-18 04:26:58,Ajuste por respuesta clínica
+T_08ZA9F0S,A_THL7KNHV,Amoxicilina/Ácido clavulánico,10 UI según pauta,SC,2025-06-17 01:07:19,2025-06-17 01:07:19,Ajuste por respuesta clínica
+T_ZB3R6ENC,A_THL7KNHV,Paracetamol,40 mg/24h,IM,2025-06-17 06:37:04,2025-06-18 22:11:26,Ajuste por respuesta clínica
+T_IN21VGSP,A_Y8S796NF,Heparina de bajo peso molecular,500 mg/8h,IM,2025-06-19 17:42:15,2025-06-21 17:42:15,Ajuste por respuesta clínica
+T_Y0QXJHM5,A_DAINWKRW,Insulina basal,40 mg/24h,IV,2025-06-20 08:14:58,2025-06-22 08:14:58,
+T_CO2929VB,A_DAINWKRW,Metronidazol,500 mg/8h,IV,2025-06-20 08:47:24,2025-06-20 08:47:24,Ajuste por respuesta clínica
+T_5FM1C3VQ,A_E5XNPM6Y,Ceftriaxona,500 mg/8h,Inhalada,2025-06-20 11:37:05,2025-06-21 11:37:05,
+T_TM5PC6ZK,A_5C5ELWT4,Insulina basal,1 g/12h,Oral,2025-06-21 02:12:24,2025-06-21 02:39:44,
+T_8LT2C5W9,A_CNPX6RGV,Paracetamol,2 g/24h,Inhalada,2025-06-21 12:56:00,2025-06-21 12:56:00,
+T_N0S0BWO0,A_CNPX6RGV,Ceftriaxona,40 mg/24h,IM,2025-06-21 17:34:37,2025-06-21 17:34:37,
+T_5PBS0BIO,A_DAINWKRW,Metronidazol,40 mg/24h,Inhalada,2025-06-22 03:02:56,2025-06-22 03:02:56,Ajuste por respuesta clínica
+T_ZLEWQJGD,A_DAINWKRW,Metronidazol,500 mg/8h,IV,2025-06-22 18:33:01,2025-06-23 18:33:01,
+T_2AQ3AFD8,A_V30VTQWC,Omeprazol,2 g/24h,Inhalada,2025-06-23 05:47:18,2025-06-23 05:47:18,
+T_P1V634WQ,A_CNPX6RGV,Amoxicilina/Ácido clavulánico,40 mg/24h,SC,2025-06-23 12:20:56,2025-06-23 12:20:56,
+T_B5S3UCBP,A_E5XNPM6Y,Piperacilina/Tazobactam,2 g/24h,Oral,2025-06-23 18:21:56,2025-06-24 18:21:56,
+T_PYYOB4NO,A_Z0CZ0AHX,Insulina basal,500 mg/8h,IM,2025-06-24 12:02:36,2025-06-25 12:02:36,
+T_JGY52ZJZ,A_E5XNPM6Y,Piperacilina/Tazobactam,1 g/12h,IV,2025-06-24 18:31:28,2025-06-25 18:31:28,Ajuste por respuesta clínica
+T_CXLFCAVH,A_Y8S796NF,Dexametasona,2 g/24h,SC,2025-06-24 22:44:37,2025-06-24 22:44:37,Ajuste por respuesta clínica
+T_OPVUMZKP,A_R9RWGNPM,Levofloxacino,500 mg/8h,IV,2025-06-25 06:54:40,2025-07-01 06:18:08,
+T_JA2W2EJK,A_Z0CZ0AHX,Amoxicilina/Ácido clavulánico,2 g/24h,IV,2025-06-25 17:18:40,2025-06-26 17:18:40,Ajuste por respuesta clínica
+T_P5CPFN3H,A_E5XNPM6Y,Salbutamol,1 g/12h,IM,2025-06-25 20:09:26,2025-06-25 20:09:26,
+T_9QYGNONA,A_Y8S796NF,Insulina basal,40 mg/24h,IV,2025-06-25 22:30:01,2025-06-25 22:30:01,
+T_97VA0RTF,A_R9RWGNPM,Ceftriaxona,10 UI según pauta,SC,2025-06-26 00:56:55,2025-06-27 00:56:55,
+T_DLDLX32X,A_Y8S796NF,Insulina basal,10 UI según pauta,IV,2025-06-26 04:41:26,2025-06-27 04:41:26,Ajuste por respuesta clínica
+T_17SIZQ9Q,A_X76AMYBM,Metronidazol,1 g/12h,SC,2025-06-27 03:19:22,2025-06-28 03:19:22,Ajuste por respuesta clínica
+T_GHCTZDDL,A_5NCHKNLP,Piperacilina/Tazobactam,2 g/24h,Inhalada,2025-06-27 16:43:26,2025-07-01 16:43:26,Ajuste por respuesta clínica
+T_OTXG7OMP,A_K72IMW7Y,Metronidazol,500 mg/8h,Inhalada,2025-06-27 17:04:55,2025-06-28 14:06:03,
+T_556MXMPZ,A_K72IMW7Y,Levofloxacino,2 g/24h,SC,2025-06-27 17:47:51,2025-06-28 14:06:03,
+T_4OJQ65WE,A_X76AMYBM,Piperacilina/Tazobactam,1 g/12h,Inhalada,2025-06-27 20:57:00,2025-06-30 20:57:00,Ajuste por respuesta clínica
+T_DFD251XZ,A_K72IMW7Y,Furosemida,1 g/12h,IM,2025-06-27 21:10:23,2025-06-28 14:06:03,Ajuste por respuesta clínica
+T_29FHIGDO,A_K72IMW7Y,Azitromicina,500 mg/8h,IV,2025-06-28 05:15:42,2025-06-28 05:15:42,
+T_LH0YS3QA,A_K72IMW7Y,Insulina basal,10 UI según pauta,Oral,2025-06-28 05:27:49,2025-06-28 14:06:03,Ajuste por respuesta clínica
+T_L7MXQA0A,A_V30VTQWC,Insulina rápida,2 g/24h,Oral,2025-06-28 06:29:45,2025-06-29 06:29:45,
+T_WUZ2AM4H,A_DAINWKRW,Insulina basal,1 g/12h,IV,2025-06-28 13:10:34,2025-06-28 13:10:34,
+T_DQS64CJ6,A_V30VTQWC,Levofloxacino,40 mg/24h,SC,2025-06-28 15:25:12,2025-06-28 15:25:12,
+T_YJ28E4H3,A_Z0CZ0AHX,Furosemida,2 g/24h,IM,2025-06-28 19:27:05,2025-06-29 19:27:05,Ajuste por respuesta clínica
+T_VZC1DV3F,A_Y8S796NF,Heparina de bajo peso molecular,40 mg/24h,SC,2025-06-28 22:30:10,2025-06-28 22:30:10,
+T_B097THW6,A_R9RWGNPM,Amoxicilina/Ácido clavulánico,2 g/24h,SC,2025-06-29 02:08:58,2025-07-01 06:18:08,
+T_6FO8J9QU,A_X76AMYBM,Ceftriaxona,500 mg/8h,IM,2025-06-29 05:27:23,2025-07-01 04:55:59,
+T_3TL1PUA8,A_R9RWGNPM,Paracetamol,2 g/24h,IM,2025-06-29 10:20:10,2025-06-29 10:20:10,Ajuste por respuesta clínica
+T_D5HFV4TE,A_5NCHKNLP,Azitromicina,1 g/12h,SC,2025-06-29 15:13:31,2025-06-30 15:13:31,
+T_6SM1OU06,A_X76AMYBM,Insulina basal,40 mg/24h,Inhalada,2025-06-29 15:47:55,2025-06-29 15:47:55,Ajuste por respuesta clínica
+T_0XRJNGN2,A_90TBOJ8T,Paracetamol,40 mg/24h,Oral,2025-06-29 19:31:53,2025-07-05 19:31:53,
+T_M0XOJFQB,A_Z0CZ0AHX,Furosemida,500 mg/8h,IV,2025-06-29 20:22:11,2025-07-01 08:55:12,
+T_65A3GTOR,A_Z0CZ0AHX,Insulina basal,40 mg/24h,SC,2025-06-29 22:28:54,2025-07-01 08:55:12,
+T_KKG7LXPL,A_V30VTQWC,Dexametasona,2 g/24h,Inhalada,2025-06-30 16:40:55,2025-06-30 16:40:55,
+T_JXZCBUNX,A_90TBOJ8T,Azitromicina,1 g/12h,IM,2025-07-01 07:14:03,2025-07-01 07:14:03,
+T_HZC0RCAP,A_90TBOJ8T,Piperacilina/Tazobactam,1 g/12h,SC,2025-07-01 22:53:28,2025-07-01 22:53:28,
+T_SG8Y9OVV,A_5NCHKNLP,Levofloxacino,10 UI según pauta,SC,2025-07-02 02:31:25,2025-07-02 14:00:03,Ajuste por respuesta clínica
+T_J14RZFK1,A_90TBOJ8T,Ceftriaxona,1 g/12h,Oral,2025-07-02 11:27:55,2025-07-02 11:27:55,
+T_7M9AM4HX,A_2Q1G1MGB,Omeprazol,10 UI según pauta,IM,2025-07-04 13:39:00,2025-07-04 13:39:00,Ajuste por respuesta clínica
+T_8F8NZ2K6,A_90TBOJ8T,Paracetamol,2 g/24h,IM,2025-07-04 20:36:00,2025-07-06 13:39:19,
+T_WY95MKL3,A_2Q1G1MGB,Salbutamol,10 UI según pauta,IV,2025-07-05 14:17:00,2025-07-05 14:17:00,Ajuste por respuesta clínica
+T_FDOMG0US,A_2Q1G1MGB,Dexametasona,2 g/24h,Inhalada,2025-07-06 00:05:03,2025-07-06 00:05:03,
+T_JDV145FV,A_2Q1G1MGB,Insulina basal,40 mg/24h,Inhalada,2025-07-07 07:09:04,2025-07-08 07:09:04,
+T_OIO1Z2P7,A_6QMLP8JR,Omeprazol,2 g/24h,IV,2025-07-08 03:35:06,2025-07-10 03:35:06,Ajuste por respuesta clínica
+T_STLJLKCA,A_6QMLP8JR,Paracetamol,500 mg/8h,IM,2025-07-09 02:40:46,2025-07-11 02:40:46,
+T_V1QPKSSD,A_IO32JQWD,Levofloxacino,500 mg/8h,Oral,2025-07-10 02:03:04,2025-07-12 02:03:04,
+T_PM7M325B,A_6QMLP8JR,Omeprazol,2 g/24h,Inhalada,2025-07-10 04:21:22,2025-07-13 04:21:22,
+T_7XANDY3I,A_IO32JQWD,Dexametasona,2 g/24h,SC,2025-07-10 04:52:31,2025-07-10 04:52:31,Ajuste por respuesta clínica
+T_0F8OSNCJ,A_6QMLP8JR,Metronidazol,1 g/12h,IV,2025-07-11 08:17:48,2025-07-13 08:17:48,
+T_3TCHPAXU,A_FYSLBPFT,Insulina basal,1 g/12h,Inhalada,2025-07-12 08:18:41,2025-07-13 08:18:41,
+T_IGCXHDHC,A_WHZRRVGI,Azitromicina,2 g/24h,Inhalada,2025-07-12 19:31:26,2025-07-15 19:31:26,Ajuste por respuesta clínica
+T_66DIAT9I,A_FYSLBPFT,Metronidazol,2 g/24h,Oral,2025-07-12 22:00:05,2025-07-15 22:00:05,
+T_NF8SBX5D,A_IO32JQWD,Piperacilina/Tazobactam,10 UI según pauta,Inhalada,2025-07-13 01:24:41,2025-07-13 01:24:41,Ajuste por respuesta clínica
+T_3FCROPG3,A_FYSLBPFT,Metronidazol,2 g/24h,Oral,2025-07-13 12:47:31,2025-07-14 12:47:31,
+T_WKJNBLIP,A_NSLJFQSN,Paracetamol,1 g/12h,Oral,2025-07-13 16:58:07,2025-07-14 16:58:07,
+T_4VC2M4EL,A_IO32JQWD,Insulina rápida,500 mg/8h,SC,2025-07-13 17:18:49,2025-07-14 01:00:50,Ajuste por respuesta clínica
+T_WDJQLH4T,A_6QMLP8JR,Dexametasona,40 mg/24h,SC,2025-07-14 12:37:19,2025-07-15 12:37:19,Ajuste por respuesta clínica
+T_37HB64FT,A_NSLJFQSN,Metronidazol,1 g/12h,IV,2025-07-18 01:44:42,2025-07-19 01:44:42,Ajuste por respuesta clínica
+T_VOK1N7DT,A_A300VRCQ,Piperacilina/Tazobactam,500 mg/8h,IM,2025-07-18 03:00:29,2025-07-18 03:00:29,Ajuste por respuesta clínica
+T_29ZRFGP5,A_A300VRCQ,Insulina rápida,10 UI según pauta,SC,2025-07-18 05:42:04,2025-07-19 01:20:17,
+T_JMUOU43B,A_A300VRCQ,Metronidazol,1 g/12h,Inhalada,2025-07-18 10:29:25,2025-07-19 01:20:17,
+T_84KHNN6C,A_A300VRCQ,Levofloxacino,10 UI según pauta,IM,2025-07-18 11:55:36,2025-07-18 11:55:36,
+T_B3WSKON2,A_NSLJFQSN,Furosemida,40 mg/24h,Oral,2025-07-18 19:29:55,2025-07-19 10:29:57,
+T_M50FB7AJ,A_NSLJFQSN,Levofloxacino,10 UI según pauta,SC,2025-07-18 22:27:40,2025-07-19 10:29:57,Ajuste por respuesta clínica
+T_TZAVO146,A_A300VRCQ,Dexametasona,10 UI según pauta,IV,2025-07-19 01:17:09,2025-07-19 01:20:17,
+T_BH4VUFO7,A_WHZRRVGI,Piperacilina/Tazobactam,2 g/24h,IV,2025-07-20 14:56:42,2025-07-22 14:56:42,
+T_8N02IYP4,A_WHZRRVGI,Insulina rápida,40 mg/24h,Inhalada,2025-07-22 21:09:06,2025-07-22 21:09:06,
+T_ICFUNQSM,A_DY10ZE88,Furosemida,10 UI según pauta,IV,2025-07-23 00:42:04,2025-07-25 00:42:04,
+T_H11QZNM8,A_SK71Y9R8,Paracetamol,500 mg/8h,SC,2025-07-24 18:08:14,2025-07-25 11:41:18,
+T_8BGOOPZE,A_SK71Y9R8,Amoxicilina/Ácido clavulánico,1 g/12h,Inhalada,2025-07-25 05:53:16,2025-07-25 11:41:18,Ajuste por respuesta clínica
+T_010K7B13,A_DY10ZE88,Azitromicina,2 g/24h,IV,2025-07-26 03:17:24,2025-07-26 03:17:24,
+T_955B473Q,A_DY10ZE88,Amoxicilina/Ácido clavulánico,40 mg/24h,Inhalada,2025-07-26 09:38:47,2025-07-28 09:38:47,Ajuste por respuesta clínica
+T_8PIXECXU,A_DY10ZE88,Levofloxacino,2 g/24h,IM,2025-07-26 12:10:54,2025-07-28 12:10:54,
+T_0N8XE82P,A_MH43NBG0,Levofloxacino,1 g/12h,IV,2025-07-26 18:27:41,2025-07-26 18:27:41,
+T_MQCYVEOR,A_MH43NBG0,Metronidazol,2 g/24h,IM,2025-07-26 23:31:20,2025-07-26 23:31:20,Ajuste por respuesta clínica
+T_3PAGBMY7,A_MH43NBG0,Insulina rápida,1 g/12h,IM,2025-07-27 17:42:30,2025-07-28 12:33:47,
+T_OQQBA9Z3,A_MH43NBG0,Insulina basal,2 g/24h,SC,2025-07-27 19:14:03,2025-07-28 12:33:47,
+T_CU4S71H0,A_7CDHNI7L,Amoxicilina/Ácido clavulánico,500 mg/8h,Inhalada,2025-07-28 19:55:08,2025-07-29 19:55:08,
+T_2XCX69M9,A_DY10ZE88,Ceftriaxona,10 UI según pauta,SC,2025-07-29 02:01:54,2025-07-30 02:01:54,Ajuste por respuesta clínica
+T_288OW87W,A_7CDHNI7L,Amoxicilina/Ácido clavulánico,500 mg/8h,IM,2025-07-31 19:28:18,2025-08-03 19:28:18,
+T_DWEPZD2A,A_E95GKL0C,Paracetamol,40 mg/24h,IV,2025-08-07 00:54:52,2025-08-08 00:54:52,
+T_JCBR324O,A_E95GKL0C,Omeprazol,40 mg/24h,IV,2025-08-08 01:35:55,2025-08-08 01:35:55,
+T_K3Q7QHCB,A_3PQBYXIU,Piperacilina/Tazobactam,1 g/12h,Oral,2025-08-09 04:49:07,2025-08-09 04:49:07,Ajuste por respuesta clínica
+T_ZTFQQUA3,A_AV41CY76,Heparina de bajo peso molecular,1 g/12h,Inhalada,2025-08-12 21:17:01,2025-08-12 21:17:01,Ajuste por respuesta clínica
+T_6CCV8GVC,A_E95GKL0C,Metronidazol,2 g/24h,SC,2025-08-13 06:47:47,2025-08-16 21:31:28,Ajuste por respuesta clínica
+T_13UF60EI,A_AV41CY76,Azitromicina,2 g/24h,IM,2025-08-15 06:39:46,2025-08-15 06:39:46,
+T_F7JYS2A7,A_JRIMK9GZ,Paracetamol,10 UI según pauta,Inhalada,2025-08-15 08:32:11,2025-08-17 08:32:11,
+T_LBNSHKBH,A_JRIMK9GZ,Levofloxacino,1 g/12h,Oral,2025-08-15 12:52:09,2025-08-15 12:52:09,
+T_70NP53FB,A_JRIMK9GZ,Azitromicina,1 g/12h,SC,2025-08-15 23:06:25,2025-08-16 23:06:25,Ajuste por respuesta clínica
+T_32WOBUCI,A_JRIMK9GZ,Amoxicilina/Ácido clavulánico,1 g/12h,Oral,2025-08-16 01:48:24,2025-08-16 01:48:24,Ajuste por respuesta clínica
+T_HUNT4GUS,A_AV41CY76,Paracetamol,10 UI según pauta,IM,2025-08-17 04:04:42,2025-08-17 04:04:42,
+T_8TXSZDMQ,A_JRIMK9GZ,Amoxicilina/Ácido clavulánico,500 mg/8h,Inhalada,2025-08-17 13:19:40,2025-08-19 00:25:23,Ajuste por respuesta clínica
+T_ACJLUYX8,A_3PQBYXIU,Metronidazol,500 mg/8h,IV,2025-08-17 13:48:46,2025-08-17 22:09:54,
+T_YWVYNZ0J,A_AV41CY76,Ceftriaxona,500 mg/8h,Oral,2025-08-18 06:35:47,2025-08-18 06:35:47,
+T_EZE5TT84,A_AV41CY76,Amoxicilina/Ácido clavulánico,10 UI según pauta,SC,2025-08-18 16:54:23,2025-08-18 16:54:23,Ajuste por respuesta clínica
+T_J8F9OD4H,A_2C1R0ONE,Furosemida,2 g/24h,Inhalada,2025-08-20 09:06:37,2025-08-20 09:06:37,Ajuste por respuesta clínica
+T_YTW37JB4,A_FHP07HXC,Ceftriaxona,2 g/24h,Oral,2025-08-20 18:53:58,2025-08-21 18:53:58,Ajuste por respuesta clínica
+T_DJ3JXDM0,A_2C1R0ONE,Insulina rápida,40 mg/24h,Oral,2025-08-22 11:57:47,2025-08-23 11:57:47,
+T_66AFISF7,A_FHP07HXC,Levofloxacino,2 g/24h,SC,2025-08-22 18:02:57,2025-08-25 15:53:59,Ajuste por respuesta clínica
+T_1DZJJUQR,A_FHP07HXC,Furosemida,10 UI según pauta,Inhalada,2025-08-22 21:59:22,2025-08-22 21:59:22,
+T_Z0N1BD3B,A_YF9MLGIZ,Salbutamol,1 g/12h,IM,2025-08-26 03:57:06,2025-08-27 03:57:06,Ajuste por respuesta clínica
+T_KG9EOIKU,A_YF9MLGIZ,Heparina de bajo peso molecular,1 g/12h,Inhalada,2025-08-26 08:37:24,2025-08-26 08:37:24,Ajuste por respuesta clínica
+T_9F4ZM41V,A_YF9MLGIZ,Heparina de bajo peso molecular,500 mg/8h,IV,2025-08-27 06:13:44,2025-08-29 06:13:44,
+T_2DJG352L,A_YF9MLGIZ,Furosemida,500 mg/8h,IV,2025-08-28 12:23:30,2025-08-29 12:23:30,
+T_I6UADOAS,A_BATAJD32,Ceftriaxona,40 mg/24h,IM,2025-08-29 20:10:16,2025-09-01 02:08:22,Ajuste por respuesta clínica
+T_O2RTZZE9,A_BATAJD32,Insulina basal,1 g/12h,IM,2025-08-29 22:42:44,2025-08-29 22:42:44,Ajuste por respuesta clínica
+T_D6DGRH9I,A_BP1O5FXM,Insulina rápida,40 mg/24h,Inhalada,2025-08-30 06:27:17,2025-08-31 06:27:17,
+T_7US8V7SK,A_BP1O5FXM,Heparina de bajo peso molecular,2 g/24h,SC,2025-08-30 07:20:11,2025-09-03 07:20:11,Ajuste por respuesta clínica
+T_MVF4B4ZD,A_BATAJD32,Azitromicina,500 mg/8h,Oral,2025-08-30 13:21:04,2025-09-01 02:08:22,
+T_8DQKW8QP,A_BATAJD32,Paracetamol,500 mg/8h,SC,2025-08-30 15:00:18,2025-09-01 02:08:22,
+T_IH3W5Q9D,A_BATAJD32,Salbutamol,1 g/12h,IM,2025-08-30 16:49:16,2025-09-01 02:08:22,Ajuste por respuesta clínica
+T_L9Z713OU,A_LG93D6AV,Ceftriaxona,1 g/12h,IV,2025-08-31 00:00:22,2025-09-01 00:00:22,
+T_9S92JJNF,A_JCPEVE8D,Dexametasona,1 g/12h,IM,2025-08-31 05:44:49,2025-08-31 18:33:29,
+T_KFQRZQJM,A_JCPEVE8D,Ceftriaxona,500 mg/8h,Oral,2025-08-31 07:11:44,2025-08-31 07:11:44,
+T_HYPGOPD3,A_JCPEVE8D,Heparina de bajo peso molecular,10 UI según pauta,IM,2025-08-31 11:05:32,2025-08-31 11:05:32,
+T_PCNAFU2P,A_JCPEVE8D,Piperacilina/Tazobactam,500 mg/8h,IM,2025-08-31 11:52:57,2025-08-31 18:33:29,Ajuste por respuesta clínica
+T_LTQNHVWE,A_GZM8A8Z4,Omeprazol,500 mg/8h,Oral,2025-08-31 12:01:34,2025-08-31 12:01:34,
+T_XSONAWRH,A_H1Y6GAVT,Salbutamol,10 UI según pauta,Oral,2025-08-31 14:04:13,2025-08-31 14:04:13,
+T_4XSVVI0B,A_JCPEVE8D,Insulina basal,2 g/24h,SC,2025-08-31 15:33:56,2025-08-31 15:33:56,
+T_3SMKNQVU,A_1HDPYVUY,Paracetamol,2 g/24h,IV,2025-09-01 02:53:21,2025-09-04 02:53:21,
+T_PNL9MKAH,A_YF9MLGIZ,Dexametasona,2 g/24h,IV,2025-09-01 04:03:02,2025-09-01 04:03:02,
+T_45DBH8HS,A_LG93D6AV,Levofloxacino,10 UI según pauta,IM,2025-09-02 02:36:17,2025-09-02 02:36:17,Ajuste por respuesta clínica
+T_000V9VI1,A_LG93D6AV,Omeprazol,1 g/12h,Inhalada,2025-09-02 04:04:07,2025-09-02 04:04:07,Ajuste por respuesta clínica
+T_3FT7ZTNT,A_H1Y6GAVT,Paracetamol,500 mg/8h,Inhalada,2025-09-02 06:10:39,2025-09-03 06:10:39,Ajuste por respuesta clínica
+T_VCBLDH5D,A_1HDPYVUY,Insulina rápida,1 g/12h,Inhalada,2025-09-02 15:27:16,2025-09-02 15:27:16,Ajuste por respuesta clínica
+T_1IBVQQSC,A_1HDPYVUY,Salbutamol,2 g/24h,Inhalada,2025-09-02 18:56:17,2025-09-07 18:56:17,Ajuste por respuesta clínica
+T_BNDY4NWS,A_H1Y6GAVT,Salbutamol,2 g/24h,IV,2025-09-02 22:57:58,2025-09-02 22:57:58,
+T_0P5BNKQ3,A_1HDPYVUY,Metronidazol,40 mg/24h,SC,2025-09-03 01:51:13,2025-09-04 01:51:13,Ajuste por respuesta clínica
+T_R4I9CKIJ,A_GZM8A8Z4,Omeprazol,2 g/24h,IV,2025-09-03 04:31:49,2025-09-04 04:31:49,
+T_9D8IOS7O,A_LG93D6AV,Levofloxacino,40 mg/24h,Inhalada,2025-09-03 15:28:36,2025-09-04 11:03:32,
+T_OUH8RK7K,A_H1Y6GAVT,Amoxicilina/Ácido clavulánico,10 UI según pauta,IM,2025-09-03 16:05:10,2025-09-03 16:05:10,
+T_4LQZCQSI,A_LG93D6AV,Ceftriaxona,1 g/12h,SC,2025-09-04 03:57:09,2025-09-04 11:03:32,
+T_7MRYEDER,A_1HDPYVUY,Insulina basal,2 g/24h,Oral,2025-09-05 11:26:17,2025-09-07 22:10:12,Ajuste por respuesta clínica
+T_3PNVHNZH,A_BP1O5FXM,Insulina rápida,2 g/24h,Oral,2025-09-06 17:44:21,2025-09-07 17:44:21,Ajuste por respuesta clínica
+T_Q178ORDM,A_Q42FAN44,Heparina de bajo peso molecular,500 mg/8h,Oral,2025-09-06 22:25:27,2025-09-08 22:25:27,
+T_09WEQL8E,A_Q42FAN44,Omeprazol,40 mg/24h,Inhalada,2025-09-07 11:51:17,2025-09-11 11:51:17,Ajuste por respuesta clínica
+T_KW5ISZGW,A_Q42FAN44,Paracetamol,10 UI según pauta,Inhalada,2025-09-07 18:11:46,2025-09-09 18:11:46,Ajuste por respuesta clínica
+T_F43NB6B4,A_Q42FAN44,Metronidazol,500 mg/8h,SC,2025-09-08 11:54:04,2025-09-08 11:54:04,
+T_3EGNZP8Z,A_Q42FAN44,Levofloxacino,2 g/24h,IV,2025-09-08 14:03:54,2025-09-08 14:03:54,
+T_PFYGBXSQ,A_8XDNSU0L,Heparina de bajo peso molecular,1 g/12h,IV,2025-09-10 15:16:55,2025-09-15 00:08:50,Ajuste por respuesta clínica
+T_K5Z70QV1,A_8XDNSU0L,Dexametasona,40 mg/24h,IM,2025-09-11 00:55:31,2025-09-14 00:55:31,Ajuste por respuesta clínica
+T_C3P0DD25,A_8XDNSU0L,Furosemida,10 UI según pauta,SC,2025-09-11 12:49:59,2025-09-12 12:49:59,Ajuste por respuesta clínica
+T_WLDTRUA7,A_LW3YH4FH,Dexametasona,1 g/12h,Inhalada,2025-09-13 06:29:52,2025-09-14 06:29:52,
+T_F6VJZCU4,A_8XDNSU0L,Heparina de bajo peso molecular,500 mg/8h,IV,2025-09-13 17:27:55,2025-09-15 00:08:50,
+T_Z2WKCRCM,A_8XDNSU0L,Furosemida,500 mg/8h,Oral,2025-09-14 01:11:41,2025-09-15 00:08:50,Ajuste por respuesta clínica
+T_36KWQTPR,A_LW3YH4FH,Paracetamol,500 mg/8h,SC,2025-09-16 13:37:25,2025-09-17 17:11:34,
+T_L0V76UTV,A_9NNWXVJ0,Paracetamol,1 g/12h,IV,2025-09-16 20:08:09,2025-09-17 20:08:09,
+T_3T05RTJS,A_YIXLAQJI,Furosemida,10 UI según pauta,SC,2025-09-17 00:01:14,2025-09-19 20:04:13,Ajuste por respuesta clínica
+T_MFXDVCU3,A_YIXLAQJI,Levofloxacino,1 g/12h,Inhalada,2025-09-18 22:43:39,2025-09-19 20:04:13,
+T_F3O1RAJU,A_DS9U4YIJ,Azitromicina,2 g/24h,Inhalada,2025-09-20 00:47:09,2025-09-20 00:47:09,
+T_24BAOMK1,A_EDJOF843,Metronidazol,40 mg/24h,Oral,2025-09-20 01:19:37,2025-09-20 01:19:37,Ajuste por respuesta clínica
+T_0V9ZTJX4,A_EDJOF843,Salbutamol,1 g/12h,Oral,2025-09-20 18:59:35,2025-09-20 18:59:35,Ajuste por respuesta clínica
+T_UH1CKTUP,A_CFPFIU5X,Insulina rápida,10 UI según pauta,Inhalada,2025-09-21 00:02:08,2025-09-21 00:02:08,
+T_KDXDQ9AS,A_EDJOF843,Azitromicina,2 g/24h,SC,2025-09-21 11:38:52,2025-09-22 11:38:52,Ajuste por respuesta clínica
+T_VWCK443L,A_9NNWXVJ0,Salbutamol,40 mg/24h,Inhalada,2025-09-22 08:09:06,2025-09-22 08:09:06,
+T_SLBRN22P,A_CFPFIU5X,Paracetamol,2 g/24h,Oral,2025-09-22 13:49:12,2025-09-22 13:49:12,
+T_XQXNNHLK,A_EDJOF843,Salbutamol,40 mg/24h,Inhalada,2025-09-22 17:18:58,2025-09-24 17:18:58,
+T_L6BVB21R,A_2USW84HP,Levofloxacino,40 mg/24h,Inhalada,2025-09-22 18:03:07,2025-09-22 18:03:07,
+T_M2TN0SB9,A_EDJOF843,Levofloxacino,1 g/12h,IV,2025-09-24 08:21:19,2025-09-24 17:33:47,Ajuste por respuesta clínica
+T_30YBLX7N,A_3I7FSB57,Amoxicilina/Ácido clavulánico,1 g/12h,SC,2025-09-25 06:06:58,2025-09-27 06:06:58,
+T_083H35ZD,A_2USW84HP,Heparina de bajo peso molecular,2 g/24h,IM,2025-09-25 12:00:20,2025-09-25 12:00:20,
+T_NGUZ1SDZ,A_3I7FSB57,Insulina basal,40 mg/24h,IM,2025-09-26 09:34:14,2025-09-26 09:34:14,Ajuste por respuesta clínica
+T_P65QBLW5,A_DS9U4YIJ,Insulina basal,500 mg/8h,IM,2025-09-26 10:33:47,2025-09-26 10:33:47,
+T_59OIYQ7N,A_BU39V1T3,Metronidazol,500 mg/8h,Oral,2025-09-26 12:11:29,2025-09-29 03:20:59,Ajuste por respuesta clínica
+T_44AK2TAF,A_RUJ2SKZ9,Piperacilina/Tazobactam,500 mg/8h,IV,2025-09-26 13:49:11,2025-09-26 13:49:11,
+T_SZMAHH6L,A_2USW84HP,Insulina basal,500 mg/8h,IM,2025-09-26 14:20:26,2025-09-29 14:20:26,Ajuste por respuesta clínica
+T_H2V1U2CG,A_BU39V1T3,Salbutamol,500 mg/8h,Inhalada,2025-09-27 18:03:00,2025-09-27 18:03:00,
+T_X3GRBLL6,A_2USW84HP,Heparina de bajo peso molecular,500 mg/8h,Oral,2025-09-27 20:38:32,2025-09-27 20:38:32,Ajuste por respuesta clínica
+T_FM7882H4,A_BU39V1T3,Piperacilina/Tazobactam,2 g/24h,Oral,2025-09-28 01:14:27,2025-09-29 03:20:59,
+T_M2UWSDCS,A_2USW84HP,Levofloxacino,1 g/12h,IV,2025-09-28 19:10:51,2025-09-29 19:10:51,
+T_RR902ARF,A_RUJ2SKZ9,Salbutamol,40 mg/24h,Inhalada,2025-09-29 08:34:19,2025-09-30 08:34:19,Ajuste por respuesta clínica
+T_OHODPAGG,A_V82D1383,Amoxicilina/Ácido clavulánico,10 UI según pauta,IM,2025-09-30 06:28:40,2025-10-01 06:28:40,
+T_BA52G1SD,A_3I7FSB57,Dexametasona,2 g/24h,Inhalada,2025-09-30 10:00:07,2025-10-03 05:45:29,
+T_9TXIOM4L,A_V82D1383,Paracetamol,500 mg/8h,IM,2025-10-01 02:23:46,2025-10-01 02:23:46,
+T_X4LTW4W0,A_V82D1383,Furosemida,40 mg/24h,Oral,2025-10-01 02:29:32,2025-10-01 02:29:32,
+T_ZDV2UJLZ,A_V82D1383,Insulina basal,1 g/12h,Inhalada,2025-10-02 01:04:24,2025-10-03 01:04:24,Ajuste por respuesta clínica
+T_LOYER2GT,A_3I7FSB57,Piperacilina/Tazobactam,40 mg/24h,IV,2025-10-02 10:03:59,2025-10-02 10:03:59,Ajuste por respuesta clínica
+T_M0JDVJNH,A_RUJ2SKZ9,Paracetamol,10 UI según pauta,Inhalada,2025-10-03 18:33:40,2025-10-04 18:33:40,
+T_A67GFO68,A_RUJ2SKZ9,Paracetamol,10 UI según pauta,SC,2025-10-06 08:13:07,2025-10-06 08:38:05,Ajuste por respuesta clínica

@@ -1,0 +1,1359 @@
+result_id,admission_id,fecha,tipo_examen,resultados,interpretacion
+R_MPTY9AN7,A_4PKJLXWZ,2024-01-03 01:40:22,Gasometría,pH: 7.28; pCO2: 36 mmHg; pO2: 65 mmHg,Resultados valorados en contexto clínico.
+R_1BL0ZVB8,A_4PKJLXWZ,2024-01-03 05:37:03,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_6LXHQ6IU,A_8GIVPBUD,2024-01-03 22:11:24,Bioquímica,Na: 139 mmol/L; K: 4.8 mmol/L; Cr: 0.67 mg/dL,Resultados valorados en contexto clínico.
+R_I01WKCI0,A_X4D0VYJE,2024-01-03 22:46:39,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_KTCUO9II,A_4PKJLXWZ,2024-01-04 00:09:36,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_WC1E0J2K,A_8GIVPBUD,2024-01-04 00:38:15,Gasometría,pH: 7.42; pCO2: 51 mmHg; pO2: 75 mmHg,Resultados valorados en contexto clínico.
+R_Q7CQV7EA,A_8GIVPBUD,2024-01-04 01:05:29,Procalcitonina,PCT: 0.2 ng/mL,Resultados valorados en contexto clínico.
+R_QVDT7YB4,A_8GIVPBUD,2024-01-04 01:40:09,PCR,PCR: 3.6 mg/L,Resultados valorados en contexto clínico.
+R_G3PAO96F,A_X4D0VYJE,2024-01-04 02:38:08,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_LE5L5S85,A_8GIVPBUD,2024-01-04 03:03:51,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_CY504PC2,A_X4D0VYJE,2024-01-04 04:00:50,Bioquímica,Na: 133 mmol/L; K: 4.3 mmol/L; Cr: 0.7 mg/dL,Resultados valorados en contexto clínico.
+R_AZTNTZHO,A_8GIVPBUD,2024-01-04 05:41:14,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_GRE1HBY8,A_4PKJLXWZ,2024-01-05 00:31:39,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_ASBI2BO2,A_4PKJLXWZ,2024-01-05 17:03:40,Procalcitonina,PCT: 1.83 ng/mL,Resultados valorados en contexto clínico.
+R_C5N3A18A,A_4PKJLXWZ,2024-01-05 20:42:50,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_NGLFYM1N,A_X4D0VYJE,2024-01-06 01:07:25,Hemograma,Hb: 12.0 g/dL; Leu: 12369/µL; Plq: 278259/µL,Resultados valorados en contexto clínico.
+R_SXS48EWO,A_4PKJLXWZ,2024-01-06 02:06:13,Bioquímica,Na: 139 mmol/L; K: 3.9 mmol/L; Cr: 0.95 mg/dL,Resultados valorados en contexto clínico.
+R_GLIFTFQC,A_X4D0VYJE,2024-01-06 03:37:07,Bioquímica,Na: 142 mmol/L; K: 4.0 mmol/L; Cr: 1.12 mg/dL,Resultados valorados en contexto clínico.
+R_77BS1UF5,A_X4D0VYJE,2024-01-06 19:44:56,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_OHECKD58,A_X4D0VYJE,2024-01-07 00:25:20,Bioquímica,Na: 134 mmol/L; K: 3.9 mmol/L; Cr: 1.33 mg/dL,Resultados valorados en contexto clínico.
+R_P6I81MVC,A_4PKJLXWZ,2024-01-07 02:29:09,PCR,PCR: 59.8 mg/L,Resultados valorados en contexto clínico.
+R_DM3R5BRK,A_X4D0VYJE,2024-01-07 04:43:57,PCR,PCR: 25.3 mg/L,Resultados valorados en contexto clínico.
+R_NGPA7A51,A_C2DNRNHR,2024-01-09 13:21:20,Hemograma,Hb: 15.7 g/dL; Leu: 8612/µL; Plq: 270056/µL,Resultados valorados en contexto clínico.
+R_HLMX1SIK,A_C2DNRNHR,2024-01-09 13:26:35,Gasometría,pH: 7.37; pCO2: 38 mmHg; pO2: 82 mmHg,Resultados valorados en contexto clínico.
+R_BLA60N71,A_SIZT9ZEF,2024-01-09 19:36:12,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_89OZRVFM,A_C2DNRNHR,2024-01-10 17:35:14,Hemograma,Hb: 12.6 g/dL; Leu: 12487/µL; Plq: 196513/µL,Resultados valorados en contexto clínico.
+R_H4TPMSI5,A_C2DNRNHR,2024-01-10 19:18:20,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_OUWV1X2M,A_C2DNRNHR,2024-01-11 00:38:20,Gasometría,pH: 7.35; pCO2: 38 mmHg; pO2: 56 mmHg,Resultados valorados en contexto clínico.
+R_9G31UKZ2,A_C2DNRNHR,2024-01-11 03:09:59,Bioquímica,Na: 135 mmol/L; K: 3.8 mmol/L; Cr: 0.81 mg/dL,Resultados valorados en contexto clínico.
+R_JZ1EQN03,A_P6V4HT7O,2024-01-11 08:05:15,Hemograma,Hb: 14.6 g/dL; Leu: 8589/µL; Plq: 286275/µL,Resultados valorados en contexto clínico.
+R_QNJ8AA3F,A_SIZT9ZEF,2024-01-11 08:11:51,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_L0GY8BYL,A_C2DNRNHR,2024-01-11 08:28:04,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_YJ874YNN,A_Z16L4E2F,2024-01-11 15:03:47,Hemograma,Hb: 17.3 g/dL; Leu: 12353/µL; Plq: 204626/µL,Resultados valorados en contexto clínico.
+R_WDSUNHYL,A_SIZT9ZEF,2024-01-13 06:01:20,PCR,PCR: 33.1 mg/L,Resultados valorados en contexto clínico.
+R_CEW4VFBK,A_SIZT9ZEF,2024-01-13 11:51:50,PCR,PCR: 11.8 mg/L,Resultados valorados en contexto clínico.
+R_IOMHCPSU,A_SIZT9ZEF,2024-01-14 00:36:20,PCR,PCR: 48.3 mg/L,Resultados valorados en contexto clínico.
+R_T4FGB2RN,A_OM71E29T,2024-01-14 18:30:08,Bioquímica,Na: 142 mmol/L; K: 4.6 mmol/L; Cr: 0.64 mg/dL,Resultados valorados en contexto clínico.
+R_JDTLFEO5,A_OM71E29T,2024-01-15 04:04:55,Gasometría,pH: 7.39; pCO2: 31 mmHg; pO2: 79 mmHg,Resultados valorados en contexto clínico.
+R_QCXWCAPR,A_SIZT9ZEF,2024-01-15 06:14:40,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_2TS6PS6C,A_P6V4HT7O,2024-01-15 15:30:27,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_J5KPOW9D,A_Z16L4E2F,2024-01-15 15:33:04,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_G3XQSREK,A_Z16L4E2F,2024-01-16 02:38:03,PCR,PCR: 8.7 mg/L,Resultados valorados en contexto clínico.
+R_GSBLWORP,A_OM71E29T,2024-01-16 08:26:01,Hemograma,Hb: 12.9 g/dL; Leu: 12499/µL; Plq: 286623/µL,Resultados valorados en contexto clínico.
+R_9PER20O8,A_OM71E29T,2024-01-16 15:33:35,Procalcitonina,PCT: 0.4 ng/mL,Resultados valorados en contexto clínico.
+R_RQ0WFEHQ,A_P6V4HT7O,2024-01-17 01:19:28,Procalcitonina,PCT: 1.72 ng/mL,Resultados valorados en contexto clínico.
+R_8R8AMXPN,A_P6V4HT7O,2024-01-18 18:51:32,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_RTDNVXGJ,A_P6V4HT7O,2024-01-19 02:36:25,Gasometría,pH: 7.43; pCO2: 39 mmHg; pO2: 63 mmHg,Resultados valorados en contexto clínico.
+R_96J2WOMA,A_P6V4HT7O,2024-01-19 06:00:48,Procalcitonina,PCT: 1.27 ng/mL,Resultados valorados en contexto clínico.
+R_GLDQG2NB,A_35WCUFKJ,2024-01-23 15:59:10,Procalcitonina,PCT: 0.06 ng/mL,Resultados valorados en contexto clínico.
+R_8287UIKZ,A_35WCUFKJ,2024-01-23 21:33:51,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_2B2N4X5W,A_35WCUFKJ,2024-01-25 08:22:28,PCR,PCR: 54.3 mg/L,Resultados valorados en contexto clínico.
+R_9K7WY1RE,A_35WCUFKJ,2024-01-26 02:28:23,Bioquímica,Na: 135 mmol/L; K: 4.4 mmol/L; Cr: 1.25 mg/dL,Resultados valorados en contexto clínico.
+R_ZKDD1NU3,A_35WCUFKJ,2024-01-26 06:42:15,Bioquímica,Na: 130 mmol/L; K: 4.2 mmol/L; Cr: 1.18 mg/dL,Resultados valorados en contexto clínico.
+R_ODXP9UA5,A_35WCUFKJ,2024-01-26 09:22:57,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_NJ8X3J70,A_35WCUFKJ,2024-01-27 03:25:34,PCR,PCR: 6.9 mg/L,Resultados valorados en contexto clínico.
+R_FZW20VIB,A_8C7SQNMR,2024-02-01 21:43:02,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_SJSS7F21,A_8C7SQNMR,2024-02-02 19:22:59,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_2NJOB8Z9,A_8C7SQNMR,2024-02-02 19:30:48,Procalcitonina,PCT: 0.12 ng/mL,Resultados valorados en contexto clínico.
+R_JZWGBYBJ,A_W5KYXPS2,2024-02-02 22:43:26,Gasometría,pH: 7.38; pCO2: 40 mmHg; pO2: 69 mmHg,Resultados valorados en contexto clínico.
+R_BYC8JXEU,A_ZVEBXXDU,2024-02-03 03:39:57,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_FXB0C1N0,A_ZVEBXXDU,2024-02-03 05:49:11,Hemograma,Hb: 15.3 g/dL; Leu: 9799/µL; Plq: 237990/µL,Resultados valorados en contexto clínico.
+R_XUP8Z1ZY,A_W5KYXPS2,2024-02-03 07:07:04,Gasometría,pH: 7.33; pCO2: 44 mmHg; pO2: 60 mmHg,Resultados valorados en contexto clínico.
+R_0XJDYC20,A_8C7SQNMR,2024-02-03 19:19:39,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_L784Z573,A_ZVEBXXDU,2024-02-04 09:13:14,Bioquímica,Na: 128 mmol/L; K: 5.0 mmol/L; Cr: 0.73 mg/dL,Resultados valorados en contexto clínico.
+R_ZS8M6S7D,A_344T2PWZ,2024-02-05 04:18:36,PCR,PCR: 58.6 mg/L,Resultados valorados en contexto clínico.
+R_7CI4ZHE1,A_W5KYXPS2,2024-02-05 05:41:47,Bioquímica,Na: 137 mmol/L; K: 4.0 mmol/L; Cr: 0.73 mg/dL,Resultados valorados en contexto clínico.
+R_068QCYV3,A_ZVEBXXDU,2024-02-05 13:16:29,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_WJAK6NK4,A_ZVEBXXDU,2024-02-05 15:52:12,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_276L5YLJ,A_344T2PWZ,2024-02-05 23:51:51,PCR,PCR: 2.8 mg/L,Resultados valorados en contexto clínico.
+R_11V0X36H,A_344T2PWZ,2024-02-06 07:37:52,Gasometría,pH: 7.39; pCO2: 42 mmHg; pO2: 84 mmHg,Resultados valorados en contexto clínico.
+R_K2GE9I0Q,A_344T2PWZ,2024-02-06 07:55:54,Gasometría,pH: 7.42; pCO2: 44 mmHg; pO2: 82 mmHg,Resultados valorados en contexto clínico.
+R_079KUG0J,A_344T2PWZ,2024-02-06 11:09:14,Hemograma,Hb: 15.7 g/dL; Leu: 11377/µL; Plq: 340627/µL,Resultados valorados en contexto clínico.
+R_4AMY5R8M,A_W5KYXPS2,2024-02-07 09:18:56,Procalcitonina,PCT: 0.81 ng/mL,Resultados valorados en contexto clínico.
+R_O2O266YZ,A_W5KYXPS2,2024-02-07 14:09:38,Hemograma,Hb: 11.7 g/dL; Leu: 5987/µL; Plq: 249742/µL,Resultados valorados en contexto clínico.
+R_1I84Z8KB,A_ZVEBXXDU,2024-02-07 17:13:05,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_PQDF5QZB,A_W5KYXPS2,2024-02-07 19:07:15,Hemograma,Hb: 14.8 g/dL; Leu: 6514/µL; Plq: 358985/µL,Resultados valorados en contexto clínico.
+R_UP2UEF0W,A_344T2PWZ,2024-02-08 00:12:28,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_FOYSBKUN,A_344T2PWZ,2024-02-10 00:22:44,Procalcitonina,PCT: 0.11 ng/mL,Resultados valorados en contexto clínico.
+R_8SATN3EV,A_1I1SR9DX,2024-02-10 06:31:57,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_4UJJURT2,A_GYHEPJWE,2024-02-11 02:45:13,PCR,PCR: 65.5 mg/L,Resultados valorados en contexto clínico.
+R_GFTQ87JT,A_1I1SR9DX,2024-02-11 08:26:43,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_SP3MLXN6,A_4T0V9UV7,2024-02-13 03:54:45,Bioquímica,Na: 139 mmol/L; K: 3.9 mmol/L; Cr: 0.67 mg/dL,Resultados valorados en contexto clínico.
+R_SHZUHKG0,A_4T0V9UV7,2024-02-13 19:21:52,PCR,PCR: 14.5 mg/L,Resultados valorados en contexto clínico.
+R_FXDPRPML,A_1I1SR9DX,2024-02-14 00:32:42,Procalcitonina,PCT: 0.2 ng/mL,Resultados valorados en contexto clínico.
+R_28CX5H58,A_GYHEPJWE,2024-02-14 02:13:57,PCR,PCR: 46.4 mg/L,Resultados valorados en contexto clínico.
+R_K0UC8AY4,A_GYHEPJWE,2024-02-14 02:58:05,Bioquímica,Na: 140 mmol/L; K: 4.0 mmol/L; Cr: 0.62 mg/dL,Resultados valorados en contexto clínico.
+R_94N9VLJV,A_KS62WNLH,2024-02-14 15:10:23,Gasometría,pH: 7.33; pCO2: 37 mmHg; pO2: 78 mmHg,Resultados valorados en contexto clínico.
+R_5JH1PPJ5,A_4T0V9UV7,2024-02-14 21:23:35,Gasometría,pH: 7.39; pCO2: 40 mmHg; pO2: 77 mmHg,Resultados valorados en contexto clínico.
+R_TJE36M31,A_GYHEPJWE,2024-02-15 10:32:26,Gasometría,pH: 7.41; pCO2: 36 mmHg; pO2: 70 mmHg,Resultados valorados en contexto clínico.
+R_5L4FOTU6,A_KS62WNLH,2024-02-15 11:52:48,Gasometría,pH: 7.37; pCO2: 34 mmHg; pO2: 90 mmHg,Resultados valorados en contexto clínico.
+R_L9NYTQR6,A_KS62WNLH,2024-02-15 14:07:43,Procalcitonina,PCT: 1.89 ng/mL,Resultados valorados en contexto clínico.
+R_296PBTHO,A_4T0V9UV7,2024-02-16 01:50:11,Gasometría,pH: 7.32; pCO2: 39 mmHg; pO2: 66 mmHg,Resultados valorados en contexto clínico.
+R_L47KUYRE,A_KS62WNLH,2024-02-16 06:05:35,Gasometría,pH: 7.39; pCO2: 54 mmHg; pO2: 72 mmHg,Resultados valorados en contexto clínico.
+R_ZDOJZ772,A_PR6X1OUN,2024-02-16 19:54:55,Gasometría,pH: 7.47; pCO2: 41 mmHg; pO2: 64 mmHg,Resultados valorados en contexto clínico.
+R_R5KG1C6M,A_PR6X1OUN,2024-02-17 01:15:25,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_Q6L278PT,A_PR6X1OUN,2024-02-17 03:19:22,PCR,PCR: 16.8 mg/L,Resultados valorados en contexto clínico.
+R_VEBXSF0T,A_PR6X1OUN,2024-02-17 10:28:13,Gasometría,pH: 7.36; pCO2: 46 mmHg; pO2: 76 mmHg,Resultados valorados en contexto clínico.
+R_2KEASXTR,A_9W7SNRO4,2024-02-17 15:52:02,Gasometría,pH: 7.37; pCO2: 28 mmHg; pO2: 99 mmHg,Resultados valorados en contexto clínico.
+R_MPH7F28H,A_PR6X1OUN,2024-02-18 19:12:18,Procalcitonina,PCT: 0.68 ng/mL,Resultados valorados en contexto clínico.
+R_56CJOOHO,A_PR6X1OUN,2024-02-18 22:54:15,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_J6HAMMGI,A_9W7SNRO4,2024-02-19 00:16:05,Gasometría,pH: 7.43; pCO2: 39 mmHg; pO2: 58 mmHg,Resultados valorados en contexto clínico.
+R_XY4ACD97,A_PR6X1OUN,2024-02-19 15:18:43,Gasometría,pH: 7.43; pCO2: 36 mmHg; pO2: 49 mmHg,Resultados valorados en contexto clínico.
+R_VU9YXNR0,A_KS62WNLH,2024-02-20 02:55:42,Gasometría,pH: 7.44; pCO2: 35 mmHg; pO2: 58 mmHg,Resultados valorados en contexto clínico.
+R_RBHBLH58,A_KS62WNLH,2024-02-20 04:51:03,Gasometría,pH: 7.45; pCO2: 33 mmHg; pO2: 73 mmHg,Resultados valorados en contexto clínico.
+R_7ISYAQN3,A_9W7SNRO4,2024-02-20 23:21:13,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_K33IHP6J,A_67KR6A4Y,2024-02-21 13:05:55,PCR,PCR: 43.4 mg/L,Resultados valorados en contexto clínico.
+R_8TSM7VSE,A_67KR6A4Y,2024-02-21 18:36:34,PCR,PCR: 1.9 mg/L,Resultados valorados en contexto clínico.
+R_VQKWY4YM,A_67KR6A4Y,2024-02-21 23:18:26,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_7DQOD5JD,A_67KR6A4Y,2024-02-22 13:06:53,Gasometría,pH: 7.44; pCO2: 41 mmHg; pO2: 88 mmHg,Resultados valorados en contexto clínico.
+R_B1U65YEM,A_9W7SNRO4,2024-02-23 20:41:21,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_ULLPJRP0,A_YY5CKFAJ,2024-02-23 23:37:45,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_76QAURCG,A_67KR6A4Y,2024-02-24 00:18:14,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_VGQ7URTC,A_9W7SNRO4,2024-02-24 05:58:39,PCR,PCR: 40.9 mg/L,Resultados valorados en contexto clínico.
+R_1C8B5WG4,A_M02OBXYS,2024-02-25 20:28:19,Hemograma,Hb: 15.5 g/dL; Leu: 6404/µL; Plq: 128276/µL,Resultados valorados en contexto clínico.
+R_X8HFJLS6,A_YY5CKFAJ,2024-02-26 12:19:11,PCR,PCR: 53.0 mg/L,Resultados valorados en contexto clínico.
+R_MJ3XASKL,A_73N4H68H,2024-02-26 13:23:48,Bioquímica,Na: 136 mmol/L; K: 4.7 mmol/L; Cr: 1.25 mg/dL,Resultados valorados en contexto clínico.
+R_SW9142FD,A_YY5CKFAJ,2024-02-26 14:20:35,Hemograma,Hb: 11.5 g/dL; Leu: 9541/µL; Plq: 268750/µL,Resultados valorados en contexto clínico.
+R_VB32Y7N5,A_M02OBXYS,2024-02-26 19:39:16,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_OTENQNB1,A_YY5CKFAJ,2024-02-27 05:26:25,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_6071LAIQ,A_73N4H68H,2024-02-27 12:57:13,PCR,PCR: 10.9 mg/L,Resultados valorados en contexto clínico.
+R_YH7B54CI,A_73N4H68H,2024-02-27 14:31:55,Procalcitonina,PCT: 0.14 ng/mL,Resultados valorados en contexto clínico.
+R_BPQ8HM6W,A_73N4H68H,2024-02-27 19:29:13,Bioquímica,Na: 138 mmol/L; K: 3.7 mmol/L; Cr: 1.13 mg/dL,Resultados valorados en contexto clínico.
+R_9Y3OGAEO,A_SMM178UI,2024-02-27 21:08:14,Hemograma,Hb: 12.4 g/dL; Leu: 3919/µL; Plq: 199118/µL,Resultados valorados en contexto clínico.
+R_OFKKNVTG,A_92FLS0V7,2024-02-28 02:17:26,Procalcitonina,PCT: 1.03 ng/mL,Resultados valorados en contexto clínico.
+R_W5U9VG51,A_YY5CKFAJ,2024-02-28 12:20:29,Procalcitonina,PCT: 0.58 ng/mL,Resultados valorados en contexto clínico.
+R_893BBU1Y,A_SMM178UI,2024-02-28 18:13:01,PCR,PCR: 10.0 mg/L,Resultados valorados en contexto clínico.
+R_ORPEIR4E,A_SMM178UI,2024-02-29 01:41:06,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_RU9FTR13,A_92FLS0V7,2024-02-29 15:46:32,Bioquímica,Na: 135 mmol/L; K: 4.1 mmol/L; Cr: 1.02 mg/dL,Resultados valorados en contexto clínico.
+R_X8ZZU741,A_M02OBXYS,2024-02-29 19:04:49,Hemograma,Hb: 15.0 g/dL; Leu: 7667/µL; Plq: 244264/µL,Resultados valorados en contexto clínico.
+R_DP9EH07K,A_M02OBXYS,2024-03-01 17:59:11,Procalcitonina,PCT: 0.41 ng/mL,Resultados valorados en contexto clínico.
+R_NOKH0479,A_92FLS0V7,2024-03-02 09:03:09,Hemograma,Hb: 10.7 g/dL; Leu: 9326/µL; Plq: 204925/µL,Resultados valorados en contexto clínico.
+R_C1MNCSN2,A_92FLS0V7,2024-03-03 21:43:30,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_GVBGE06K,A_92FLS0V7,2024-03-03 22:08:01,Hemograma,Hb: 8.1 g/dL; Leu: 13034/µL; Plq: 187135/µL,Resultados valorados en contexto clínico.
+R_YGB4EPWO,A_92FLS0V7,2024-03-03 23:05:23,PCR,PCR: 90.3 mg/L,Resultados valorados en contexto clínico.
+R_UAV4JVIT,A_6SK5PICN,2024-03-09 17:38:10,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_Q75WU6CX,A_FOIPQE80,2024-03-10 03:15:08,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_P1O1QRU5,A_6SK5PICN,2024-03-10 11:47:34,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_28ULJ777,A_6SK5PICN,2024-03-11 04:02:17,Bioquímica,Na: 141 mmol/L; K: 4.3 mmol/L; Cr: 0.82 mg/dL,Resultados valorados en contexto clínico.
+R_4Z7Q5WZS,A_6SK5PICN,2024-03-11 06:56:07,Gasometría,pH: 7.39; pCO2: 35 mmHg; pO2: 79 mmHg,Resultados valorados en contexto clínico.
+R_QLS8O4XM,A_6SK5PICN,2024-03-12 03:02:33,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_J69V9ZX1,A_FOIPQE80,2024-03-12 14:57:36,Procalcitonina,PCT: 0.74 ng/mL,Resultados valorados en contexto clínico.
+R_QN8HY0D9,A_6SK5PICN,2024-03-12 16:25:04,Procalcitonina,PCT: 0.58 ng/mL,Resultados valorados en contexto clínico.
+R_957ICWLJ,A_FOIPQE80,2024-03-12 19:39:33,Hemograma,Hb: 15.0 g/dL; Leu: 7199/µL; Plq: 274144/µL,Resultados valorados en contexto clínico.
+R_CXFUC1Y3,A_FOIPQE80,2024-03-12 22:24:16,Hemograma,Hb: 14.7 g/dL; Leu: 8427/µL; Plq: 239960/µL,Resultados valorados en contexto clínico.
+R_2XPPSFQB,A_AJ5ALNEK,2024-03-13 10:06:37,Gasometría,pH: 7.31; pCO2: 40 mmHg; pO2: 89 mmHg,Resultados valorados en contexto clínico.
+R_GURQ78K8,A_6SK5PICN,2024-03-13 11:09:53,Bioquímica,Na: 138 mmol/L; K: 3.7 mmol/L; Cr: 1.22 mg/dL,Resultados valorados en contexto clínico.
+R_BJFQCH16,A_6SK5PICN,2024-03-13 21:18:13,Hemograma,Hb: 12.9 g/dL; Leu: 9129/µL; Plq: 257884/µL,Resultados valorados en contexto clínico.
+R_E5HBZ1UK,A_FOIPQE80,2024-03-14 11:07:11,Procalcitonina,PCT: 1.24 ng/mL,Resultados valorados en contexto clínico.
+R_LG8AL2BX,A_AJ5ALNEK,2024-03-14 16:09:41,Procalcitonina,PCT: 0.11 ng/mL,Resultados valorados en contexto clínico.
+R_QHH63L4O,A_ME77LIIM,2024-03-15 23:54:06,Gasometría,pH: 7.42; pCO2: 44 mmHg; pO2: 51 mmHg,Resultados valorados en contexto clínico.
+R_TFGBOJDC,A_ZES6CGLC,2024-03-16 03:14:44,Hemograma,Hb: 13.2 g/dL; Leu: 11978/µL; Plq: 278063/µL,Resultados valorados en contexto clínico.
+R_N3AU3J3P,A_ME77LIIM,2024-03-16 10:48:17,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_0GSQQ8RJ,A_ZES6CGLC,2024-03-17 01:32:30,PCR,PCR: 20.5 mg/L,Resultados valorados en contexto clínico.
+R_CTXQ7O62,A_AJ5ALNEK,2024-03-17 13:29:21,PCR,PCR: 11.2 mg/L,Resultados valorados en contexto clínico.
+R_SITQ279E,A_ME77LIIM,2024-03-17 16:29:49,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_J6REWRLC,A_AJ5ALNEK,2024-03-18 05:36:16,Procalcitonina,PCT: 0.81 ng/mL,Resultados valorados en contexto clínico.
+R_TEXMBPO6,A_AJ5ALNEK,2024-03-19 11:04:32,Gasometría,pH: 7.36; pCO2: 43 mmHg; pO2: 86 mmHg,Resultados valorados en contexto clínico.
+R_SI5X5L03,A_ZES6CGLC,2024-03-20 19:40:00,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_7D6HJUU3,A_54MWRAO5,2024-03-20 21:35:52,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_O26KDR9D,A_ZES6CGLC,2024-03-21 00:26:51,PCR,PCR: 4.4 mg/L,Resultados valorados en contexto clínico.
+R_8CSFNYOS,A_54MWRAO5,2024-03-21 14:10:34,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_C4DLSDN6,A_54MWRAO5,2024-03-22 12:17:26,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_HGB879CU,A_54MWRAO5,2024-03-23 16:23:01,PCR,PCR: 15.0 mg/L,Resultados valorados en contexto clínico.
+R_3ODNFPME,A_54MWRAO5,2024-03-25 02:30:50,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_22R4T8X7,A_54MWRAO5,2024-03-25 09:31:11,Procalcitonina,PCT: 1.51 ng/mL,Resultados valorados en contexto clínico.
+R_VUFT5HWR,A_PFTPNM9I,2024-03-25 11:21:39,Hemograma,Hb: 14.5 g/dL; Leu: 7102/µL; Plq: 278538/µL,Resultados valorados en contexto clínico.
+R_AA762ETY,A_PFTPNM9I,2024-03-25 12:10:07,Procalcitonina,PCT: 0.06 ng/mL,Resultados valorados en contexto clínico.
+R_1MQFK87K,A_54MWRAO5,2024-03-25 15:30:29,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_3I34OERJ,A_PFTPNM9I,2024-03-25 15:43:58,Bioquímica,Na: 141 mmol/L; K: 3.6 mmol/L; Cr: 1.61 mg/dL,Resultados valorados en contexto clínico.
+R_OWY7Y82O,A_54MWRAO5,2024-03-25 19:01:22,Hemograma,Hb: 12.0 g/dL; Leu: 10973/µL; Plq: 248482/µL,Resultados valorados en contexto clínico.
+R_1Z6CFSD4,A_PFTPNM9I,2024-03-25 21:55:58,Procalcitonina,PCT: 0.03 ng/mL,Resultados valorados en contexto clínico.
+R_GBW6E2RP,A_PFTPNM9I,2024-03-25 23:19:29,Bioquímica,Na: 142 mmol/L; K: 3.8 mmol/L; Cr: 0.8 mg/dL,Resultados valorados en contexto clínico.
+R_SHJ5J467,A_PFTPNM9I,2024-03-25 23:43:10,PCR,PCR: 25.1 mg/L,Resultados valorados en contexto clínico.
+R_25NPVWS4,A_PFTPNM9I,2024-03-26 01:36:20,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_TCIVQB4P,A_PFTPNM9I,2024-03-26 07:14:35,PCR,PCR: 49.8 mg/L,Resultados valorados en contexto clínico.
+R_R5S9WIEU,A_5MYHX5H0,2024-03-28 18:30:12,Bioquímica,Na: 137 mmol/L; K: 3.3 mmol/L; Cr: 0.91 mg/dL,Resultados valorados en contexto clínico.
+R_CL12NJ9P,A_5MYHX5H0,2024-04-01 12:54:20,PCR,PCR: 53.2 mg/L,Resultados valorados en contexto clínico.
+R_3M9OGCFP,A_DMICDUBZ,2024-04-01 15:58:08,Gasometría,pH: 7.41; pCO2: 35 mmHg; pO2: 84 mmHg,Resultados valorados en contexto clínico.
+R_J31DI22J,A_DMICDUBZ,2024-04-02 02:54:25,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_PZARWSA9,A_DMICDUBZ,2024-04-02 08:24:17,Bioquímica,Na: 138 mmol/L; K: 4.5 mmol/L; Cr: 0.78 mg/dL,Resultados valorados en contexto clínico.
+R_8MKRAXA3,A_5MYHX5H0,2024-04-02 10:20:23,Gasometría,pH: 7.33; pCO2: 51 mmHg; pO2: 52 mmHg,Resultados valorados en contexto clínico.
+R_JGAWD5VQ,A_VG9O30JL,2024-04-02 19:39:47,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_JXP1O07J,A_VG9O30JL,2024-04-02 23:23:38,Hemograma,Hb: 15.0 g/dL; Leu: 15460/µL; Plq: 241562/µL,Resultados valorados en contexto clínico.
+R_OFZ45FNG,A_AMDBYWOC,2024-04-03 14:38:26,Hemograma,Hb: 14.2 g/dL; Leu: 10102/µL; Plq: 192955/µL,Resultados valorados en contexto clínico.
+R_RXD0046M,A_VG9O30JL,2024-04-03 22:12:19,Procalcitonina,PCT: 0.17 ng/mL,Resultados valorados en contexto clínico.
+R_T65E45W0,A_AMDBYWOC,2024-04-04 02:44:25,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_Z6CD2BTB,A_05ZU0CST,2024-04-04 05:55:37,PCR,PCR: 32.2 mg/L,Resultados valorados en contexto clínico.
+R_LC5UGNIP,A_AMDBYWOC,2024-04-04 09:37:56,Procalcitonina,PCT: 0.83 ng/mL,Resultados valorados en contexto clínico.
+R_I76JKKDE,A_VG9O30JL,2024-04-04 12:46:08,Bioquímica,Na: 140 mmol/L; K: 3.6 mmol/L; Cr: 1.36 mg/dL,Resultados valorados en contexto clínico.
+R_1RJDVE0P,A_AMDBYWOC,2024-04-04 12:46:33,Bioquímica,Na: 138 mmol/L; K: 4.3 mmol/L; Cr: 1.55 mg/dL,Resultados valorados en contexto clínico.
+R_KZY008HM,A_AMDBYWOC,2024-04-04 22:45:21,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_1F0XWQAA,A_AMDBYWOC,2024-04-05 08:35:07,Gasometría,pH: 7.47; pCO2: 49 mmHg; pO2: 82 mmHg,Resultados valorados en contexto clínico.
+R_WS3CN6KA,A_YGR7GHJ7,2024-04-05 14:11:11,Hemograma,Hb: 12.2 g/dL; Leu: 4331/µL; Plq: 160085/µL,Resultados valorados en contexto clínico.
+R_1TEN4JV9,A_05ZU0CST,2024-04-05 18:00:46,Gasometría,pH: 7.42; pCO2: 42 mmHg; pO2: 89 mmHg,Resultados valorados en contexto clínico.
+R_042AMOVP,A_05ZU0CST,2024-04-05 18:57:36,PCR,PCR: 5.5 mg/L,Resultados valorados en contexto clínico.
+R_XGZLYFPM,A_YGR7GHJ7,2024-04-05 20:49:38,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_OUQ14WKF,A_05ZU0CST,2024-04-06 01:36:45,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_XNCYV6B2,A_YGR7GHJ7,2024-04-06 05:58:21,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_97QVQ2GV,A_AMDBYWOC,2024-04-06 14:33:36,PCR,PCR: 32.3 mg/L,Resultados valorados en contexto clínico.
+R_7R9A2W3P,A_AMDBYWOC,2024-04-07 09:00:32,PCR,PCR: 51.6 mg/L,Resultados valorados en contexto clínico.
+R_MUWXW1OH,A_05ZU0CST,2024-04-07 15:22:48,Gasometría,pH: 7.45; pCO2: 34 mmHg; pO2: 67 mmHg,Resultados valorados en contexto clínico.
+R_MP038RQS,A_05ZU0CST,2024-04-08 07:27:34,Gasometría,pH: 7.37; pCO2: 34 mmHg; pO2: 78 mmHg,Resultados valorados en contexto clínico.
+R_1IA02FNG,A_DKI7EUXQ,2024-04-08 13:53:11,Bioquímica,Na: 141 mmol/L; K: 4.3 mmol/L; Cr: 0.74 mg/dL,Resultados valorados en contexto clínico.
+R_Q13Q5P8J,A_DKI7EUXQ,2024-04-09 18:22:47,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_QCZPM0V7,A_2FIOAG1I,2024-04-10 15:41:13,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_X61Z3URF,A_YGR7GHJ7,2024-04-11 01:04:36,Gasometría,pH: 7.31; pCO2: 35 mmHg; pO2: 73 mmHg,Resultados valorados en contexto clínico.
+R_3MGJNP23,A_5XA6M6KI,2024-04-11 06:14:03,PCR,PCR: 22.5 mg/L,Resultados valorados en contexto clínico.
+R_WWSI9S60,A_5XA6M6KI,2024-04-11 20:09:50,Hemograma,Hb: 11.1 g/dL; Leu: 10645/µL; Plq: 201137/µL,Resultados valorados en contexto clínico.
+R_1A988TQL,A_DKI7EUXQ,2024-04-12 00:20:00,PCR,PCR: 28.2 mg/L,Resultados valorados en contexto clínico.
+R_RR054F77,A_05KNFOUZ,2024-04-12 16:12:03,Gasometría,pH: 7.4; pCO2: 44 mmHg; pO2: 72 mmHg,Resultados valorados en contexto clínico.
+R_M3S2A99Y,A_DKI7EUXQ,2024-04-12 17:50:16,Gasometría,pH: 7.45; pCO2: 36 mmHg; pO2: 93 mmHg,Resultados valorados en contexto clínico.
+R_739MOCYL,A_DKI7EUXQ,2024-04-13 06:48:56,Gasometría,pH: 7.44; pCO2: 33 mmHg; pO2: 95 mmHg,Resultados valorados en contexto clínico.
+R_IX7FGOSQ,A_IOWQ9I7D,2024-04-13 11:59:52,Procalcitonina,PCT: 2.07 ng/mL,Resultados valorados en contexto clínico.
+R_ELLRV571,A_05KNFOUZ,2024-04-13 12:34:24,Procalcitonina,PCT: 0.47 ng/mL,Resultados valorados en contexto clínico.
+R_6PB77PYD,A_IOWQ9I7D,2024-04-13 17:15:17,Procalcitonina,PCT: 1.18 ng/mL,Resultados valorados en contexto clínico.
+R_CK2LEGVE,A_IOWQ9I7D,2024-04-13 18:12:09,Procalcitonina,PCT: 1.76 ng/mL,Resultados valorados en contexto clínico.
+R_2B6KA49M,A_2FIOAG1I,2024-04-13 19:31:23,Procalcitonina,PCT: 1.8 ng/mL,Resultados valorados en contexto clínico.
+R_DMYXL2SI,A_5XA6M6KI,2024-04-13 20:42:35,Gasometría,pH: 7.37; pCO2: 47 mmHg; pO2: 80 mmHg,Resultados valorados en contexto clínico.
+R_TST4ELU4,A_678UB5WM,2024-04-13 20:54:53,Procalcitonina,PCT: 1.7 ng/mL,Resultados valorados en contexto clínico.
+R_OTUMUF0Y,A_ZQI900EO,2024-04-13 21:34:39,Procalcitonina,PCT: 0.89 ng/mL,Resultados valorados en contexto clínico.
+R_SLFQABQB,A_ZQI900EO,2024-04-14 02:30:23,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_0GZCVKBC,A_IOWQ9I7D,2024-04-14 05:08:36,PCR,PCR: 41.0 mg/L,Resultados valorados en contexto clínico.
+R_T5GH3K6V,A_2FIOAG1I,2024-04-14 06:09:27,PCR,PCR: 30.6 mg/L,Resultados valorados en contexto clínico.
+R_O5QWI1UB,A_YGR7GHJ7,2024-04-14 09:47:56,Gasometría,pH: 7.28; pCO2: 28 mmHg; pO2: 69 mmHg,Resultados valorados en contexto clínico.
+R_2X0ICM3V,A_ZQI900EO,2024-04-14 20:07:03,Procalcitonina,PCT: 1.21 ng/mL,Resultados valorados en contexto clínico.
+R_CFUWYVVT,A_IOWQ9I7D,2024-04-14 20:14:28,Hemograma,Hb: 15.0 g/dL; Leu: 9568/µL; Plq: 203812/µL,Resultados valorados en contexto clínico.
+R_CP6KVV6P,A_678UB5WM,2024-04-14 20:51:54,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_PCR2PVN9,A_IOWQ9I7D,2024-04-15 07:29:15,Bioquímica,Na: 144 mmol/L; K: 4.3 mmol/L; Cr: 0.59 mg/dL,Resultados valorados en contexto clínico.
+R_LHWGS38J,A_IOWQ9I7D,2024-04-15 11:58:30,PCR,PCR: 40.9 mg/L,Resultados valorados en contexto clínico.
+R_VLUJDL4P,A_QNJRTWNB,2024-04-16 08:38:56,Gasometría,pH: 7.42; pCO2: 32 mmHg; pO2: 64 mmHg,Resultados valorados en contexto clínico.
+R_85UIBLIZ,A_678UB5WM,2024-04-16 10:53:28,Procalcitonina,PCT: 2.05 ng/mL,Resultados valorados en contexto clínico.
+R_AGEIESVV,A_678UB5WM,2024-04-17 02:05:02,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_ILBATLRE,A_2LIFID9K,2024-04-17 17:14:49,Procalcitonina,PCT: 1.47 ng/mL,Resultados valorados en contexto clínico.
+R_QF4OWKVS,A_2LIFID9K,2024-04-17 19:31:27,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_DLBOUQPA,A_2LIFID9K,2024-04-18 03:00:31,Gasometría,pH: 7.5; pCO2: 29 mmHg; pO2: 56 mmHg,Resultados valorados en contexto clínico.
+R_TCMWERVM,A_SP8GSG6F,2024-04-18 03:41:27,Bioquímica,Na: 144 mmol/L; K: 4.5 mmol/L; Cr: 1.56 mg/dL,Resultados valorados en contexto clínico.
+R_I1U3J7A4,A_2LIFID9K,2024-04-18 05:39:45,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_UY2F5R3A,A_678UB5WM,2024-04-18 06:19:47,Hemograma,Hb: 14.5 g/dL; Leu: 5644/µL; Plq: 225167/µL,Resultados valorados en contexto clínico.
+R_OH3CJJR3,A_2LIFID9K,2024-04-18 14:16:41,Hemograma,Hb: 7.1 g/dL; Leu: 10565/µL; Plq: 247563/µL,Resultados valorados en contexto clínico.
+R_CVILIUME,A_2LIFID9K,2024-04-18 15:26:45,Procalcitonina,PCT: 0.5 ng/mL,Resultados valorados en contexto clínico.
+R_JSMEAKL4,A_05KNFOUZ,2024-04-18 15:56:50,Hemograma,Hb: 15.4 g/dL; Leu: 9809/µL; Plq: 236688/µL,Resultados valorados en contexto clínico.
+R_4PA0ZWM4,A_678UB5WM,2024-04-18 15:58:37,Procalcitonina,PCT: 0.76 ng/mL,Resultados valorados en contexto clínico.
+R_VOZVWR6Q,A_ZQI900EO,2024-04-18 16:10:51,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_3CG0NQGA,A_2LIFID9K,2024-04-18 16:17:27,Hemograma,Hb: 12.8 g/dL; Leu: 12486/µL; Plq: 236992/µL,Resultados valorados en contexto clínico.
+R_7M8IL2OT,A_678UB5WM,2024-04-19 02:33:00,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_C69SYGLV,A_ZQI900EO,2024-04-19 07:39:06,PCR,PCR: 37.8 mg/L,Resultados valorados en contexto clínico.
+R_0J6RXWCB,A_ZQI900EO,2024-04-19 09:30:53,Procalcitonina,PCT: 1.27 ng/mL,Resultados valorados en contexto clínico.
+R_Y2HN9XXL,A_QNJRTWNB,2024-04-19 20:46:46,Procalcitonina,PCT: 1.62 ng/mL,Resultados valorados en contexto clínico.
+R_O6282RSY,A_YG7VMSCK,2024-04-19 21:36:53,Hemograma,Hb: 13.6 g/dL; Leu: 17937/µL; Plq: 189087/µL,Resultados valorados en contexto clínico.
+R_AS0S6Y8Q,A_05KNFOUZ,2024-04-19 22:20:36,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_9SXMJCUZ,A_YG7VMSCK,2024-04-19 23:29:21,Hemograma,Hb: 16.2 g/dL; Leu: 7587/µL; Plq: 230103/µL,Resultados valorados en contexto clínico.
+R_ZJVUWUNR,A_YG7VMSCK,2024-04-20 15:35:16,Hemograma,Hb: 16.2 g/dL; Leu: 7038/µL; Plq: 250978/µL,Resultados valorados en contexto clínico.
+R_BEIKHVOL,A_ZQI900EO,2024-04-20 21:29:44,Gasometría,pH: 7.35; pCO2: 38 mmHg; pO2: 62 mmHg,Resultados valorados en contexto clínico.
+R_WEE2HFLJ,A_YG7VMSCK,2024-04-20 21:40:19,PCR,PCR: 18.9 mg/L,Resultados valorados en contexto clínico.
+R_FDU9ILD3,A_678UB5WM,2024-04-21 04:29:43,Bioquímica,Na: 137 mmol/L; K: 4.3 mmol/L; Cr: 0.79 mg/dL,Resultados valorados en contexto clínico.
+R_BV8DR1QF,A_SP8GSG6F,2024-04-21 04:38:10,Gasometría,pH: 7.49; pCO2: 36 mmHg; pO2: 78 mmHg,Resultados valorados en contexto clínico.
+R_DB194O4B,A_QNJRTWNB,2024-04-21 05:03:49,PCR,PCR: 43.3 mg/L,Resultados valorados en contexto clínico.
+R_A2GSF4HN,A_YG7VMSCK,2024-04-21 06:42:37,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_TMP3BQYC,A_ZQI900EO,2024-04-21 10:38:49,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_AY4P4IT2,A_05KNFOUZ,2024-04-22 00:00:50,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_RE3ZWGXL,A_YG7VMSCK,2024-04-22 01:22:46,Hemograma,Hb: 10.6 g/dL; Leu: 8748/µL; Plq: 270917/µL,Resultados valorados en contexto clínico.
+R_TCY78XGL,A_AZLDV62R,2024-04-22 06:41:09,Procalcitonina,PCT: 0.5 ng/mL,Resultados valorados en contexto clínico.
+R_J6LQK1PX,A_AZLDV62R,2024-04-22 09:08:58,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_FN9LKUBP,A_SP8GSG6F,2024-04-22 13:06:30,Bioquímica,Na: 141 mmol/L; K: 4.6 mmol/L; Cr: 1.02 mg/dL,Resultados valorados en contexto clínico.
+R_G62HBE2G,A_AZLDV62R,2024-04-22 16:18:41,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_I229ZBS8,A_SP8GSG6F,2024-04-23 10:14:55,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_MR78RWSS,A_SP8GSG6F,2024-04-23 13:26:31,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_X83PQQ3O,A_SP8GSG6F,2024-04-24 09:23:20,Gasometría,pH: 7.53; pCO2: 43 mmHg; pO2: 81 mmHg,Resultados valorados en contexto clínico.
+R_XJCU865Q,A_SP8GSG6F,2024-04-25 06:03:38,PCR,PCR: 4.0 mg/L,Resultados valorados en contexto clínico.
+R_3T6I5KNA,A_SP8GSG6F,2024-04-25 23:22:02,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_JCZAX6LU,A_AZLDV62R,2024-04-26 05:04:49,Bioquímica,Na: 138 mmol/L; K: 2.9 mmol/L; Cr: 1.21 mg/dL,Resultados valorados en contexto clínico.
+R_DY99XICR,A_4LFYG5JU,2024-04-28 08:21:03,Procalcitonina,PCT: 0.06 ng/mL,Resultados valorados en contexto clínico.
+R_PSEXPZ5K,A_4LFYG5JU,2024-04-29 00:41:06,Hemograma,Hb: 14.6 g/dL; Leu: 12211/µL; Plq: 213153/µL,Resultados valorados en contexto clínico.
+R_CIM7EB9I,A_RA8B7MLU,2024-05-01 00:11:35,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_RWRVEMNE,A_RA8B7MLU,2024-05-01 14:07:42,PCR,PCR: 9.4 mg/L,Resultados valorados en contexto clínico.
+R_BCFWD5IK,A_I1F8IGKJ,2024-05-02 01:48:01,PCR,PCR: 45.5 mg/L,Resultados valorados en contexto clínico.
+R_IFG1ZK63,A_I1F8IGKJ,2024-05-02 02:33:01,PCR,PCR: 47.8 mg/L,Resultados valorados en contexto clínico.
+R_EENC50DK,A_I1F8IGKJ,2024-05-02 10:42:11,Hemograma,Hb: 16.0 g/dL; Leu: 5446/µL; Plq: 319237/µL,Resultados valorados en contexto clínico.
+R_GT8IW9HR,A_I1F8IGKJ,2024-05-02 13:50:11,Hemograma,Hb: 11.0 g/dL; Leu: 6504/µL; Plq: 224780/µL,Resultados valorados en contexto clínico.
+R_BVNUYYTG,A_I1F8IGKJ,2024-05-03 07:30:55,PCR,PCR: 61.0 mg/L,Resultados valorados en contexto clínico.
+R_LXUK40D1,A_I1F8IGKJ,2024-05-04 00:59:57,Procalcitonina,PCT: 1.66 ng/mL,Resultados valorados en contexto clínico.
+R_S0EM0ESS,A_4LFYG5JU,2024-05-04 09:21:26,Gasometría,pH: 7.44; pCO2: 37 mmHg; pO2: 60 mmHg,Resultados valorados en contexto clínico.
+R_JB4FKHAM,A_I1F8IGKJ,2024-05-04 13:14:28,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_C0W0P17T,A_I1F8IGKJ,2024-05-04 16:47:00,Gasometría,pH: 7.36; pCO2: 35 mmHg; pO2: 67 mmHg,Resultados valorados en contexto clínico.
+R_0GVEISNR,A_RA8B7MLU,2024-05-04 20:07:26,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_OFA5B6K3,A_4LFYG5JU,2024-05-05 19:38:33,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_JJX4XION,A_4LFYG5JU,2024-05-05 21:14:43,Procalcitonina,PCT: 0.16 ng/mL,Resultados valorados en contexto clínico.
+R_CYHVO6JD,A_RA8B7MLU,2024-05-06 08:18:23,Gasometría,pH: 7.3; pCO2: 44 mmHg; pO2: 72 mmHg,Resultados valorados en contexto clínico.
+R_78FGARNQ,A_RG1JBXZ8,2024-05-08 22:05:47,Procalcitonina,PCT: 1.69 ng/mL,Resultados valorados en contexto clínico.
+R_UH07VVT0,A_RG1JBXZ8,2024-05-11 08:34:16,Hemograma,Hb: 10.3 g/dL; Leu: 8243/µL; Plq: 265308/µL,Resultados valorados en contexto clínico.
+R_M8K6OIE1,A_XKHY02Y8,2024-05-11 15:36:08,PCR,PCR: 11.2 mg/L,Resultados valorados en contexto clínico.
+R_WAL3SKAC,A_XKHY02Y8,2024-05-11 18:53:06,Bioquímica,Na: 134 mmol/L; K: 3.9 mmol/L; Cr: 1.28 mg/dL,Resultados valorados en contexto clínico.
+R_QMVLT2UQ,A_XKHY02Y8,2024-05-11 22:00:37,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_YAYCLHE4,A_RV0PGRE6,2024-05-12 00:27:45,Gasometría,pH: 7.44; pCO2: 40 mmHg; pO2: 70 mmHg,Resultados valorados en contexto clínico.
+R_ZHJHYOS7,A_RG1JBXZ8,2024-05-12 07:11:03,Procalcitonina,PCT: 0.83 ng/mL,Resultados valorados en contexto clínico.
+R_77A4C1XH,A_H6KI56IJ,2024-05-12 12:14:05,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_RHUGMZ3Z,A_RV0PGRE6,2024-05-12 20:33:28,PCR,PCR: 25.3 mg/L,Resultados valorados en contexto clínico.
+R_62XI2DVZ,A_H6KI56IJ,2024-05-12 22:43:29,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_5QOCFZO2,A_H6KI56IJ,2024-05-13 09:20:09,Bioquímica,Na: 135 mmol/L; K: 4.3 mmol/L; Cr: 1.05 mg/dL,Resultados valorados en contexto clínico.
+R_2DP933F8,A_RV0PGRE6,2024-05-14 23:52:05,Bioquímica,Na: 135 mmol/L; K: 4.0 mmol/L; Cr: 1.17 mg/dL,Resultados valorados en contexto clínico.
+R_DIE31433,A_RG1JBXZ8,2024-05-15 11:08:40,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_OKMQ4P5L,A_83I8QWTT,2024-05-15 17:54:03,Hemograma,Hb: 13.4 g/dL; Leu: 8450/µL; Plq: 228864/µL,Resultados valorados en contexto clínico.
+R_56WB5A0P,A_83I8QWTT,2024-05-15 19:06:00,Hemograma,Hb: 13.0 g/dL; Leu: 11526/µL; Plq: 293327/µL,Resultados valorados en contexto clínico.
+R_TZ5BIQQC,A_H6KI56IJ,2024-05-16 01:36:12,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_48X0M65Q,A_83I8QWTT,2024-05-16 11:28:46,Hemograma,Hb: 11.4 g/dL; Leu: 6931/µL; Plq: 284030/µL,Resultados valorados en contexto clínico.
+R_0JR0JNEI,A_H6KI56IJ,2024-05-16 11:40:11,Procalcitonina,PCT: 0.56 ng/mL,Resultados valorados en contexto clínico.
+R_NJAXNMYV,A_RG1JBXZ8,2024-05-16 23:22:07,PCR,PCR: 7.9 mg/L,Resultados valorados en contexto clínico.
+R_12Z1F1RR,A_RV0PGRE6,2024-05-17 15:19:05,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_S5077X4K,A_1JNZDVFL,2024-05-17 17:45:22,PCR,PCR: 38.0 mg/L,Resultados valorados en contexto clínico.
+R_0N15ARY2,A_H6KI56IJ,2024-05-17 20:26:26,Gasometría,pH: 7.45; pCO2: 35 mmHg; pO2: 69 mmHg,Resultados valorados en contexto clínico.
+R_J4BDNSTC,A_MAH0RP20,2024-05-18 00:03:01,Bioquímica,Na: 142 mmol/L; K: 4.1 mmol/L; Cr: 2.1 mg/dL,Resultados valorados en contexto clínico.
+R_4XMN2WC1,A_MAH0RP20,2024-05-18 05:28:21,Gasometría,pH: 7.45; pCO2: 39 mmHg; pO2: 68 mmHg,Resultados valorados en contexto clínico.
+R_XAZAU5W0,A_1JNZDVFL,2024-05-18 09:52:52,Bioquímica,Na: 141 mmol/L; K: 4.4 mmol/L; Cr: 1.07 mg/dL,Resultados valorados en contexto clínico.
+R_U2FYV9FN,A_MAH0RP20,2024-05-18 14:44:34,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_X43TFFKZ,A_MAH0RP20,2024-05-20 06:59:14,Hemograma,Hb: 12.8 g/dL; Leu: 4712/µL; Plq: 245888/µL,Resultados valorados en contexto clínico.
+R_ZGMSC5RF,A_1JNZDVFL,2024-05-20 10:04:58,Procalcitonina,PCT: 0.38 ng/mL,Resultados valorados en contexto clínico.
+R_FXRJ8BPN,A_MAH0RP20,2024-05-21 02:46:43,Procalcitonina,PCT: 0.01 ng/mL,Resultados valorados en contexto clínico.
+R_XPC8YRZ2,A_S016CX9H,2024-05-21 03:15:04,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_EOJ02715,A_S016CX9H,2024-05-21 23:47:46,Hemograma,Hb: 13.2 g/dL; Leu: 15067/µL; Plq: 262979/µL,Resultados valorados en contexto clínico.
+R_EB7C9RJ5,A_LAH0AORC,2024-05-22 19:56:26,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_4T0K36CZ,A_S016CX9H,2024-05-23 08:06:36,Hemograma,Hb: 15.6 g/dL; Leu: 5045/µL; Plq: 300470/µL,Resultados valorados en contexto clínico.
+R_4XW291QR,A_S016CX9H,2024-05-23 12:03:44,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_N0F08MF9,A_LAH0AORC,2024-05-24 05:24:48,Gasometría,pH: 7.43; pCO2: 44 mmHg; pO2: 70 mmHg,Resultados valorados en contexto clínico.
+R_NVEAP61A,A_83I8QWTT,2024-05-24 06:55:39,Gasometría,pH: 7.44; pCO2: 37 mmHg; pO2: 96 mmHg,Resultados valorados en contexto clínico.
+R_JU32412X,A_LAH0AORC,2024-05-25 01:21:02,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_QZIZGVI6,A_F4KR8TXL,2024-05-25 02:06:23,Procalcitonina,PCT: 0.6 ng/mL,Resultados valorados en contexto clínico.
+R_BZWTMHAN,A_F4KR8TXL,2024-05-25 03:31:39,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_YNGO7LAG,A_F4KR8TXL,2024-05-25 06:34:24,Hemograma,Hb: 13.1 g/dL; Leu: 8100/µL; Plq: 250122/µL,Resultados valorados en contexto clínico.
+R_DPZ8QD66,A_83I8QWTT,2024-05-25 08:25:29,Gasometría,pH: 7.36; pCO2: 39 mmHg; pO2: 73 mmHg,Resultados valorados en contexto clínico.
+R_E7JM9VF0,A_F4KR8TXL,2024-05-25 12:33:08,Gasometría,pH: 7.31; pCO2: 39 mmHg; pO2: 99 mmHg,Resultados valorados en contexto clínico.
+R_SZTN9QJM,A_83I8QWTT,2024-05-25 13:38:16,Gasometría,pH: 7.35; pCO2: 38 mmHg; pO2: 83 mmHg,Resultados valorados en contexto clínico.
+R_MSE5RE4K,A_AM0I8AQC,2024-05-25 15:23:05,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_HQJ0NNNG,A_S016CX9H,2024-05-26 10:26:46,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_2TUUR0NS,A_83I8QWTT,2024-05-26 13:01:05,Hemograma,Hb: 11.2 g/dL; Leu: 7450/µL; Plq: 215079/µL,Resultados valorados en contexto clínico.
+R_HT6UE80F,A_564QV1SJ,2024-05-26 15:45:34,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_W7AKLAEF,A_F4KR8TXL,2024-05-27 07:29:27,Procalcitonina,PCT: 1.38 ng/mL,Resultados valorados en contexto clínico.
+R_01S88OCH,A_C514N9E5,2024-05-27 17:57:34,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_W7PK2GO6,A_564QV1SJ,2024-05-28 03:33:33,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_X3S6EE0C,A_F4KR8TXL,2024-05-28 03:44:07,Bioquímica,Na: 137 mmol/L; K: 4.2 mmol/L; Cr: 1.2 mg/dL,Resultados valorados en contexto clínico.
+R_2RFDQXKW,A_C514N9E5,2024-05-28 07:43:01,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_3SE327YY,A_C514N9E5,2024-05-29 10:39:54,Hemograma,Hb: 12.8 g/dL; Leu: 5558/µL; Plq: 306768/µL,Resultados valorados en contexto clínico.
+R_CY1E378V,A_F4KR8TXL,2024-05-29 17:26:16,Gasometría,pH: 7.28; pCO2: 38 mmHg; pO2: 75 mmHg,Resultados valorados en contexto clínico.
+R_M9FVWC1J,A_C514N9E5,2024-05-29 17:32:13,Gasometría,pH: 7.41; pCO2: 42 mmHg; pO2: 97 mmHg,Resultados valorados en contexto clínico.
+R_SAH8CIAM,A_CUSJM0HI,2024-05-29 18:39:15,PCR,PCR: 58.5 mg/L,Resultados valorados en contexto clínico.
+R_L8IYVLYZ,A_AM0I8AQC,2024-05-29 19:32:01,Gasometría,pH: 7.37; pCO2: 45 mmHg; pO2: 71 mmHg,Resultados valorados en contexto clínico.
+R_AZHQW38D,A_AM0I8AQC,2024-05-29 20:13:47,Bioquímica,Na: 136 mmol/L; K: 3.5 mmol/L; Cr: 1.25 mg/dL,Resultados valorados en contexto clínico.
+R_51LHEIU2,A_BXQ1PSUI,2024-05-30 04:03:00,Hemograma,Hb: 14.8 g/dL; Leu: 7750/µL; Plq: 183554/µL,Resultados valorados en contexto clínico.
+R_C2XA6275,A_564QV1SJ,2024-05-30 15:54:51,Hemograma,Hb: 11.9 g/dL; Leu: 4051/µL; Plq: 234168/µL,Resultados valorados en contexto clínico.
+R_Z6SCR7FW,A_C514N9E5,2024-05-31 02:58:36,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_WO4VC0MZ,A_BXQ1PSUI,2024-05-31 11:10:12,Hemograma,Hb: 11.4 g/dL; Leu: 10724/µL; Plq: 245535/µL,Resultados valorados en contexto clínico.
+R_EVDTD0DF,A_C514N9E5,2024-05-31 14:50:46,PCR,PCR: 26.6 mg/L,Resultados valorados en contexto clínico.
+R_D8642PXR,A_AM0I8AQC,2024-05-31 15:50:53,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_BF1Y7H8I,A_AM0I8AQC,2024-05-31 15:58:54,PCR,PCR: 14.1 mg/L,Resultados valorados en contexto clínico.
+R_NMR126FP,A_C514N9E5,2024-06-01 08:23:30,Procalcitonina,PCT: 0.62 ng/mL,Resultados valorados en contexto clínico.
+R_FVLUPK6E,A_PB7XFYPX,2024-06-01 15:57:44,PCR,PCR: 37.7 mg/L,Resultados valorados en contexto clínico.
+R_TDZ3KTMU,A_PB7XFYPX,2024-06-01 19:28:50,PCR,PCR: 12.8 mg/L,Resultados valorados en contexto clínico.
+R_VAY0KDNS,A_564QV1SJ,2024-06-01 19:38:17,PCR,PCR: 0.4 mg/L,Resultados valorados en contexto clínico.
+R_V3N3L44E,A_PB7XFYPX,2024-06-02 00:03:57,PCR,PCR: 21.3 mg/L,Resultados valorados en contexto clínico.
+R_2OFHMNCR,A_CUSJM0HI,2024-06-02 00:55:41,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_9FAJ7QCL,A_BXQ1PSUI,2024-06-02 08:43:58,Gasometría,pH: 7.31; pCO2: 32 mmHg; pO2: 83 mmHg,Resultados valorados en contexto clínico.
+R_ZW1KT6Q5,A_PB7XFYPX,2024-06-02 12:33:55,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_TLDDYR5J,A_CUSJM0HI,2024-06-02 13:19:23,Procalcitonina,PCT: 0.22 ng/mL,Resultados valorados en contexto clínico.
+R_HTG4ZF88,A_CUSJM0HI,2024-06-02 19:06:03,PCR,PCR: 34.2 mg/L,Resultados valorados en contexto clínico.
+R_42CHPCWG,A_CUSJM0HI,2024-06-02 19:17:14,Gasometría,pH: 7.36; pCO2: 38 mmHg; pO2: 70 mmHg,Resultados valorados en contexto clínico.
+R_W5B1MN0K,A_CUSJM0HI,2024-06-02 20:02:55,Procalcitonina,PCT: 1.34 ng/mL,Resultados valorados en contexto clínico.
+R_IS14DGWA,A_CUSJM0HI,2024-06-02 23:46:51,Hemograma,Hb: 10.7 g/dL; Leu: 4317/µL; Plq: 271105/µL,Resultados valorados en contexto clínico.
+R_ZV37O0SN,A_564QV1SJ,2024-06-03 01:06:03,Hemograma,Hb: 14.9 g/dL; Leu: 12094/µL; Plq: 222620/µL,Resultados valorados en contexto clínico.
+R_YEH5YATL,A_PB7XFYPX,2024-06-03 03:25:45,PCR,PCR: 46.6 mg/L,Resultados valorados en contexto clínico.
+R_KIOGIZQM,A_PB7XFYPX,2024-06-03 14:18:38,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_PTM5V0BH,A_7M5N05MC,2024-06-04 03:16:54,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_BHLMAAF2,A_PB7XFYPX,2024-06-04 04:25:59,Procalcitonina,PCT: 0.45 ng/mL,Resultados valorados en contexto clínico.
+R_M5AR0C2E,A_7M5N05MC,2024-06-04 09:38:13,Procalcitonina,PCT: 1.61 ng/mL,Resultados valorados en contexto clínico.
+R_8ULM1JZE,A_PB7XFYPX,2024-06-04 10:58:06,Hemograma,Hb: 13.3 g/dL; Leu: 8921/µL; Plq: 243016/µL,Resultados valorados en contexto clínico.
+R_5PPE1OA5,A_WNR8XERY,2024-06-04 12:08:06,Bioquímica,Na: 135 mmol/L; K: 3.6 mmol/L; Cr: 1.03 mg/dL,Resultados valorados en contexto clínico.
+R_7GBUBFTX,A_7M5N05MC,2024-06-04 15:39:33,PCR,PCR: 17.1 mg/L,Resultados valorados en contexto clínico.
+R_ZOVFIJ4T,A_7M5N05MC,2024-06-05 13:12:25,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_H0WEHZD4,A_7M5N05MC,2024-06-06 14:33:33,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_DIEJNR2B,A_WNR8XERY,2024-06-07 04:36:45,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_J1BHVTKN,A_WNR8XERY,2024-06-08 20:39:27,Bioquímica,Na: 132 mmol/L; K: 4.8 mmol/L; Cr: 0.82 mg/dL,Resultados valorados en contexto clínico.
+R_JO7E2Z1R,A_WNR8XERY,2024-06-09 04:14:27,Procalcitonina,PCT: 0.53 ng/mL,Resultados valorados en contexto clínico.
+R_KPNTSKM8,A_WNR8XERY,2024-06-10 18:03:14,Procalcitonina,PCT: 0.54 ng/mL,Resultados valorados en contexto clínico.
+R_UTIA70MJ,A_WNR8XERY,2024-06-11 07:42:01,Procalcitonina,PCT: 0.36 ng/mL,Resultados valorados en contexto clínico.
+R_1JP2OR3C,A_W8GFSBLT,2024-06-16 16:48:52,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_1B9JAMB3,A_W8GFSBLT,2024-06-17 17:07:42,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_HKA47PTU,A_W8GFSBLT,2024-06-17 20:37:05,Procalcitonina,PCT: 0.65 ng/mL,Resultados valorados en contexto clínico.
+R_BO0E8MDU,A_HVHUTTB7,2024-06-20 19:18:48,Gasometría,pH: 7.54; pCO2: 43 mmHg; pO2: 71 mmHg,Resultados valorados en contexto clínico.
+R_2V6QT1PP,A_HVHUTTB7,2024-06-20 21:33:41,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_ZRHCBRCS,A_HVHUTTB7,2024-06-21 07:37:53,PCR,PCR: 50.3 mg/L,Resultados valorados en contexto clínico.
+R_C8O4RMDY,A_HVHUTTB7,2024-06-21 14:13:54,Bioquímica,Na: 136 mmol/L; K: 4.8 mmol/L; Cr: 1.0 mg/dL,Resultados valorados en contexto clínico.
+R_3J8AKH7V,A_HVHUTTB7,2024-06-21 15:51:17,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_RSZG3VK9,A_HVHUTTB7,2024-06-21 16:51:25,Bioquímica,Na: 134 mmol/L; K: 4.2 mmol/L; Cr: 1.45 mg/dL,Resultados valorados en contexto clínico.
+R_QVDFXT1F,A_FDI4OOV2,2024-06-21 17:31:39,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_FBPR1376,A_FDI4OOV2,2024-06-21 18:01:40,Bioquímica,Na: 138 mmol/L; K: 5.2 mmol/L; Cr: 1.38 mg/dL,Resultados valorados en contexto clínico.
+R_DHJKAZZJ,A_HVHUTTB7,2024-06-21 19:02:39,Gasometría,pH: 7.37; pCO2: 39 mmHg; pO2: 60 mmHg,Resultados valorados en contexto clínico.
+R_1N2TZISG,A_FDI4OOV2,2024-06-22 18:56:21,Gasometría,pH: 7.43; pCO2: 39 mmHg; pO2: 71 mmHg,Resultados valorados en contexto clínico.
+R_R86LXZEH,A_FDI4OOV2,2024-06-22 23:02:44,Bioquímica,Na: 135 mmol/L; K: 4.1 mmol/L; Cr: 1.41 mg/dL,Resultados valorados en contexto clínico.
+R_7I6P6C51,A_2H11F4PF,2024-06-26 05:01:33,PCR,PCR: 45.8 mg/L,Resultados valorados en contexto clínico.
+R_LR98N0LD,A_2H11F4PF,2024-06-26 19:34:01,Bioquímica,Na: 141 mmol/L; K: 3.6 mmol/L; Cr: 1.07 mg/dL,Resultados valorados en contexto clínico.
+R_LLVZPD9R,A_2H11F4PF,2024-06-27 01:04:48,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_WRKG40YI,A_2H11F4PF,2024-06-27 20:34:37,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_YL79JNLB,A_NO4XSR7F,2024-06-28 03:55:38,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_3OJN9FRM,A_2H11F4PF,2024-06-29 05:07:19,PCR,PCR: 18.2 mg/L,Resultados valorados en contexto clínico.
+R_U6CF53WN,A_2H11F4PF,2024-06-29 05:55:10,Bioquímica,Na: 138 mmol/L; K: 3.7 mmol/L; Cr: 0.58 mg/dL,Resultados valorados en contexto clínico.
+R_58RRKCN0,A_NO4XSR7F,2024-06-30 11:11:21,Hemograma,Hb: 11.8 g/dL; Leu: 14175/µL; Plq: 353029/µL,Resultados valorados en contexto clínico.
+R_LHGRZVAD,A_7JY5IYR4,2024-07-01 04:37:59,Gasometría,pH: 7.45; pCO2: 42 mmHg; pO2: 60 mmHg,Resultados valorados en contexto clínico.
+R_MHH069VG,A_NO4XSR7F,2024-07-01 15:45:16,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_995ATA0K,A_NO4XSR7F,2024-07-01 16:57:14,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_314UXGN2,A_JWQV99QL,2024-07-01 21:14:48,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_KJ60FBHP,A_2H11F4PF,2024-07-02 03:09:58,Hemograma,Hb: 13.4 g/dL; Leu: 7674/µL; Plq: 111540/µL,Resultados valorados en contexto clínico.
+R_XWWZLEEK,A_JWQV99QL,2024-07-02 10:39:35,Procalcitonina,PCT: 0.7 ng/mL,Resultados valorados en contexto clínico.
+R_6W622R2Y,A_2H11F4PF,2024-07-02 10:53:14,Gasometría,pH: 7.4; pCO2: 34 mmHg; pO2: 90 mmHg,Resultados valorados en contexto clínico.
+R_IP3JWELJ,A_JWQV99QL,2024-07-02 14:46:05,PCR,PCR: 35.3 mg/L,Resultados valorados en contexto clínico.
+R_IZH1AWHV,A_NO4XSR7F,2024-07-02 22:52:34,Hemograma,Hb: 15.1 g/dL; Leu: 10128/µL; Plq: 214258/µL,Resultados valorados en contexto clínico.
+R_OZ4YQJUB,A_JWQV99QL,2024-07-03 21:13:36,Hemograma,Hb: 14.3 g/dL; Leu: 6787/µL; Plq: 290664/µL,Resultados valorados en contexto clínico.
+R_ES6L6K04,A_NO4XSR7F,2024-07-04 09:30:58,Bioquímica,Na: 137 mmol/L; K: 4.1 mmol/L; Cr: 0.73 mg/dL,Resultados valorados en contexto clínico.
+R_1E21SC67,A_NO4XSR7F,2024-07-04 16:14:08,Hemograma,Hb: 12.9 g/dL; Leu: 4297/µL; Plq: 225647/µL,Resultados valorados en contexto clínico.
+R_3S37OJWM,A_7JY5IYR4,2024-07-05 08:01:04,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_BIVJ2L8S,A_7JY5IYR4,2024-07-05 13:10:27,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_8ZOL29N2,A_JWQV99QL,2024-07-05 17:29:04,Hemograma,Hb: 12.9 g/dL; Leu: 13208/µL; Plq: 204573/µL,Resultados valorados en contexto clínico.
+R_22N5S1PE,A_JWQV99QL,2024-07-06 17:04:33,PCR,PCR: 34.2 mg/L,Resultados valorados en contexto clínico.
+R_I1J7QE6X,A_JWQV99QL,2024-07-10 06:27:12,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_KOE1487L,A_2L326ZV5,2024-07-11 10:14:29,PCR,PCR: 20.4 mg/L,Resultados valorados en contexto clínico.
+R_K1PSAZPA,A_IA0X3GK6,2024-07-11 12:55:43,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_QBKMJD3T,A_2L326ZV5,2024-07-11 14:00:42,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_IZMBRQWH,A_IA0X3GK6,2024-07-11 19:20:54,Procalcitonina,PCT: 0.48 ng/mL,Resultados valorados en contexto clínico.
+R_TYPWTBQI,A_2L326ZV5,2024-07-12 04:06:50,PCR,PCR: 3.6 mg/L,Resultados valorados en contexto clínico.
+R_XW5FG6LG,A_2L326ZV5,2024-07-12 20:08:57,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_IIIZDY40,A_2L326ZV5,2024-07-13 01:23:39,Bioquímica,Na: 137 mmol/L; K: 3.5 mmol/L; Cr: 0.35 mg/dL,Resultados valorados en contexto clínico.
+R_90VXJODT,A_IA0X3GK6,2024-07-13 04:54:06,Hemograma,Hb: 11.7 g/dL; Leu: 13070/µL; Plq: 110958/µL,Resultados valorados en contexto clínico.
+R_5QAAGWFY,A_YO16Q23G,2024-07-14 10:42:00,PCR,PCR: 113.3 mg/L,Resultados valorados en contexto clínico.
+R_QGQAF6LE,A_YO16Q23G,2024-07-14 11:20:40,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_1YTQ2WN0,A_YO16Q23G,2024-07-14 14:14:04,Bioquímica,Na: 138 mmol/L; K: 4.0 mmol/L; Cr: 1.27 mg/dL,Resultados valorados en contexto clínico.
+R_MMKFIYHE,A_YO16Q23G,2024-07-14 17:10:28,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_RNC26TPH,A_LKIUK0YI,2024-07-14 18:10:08,PCR,PCR: 34.4 mg/L,Resultados valorados en contexto clínico.
+R_I90SNAEY,A_YO16Q23G,2024-07-15 03:50:13,Procalcitonina,PCT: 1.47 ng/mL,Resultados valorados en contexto clínico.
+R_FPHBSR4U,A_YO16Q23G,2024-07-15 04:55:04,PCR,PCR: 91.4 mg/L,Resultados valorados en contexto clínico.
+R_OQJSF473,A_1ABS74WU,2024-07-16 18:34:19,Gasometría,pH: 7.47; pCO2: 34 mmHg; pO2: 89 mmHg,Resultados valorados en contexto clínico.
+R_OFZ1HDUN,A_1ABS74WU,2024-07-17 01:53:37,PCR,PCR: 55.8 mg/L,Resultados valorados en contexto clínico.
+R_S61GUMED,A_1ABS74WU,2024-07-17 16:19:30,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_PSSJ3TH0,A_O86WOCMY,2024-07-18 05:50:11,Gasometría,pH: 7.45; pCO2: 45 mmHg; pO2: 75 mmHg,Resultados valorados en contexto clínico.
+R_YQCJ5XII,A_JZCJOHSN,2024-07-18 22:50:32,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_5MOPBRFH,A_1ABS74WU,2024-07-19 04:45:10,Procalcitonina,PCT: 0.6 ng/mL,Resultados valorados en contexto clínico.
+R_ZVJRRM9P,A_LKIUK0YI,2024-07-19 05:09:11,Hemograma,Hb: 13.8 g/dL; Leu: 9979/µL; Plq: 324289/µL,Resultados valorados en contexto clínico.
+R_7ZFX6FA0,A_O86WOCMY,2024-07-19 14:25:24,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_TJEQRGEF,A_O86WOCMY,2024-07-19 17:09:40,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_HFZ7PZ8S,A_JZCJOHSN,2024-07-19 18:42:49,Hemograma,Hb: 14.1 g/dL; Leu: 14473/µL; Plq: 237488/µL,Resultados valorados en contexto clínico.
+R_YGLE2HMJ,A_LKIUK0YI,2024-07-19 20:24:13,Bioquímica,Na: 137 mmol/L; K: 5.5 mmol/L; Cr: 1.05 mg/dL,Resultados valorados en contexto clínico.
+R_54DT9X7S,A_JZCJOHSN,2024-07-20 01:32:05,Gasometría,pH: 7.45; pCO2: 38 mmHg; pO2: 81 mmHg,Resultados valorados en contexto clínico.
+R_P7YVBE4B,A_JZCJOHSN,2024-07-20 04:54:04,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_SXLRRLYU,A_JZCJOHSN,2024-07-20 09:04:36,Gasometría,pH: 7.42; pCO2: 31 mmHg; pO2: 82 mmHg,Resultados valorados en contexto clínico.
+R_AUJGK0J6,A_JZCJOHSN,2024-07-21 22:03:25,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_U5OGTP6E,A_JZCJOHSN,2024-07-22 04:26:00,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_GL9NVRP8,A_1ABS74WU,2024-07-22 09:28:57,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_1V4W7OY3,A_JZCJOHSN,2024-07-22 16:06:28,Procalcitonina,PCT: 1.39 ng/mL,Resultados valorados en contexto clínico.
+R_XEBR4LK2,A_BNWUEBYT,2024-07-22 17:06:13,Bioquímica,Na: 134 mmol/L; K: 4.3 mmol/L; Cr: 0.67 mg/dL,Resultados valorados en contexto clínico.
+R_F1DVN5FA,A_BNWUEBYT,2024-07-24 14:37:15,PCR,PCR: 87.3 mg/L,Resultados valorados en contexto clínico.
+R_MQZ0PVGS,A_BNWUEBYT,2024-07-25 03:19:40,Procalcitonina,PCT: 0.71 ng/mL,Resultados valorados en contexto clínico.
+R_4PRTUW73,A_BNWUEBYT,2024-07-26 14:15:21,Gasometría,pH: 7.42; pCO2: 50 mmHg; pO2: 69 mmHg,Resultados valorados en contexto clínico.
+R_RXURLNXM,A_KDW7LAN5,2024-07-31 14:46:41,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_GRHDI1LG,A_KDW7LAN5,2024-08-03 01:17:52,Gasometría,pH: 7.46; pCO2: 43 mmHg; pO2: 69 mmHg,Resultados valorados en contexto clínico.
+R_D6SPNMDK,A_FVR1I3KT,2024-08-04 13:40:03,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_SZ4AKR73,A_FVR1I3KT,2024-08-04 18:32:41,Procalcitonina,PCT: 0.05 ng/mL,Resultados valorados en contexto clínico.
+R_VZTTA6ZI,A_FVR1I3KT,2024-08-05 01:04:12,Gasometría,pH: 7.31; pCO2: 45 mmHg; pO2: 83 mmHg,Resultados valorados en contexto clínico.
+R_L2X8EYSZ,A_KDW7LAN5,2024-08-05 10:20:22,PCR,PCR: 21.6 mg/L,Resultados valorados en contexto clínico.
+R_GKR9KJNX,A_FVR1I3KT,2024-08-05 12:19:42,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_89NB3XOG,A_C296QVRN,2024-08-07 00:20:27,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_7OAS4JJA,A_KDW7LAN5,2024-08-07 13:25:31,Gasometría,pH: 7.35; pCO2: 48 mmHg; pO2: 78 mmHg,Resultados valorados en contexto clínico.
+R_BJWW8XPL,A_KDW7LAN5,2024-08-07 16:47:06,Bioquímica,Na: 141 mmol/L; K: 4.0 mmol/L; Cr: 1.19 mg/dL,Resultados valorados en contexto clínico.
+R_TQL0W616,A_WHY83UUD,2024-08-08 11:40:41,PCR,PCR: 28.0 mg/L,Resultados valorados en contexto clínico.
+R_KZ4LPXVS,A_C296QVRN,2024-08-09 16:27:57,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_XH0YJHVK,A_FVR1I3KT,2024-08-09 20:36:13,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_06O2JF8N,A_WHY83UUD,2024-08-10 04:34:40,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_L482P7RS,A_KDW7LAN5,2024-08-10 16:20:39,PCR,PCR: 14.8 mg/L,Resultados valorados en contexto clínico.
+R_YZMGAER9,A_82OWZ31U,2024-08-11 00:04:13,Procalcitonina,PCT: 0.92 ng/mL,Resultados valorados en contexto clínico.
+R_T5CXNHXL,A_82OWZ31U,2024-08-11 23:24:07,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_MVFTI2IH,A_82OWZ31U,2024-08-11 23:51:04,Bioquímica,Na: 137 mmol/L; K: 4.5 mmol/L; Cr: 1.37 mg/dL,Resultados valorados en contexto clínico.
+R_DDDZ1LKR,A_C296QVRN,2024-08-12 03:38:34,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_ZFMA8RRQ,A_82OWZ31U,2024-08-12 20:52:00,Gasometría,pH: 7.43; pCO2: 51 mmHg; pO2: 66 mmHg,Resultados valorados en contexto clínico.
+R_NEH1UAGC,A_82OWZ31U,2024-08-12 22:34:13,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_8WQE9U3S,A_82OWZ31U,2024-08-13 01:52:19,Gasometría,pH: 7.47; pCO2: 32 mmHg; pO2: 97 mmHg,Resultados valorados en contexto clínico.
+R_P3V55LML,A_WHY83UUD,2024-08-13 03:06:21,Bioquímica,Na: 140 mmol/L; K: 4.8 mmol/L; Cr: 0.9 mg/dL,Resultados valorados en contexto clínico.
+R_13K3XLTS,A_FVR1I3KT,2024-08-13 10:57:09,Hemograma,Hb: 15.0 g/dL; Leu: 6695/µL; Plq: 202212/µL,Resultados valorados en contexto clínico.
+R_CD32R8KK,A_WHY83UUD,2024-08-13 15:02:31,Hemograma,Hb: 16.4 g/dL; Leu: 4778/µL; Plq: 190307/µL,Resultados valorados en contexto clínico.
+R_KNYPVOIF,A_FVR1I3KT,2024-08-14 21:52:33,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_KOUZSAYV,A_WHY83UUD,2024-08-16 00:03:15,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_FXOX8V6F,A_WHY83UUD,2024-08-16 07:44:15,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_V5GZN9DH,A_WHY83UUD,2024-08-17 16:44:25,Gasometría,pH: 7.29; pCO2: 33 mmHg; pO2: 74 mmHg,Resultados valorados en contexto clínico.
+R_Y09CQSWR,A_N738AWXU,2024-08-17 18:25:20,PCR,PCR: 18.8 mg/L,Resultados valorados en contexto clínico.
+R_ZKJ5D6PL,A_N738AWXU,2024-08-18 04:59:45,Bioquímica,Na: 142 mmol/L; K: 4.1 mmol/L; Cr: 1.26 mg/dL,Resultados valorados en contexto clínico.
+R_QIRCMJ2I,A_N738AWXU,2024-08-18 07:04:13,Bioquímica,Na: 140 mmol/L; K: 4.6 mmol/L; Cr: 1.31 mg/dL,Resultados valorados en contexto clínico.
+R_D5KWV2P4,A_N738AWXU,2024-08-18 09:41:01,Gasometría,pH: 7.46; pCO2: 45 mmHg; pO2: 54 mmHg,Resultados valorados en contexto clínico.
+R_G3KJYSC0,A_N738AWXU,2024-08-18 10:11:05,Hemograma,Hb: 12.2 g/dL; Leu: 9843/µL; Plq: 192192/µL,Resultados valorados en contexto clínico.
+R_TIYXO194,A_TOZR3LSB,2024-08-18 11:38:22,Procalcitonina,PCT: 2.85 ng/mL,Resultados valorados en contexto clínico.
+R_Y94C1XAL,A_N738AWXU,2024-08-18 12:15:13,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_9JR6LKER,A_N738AWXU,2024-08-19 05:21:10,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_UUUATS4L,A_N738AWXU,2024-08-19 09:50:02,Hemograma,Hb: 13.2 g/dL; Leu: 10316/µL; Plq: 290570/µL,Resultados valorados en contexto clínico.
+R_Y6Z2GJ9I,A_TOZR3LSB,2024-08-19 14:49:27,Procalcitonina,PCT: 0.1 ng/mL,Resultados valorados en contexto clínico.
+R_JSC7OHJ9,A_TOZR3LSB,2024-08-20 16:36:09,Procalcitonina,PCT: 2.16 ng/mL,Resultados valorados en contexto clínico.
+R_0PKIPZNQ,A_TOZR3LSB,2024-08-21 01:28:21,Gasometría,pH: 7.48; pCO2: 38 mmHg; pO2: 76 mmHg,Resultados valorados en contexto clínico.
+R_AWRWTCFY,A_M95D1BLN,2024-08-21 05:29:34,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_0LSPC6N4,A_M95D1BLN,2024-08-21 09:30:03,Gasometría,pH: 7.35; pCO2: 42 mmHg; pO2: 62 mmHg,Resultados valorados en contexto clínico.
+R_2ZYO46Q0,A_M95D1BLN,2024-08-21 10:00:07,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_W68DUWF1,A_M95D1BLN,2024-08-21 19:04:33,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_4K3IYDUA,A_M95D1BLN,2024-08-22 23:04:47,Gasometría,pH: 7.43; pCO2: 40 mmHg; pO2: 77 mmHg,Resultados valorados en contexto clínico.
+R_9CK53PLX,A_M95D1BLN,2024-08-23 02:33:51,Bioquímica,Na: 139 mmol/L; K: 4.7 mmol/L; Cr: 1.26 mg/dL,Resultados valorados en contexto clínico.
+R_T9UD07U7,A_M95D1BLN,2024-08-23 06:45:49,Gasometría,pH: 7.42; pCO2: 37 mmHg; pO2: 60 mmHg,Resultados valorados en contexto clínico.
+R_GFQQQ7HD,A_M95D1BLN,2024-08-23 16:30:01,Procalcitonina,PCT: 1.29 ng/mL,Resultados valorados en contexto clínico.
+R_WY8J03M3,A_1CX89GPH,2024-08-27 02:21:31,Gasometría,pH: 7.39; pCO2: 34 mmHg; pO2: 69 mmHg,Resultados valorados en contexto clínico.
+R_2YDCNTH2,A_1CX89GPH,2024-08-28 21:38:56,Hemograma,Hb: 15.6 g/dL; Leu: 12525/µL; Plq: 275417/µL,Resultados valorados en contexto clínico.
+R_K9P0S4VA,A_1CX89GPH,2024-08-30 06:16:39,Bioquímica,Na: 134 mmol/L; K: 4.3 mmol/L; Cr: 0.74 mg/dL,Resultados valorados en contexto clínico.
+R_LDJIQZ9N,A_1CX89GPH,2024-08-31 00:20:40,Procalcitonina,PCT: 0.38 ng/mL,Resultados valorados en contexto clínico.
+R_DUMW6UGN,A_1CX89GPH,2024-09-01 23:41:56,Gasometría,pH: 7.46; pCO2: 37 mmHg; pO2: 76 mmHg,Resultados valorados en contexto clínico.
+R_DZHHXKII,A_BCR60XDC,2024-09-02 12:59:05,Gasometría,pH: 7.38; pCO2: 38 mmHg; pO2: 73 mmHg,Resultados valorados en contexto clínico.
+R_W0DDE660,A_1CX89GPH,2024-09-02 16:43:00,PCR,PCR: 19.3 mg/L,Resultados valorados en contexto clínico.
+R_F56HO9DM,A_BCR60XDC,2024-09-04 01:19:14,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_N08E9OCG,A_APN6LEZ9,2024-09-04 10:31:34,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_GKQVYBSL,A_APN6LEZ9,2024-09-04 10:50:15,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_8T0QU0LG,A_BCR60XDC,2024-09-04 19:06:59,Procalcitonina,PCT: 2.88 ng/mL,Resultados valorados en contexto clínico.
+R_RGY0GLVU,A_APN6LEZ9,2024-09-04 21:52:59,Gasometría,pH: 7.43; pCO2: 37 mmHg; pO2: 61 mmHg,Resultados valorados en contexto clínico.
+R_QY7TBI2B,A_BCR60XDC,2024-09-05 04:51:49,Bioquímica,Na: 140 mmol/L; K: 3.8 mmol/L; Cr: 1.28 mg/dL,Resultados valorados en contexto clínico.
+R_T7YS75R9,A_APN6LEZ9,2024-09-05 18:13:03,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_BOR514T9,A_BCR60XDC,2024-09-06 05:28:31,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_2QHLAA5H,A_APN6LEZ9,2024-09-06 13:38:19,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_0FQUEXU8,A_BCR60XDC,2024-09-06 16:17:38,Procalcitonina,PCT: 0.75 ng/mL,Resultados valorados en contexto clínico.
+R_HESHFFB0,A_APN6LEZ9,2024-09-06 23:15:55,Procalcitonina,PCT: 1.12 ng/mL,Resultados valorados en contexto clínico.
+R_SERJQCKM,A_ZCYVKQDA,2024-09-09 00:10:24,Procalcitonina,PCT: 0.49 ng/mL,Resultados valorados en contexto clínico.
+R_3O82MRM8,A_ZCYVKQDA,2024-09-09 02:51:05,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_F013M3HS,A_ZCYVKQDA,2024-09-09 04:11:07,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_QC8ZOMM8,A_ZCYVKQDA,2024-09-09 05:39:41,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_EAL02E3B,A_ZCYVKQDA,2024-09-09 10:56:03,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_QXXC5DW5,A_ZCYVKQDA,2024-09-09 12:36:40,Gasometría,pH: 7.41; pCO2: 42 mmHg; pO2: 100 mmHg,Resultados valorados en contexto clínico.
+R_MVAW09ZX,A_ZCYVKQDA,2024-09-09 17:34:51,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_D4WCRKDO,A_ZCYVKQDA,2024-09-09 19:42:36,PCR,PCR: 58.2 mg/L,Resultados valorados en contexto clínico.
+R_6S73A9ZQ,A_58LXMJEL,2024-09-10 06:56:55,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_XVDZ5NCL,A_58LXMJEL,2024-09-10 23:30:32,Procalcitonina,PCT: 0.82 ng/mL,Resultados valorados en contexto clínico.
+R_BTEF0N3L,A_3V6QS4XI,2024-09-12 03:46:14,Bioquímica,Na: 133 mmol/L; K: 4.2 mmol/L; Cr: 0.87 mg/dL,Resultados valorados en contexto clínico.
+R_5S7U7HXM,A_3V6QS4XI,2024-09-12 14:59:08,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_JQCUAB0A,A_58LXMJEL,2024-09-13 05:54:43,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_9H2SACC5,A_3V6QS4XI,2024-09-13 06:55:28,Bioquímica,Na: 138 mmol/L; K: 4.3 mmol/L; Cr: 0.71 mg/dL,Resultados valorados en contexto clínico.
+R_ZXFYVEW6,A_58LXMJEL,2024-09-13 11:18:25,Gasometría,pH: 7.38; pCO2: 35 mmHg; pO2: 73 mmHg,Resultados valorados en contexto clínico.
+R_9G9QGE39,A_3V6QS4XI,2024-09-13 17:09:51,Procalcitonina,PCT: 0.96 ng/mL,Resultados valorados en contexto clínico.
+R_FSO982NQ,A_58LXMJEL,2024-09-13 19:04:36,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_K01AZY3R,A_58LXMJEL,2024-09-13 21:53:50,Procalcitonina,PCT: 0.77 ng/mL,Resultados valorados en contexto clínico.
+R_QBAJGK4W,A_3V6QS4XI,2024-09-14 21:50:43,PCR,PCR: 32.1 mg/L,Resultados valorados en contexto clínico.
+R_YBQHX3CC,A_3V6QS4XI,2024-09-15 03:36:22,Gasometría,pH: 7.29; pCO2: 38 mmHg; pO2: 61 mmHg,Resultados valorados en contexto clínico.
+R_LB53O0ZJ,A_3V6QS4XI,2024-09-15 18:02:03,PCR,PCR: 18.8 mg/L,Resultados valorados en contexto clínico.
+R_S0U4B2S9,A_3V6QS4XI,2024-09-16 18:05:02,Procalcitonina,PCT: 1.5 ng/mL,Resultados valorados en contexto clínico.
+R_U2CYL7N0,A_S4QASMGM,2024-09-17 07:23:24,Procalcitonina,PCT: 0.5 ng/mL,Resultados valorados en contexto clínico.
+R_QTPCDVB5,A_ZHMPNJ81,2024-09-18 01:52:57,Bioquímica,Na: 138 mmol/L; K: 3.8 mmol/L; Cr: 0.71 mg/dL,Resultados valorados en contexto clínico.
+R_BB336EHM,A_S4QASMGM,2024-09-18 05:07:25,Hemograma,Hb: 13.0 g/dL; Leu: 7898/µL; Plq: 206454/µL,Resultados valorados en contexto clínico.
+R_JTVJA45H,A_ZHMPNJ81,2024-09-18 07:35:24,Hemograma,Hb: 13.8 g/dL; Leu: 7742/µL; Plq: 312458/µL,Resultados valorados en contexto clínico.
+R_AX73Z3E1,A_ZHMPNJ81,2024-09-18 10:14:34,Procalcitonina,PCT: 0.17 ng/mL,Resultados valorados en contexto clínico.
+R_27YN4EUD,A_ZHMPNJ81,2024-09-20 11:22:07,Procalcitonina,PCT: 0.59 ng/mL,Resultados valorados en contexto clínico.
+R_2OTM9O02,A_S4QASMGM,2024-09-20 12:17:36,Hemograma,Hb: 13.1 g/dL; Leu: 12562/µL; Plq: 326725/µL,Resultados valorados en contexto clínico.
+R_R2U4RPFJ,A_KIPMSQZX,2024-09-23 19:41:14,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_CC6A5CUJ,A_KIPMSQZX,2024-09-23 22:05:18,Hemograma,Hb: 11.5 g/dL; Leu: 7507/µL; Plq: 169013/µL,Resultados valorados en contexto clínico.
+R_HIHKKIM6,A_KIPMSQZX,2024-09-23 22:44:49,PCR,PCR: 52.8 mg/L,Resultados valorados en contexto clínico.
+R_XUHE55JH,A_QVTS3BJ3,2024-09-24 00:07:08,Hemograma,Hb: 14.2 g/dL; Leu: 12978/µL; Plq: 169208/µL,Resultados valorados en contexto clínico.
+R_KN0BCVQS,A_QVTS3BJ3,2024-09-24 10:44:41,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_IP9LQXQX,A_LNBLETO0,2024-09-24 13:53:51,Procalcitonina,PCT: 1.3 ng/mL,Resultados valorados en contexto clínico.
+R_XA7EI28R,A_QVTS3BJ3,2024-09-25 01:21:33,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_0ROCWZQY,A_ZHMPNJ81,2024-09-25 04:02:11,Bioquímica,Na: 139 mmol/L; K: 4.2 mmol/L; Cr: 1.62 mg/dL,Resultados valorados en contexto clínico.
+R_RVYI0L52,A_KIPMSQZX,2024-09-25 08:23:57,Procalcitonina,PCT: 0.35 ng/mL,Resultados valorados en contexto clínico.
+R_TBY8LG44,A_NBGBTHSR,2024-09-25 08:28:12,Gasometría,pH: 7.31; pCO2: 34 mmHg; pO2: 78 mmHg,Resultados valorados en contexto clínico.
+R_NBZS61E2,A_NBGBTHSR,2024-09-25 16:32:43,PCR,PCR: 77.8 mg/L,Resultados valorados en contexto clínico.
+R_JMQL2CTU,A_KIPMSQZX,2024-09-25 17:07:52,Hemograma,Hb: 15.1 g/dL; Leu: 6854/µL; Plq: 213027/µL,Resultados valorados en contexto clínico.
+R_PFZSSBAV,A_NBGBTHSR,2024-09-25 21:57:04,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_QUMAHF0C,A_NBGBTHSR,2024-09-25 21:58:26,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_X3D4CZIU,A_KIPMSQZX,2024-09-25 23:27:21,PCR,PCR: 55.6 mg/L,Resultados valorados en contexto clínico.
+R_8376E75Y,A_QVTS3BJ3,2024-09-26 03:08:14,Procalcitonina,PCT: 0.8 ng/mL,Resultados valorados en contexto clínico.
+R_CQP6JA2F,A_7V5N80OO,2024-09-26 11:11:41,Hemograma,Hb: 12.0 g/dL; Leu: 14063/µL; Plq: 179942/µL,Resultados valorados en contexto clínico.
+R_GELZ6T2T,A_NBGBTHSR,2024-09-26 16:55:38,PCR,PCR: 51.6 mg/L,Resultados valorados en contexto clínico.
+R_WFC8MPJ4,A_LNBLETO0,2024-09-26 17:46:55,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_WKZLU4A4,A_NBGBTHSR,2024-09-26 21:03:17,PCR,PCR: 9.7 mg/L,Resultados valorados en contexto clínico.
+R_L9OF293A,A_LNBLETO0,2024-09-27 08:08:48,Bioquímica,Na: 141 mmol/L; K: 5.2 mmol/L; Cr: 0.87 mg/dL,Resultados valorados en contexto clínico.
+R_0UJTTYXR,A_14HUCF6A,2024-09-27 08:22:16,Bioquímica,Na: 137 mmol/L; K: 4.1 mmol/L; Cr: 1.41 mg/dL,Resultados valorados en contexto clínico.
+R_ULHXUMOK,A_14HUCF6A,2024-09-27 08:40:39,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_UGAR67PY,A_NBGBTHSR,2024-09-27 11:18:42,Procalcitonina,PCT: 0.92 ng/mL,Resultados valorados en contexto clínico.
+R_KELSIAEC,A_KIPMSQZX,2024-09-27 14:30:41,PCR,PCR: 33.5 mg/L,Resultados valorados en contexto clínico.
+R_W7V9ONET,A_LNBLETO0,2024-09-27 15:06:33,Gasometría,pH: 7.32; pCO2: 35 mmHg; pO2: 91 mmHg,Resultados valorados en contexto clínico.
+R_LYK0N68R,A_14HUCF6A,2024-09-27 16:32:38,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_IURPMWDW,A_14HUCF6A,2024-09-27 19:30:08,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_SVOUSXH0,A_XDRX70OZ,2024-09-27 19:54:49,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_YYODFHKE,A_14HUCF6A,2024-09-28 00:55:05,PCR,PCR: 45.6 mg/L,Resultados valorados en contexto clínico.
+R_4006K4MM,A_NBGBTHSR,2024-09-28 07:12:10,Bioquímica,Na: 138 mmol/L; K: 4.6 mmol/L; Cr: 1.1 mg/dL,Resultados valorados en contexto clínico.
+R_52N9YKY9,A_XDRX70OZ,2024-09-28 23:49:43,Bioquímica,Na: 138 mmol/L; K: 4.2 mmol/L; Cr: 1.18 mg/dL,Resultados valorados en contexto clínico.
+R_FSZEW99J,A_LNBLETO0,2024-09-29 10:18:52,Procalcitonina,PCT: 0.29 ng/mL,Resultados valorados en contexto clínico.
+R_B8T6YZXD,A_7V5N80OO,2024-09-29 22:40:59,Procalcitonina,PCT: 0.27 ng/mL,Resultados valorados en contexto clínico.
+R_D7LG2XGV,A_14HUCF6A,2024-09-30 09:15:03,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_DI55ATQ7,A_14HUCF6A,2024-09-30 10:29:48,Procalcitonina,PCT: 0.09 ng/mL,Resultados valorados en contexto clínico.
+R_P3DSVXI6,A_14HUCF6A,2024-09-30 17:23:37,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_CG3LQP2W,A_7V5N80OO,2024-09-30 19:04:46,Gasometría,pH: 7.31; pCO2: 39 mmHg; pO2: 68 mmHg,Resultados valorados en contexto clínico.
+R_TRYDBAFI,A_LNBLETO0,2024-10-01 11:24:01,PCR,PCR: 30.0 mg/L,Resultados valorados en contexto clínico.
+R_OUGIMATE,A_LNBLETO0,2024-10-03 04:54:54,Gasometría,pH: 7.35; pCO2: 35 mmHg; pO2: 66 mmHg,Resultados valorados en contexto clínico.
+R_VE6EGIH1,A_4XZ5U2HX,2024-10-03 17:48:20,Procalcitonina,PCT: 0.34 ng/mL,Resultados valorados en contexto clínico.
+R_C0GFCKRC,A_XDRX70OZ,2024-10-04 08:14:07,Hemograma,Hb: 12.9 g/dL; Leu: 6633/µL; Plq: 309375/µL,Resultados valorados en contexto clínico.
+R_8X3J7BH4,A_324BDVL0,2024-10-04 08:38:19,Bioquímica,Na: 132 mmol/L; K: 3.8 mmol/L; Cr: 0.23 mg/dL,Resultados valorados en contexto clínico.
+R_I5VV9S0K,A_324BDVL0,2024-10-04 11:47:06,PCR,PCR: 23.9 mg/L,Resultados valorados en contexto clínico.
+R_MUA978VK,A_324BDVL0,2024-10-04 15:51:41,Gasometría,pH: 7.41; pCO2: 32 mmHg; pO2: 67 mmHg,Resultados valorados en contexto clínico.
+R_HZEHOINS,A_324BDVL0,2024-10-04 16:02:18,Gasometría,pH: 7.4; pCO2: 32 mmHg; pO2: 76 mmHg,Resultados valorados en contexto clínico.
+R_8WIMUVM9,A_Q8XMZ80H,2024-10-04 18:32:02,Hemograma,Hb: 15.0 g/dL; Leu: 8680/µL; Plq: 248374/µL,Resultados valorados en contexto clínico.
+R_UB23P8Y1,A_4XZ5U2HX,2024-10-04 20:04:48,Hemograma,Hb: 12.5 g/dL; Leu: 4769/µL; Plq: 201321/µL,Resultados valorados en contexto clínico.
+R_EF4H29ID,A_XDRX70OZ,2024-10-05 06:29:08,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_JB9VN8UW,A_4XZ5U2HX,2024-10-05 12:18:30,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_ONMJ420P,A_SCGZM6BY,2024-10-05 17:19:10,Hemograma,Hb: 15.1 g/dL; Leu: 12678/µL; Plq: 231771/µL,Resultados valorados en contexto clínico.
+R_VGJGAZ2H,A_SCGZM6BY,2024-10-06 00:44:30,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_2XDQY2NI,A_Q8XMZ80H,2024-10-06 05:05:05,Gasometría,pH: 7.33; pCO2: 41 mmHg; pO2: 76 mmHg,Resultados valorados en contexto clínico.
+R_WLIWA7B2,A_SCGZM6BY,2024-10-06 18:38:20,Procalcitonina,PCT: 0.81 ng/mL,Resultados valorados en contexto clínico.
+R_5N70HLE2,A_SCGZM6BY,2024-10-07 03:40:07,Procalcitonina,PCT: 0.08 ng/mL,Resultados valorados en contexto clínico.
+R_W0Q43B3L,A_SCGZM6BY,2024-10-07 12:03:37,Gasometría,pH: 7.41; pCO2: 28 mmHg; pO2: 51 mmHg,Resultados valorados en contexto clínico.
+R_B2VYNRL5,A_SCGZM6BY,2024-10-07 12:14:22,Bioquímica,Na: 135 mmol/L; K: 4.2 mmol/L; Cr: 0.43 mg/dL,Resultados valorados en contexto clínico.
+R_4LHOD9E1,A_4XZ5U2HX,2024-10-07 18:54:22,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_1WO4XAS6,A_SCGZM6BY,2024-10-08 01:04:41,Procalcitonina,PCT: 1.38 ng/mL,Resultados valorados en contexto clínico.
+R_5R1MED0M,A_Q8XMZ80H,2024-10-08 09:12:02,PCR,PCR: 56.9 mg/L,Resultados valorados en contexto clínico.
+R_V22HDQAB,A_Q8XMZ80H,2024-10-08 14:23:37,Hemograma,Hb: 12.6 g/dL; Leu: 10109/µL; Plq: 257613/µL,Resultados valorados en contexto clínico.
+R_V12GFVH9,A_4XZ5U2HX,2024-10-08 23:10:12,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_LJ6ECTUK,A_4XZ5U2HX,2024-10-09 21:47:10,Hemograma,Hb: 13.1 g/dL; Leu: 8048/µL; Plq: 210790/µL,Resultados valorados en contexto clínico.
+R_ZY4UH62A,A_4GJ9O3NU,2024-10-13 12:48:43,Procalcitonina,PCT: 1.79 ng/mL,Resultados valorados en contexto clínico.
+R_AA402BRA,A_4GJ9O3NU,2024-10-13 17:37:09,PCR,PCR: 22.4 mg/L,Resultados valorados en contexto clínico.
+R_ZICSH7UY,A_H8N7A59Q,2024-10-17 01:23:39,PCR,PCR: 25.5 mg/L,Resultados valorados en contexto clínico.
+R_7O6CJHZ8,A_H8N7A59Q,2024-10-17 20:26:45,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_J031XG2Z,A_4GJ9O3NU,2024-10-18 03:44:33,PCR,PCR: 45.1 mg/L,Resultados valorados en contexto clínico.
+R_ALPTZE0F,A_H8N7A59Q,2024-10-19 02:03:59,Gasometría,pH: 7.38; pCO2: 42 mmHg; pO2: 49 mmHg,Resultados valorados en contexto clínico.
+R_GSUV3ONL,A_W7U8ZVT1,2024-10-19 12:43:45,Gasometría,pH: 7.37; pCO2: 43 mmHg; pO2: 60 mmHg,Resultados valorados en contexto clínico.
+R_X6UPMKAJ,A_4GJ9O3NU,2024-10-19 23:31:41,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_TS6FM4MA,A_W7U8ZVT1,2024-10-20 13:17:19,Hemograma,Hb: 15.4 g/dL; Leu: 6748/µL; Plq: 229903/µL,Resultados valorados en contexto clínico.
+R_ASZKZHGP,A_88J22RJU,2024-10-21 10:08:59,Bioquímica,Na: 138 mmol/L; K: 3.8 mmol/L; Cr: 1.35 mg/dL,Resultados valorados en contexto clínico.
+R_Z24HGVRZ,A_YZTJQH9V,2024-10-22 04:21:56,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_R1PGDXT1,A_H8N7A59Q,2024-10-22 04:24:08,Hemograma,Hb: 16.5 g/dL; Leu: 8812/µL; Plq: 266273/µL,Resultados valorados en contexto clínico.
+R_3O1LI197,A_H8N7A59Q,2024-10-22 12:06:01,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_KVEWMMMP,A_88J22RJU,2024-10-22 18:19:32,Procalcitonina,PCT: 0.13 ng/mL,Resultados valorados en contexto clínico.
+R_QCB509QI,A_94W0FR10,2024-10-22 21:45:20,Gasometría,pH: 7.34; pCO2: 37 mmHg; pO2: 70 mmHg,Resultados valorados en contexto clínico.
+R_6XH1J11Z,A_88J22RJU,2024-10-23 07:29:04,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_N816U385,A_C083QTPZ,2024-10-23 18:35:01,PCR,PCR: 6.3 mg/L,Resultados valorados en contexto clínico.
+R_MX596BOE,A_94W0FR10,2024-10-23 21:59:47,PCR,PCR: 26.0 mg/L,Resultados valorados en contexto clínico.
+R_GR64X5G1,A_88J22RJU,2024-10-24 03:51:54,Procalcitonina,PCT: 0.44 ng/mL,Resultados valorados en contexto clínico.
+R_77GW5IKU,A_YZTJQH9V,2024-10-24 04:51:24,Hemograma,Hb: 12.5 g/dL; Leu: 6522/µL; Plq: 397327/µL,Resultados valorados en contexto clínico.
+R_OUFDORG7,A_C083QTPZ,2024-10-24 05:34:35,Bioquímica,Na: 134 mmol/L; K: 4.4 mmol/L; Cr: 1.01 mg/dL,Resultados valorados en contexto clínico.
+R_Z4686K7K,A_88J22RJU,2024-10-24 09:44:40,Gasometría,pH: 7.34; pCO2: 33 mmHg; pO2: 86 mmHg,Resultados valorados en contexto clínico.
+R_EWWEQ6BL,A_YZTJQH9V,2024-10-24 11:59:34,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_QD209TA1,A_94W0FR10,2024-10-24 15:31:23,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_64890631,A_W7U8ZVT1,2024-10-24 20:24:26,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_66R4PTLX,A_88J22RJU,2024-10-24 21:49:56,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_VXMZB5QR,A_88J22RJU,2024-10-25 03:10:06,Gasometría,pH: 7.4; pCO2: 47 mmHg; pO2: 79 mmHg,Resultados valorados en contexto clínico.
+R_2FC2MZIS,A_C083QTPZ,2024-10-25 09:45:28,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_UXBUG8GP,A_OXD9Y8UI,2024-10-26 22:05:26,Bioquímica,Na: 135 mmol/L; K: 3.0 mmol/L; Cr: 0.47 mg/dL,Resultados valorados en contexto clínico.
+R_PIG48WLC,A_OXD9Y8UI,2024-10-27 04:04:15,Bioquímica,Na: 138 mmol/L; K: 4.0 mmol/L; Cr: 0.39 mg/dL,Resultados valorados en contexto clínico.
+R_KT9WVZGT,A_OXD9Y8UI,2024-10-27 04:57:59,Bioquímica,Na: 132 mmol/L; K: 3.6 mmol/L; Cr: 0.98 mg/dL,Resultados valorados en contexto clínico.
+R_1F18FPTF,A_OXD9Y8UI,2024-10-27 06:52:40,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_DX6DIMFX,A_YZTJQH9V,2024-10-27 12:19:10,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_LHXIB0CJ,A_YZTJQH9V,2024-10-28 04:32:46,PCR,PCR: 39.2 mg/L,Resultados valorados en contexto clínico.
+R_OLGSTF5K,A_9DUPRW5K,2024-10-28 10:43:22,Procalcitonina,PCT: 1.37 ng/mL,Resultados valorados en contexto clínico.
+R_DHSDIJNG,A_OXD9Y8UI,2024-10-28 16:05:57,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_4SRT0CW1,A_OXD9Y8UI,2024-10-28 22:40:42,PCR,PCR: 56.8 mg/L,Resultados valorados en contexto clínico.
+R_3WCJRREQ,A_OXD9Y8UI,2024-10-29 07:15:33,Procalcitonina,PCT: 1.18 ng/mL,Resultados valorados en contexto clínico.
+R_YVKFH7S6,A_9DUPRW5K,2024-10-29 13:04:57,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_VMQ2IS9N,A_OXD9Y8UI,2024-10-29 16:41:03,Gasometría,pH: 7.39; pCO2: 43 mmHg; pO2: 59 mmHg,Resultados valorados en contexto clínico.
+R_1EMCT0LN,A_9DUPRW5K,2024-10-30 11:03:04,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_X66AHYGX,A_PU6UD1CA,2024-10-31 00:19:35,Hemograma,Hb: 16.9 g/dL; Leu: 11855/µL; Plq: 234995/µL,Resultados valorados en contexto clínico.
+R_745GGONU,A_9DUPRW5K,2024-10-31 18:11:01,PCR,PCR: 30.8 mg/L,Resultados valorados en contexto clínico.
+R_E9PARNIP,A_PU6UD1CA,2024-11-01 07:17:08,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_MMFH3ZCZ,A_9DUPRW5K,2024-11-02 16:17:11,Hemograma,Hb: 14.3 g/dL; Leu: 6670/µL; Plq: 236240/µL,Resultados valorados en contexto clínico.
+R_LM7D4I25,A_PU6UD1CA,2024-11-02 19:10:27,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_FQCT2MAE,A_9DUPRW5K,2024-11-03 07:51:25,Hemograma,Hb: 16.2 g/dL; Leu: 10514/µL; Plq: 256627/µL,Resultados valorados en contexto clínico.
+R_PN8BWYMF,A_QAJVOWU5,2024-11-04 00:59:54,Hemograma,Hb: 12.3 g/dL; Leu: 9243/µL; Plq: 226462/µL,Resultados valorados en contexto clínico.
+R_IBZHWSMG,A_PU6UD1CA,2024-11-04 01:04:42,Procalcitonina,PCT: 1.98 ng/mL,Resultados valorados en contexto clínico.
+R_BRYGLZBM,A_QAJVOWU5,2024-11-04 03:54:35,PCR,PCR: 6.8 mg/L,Resultados valorados en contexto clínico.
+R_D9T955PB,A_QAJVOWU5,2024-11-04 04:14:07,Procalcitonina,PCT: 0.91 ng/mL,Resultados valorados en contexto clínico.
+R_VDF2UPFD,A_QAJVOWU5,2024-11-04 05:58:38,Procalcitonina,PCT: 0.25 ng/mL,Resultados valorados en contexto clínico.
+R_55ALT8M1,A_QAJVOWU5,2024-11-04 06:46:39,Hemograma,Hb: 13.0 g/dL; Leu: 6105/µL; Plq: 217171/µL,Resultados valorados en contexto clínico.
+R_F7LS0GAR,A_QAJVOWU5,2024-11-04 09:30:56,Procalcitonina,PCT: 2.13 ng/mL,Resultados valorados en contexto clínico.
+R_LU8G05EE,A_QAJVOWU5,2024-11-04 11:29:35,Bioquímica,Na: 137 mmol/L; K: 3.7 mmol/L; Cr: 1.32 mg/dL,Resultados valorados en contexto clínico.
+R_NEZ7EU2L,A_QAJVOWU5,2024-11-04 18:38:02,Hemograma,Hb: 13.9 g/dL; Leu: 8722/µL; Plq: 223895/µL,Resultados valorados en contexto clínico.
+R_PPDXC322,A_PU6UD1CA,2024-11-05 02:53:10,Bioquímica,Na: 138 mmol/L; K: 4.8 mmol/L; Cr: 1.17 mg/dL,Resultados valorados en contexto clínico.
+R_FZCLQ2KX,A_PU6UD1CA,2024-11-07 08:55:37,PCR,PCR: 14.9 mg/L,Resultados valorados en contexto clínico.
+R_V628QJJU,A_JW9DURIB,2024-11-10 11:59:44,Procalcitonina,PCT: 0.1 ng/mL,Resultados valorados en contexto clínico.
+R_M6TRT7NW,A_JW9DURIB,2024-11-10 17:44:24,Procalcitonina,PCT: 0.38 ng/mL,Resultados valorados en contexto clínico.
+R_41D80QUB,A_JW9DURIB,2024-11-12 11:45:32,Procalcitonina,PCT: 1.25 ng/mL,Resultados valorados en contexto clínico.
+R_61NCCMSI,A_JW9DURIB,2024-11-13 02:05:03,Hemograma,Hb: 14.7 g/dL; Leu: 13034/µL; Plq: 294198/µL,Resultados valorados en contexto clínico.
+R_ZCXXOTVT,A_JW9DURIB,2024-11-13 03:55:39,PCR,PCR: 7.7 mg/L,Resultados valorados en contexto clínico.
+R_08YNVF7T,A_GZ6BN8HQ,2024-11-13 11:02:28,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_1OV9XEAN,A_JW9DURIB,2024-11-13 21:09:23,Gasometría,pH: 7.41; pCO2: 33 mmHg; pO2: 64 mmHg,Resultados valorados en contexto clínico.
+R_PSL9YI75,A_GZ6BN8HQ,2024-11-14 09:53:41,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_CQ94JXHO,A_GZ6BN8HQ,2024-11-15 04:37:00,Gasometría,pH: 7.4; pCO2: 39 mmHg; pO2: 70 mmHg,Resultados valorados en contexto clínico.
+R_SS88PEP9,A_GZ6BN8HQ,2024-11-15 04:58:33,PCR,PCR: 43.5 mg/L,Resultados valorados en contexto clínico.
+R_H0811QNZ,A_GZ6BN8HQ,2024-11-16 06:27:06,Procalcitonina,PCT: 0.15 ng/mL,Resultados valorados en contexto clínico.
+R_RJ8C6ICV,A_GZ6BN8HQ,2024-11-17 11:31:44,Procalcitonina,PCT: 0.56 ng/mL,Resultados valorados en contexto clínico.
+R_5AOMU9PB,A_CT1YN6N4,2024-11-24 21:46:17,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_FO5CPJBT,A_4O67ODVQ,2024-11-25 06:27:59,Procalcitonina,PCT: 0.33 ng/mL,Resultados valorados en contexto clínico.
+R_CNPCXY20,A_4O67ODVQ,2024-11-25 09:01:52,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_Q9Q2A27Y,A_4O67ODVQ,2024-11-25 12:13:26,Hemograma,Hb: 13.0 g/dL; Leu: 15050/µL; Plq: 245211/µL,Resultados valorados en contexto clínico.
+R_AS8T1E1E,A_4O67ODVQ,2024-11-25 13:26:28,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_4VE1P4I2,A_4O67ODVQ,2024-11-25 16:30:33,Hemograma,Hb: 11.9 g/dL; Leu: 11562/µL; Plq: 201366/µL,Resultados valorados en contexto clínico.
+R_9DU8JDR1,A_4O67ODVQ,2024-11-25 18:35:35,PCR,PCR: 78.6 mg/L,Resultados valorados en contexto clínico.
+R_LGMYRA6K,A_4O67ODVQ,2024-11-26 00:55:01,Bioquímica,Na: 139 mmol/L; K: 4.4 mmol/L; Cr: 0.59 mg/dL,Resultados valorados en contexto clínico.
+R_YILMZ3I0,A_CT1YN6N4,2024-11-26 04:14:36,Hemograma,Hb: 16.2 g/dL; Leu: 11000/µL; Plq: 232593/µL,Resultados valorados en contexto clínico.
+R_WGD3Y9I5,A_J4JG53WZ,2024-11-29 05:15:51,Hemograma,Hb: 13.0 g/dL; Leu: 11325/µL; Plq: 228280/µL,Resultados valorados en contexto clínico.
+R_G5KJZF8N,A_J4JG53WZ,2024-11-29 12:59:40,Hemograma,Hb: 14.4 g/dL; Leu: 11918/µL; Plq: 354846/µL,Resultados valorados en contexto clínico.
+R_BD3DLWBN,A_J4JG53WZ,2024-11-29 13:55:08,Hemograma,Hb: 14.7 g/dL; Leu: 12937/µL; Plq: 257996/µL,Resultados valorados en contexto clínico.
+R_8F1KLK61,A_CT1YN6N4,2024-11-30 07:34:11,PCR,PCR: 19.7 mg/L,Resultados valorados en contexto clínico.
+R_QF7KDZES,A_J4JG53WZ,2024-11-30 09:05:06,Bioquímica,Na: 133 mmol/L; K: 5.2 mmol/L; Cr: 1.19 mg/dL,Resultados valorados en contexto clínico.
+R_0SIAERBZ,A_J4JG53WZ,2024-11-30 14:11:01,Hemograma,Hb: 14.8 g/dL; Leu: 10755/µL; Plq: 270629/µL,Resultados valorados en contexto clínico.
+R_PFTRVUHZ,A_CT1YN6N4,2024-11-30 22:31:03,Gasometría,pH: 7.39; pCO2: 43 mmHg; pO2: 49 mmHg,Resultados valorados en contexto clínico.
+R_L59MNBL3,A_J4JG53WZ,2024-12-01 04:52:06,PCR,PCR: 38.0 mg/L,Resultados valorados en contexto clínico.
+R_3WE4SB84,A_J4JG53WZ,2024-12-01 05:56:32,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_QOQQZNS4,A_GEQERRSV,2024-12-05 06:19:40,Procalcitonina,PCT: 1.03 ng/mL,Resultados valorados en contexto clínico.
+R_8W2Y37CM,A_WMY6SAH0,2024-12-06 04:17:51,PCR,PCR: 18.1 mg/L,Resultados valorados en contexto clínico.
+R_B45R8G8O,A_WMY6SAH0,2024-12-06 05:19:58,Gasometría,pH: 7.43; pCO2: 55 mmHg; pO2: 68 mmHg,Resultados valorados en contexto clínico.
+R_D0IWC2P4,A_WMY6SAH0,2024-12-06 05:21:51,Hemograma,Hb: 13.2 g/dL; Leu: 8750/µL; Plq: 93281/µL,Resultados valorados en contexto clínico.
+R_9TYTPAUJ,A_WMY6SAH0,2024-12-06 12:25:57,Bioquímica,Na: 142 mmol/L; K: 4.2 mmol/L; Cr: 0.75 mg/dL,Resultados valorados en contexto clínico.
+R_BJ348AVK,A_GEQERRSV,2024-12-06 15:32:57,PCR,PCR: 19.5 mg/L,Resultados valorados en contexto clínico.
+R_264U2YS0,A_43B08NCS,2024-12-06 16:44:25,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_XCE54GB9,A_43B08NCS,2024-12-06 17:36:22,Procalcitonina,PCT: 0.83 ng/mL,Resultados valorados en contexto clínico.
+R_EV46UW99,A_GEQERRSV,2024-12-06 18:23:16,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_CPX4BM55,A_WMY6SAH0,2024-12-06 18:58:27,Gasometría,pH: 7.48; pCO2: 39 mmHg; pO2: 65 mmHg,Resultados valorados en contexto clínico.
+R_GFAH6G4M,A_43B08NCS,2024-12-06 21:43:42,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_6P9X0C0L,A_WMY6SAH0,2024-12-06 21:46:02,Procalcitonina,PCT: 0.23 ng/mL,Resultados valorados en contexto clínico.
+R_YMPMN1CU,A_WMY6SAH0,2024-12-07 00:46:44,Procalcitonina,PCT: 1.33 ng/mL,Resultados valorados en contexto clínico.
+R_7FW9T2MW,A_F7XC1IGM,2024-12-07 12:29:16,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_CHD86MQ4,A_F7XC1IGM,2024-12-07 20:50:51,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_R21JG607,A_F7XC1IGM,2024-12-07 22:33:00,PCR,PCR: 33.0 mg/L,Resultados valorados en contexto clínico.
+R_AWWRLK0V,A_F7XC1IGM,2024-12-07 23:41:53,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_M2VXWLK5,A_F7XC1IGM,2024-12-08 01:25:11,Bioquímica,Na: 135 mmol/L; K: 4.2 mmol/L; Cr: 0.98 mg/dL,Resultados valorados en contexto clínico.
+R_45KAJGVZ,A_F7XC1IGM,2024-12-08 07:33:02,Procalcitonina,PCT: 1.59 ng/mL,Resultados valorados en contexto clínico.
+R_OHG44XUF,A_F7XC1IGM,2024-12-08 09:39:12,Bioquímica,Na: 140 mmol/L; K: 4.6 mmol/L; Cr: 1.06 mg/dL,Resultados valorados en contexto clínico.
+R_7W9F0RWE,A_F7XC1IGM,2024-12-08 11:33:33,Hemograma,Hb: 14.9 g/dL; Leu: 8817/µL; Plq: 304968/µL,Resultados valorados en contexto clínico.
+R_4M4XCXNC,A_43B08NCS,2024-12-09 21:15:17,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_P6SC19X9,A_43B08NCS,2024-12-10 18:57:20,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_XTLYL7MH,A_WHTRAM8X,2024-12-16 02:20:30,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_KHSZ3778,A_WHTRAM8X,2024-12-16 18:44:03,PCR,PCR: 49.2 mg/L,Resultados valorados en contexto clínico.
+R_YEUVQS3W,A_WHTRAM8X,2024-12-17 06:26:14,Hemograma,Hb: 10.7 g/dL; Leu: 12984/µL; Plq: 285530/µL,Resultados valorados en contexto clínico.
+R_65GLIZCY,A_C5LXG168,2024-12-18 17:17:45,Gasometría,pH: 7.43; pCO2: 36 mmHg; pO2: 79 mmHg,Resultados valorados en contexto clínico.
+R_057TEVFU,A_WHTRAM8X,2024-12-18 18:28:42,Hemograma,Hb: 13.3 g/dL; Leu: 7374/µL; Plq: 237643/µL,Resultados valorados en contexto clínico.
+R_PSFMOC5L,A_WHTRAM8X,2024-12-18 20:44:39,Hemograma,Hb: 13.7 g/dL; Leu: 13392/µL; Plq: 290649/µL,Resultados valorados en contexto clínico.
+R_HZ0P6C1P,A_WHTRAM8X,2024-12-18 21:34:10,Bioquímica,Na: 133 mmol/L; K: 3.7 mmol/L; Cr: 0.68 mg/dL,Resultados valorados en contexto clínico.
+R_4EXMYX1O,A_WHTRAM8X,2024-12-19 00:35:25,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_FWTHE9CR,A_5NVLNVQA,2024-12-19 04:19:57,Bioquímica,Na: 140 mmol/L; K: 4.3 mmol/L; Cr: 0.66 mg/dL,Resultados valorados en contexto clínico.
+R_D695SS35,A_5NVLNVQA,2024-12-19 07:20:00,Procalcitonina,PCT: 0.74 ng/mL,Resultados valorados en contexto clínico.
+R_CMRXR9U8,A_5NVLNVQA,2024-12-19 11:22:23,Bioquímica,Na: 143 mmol/L; K: 4.4 mmol/L; Cr: 1.03 mg/dL,Resultados valorados en contexto clínico.
+R_4VVI8RWY,A_C5LXG168,2024-12-19 22:55:22,Gasometría,pH: 7.33; pCO2: 39 mmHg; pO2: 84 mmHg,Resultados valorados en contexto clínico.
+R_HBBFJ62I,A_5NVLNVQA,2024-12-20 01:23:34,Hemograma,Hb: 13.6 g/dL; Leu: 14538/µL; Plq: 224264/µL,Resultados valorados en contexto clínico.
+R_XOG304PH,A_5NVLNVQA,2024-12-20 17:01:44,Bioquímica,Na: 139 mmol/L; K: 4.6 mmol/L; Cr: 1.05 mg/dL,Resultados valorados en contexto clínico.
+R_RR9EF16Y,A_5NVLNVQA,2024-12-21 03:51:04,Procalcitonina,PCT: 0.67 ng/mL,Resultados valorados en contexto clínico.
+R_3FE8N9O0,A_5NVLNVQA,2024-12-21 08:56:57,Procalcitonina,PCT: 0.08 ng/mL,Resultados valorados en contexto clínico.
+R_LMHFC7A7,A_HQFQHSH8,2024-12-21 10:33:08,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_P0QNJ24W,A_HQFQHSH8,2024-12-21 15:12:01,PCR,PCR: 2.6 mg/L,Resultados valorados en contexto clínico.
+R_P4QYRDVD,A_WHTRAM8X,2024-12-21 15:43:07,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_U8X3IPS7,A_HQFQHSH8,2024-12-21 16:52:15,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_8ZAT5P5X,A_C5LXG168,2024-12-22 00:13:13,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_PJYS0CSD,A_HQFQHSH8,2024-12-22 09:17:00,Bioquímica,Na: 136 mmol/L; K: 4.1 mmol/L; Cr: 1.12 mg/dL,Resultados valorados en contexto clínico.
+R_QJKW9LJ7,A_HQFQHSH8,2024-12-22 09:23:52,Gasometría,pH: 7.42; pCO2: 48 mmHg; pO2: 74 mmHg,Resultados valorados en contexto clínico.
+R_O6D3HSVA,A_5NVLNVQA,2024-12-22 12:05:32,Bioquímica,Na: 133 mmol/L; K: 4.1 mmol/L; Cr: 1.09 mg/dL,Resultados valorados en contexto clínico.
+R_AK97YDKY,A_HQFQHSH8,2024-12-22 13:33:33,Gasometría,pH: 7.39; pCO2: 42 mmHg; pO2: 91 mmHg,Resultados valorados en contexto clínico.
+R_0TNIY2MA,A_C5LXG168,2024-12-22 17:01:01,Gasometría,pH: 7.42; pCO2: 41 mmHg; pO2: 81 mmHg,Resultados valorados en contexto clínico.
+R_136BV10Q,A_HQFQHSH8,2024-12-22 18:53:21,PCR,PCR: 38.1 mg/L,Resultados valorados en contexto clínico.
+R_COU7EAB7,A_HQFQHSH8,2024-12-22 20:20:19,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_QMLLRXQ7,A_C5LXG168,2024-12-22 22:21:49,Bioquímica,Na: 133 mmol/L; K: 3.7 mmol/L; Cr: 1.19 mg/dL,Resultados valorados en contexto clínico.
+R_R8EZ01XO,A_C5LXG168,2024-12-23 12:18:01,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_CB7RS87B,A_C5LXG168,2024-12-23 18:54:45,PCR,PCR: 19.9 mg/L,Resultados valorados en contexto clínico.
+R_LP6G9579,A_C5LXG168,2024-12-24 08:15:35,Procalcitonina,PCT: 0.61 ng/mL,Resultados valorados en contexto clínico.
+R_V75FVZF2,A_4WIF13TO,2024-12-29 03:09:32,Bioquímica,Na: 143 mmol/L; K: 4.3 mmol/L; Cr: 0.56 mg/dL,Resultados valorados en contexto clínico.
+R_B8Z9987W,A_PA9TWMTP,2024-12-29 16:31:28,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_VS345M5U,A_WX17WF2Z,2024-12-30 09:56:21,Hemograma,Hb: 13.6 g/dL; Leu: 3429/µL; Plq: 221948/µL,Resultados valorados en contexto clínico.
+R_VGFKUD4D,A_4WIF13TO,2024-12-30 10:58:00,Hemograma,Hb: 12.8 g/dL; Leu: 14167/µL; Plq: 311411/µL,Resultados valorados en contexto clínico.
+R_ZWW3DWN2,A_PA9TWMTP,2024-12-31 00:53:21,PCR,PCR: 18.3 mg/L,Resultados valorados en contexto clínico.
+R_YSEN2O99,A_PA9TWMTP,2024-12-31 16:36:24,Hemograma,Hb: 17.4 g/dL; Leu: 11451/µL; Plq: 172710/µL,Resultados valorados en contexto clínico.
+R_F259NQBM,A_PA9TWMTP,2024-12-31 17:51:00,Procalcitonina,PCT: 0.94 ng/mL,Resultados valorados en contexto clínico.
+R_4OV5EGJ2,A_WX17WF2Z,2024-12-31 19:49:06,Hemograma,Hb: 11.2 g/dL; Leu: 7230/µL; Plq: 263545/µL,Resultados valorados en contexto clínico.
+R_90CX9Q36,A_PA9TWMTP,2025-01-01 03:54:07,Hemograma,Hb: 17.0 g/dL; Leu: 8127/µL; Plq: 234451/µL,Resultados valorados en contexto clínico.
+R_LJ5RFDS4,A_WX17WF2Z,2025-01-01 18:01:28,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_2K46SGGM,A_DFN6W0V8,2025-01-02 00:05:06,PCR,PCR: 2.6 mg/L,Resultados valorados en contexto clínico.
+R_SI8RU8QW,A_PA9TWMTP,2025-01-02 16:11:01,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_ROBPL3R5,A_PA9TWMTP,2025-01-02 20:06:38,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_QU9LGCDJ,A_PA9TWMTP,2025-01-02 22:42:14,Procalcitonina,PCT: 1.64 ng/mL,Resultados valorados en contexto clínico.
+R_2S5AMNDR,A_DFN6W0V8,2025-01-03 16:48:37,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_4H30C1ZK,A_DFN6W0V8,2025-01-03 16:57:05,PCR,PCR: 30.9 mg/L,Resultados valorados en contexto clínico.
+R_PN557707,A_YS43F1CG,2025-01-04 06:11:44,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_BX8D8U4O,A_YS43F1CG,2025-01-05 03:53:54,Bioquímica,Na: 139 mmol/L; K: 3.7 mmol/L; Cr: 0.87 mg/dL,Resultados valorados en contexto clínico.
+R_0PRYYGWD,A_4WIF13TO,2025-01-06 07:55:55,Gasometría,pH: 7.41; pCO2: 36 mmHg; pO2: 72 mmHg,Resultados valorados en contexto clínico.
+R_L6B1TMJS,A_YS43F1CG,2025-01-06 12:50:11,PCR,PCR: 42.0 mg/L,Resultados valorados en contexto clínico.
+R_TSEJRZ88,A_YS43F1CG,2025-01-06 16:17:04,Procalcitonina,PCT: 0.23 ng/mL,Resultados valorados en contexto clínico.
+R_OK1F8WNA,A_M43TBDXE,2025-01-09 01:45:52,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_X5WAC2RC,A_YS43F1CG,2025-01-09 02:16:24,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_ZZGF0C88,A_YS43F1CG,2025-01-09 17:48:29,PCR,PCR: 24.6 mg/L,Resultados valorados en contexto clínico.
+R_ZI1APHAB,A_PQOZGO70,2025-01-11 17:51:36,Gasometría,pH: 7.45; pCO2: 40 mmHg; pO2: 72 mmHg,Resultados valorados en contexto clínico.
+R_2CMOC8JH,A_PQOZGO70,2025-01-11 22:13:22,Procalcitonina,PCT: 0.47 ng/mL,Resultados valorados en contexto clínico.
+R_I7378VVF,A_QZWRAQ18,2025-01-12 08:00:10,Procalcitonina,PCT: 0.25 ng/mL,Resultados valorados en contexto clínico.
+R_6NRN9NWP,A_PQOZGO70,2025-01-12 15:15:24,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_7V663YD3,A_M43TBDXE,2025-01-12 16:40:44,Gasometría,pH: 7.37; pCO2: 42 mmHg; pO2: 74 mmHg,Resultados valorados en contexto clínico.
+R_UWY3505D,A_QZWRAQ18,2025-01-13 00:05:53,PCR,PCR: 53.5 mg/L,Resultados valorados en contexto clínico.
+R_U16O75WN,A_M43TBDXE,2025-01-13 14:08:16,Bioquímica,Na: 140 mmol/L; K: 4.5 mmol/L; Cr: 1.33 mg/dL,Resultados valorados en contexto clínico.
+R_MKS7EI4R,A_QZWRAQ18,2025-01-13 14:32:19,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_BWK2AMQG,A_PQOZGO70,2025-01-13 20:55:31,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_FW8WL4T0,A_PQOZGO70,2025-01-14 22:56:01,Bioquímica,Na: 138 mmol/L; K: 4.4 mmol/L; Cr: 1.44 mg/dL,Resultados valorados en contexto clínico.
+R_Y7FOP3VE,A_PQOZGO70,2025-01-15 23:05:52,Hemograma,Hb: 12.4 g/dL; Leu: 2370/µL; Plq: 282511/µL,Resultados valorados en contexto clínico.
+R_YY7Q6PZ5,A_45IQN93E,2025-01-16 20:25:47,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_HD04PKW1,A_PQOZGO70,2025-01-17 21:42:49,Procalcitonina,PCT: 0.67 ng/mL,Resultados valorados en contexto clínico.
+R_OVUFGC3N,A_QZWRAQ18,2025-01-17 23:39:26,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_WC9XU7YE,A_PQOZGO70,2025-01-18 01:43:13,Hemograma,Hb: 12.3 g/dL; Leu: 12989/µL; Plq: 290573/µL,Resultados valorados en contexto clínico.
+R_X5NNWLV2,A_H1QJ3FVC,2025-01-18 17:28:10,Gasometría,pH: 7.34; pCO2: 36 mmHg; pO2: 71 mmHg,Resultados valorados en contexto clínico.
+R_OYPOGK2U,A_45IQN93E,2025-01-18 19:08:46,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_VOBVJRFH,A_QZWRAQ18,2025-01-19 00:51:03,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_STY8MIW6,A_45IQN93E,2025-01-19 09:49:44,Bioquímica,Na: 137 mmol/L; K: 4.6 mmol/L; Cr: 1.1 mg/dL,Resultados valorados en contexto clínico.
+R_XS297A6M,A_HOQTRXTU,2025-01-19 15:25:32,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_11S6QA4V,A_HOQTRXTU,2025-01-20 13:33:18,Gasometría,pH: 7.42; pCO2: 27 mmHg; pO2: 87 mmHg,Resultados valorados en contexto clínico.
+R_95ISQUGB,A_H1QJ3FVC,2025-01-21 04:47:36,PCR,PCR: 12.4 mg/L,Resultados valorados en contexto clínico.
+R_0G0RN4EL,A_45IQN93E,2025-01-21 08:32:27,Gasometría,pH: 7.53; pCO2: 24 mmHg; pO2: 89 mmHg,Resultados valorados en contexto clínico.
+R_B9KJW5AP,A_45IQN93E,2025-01-21 15:50:18,PCR,PCR: 43.1 mg/L,Resultados valorados en contexto clínico.
+R_T27ZFS6H,A_H1QJ3FVC,2025-01-21 16:45:57,Bioquímica,Na: 138 mmol/L; K: 3.1 mmol/L; Cr: 0.79 mg/dL,Resultados valorados en contexto clínico.
+R_I12W5OF0,A_HOQTRXTU,2025-01-21 22:56:03,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_BYISQ53W,A_HOQTRXTU,2025-01-22 00:15:07,PCR,PCR: 1.7 mg/L,Resultados valorados en contexto clínico.
+R_GRZAD7HZ,A_H1QJ3FVC,2025-01-22 03:13:42,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_EY3SIQNQ,A_H1QJ3FVC,2025-01-22 10:42:22,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_QXXW9NPA,A_4EPLG012,2025-01-23 03:40:03,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_BYSXMLSP,A_HOQTRXTU,2025-01-23 11:59:10,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_LT2MMO54,A_H1QJ3FVC,2025-01-23 13:57:14,Gasometría,pH: 7.44; pCO2: 39 mmHg; pO2: 77 mmHg,Resultados valorados en contexto clínico.
+R_YI8CPQEY,A_HOQTRXTU,2025-01-23 23:03:12,Procalcitonina,PCT: 0.01 ng/mL,Resultados valorados en contexto clínico.
+R_LN053PN3,A_HOQTRXTU,2025-01-24 03:48:52,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_6EJVYQ4N,A_4EPLG012,2025-01-24 23:58:04,Hemograma,Hb: 14.2 g/dL; Leu: 8485/µL; Plq: 251793/µL,Resultados valorados en contexto clínico.
+R_JXU98CDD,A_H1QJ3FVC,2025-01-25 11:27:10,PCR,PCR: 0.4 mg/L,Resultados valorados en contexto clínico.
+R_JRZ18X6P,A_4EPLG012,2025-01-29 04:16:44,Procalcitonina,PCT: 0.59 ng/mL,Resultados valorados en contexto clínico.
+R_A6E0CYL6,A_RQYWSSMK,2025-02-01 20:21:59,Gasometría,pH: 7.43; pCO2: 45 mmHg; pO2: 88 mmHg,Resultados valorados en contexto clínico.
+R_GA6YWMZS,A_RQYWSSMK,2025-02-03 21:26:48,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_SZNVWIG7,A_RQYWSSMK,2025-02-04 14:21:09,Gasometría,pH: 7.48; pCO2: 40 mmHg; pO2: 69 mmHg,Resultados valorados en contexto clínico.
+R_95ONE5R9,A_RQYWSSMK,2025-02-05 15:34:36,PCR,PCR: 57.0 mg/L,Resultados valorados en contexto clínico.
+R_8ODXQPMA,A_RQYWSSMK,2025-02-06 03:21:04,Hemograma,Hb: 12.1 g/dL; Leu: 5942/µL; Plq: 216241/µL,Resultados valorados en contexto clínico.
+R_ZYCMNNVG,A_RQYWSSMK,2025-02-06 07:27:08,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_71AL5P36,A_IXHCQ5A3,2025-02-07 01:33:55,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_EEI9IK00,A_IXHCQ5A3,2025-02-07 07:33:56,PCR,PCR: 76.4 mg/L,Resultados valorados en contexto clínico.
+R_0XYA8W23,A_RQYWSSMK,2025-02-07 09:42:17,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_034D1NIX,A_IXHCQ5A3,2025-02-07 12:29:14,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_E713FRHR,A_IXHCQ5A3,2025-02-07 12:29:57,Procalcitonina,PCT: 0.07 ng/mL,Resultados valorados en contexto clínico.
+R_PWN9ZD3X,A_1MCWP28V,2025-02-07 22:02:05,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_SZ908SP7,A_IXHCQ5A3,2025-02-07 23:47:15,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_0ITNR46B,A_VRHL9G2G,2025-02-08 04:08:45,PCR,PCR: 40.0 mg/L,Resultados valorados en contexto clínico.
+R_S8Q73FVF,A_IXHCQ5A3,2025-02-08 04:43:15,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_OPXRL2A0,A_IXHCQ5A3,2025-02-08 04:45:21,Procalcitonina,PCT: 1.4 ng/mL,Resultados valorados en contexto clínico.
+R_13DYCVII,A_1MCWP28V,2025-02-08 17:13:14,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_PKVSY0ON,A_1MCWP28V,2025-02-08 18:38:24,Hemograma,Hb: 16.3 g/dL; Leu: 10958/µL; Plq: 226874/µL,Resultados valorados en contexto clínico.
+R_QUWWCNKS,A_62XME7UE,2025-02-08 22:05:59,Hemograma,Hb: 13.6 g/dL; Leu: 7290/µL; Plq: 267114/µL,Resultados valorados en contexto clínico.
+R_6129K8GF,A_VRHL9G2G,2025-02-08 23:36:04,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_K4TP7BEK,A_1MCWP28V,2025-02-09 01:02:38,Procalcitonina,PCT: 0.59 ng/mL,Resultados valorados en contexto clínico.
+R_RHB1NTA7,A_1MCWP28V,2025-02-09 01:50:45,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_4OQI554W,A_62XME7UE,2025-02-09 08:22:43,Bioquímica,Na: 134 mmol/L; K: 3.8 mmol/L; Cr: 1.02 mg/dL,Resultados valorados en contexto clínico.
+R_2ZYRTQ2D,A_YDSL3AJF,2025-02-09 11:23:48,Procalcitonina,PCT: 0.44 ng/mL,Resultados valorados en contexto clínico.
+R_B21LSAU9,A_62XME7UE,2025-02-09 12:35:06,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_7TOXCR02,A_YDSL3AJF,2025-02-09 17:50:12,PCR,PCR: 50.1 mg/L,Resultados valorados en contexto clínico.
+R_WA8PTJ6T,A_62XME7UE,2025-02-09 21:36:51,Procalcitonina,PCT: 0.72 ng/mL,Resultados valorados en contexto clínico.
+R_RR3K6F04,A_1MCWP28V,2025-02-09 21:46:01,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_64YX7CAH,A_62XME7UE,2025-02-09 22:40:48,PCR,PCR: 40.0 mg/L,Resultados valorados en contexto clínico.
+R_GYNY5ZKA,A_62XME7UE,2025-02-10 22:36:25,Gasometría,pH: 7.32; pCO2: 43 mmHg; pO2: 87 mmHg,Resultados valorados en contexto clínico.
+R_OIMPER2P,A_62XME7UE,2025-02-10 22:56:51,PCR,PCR: 11.7 mg/L,Resultados valorados en contexto clínico.
+R_PL84GZ7I,A_VRHL9G2G,2025-02-11 00:41:25,Procalcitonina,PCT: 0.91 ng/mL,Resultados valorados en contexto clínico.
+R_EWZMLUIB,A_62XME7UE,2025-02-11 08:14:50,Procalcitonina,PCT: 0.4 ng/mL,Resultados valorados en contexto clínico.
+R_QER39NW0,A_YDSL3AJF,2025-02-11 09:09:35,Bioquímica,Na: 135 mmol/L; K: 3.5 mmol/L; Cr: 1.23 mg/dL,Resultados valorados en contexto clínico.
+R_LM1RB96R,A_YDSL3AJF,2025-02-12 01:09:58,Bioquímica,Na: 132 mmol/L; K: 3.5 mmol/L; Cr: 0.85 mg/dL,Resultados valorados en contexto clínico.
+R_QMIT7L14,A_YDSL3AJF,2025-02-12 03:30:58,Gasometría,pH: 7.31; pCO2: 45 mmHg; pO2: 61 mmHg,Resultados valorados en contexto clínico.
+R_7AU59MQB,A_VRHL9G2G,2025-02-12 05:29:56,Bioquímica,Na: 138 mmol/L; K: 4.2 mmol/L; Cr: 1.26 mg/dL,Resultados valorados en contexto clínico.
+R_CXWAN868,A_VRHL9G2G,2025-02-12 08:50:31,Procalcitonina,PCT: 0.34 ng/mL,Resultados valorados en contexto clínico.
+R_C0FA34C1,A_YDSL3AJF,2025-02-12 09:27:16,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_PSYPMZ0N,A_UJOW5LBG,2025-02-12 09:42:11,Bioquímica,Na: 139 mmol/L; K: 3.9 mmol/L; Cr: 1.34 mg/dL,Resultados valorados en contexto clínico.
+R_66VSVZ86,A_UJOW5LBG,2025-02-12 11:21:35,Bioquímica,Na: 136 mmol/L; K: 3.5 mmol/L; Cr: 1.04 mg/dL,Resultados valorados en contexto clínico.
+R_XZ0TXBL6,A_UJOW5LBG,2025-02-15 06:28:03,Bioquímica,Na: 140 mmol/L; K: 4.0 mmol/L; Cr: 1.29 mg/dL,Resultados valorados en contexto clínico.
+R_Q8EOKFWJ,A_VRHL9G2G,2025-02-15 07:49:42,Gasometría,pH: 7.39; pCO2: 38 mmHg; pO2: 96 mmHg,Resultados valorados en contexto clínico.
+R_ITVDZR9V,A_YDSL3AJF,2025-02-15 12:50:07,Bioquímica,Na: 139 mmol/L; K: 5.2 mmol/L; Cr: 0.98 mg/dL,Resultados valorados en contexto clínico.
+R_73E8E5N1,A_WVXGEOZL,2025-02-16 05:16:14,PCR,PCR: 54.8 mg/L,Resultados valorados en contexto clínico.
+R_H9AEQFTK,A_YDSL3AJF,2025-02-16 20:37:05,Hemograma,Hb: 10.5 g/dL; Leu: 13540/µL; Plq: 209585/µL,Resultados valorados en contexto clínico.
+R_E9UCMPBQ,A_WVXGEOZL,2025-02-16 21:52:14,Hemograma,Hb: 12.2 g/dL; Leu: 4466/µL; Plq: 272344/µL,Resultados valorados en contexto clínico.
+R_6L604Z9U,A_WVXGEOZL,2025-02-18 22:13:47,Procalcitonina,PCT: 0.4 ng/mL,Resultados valorados en contexto clínico.
+R_3XBG609R,A_WVXGEOZL,2025-02-18 22:14:55,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_5ETPWPS7,A_WVXGEOZL,2025-02-20 11:45:37,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_NA80TMJ2,A_OEBR9Y33,2025-02-21 18:32:35,Hemograma,Hb: 10.7 g/dL; Leu: 6000/µL; Plq: 245559/µL,Resultados valorados en contexto clínico.
+R_QSZOA8W8,A_OEBR9Y33,2025-02-21 21:30:11,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_3DJCR2CV,A_OEBR9Y33,2025-02-22 09:23:54,Procalcitonina,PCT: 0.17 ng/mL,Resultados valorados en contexto clínico.
+R_DIQKB8AY,A_WVXGEOZL,2025-02-24 10:54:56,Gasometría,pH: 7.37; pCO2: 48 mmHg; pO2: 72 mmHg,Resultados valorados en contexto clínico.
+R_WGHBUQ21,A_OEBR9Y33,2025-02-26 01:04:36,Gasometría,pH: 7.41; pCO2: 35 mmHg; pO2: 70 mmHg,Resultados valorados en contexto clínico.
+R_C4HSQB05,A_OEBR9Y33,2025-02-26 12:34:13,Hemograma,Hb: 14.0 g/dL; Leu: 7964/µL; Plq: 258499/µL,Resultados valorados en contexto clínico.
+R_NXACEDTW,A_OEBR9Y33,2025-02-27 07:02:26,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_5YVBDNAQ,A_OEBR9Y33,2025-02-27 08:13:22,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_YXNF62SZ,A_OEBR9Y33,2025-02-28 20:55:17,Bioquímica,Na: 138 mmol/L; K: 4.7 mmol/L; Cr: 1.22 mg/dL,Resultados valorados en contexto clínico.
+R_TXK29G91,A_W17YT6U7,2025-03-02 22:58:14,Hemograma,Hb: 14.1 g/dL; Leu: 10113/µL; Plq: 256834/µL,Resultados valorados en contexto clínico.
+R_LXJX3T3M,A_W17YT6U7,2025-03-03 20:50:08,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_Y8ZD0T1U,A_W17YT6U7,2025-03-05 14:59:59,Procalcitonina,PCT: 0.35 ng/mL,Resultados valorados en contexto clínico.
+R_3OYEV1VK,A_W17YT6U7,2025-03-05 17:01:07,Bioquímica,Na: 137 mmol/L; K: 2.8 mmol/L; Cr: 0.79 mg/dL,Resultados valorados en contexto clínico.
+R_M3TL8B2Y,A_W17YT6U7,2025-03-05 17:56:48,Hemograma,Hb: 13.3 g/dL; Leu: 9513/µL; Plq: 290833/µL,Resultados valorados en contexto clínico.
+R_3TW64ZGH,A_OPN1JTN0,2025-03-08 18:23:24,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_81GQ9TJN,A_OPN1JTN0,2025-03-08 21:43:17,Hemograma,Hb: 12.7 g/dL; Leu: 3920/µL; Plq: 241466/µL,Resultados valorados en contexto clínico.
+R_L6NTDNLF,A_OPN1JTN0,2025-03-10 12:57:42,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_E9G6VQWF,A_7T2SXPB2,2025-03-10 16:17:08,Procalcitonina,PCT: 0.23 ng/mL,Resultados valorados en contexto clínico.
+R_66SNHJ2B,A_DGX7JR0G,2025-03-10 17:36:12,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_O25WF8ES,A_OPN1JTN0,2025-03-10 23:17:53,Bioquímica,Na: 138 mmol/L; K: 4.1 mmol/L; Cr: 1.48 mg/dL,Resultados valorados en contexto clínico.
+R_AYH6WRLP,A_7T2SXPB2,2025-03-11 03:04:14,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_2LXWLI7Y,A_DGX7JR0G,2025-03-11 03:46:38,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_RYR6TMTT,A_OPN1JTN0,2025-03-11 04:46:50,Procalcitonina,PCT: 1.69 ng/mL,Resultados valorados en contexto clínico.
+R_7977GL41,A_7T2SXPB2,2025-03-11 15:26:37,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_FX34VB4B,A_DGX7JR0G,2025-03-12 02:11:49,Procalcitonina,PCT: 0.17 ng/mL,Resultados valorados en contexto clínico.
+R_MBCPGK0K,A_DGX7JR0G,2025-03-12 11:39:24,Procalcitonina,PCT: 1.33 ng/mL,Resultados valorados en contexto clínico.
+R_IN8NA2MA,A_7T2SXPB2,2025-03-12 19:28:36,Hemograma,Hb: 14.8 g/dL; Leu: 12113/µL; Plq: 119483/µL,Resultados valorados en contexto clínico.
+R_RT7CEOKD,A_DGX7JR0G,2025-03-13 04:30:06,Bioquímica,Na: 140 mmol/L; K: 3.9 mmol/L; Cr: 0.76 mg/dL,Resultados valorados en contexto clínico.
+R_EWKG0S2D,A_DGX7JR0G,2025-03-14 01:54:29,Hemograma,Hb: 13.6 g/dL; Leu: 8802/µL; Plq: 203835/µL,Resultados valorados en contexto clínico.
+R_FZMTZ8PP,A_DGX7JR0G,2025-03-14 12:46:20,Gasometría,pH: 7.38; pCO2: 36 mmHg; pO2: 91 mmHg,Resultados valorados en contexto clínico.
+R_RLUO4W4X,A_DGX7JR0G,2025-03-15 10:06:01,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_62VJ0KVQ,A_95NCMVB3,2025-03-21 09:40:59,Bioquímica,Na: 140 mmol/L; K: 4.1 mmol/L; Cr: 0.43 mg/dL,Resultados valorados en contexto clínico.
+R_47BL9XGJ,A_95NCMVB3,2025-03-22 09:33:06,Gasometría,pH: 7.44; pCO2: 34 mmHg; pO2: 62 mmHg,Resultados valorados en contexto clínico.
+R_FXTIF8SS,A_USPBU62T,2025-03-22 16:01:35,PCR,PCR: 25.8 mg/L,Resultados valorados en contexto clínico.
+R_W9IGE5L2,A_USPBU62T,2025-03-22 17:45:48,Hemograma,Hb: 15.6 g/dL; Leu: 5924/µL; Plq: 308326/µL,Resultados valorados en contexto clínico.
+R_J3O3GHT4,A_BY69GA8L,2025-03-22 22:18:05,Hemograma,Hb: 11.1 g/dL; Leu: 9745/µL; Plq: 203607/µL,Resultados valorados en contexto clínico.
+R_1JSQ3UOT,A_BY69GA8L,2025-03-22 23:41:01,Hemograma,Hb: 16.4 g/dL; Leu: 15419/µL; Plq: 181457/µL,Resultados valorados en contexto clínico.
+R_PDVOB88Z,A_95NCMVB3,2025-03-23 08:09:57,Bioquímica,Na: 139 mmol/L; K: 4.0 mmol/L; Cr: 1.1 mg/dL,Resultados valorados en contexto clínico.
+R_HY3YAYOR,A_BY69GA8L,2025-03-23 09:13:05,Bioquímica,Na: 136 mmol/L; K: 4.9 mmol/L; Cr: 1.09 mg/dL,Resultados valorados en contexto clínico.
+R_Z79GU7CL,A_BY69GA8L,2025-03-23 21:37:42,PCR,PCR: 53.5 mg/L,Resultados valorados en contexto clínico.
+R_KL01D4OA,A_USPBU62T,2025-03-23 22:23:34,PCR,PCR: 15.7 mg/L,Resultados valorados en contexto clínico.
+R_LW6VQG79,A_BY69GA8L,2025-03-24 01:51:50,Bioquímica,Na: 136 mmol/L; K: 3.9 mmol/L; Cr: 1.19 mg/dL,Resultados valorados en contexto clínico.
+R_YHSNHRQE,A_95NCMVB3,2025-03-24 03:27:47,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_36ZJRO1L,A_USPBU62T,2025-03-24 07:52:19,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_D7VX9753,A_BY69GA8L,2025-03-24 07:53:05,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_5MTHHSCT,A_XI4JDJJ5,2025-03-24 11:31:47,Gasometría,pH: 7.4; pCO2: 47 mmHg; pO2: 70 mmHg,Resultados valorados en contexto clínico.
+R_FGUUHLJR,A_95NCMVB3,2025-03-24 16:51:16,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_KBT0XSGL,A_USPBU62T,2025-03-24 19:46:27,Bioquímica,Na: 141 mmol/L; K: 4.5 mmol/L; Cr: 0.92 mg/dL,Resultados valorados en contexto clínico.
+R_A46W1Y73,A_BY69GA8L,2025-03-24 23:52:51,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_FCDU2428,A_XI4JDJJ5,2025-03-25 08:46:59,Hemograma,Hb: 12.2 g/dL; Leu: 8649/µL; Plq: 292850/µL,Resultados valorados en contexto clínico.
+R_VNS3NMN9,A_XI4JDJJ5,2025-03-25 11:27:21,PCR,PCR: 41.3 mg/L,Resultados valorados en contexto clínico.
+R_SSG6QPDE,A_XI4JDJJ5,2025-03-25 14:04:04,Procalcitonina,PCT: 0.54 ng/mL,Resultados valorados en contexto clínico.
+R_1MSL9HI8,A_95NCMVB3,2025-03-25 14:47:40,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_I8YUC7NU,A_PEGSUWY3,2025-03-25 19:01:54,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_LMJWDBAC,A_95NCMVB3,2025-03-25 19:31:04,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_QY9QAEMS,A_PEGSUWY3,2025-03-25 23:07:42,Bioquímica,Na: 137 mmol/L; K: 4.6 mmol/L; Cr: 0.82 mg/dL,Resultados valorados en contexto clínico.
+R_YWQ732Z5,A_XI4JDJJ5,2025-03-25 23:25:44,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_7P0KNNC6,A_XI4JDJJ5,2025-03-26 14:37:29,Gasometría,pH: 7.49; pCO2: 32 mmHg; pO2: 69 mmHg,Resultados valorados en contexto clínico.
+R_6EHNOV4T,A_XI4JDJJ5,2025-03-26 15:11:35,Bioquímica,Na: 135 mmol/L; K: 3.6 mmol/L; Cr: 0.72 mg/dL,Resultados valorados en contexto clínico.
+R_8NLGGN0J,A_PEGSUWY3,2025-03-27 16:21:34,PCR,PCR: 24.1 mg/L,Resultados valorados en contexto clínico.
+R_UKOD5WLA,A_95NCMVB3,2025-03-29 11:09:47,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_8444VTDM,A_J1KDYIRG,2025-04-02 15:14:37,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_K1VAK2EE,A_J1KDYIRG,2025-04-03 09:19:33,Bioquímica,Na: 133 mmol/L; K: 4.1 mmol/L; Cr: 0.76 mg/dL,Resultados valorados en contexto clínico.
+R_PKTD7OVO,A_EUQ03WX2,2025-04-03 13:10:24,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_B7YONR42,A_EUQ03WX2,2025-04-03 21:15:45,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_IXTG4C5U,A_J1KDYIRG,2025-04-04 05:35:16,Hemograma,Hb: 10.5 g/dL; Leu: 7195/µL; Plq: 270771/µL,Resultados valorados en contexto clínico.
+R_LCGOC7NU,A_EUQ03WX2,2025-04-05 23:32:58,Bioquímica,Na: 140 mmol/L; K: 4.5 mmol/L; Cr: 0.66 mg/dL,Resultados valorados en contexto clínico.
+R_5P11IW6L,A_EUQ03WX2,2025-04-06 04:01:52,Procalcitonina,PCT: 0.88 ng/mL,Resultados valorados en contexto clínico.
+R_KK8QARCF,A_EUQ03WX2,2025-04-07 04:17:13,PCR,PCR: 6.6 mg/L,Resultados valorados en contexto clínico.
+R_H1YD5WSK,A_EUQ03WX2,2025-04-07 06:18:17,PCR,PCR: 25.9 mg/L,Resultados valorados en contexto clínico.
+R_VLCDKYHJ,A_C213VY1A,2025-04-08 05:38:58,Bioquímica,Na: 137 mmol/L; K: 3.7 mmol/L; Cr: 1.13 mg/dL,Resultados valorados en contexto clínico.
+R_4XY1DIXU,A_C213VY1A,2025-04-08 13:46:35,Gasometría,pH: 7.39; pCO2: 37 mmHg; pO2: 72 mmHg,Resultados valorados en contexto clínico.
+R_FIQF9VYZ,A_GJFNYRPD,2025-04-10 01:43:48,Bioquímica,Na: 142 mmol/L; K: 4.9 mmol/L; Cr: 1.1 mg/dL,Resultados valorados en contexto clínico.
+R_7N36ZL0C,A_C7GOI2EB,2025-04-10 16:34:37,Hemograma,Hb: 10.5 g/dL; Leu: 10634/µL; Plq: 284126/µL,Resultados valorados en contexto clínico.
+R_Z5J10FED,A_C7GOI2EB,2025-04-10 17:50:46,Bioquímica,Na: 139 mmol/L; K: 3.8 mmol/L; Cr: 0.78 mg/dL,Resultados valorados en contexto clínico.
+R_7Z39R3TY,A_EUQ03WX2,2025-04-10 18:15:19,Gasometría,pH: 7.42; pCO2: 44 mmHg; pO2: 69 mmHg,Resultados valorados en contexto clínico.
+R_QCJDZGEM,A_GJFNYRPD,2025-04-11 09:54:11,Procalcitonina,PCT: 0.12 ng/mL,Resultados valorados en contexto clínico.
+R_5K8YAC1J,A_C7GOI2EB,2025-04-11 16:26:57,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_JIYONDS7,A_GJFNYRPD,2025-04-12 00:37:41,Bioquímica,Na: 138 mmol/L; K: 4.0 mmol/L; Cr: 1.12 mg/dL,Resultados valorados en contexto clínico.
+R_AP7ZD6BV,A_C213VY1A,2025-04-12 17:15:26,PCR,PCR: 13.5 mg/L,Resultados valorados en contexto clínico.
+R_JYYFZQBP,A_C7GOI2EB,2025-04-12 19:52:20,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_73HE21E5,A_C213VY1A,2025-04-12 21:46:01,Gasometría,pH: 7.46; pCO2: 44 mmHg; pO2: 81 mmHg,Resultados valorados en contexto clínico.
+R_SD4VAOSX,A_GJFNYRPD,2025-04-13 00:56:08,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_19RAM45R,A_GJFNYRPD,2025-04-14 05:58:58,Bioquímica,Na: 139 mmol/L; K: 3.3 mmol/L; Cr: 0.93 mg/dL,Resultados valorados en contexto clínico.
+R_2HN86SUJ,A_C213VY1A,2025-04-16 07:57:05,Bioquímica,Na: 137 mmol/L; K: 4.1 mmol/L; Cr: 1.16 mg/dL,Resultados valorados en contexto clínico.
+R_W1EEE200,A_C213VY1A,2025-04-16 18:24:00,Bioquímica,Na: 135 mmol/L; K: 4.2 mmol/L; Cr: 0.94 mg/dL,Resultados valorados en contexto clínico.
+R_99CGUFGR,A_C7GOI2EB,2025-04-17 01:49:28,Hemograma,Hb: 15.4 g/dL; Leu: 12552/µL; Plq: 251687/µL,Resultados valorados en contexto clínico.
+R_Y15SHPE8,A_C7GOI2EB,2025-04-17 16:38:53,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_8BN2Q2MW,A_C7GOI2EB,2025-04-17 17:31:08,PCR,PCR: 67.8 mg/L,Resultados valorados en contexto clínico.
+R_KWURPL95,A_CEKY1295,2025-04-18 00:53:53,Gasometría,pH: 7.46; pCO2: 39 mmHg; pO2: 68 mmHg,Resultados valorados en contexto clínico.
+R_I1FR1SFS,A_C7GOI2EB,2025-04-18 03:21:27,Bioquímica,Na: 140 mmol/L; K: 3.7 mmol/L; Cr: 1.18 mg/dL,Resultados valorados en contexto clínico.
+R_RE6DBJWQ,A_CEKY1295,2025-04-18 17:56:30,Hemograma,Hb: 12.7 g/dL; Leu: 10176/µL; Plq: 297926/µL,Resultados valorados en contexto clínico.
+R_Z4ODPBR9,A_CEKY1295,2025-04-19 18:44:55,Hemograma,Hb: 15.8 g/dL; Leu: 5105/µL; Plq: 173034/µL,Resultados valorados en contexto clínico.
+R_1RD6R2JF,A_CEKY1295,2025-04-19 21:35:51,Hemograma,Hb: 12.6 g/dL; Leu: 10909/µL; Plq: 134481/µL,Resultados valorados en contexto clínico.
+R_HJ4PNC6C,A_8J2774QZ,2025-04-20 21:40:36,PCR,PCR: 23.7 mg/L,Resultados valorados en contexto clínico.
+R_OI3TO4ZD,A_34QUIYQ8,2025-04-21 03:17:24,Bioquímica,Na: 139 mmol/L; K: 4.5 mmol/L; Cr: 0.84 mg/dL,Resultados valorados en contexto clínico.
+R_38E3D009,A_8J2774QZ,2025-04-21 09:41:44,PCR,PCR: 21.4 mg/L,Resultados valorados en contexto clínico.
+R_UVW8KXTR,A_34QUIYQ8,2025-04-21 12:11:46,Bioquímica,Na: 137 mmol/L; K: 4.3 mmol/L; Cr: 0.41 mg/dL,Resultados valorados en contexto clínico.
+R_WN6SQPCG,A_34QUIYQ8,2025-04-21 12:40:24,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_4IQSW528,A_8J2774QZ,2025-04-21 15:27:25,PCR,PCR: 53.9 mg/L,Resultados valorados en contexto clínico.
+R_T3HU6G01,A_8J2774QZ,2025-04-22 04:02:12,Hemograma,Hb: 11.4 g/dL; Leu: 10344/µL; Plq: 225351/µL,Resultados valorados en contexto clínico.
+R_82GLDW8N,A_34QUIYQ8,2025-04-22 04:29:03,Bioquímica,Na: 140 mmol/L; K: 4.5 mmol/L; Cr: 0.42 mg/dL,Resultados valorados en contexto clínico.
+R_WG40NGKD,A_8J2774QZ,2025-04-22 15:54:30,Gasometría,pH: 7.33; pCO2: 41 mmHg; pO2: 81 mmHg,Resultados valorados en contexto clínico.
+R_TIZHLJHX,A_CEKY1295,2025-04-22 18:39:12,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_A7NE1RK1,A_CEKY1295,2025-04-22 19:05:36,Gasometría,pH: 7.37; pCO2: 31 mmHg; pO2: 74 mmHg,Resultados valorados en contexto clínico.
+R_4WF2RJGU,A_8J2774QZ,2025-04-22 19:13:45,PCR,PCR: 21.5 mg/L,Resultados valorados en contexto clínico.
+R_SB874FUE,A_8J2774QZ,2025-04-23 09:23:11,Hemograma,Hb: 9.9 g/dL; Leu: 12725/µL; Plq: 224215/µL,Resultados valorados en contexto clínico.
+R_24FWBTP3,A_34QUIYQ8,2025-04-25 01:02:35,PCR,PCR: 3.9 mg/L,Resultados valorados en contexto clínico.
+R_GE0DMVK1,A_RUJDOW9P,2025-04-27 21:29:27,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_Y6CPZK3P,A_RUJDOW9P,2025-04-28 06:12:43,Hemograma,Hb: 12.7 g/dL; Leu: 13254/µL; Plq: 253908/µL,Resultados valorados en contexto clínico.
+R_67LYCQDF,A_OBIOHHVT,2025-04-29 09:03:32,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_3ZC3X3WN,A_OBIOHHVT,2025-04-29 13:59:57,PCR,PCR: 39.2 mg/L,Resultados valorados en contexto clínico.
+R_4HLBX02Y,A_RUJDOW9P,2025-04-29 20:44:05,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_RSD2MAZN,A_OBIOHHVT,2025-04-30 01:11:12,Hemograma,Hb: 13.7 g/dL; Leu: 8323/µL; Plq: 330566/µL,Resultados valorados en contexto clínico.
+R_I891BB4Z,A_RUJDOW9P,2025-04-30 01:56:29,Bioquímica,Na: 134 mmol/L; K: 3.4 mmol/L; Cr: 0.94 mg/dL,Resultados valorados en contexto clínico.
+R_NNSUTH4H,A_OBIOHHVT,2025-04-30 02:39:48,PCR,PCR: 41.6 mg/L,Resultados valorados en contexto clínico.
+R_OPK5V0YV,A_Q3V0S0MX,2025-04-30 07:10:19,Procalcitonina,PCT: 0.08 ng/mL,Resultados valorados en contexto clínico.
+R_FHI2O9QQ,A_RUJDOW9P,2025-04-30 08:08:03,Gasometría,pH: 7.46; pCO2: 38 mmHg; pO2: 94 mmHg,Resultados valorados en contexto clínico.
+R_4I1GOKL1,A_Q3V0S0MX,2025-04-30 16:20:51,Hemograma,Hb: 12.0 g/dL; Leu: 8496/µL; Plq: 215920/µL,Resultados valorados en contexto clínico.
+R_M0XC1O9N,A_OBIOHHVT,2025-04-30 17:54:24,Gasometría,pH: 7.44; pCO2: 50 mmHg; pO2: 67 mmHg,Resultados valorados en contexto clínico.
+R_OFWH3IFJ,A_OBIOHHVT,2025-04-30 20:32:25,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_OTCKW9P9,A_OBIOHHVT,2025-05-01 02:34:22,Procalcitonina,PCT: 0.77 ng/mL,Resultados valorados en contexto clínico.
+R_6QDKFDRB,A_Q3V0S0MX,2025-05-01 03:14:39,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_J6R6Q406,A_RUJDOW9P,2025-05-01 10:54:27,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_C1U530Z1,A_RUJDOW9P,2025-05-02 12:29:03,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_XNJJ1NDF,A_OBIOHHVT,2025-05-02 19:18:20,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_T03QPP1S,A_RUJDOW9P,2025-05-04 05:01:56,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_TC4LB7HW,A_YU7L4O8F,2025-05-06 09:59:26,Procalcitonina,PCT: 1.15 ng/mL,Resultados valorados en contexto clínico.
+R_L2AIBHDH,A_JGGW1515,2025-05-08 01:22:37,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_KCBZPCD7,A_JGGW1515,2025-05-08 06:21:31,Hemograma,Hb: 12.6 g/dL; Leu: 13077/µL; Plq: 305382/µL,Resultados valorados en contexto clínico.
+R_LNR392GA,A_JGGW1515,2025-05-08 13:07:28,Bioquímica,Na: 136 mmol/L; K: 4.4 mmol/L; Cr: 1.44 mg/dL,Resultados valorados en contexto clínico.
+R_DKX2UXB2,A_RUZSBT2B,2025-05-10 05:25:35,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_OM6CY0TJ,A_RUZSBT2B,2025-05-10 20:04:36,Bioquímica,Na: 141 mmol/L; K: 3.5 mmol/L; Cr: 0.86 mg/dL,Resultados valorados en contexto clínico.
+R_QT8J9UOS,A_RUZSBT2B,2025-05-11 10:20:28,PCR,PCR: 37.8 mg/L,Resultados valorados en contexto clínico.
+R_BX7KK66K,A_YU7L4O8F,2025-05-11 10:33:44,PCR,PCR: 97.4 mg/L,Resultados valorados en contexto clínico.
+R_VKICLC77,A_RUZSBT2B,2025-05-11 18:48:43,PCR,PCR: 41.2 mg/L,Resultados valorados en contexto clínico.
+R_4NSFQK2R,A_RUZSBT2B,2025-05-12 09:26:54,Gasometría,pH: 7.42; pCO2: 43 mmHg; pO2: 72 mmHg,Resultados valorados en contexto clínico.
+R_6D3O6YNJ,A_YU7L4O8F,2025-05-12 22:34:35,Gasometría,pH: 7.35; pCO2: 42 mmHg; pO2: 74 mmHg,Resultados valorados en contexto clínico.
+R_J95RU6F2,A_YU7L4O8F,2025-05-13 01:31:44,Gasometría,pH: 7.48; pCO2: 41 mmHg; pO2: 61 mmHg,Resultados valorados en contexto clínico.
+R_LWTWFD19,A_YU7L4O8F,2025-05-13 22:31:15,Procalcitonina,PCT: 0.39 ng/mL,Resultados valorados en contexto clínico.
+R_82AQVULU,A_AJ9XTI3A,2025-05-14 10:47:25,Gasometría,pH: 7.35; pCO2: 38 mmHg; pO2: 70 mmHg,Resultados valorados en contexto clínico.
+R_UVDYRYOB,A_GEQR94ZM,2025-05-14 23:41:37,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_R77EUTZY,A_GEQR94ZM,2025-05-16 13:16:39,PCR,PCR: 43.8 mg/L,Resultados valorados en contexto clínico.
+R_H0NOS9OA,A_QFKDTJI3,2025-05-17 04:43:25,Hemograma,Hb: 12.7 g/dL; Leu: 8536/µL; Plq: 275069/µL,Resultados valorados en contexto clínico.
+R_NTJTDN1F,A_AJ9XTI3A,2025-05-17 05:22:10,Procalcitonina,PCT: 0.19 ng/mL,Resultados valorados en contexto clínico.
+R_43USKBHC,A_GEQR94ZM,2025-05-17 05:39:06,PCR,PCR: 58.6 mg/L,Resultados valorados en contexto clínico.
+R_V6H4KM1H,A_GEQR94ZM,2025-05-17 17:01:32,Procalcitonina,PCT: 0.62 ng/mL,Resultados valorados en contexto clínico.
+R_4TYYJJWL,A_QFKDTJI3,2025-05-18 10:19:03,Bioquímica,Na: 136 mmol/L; K: 3.3 mmol/L; Cr: 1.24 mg/dL,Resultados valorados en contexto clínico.
+R_5CYZI4J2,A_AJ9XTI3A,2025-05-18 22:11:19,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_JH26D7UJ,A_AJ9XTI3A,2025-05-19 10:32:56,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_1YK8HB45,A_5YD46YO0,2025-05-20 07:23:53,Procalcitonina,PCT: 0.01 ng/mL,Resultados valorados en contexto clínico.
+R_VEPPQ2E5,A_AJ9XTI3A,2025-05-20 17:17:01,Procalcitonina,PCT: 0.2 ng/mL,Resultados valorados en contexto clínico.
+R_JNKAC3D6,A_5YD46YO0,2025-05-20 18:48:40,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_NYQ8U8SL,A_QFKDTJI3,2025-05-21 10:28:05,Hemograma,Hb: 12.9 g/dL; Leu: 6511/µL; Plq: 249918/µL,Resultados valorados en contexto clínico.
+R_HNODLUNA,A_5YD46YO0,2025-05-21 15:04:03,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_7DG5UILG,A_AJ9XTI3A,2025-05-21 23:39:36,Hemograma,Hb: 16.0 g/dL; Leu: 7135/µL; Plq: 286381/µL,Resultados valorados en contexto clínico.
+R_LJIHRLIC,A_AJ9XTI3A,2025-05-22 03:58:14,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_72RN6EFN,A_AJ9XTI3A,2025-05-22 04:27:00,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_KLXDKUG9,A_VES0OHG1,2025-05-22 09:38:15,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_WS1SQUAU,A_5YD46YO0,2025-05-23 08:30:51,Hemograma,Hb: 14.1 g/dL; Leu: 12377/µL; Plq: 262820/µL,Resultados valorados en contexto clínico.
+R_504PM6IT,A_VES0OHG1,2025-05-23 23:54:32,PCR,PCR: 4.0 mg/L,Resultados valorados en contexto clínico.
+R_RQ8R8S2Z,A_VES0OHG1,2025-05-24 01:38:46,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_65TSY03H,A_VES0OHG1,2025-05-24 16:33:55,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_TW0H6FRJ,A_VES0OHG1,2025-05-24 22:02:11,Procalcitonina,PCT: 1.39 ng/mL,Resultados valorados en contexto clínico.
+R_P3F400XI,A_G866D38U,2025-06-01 09:40:39,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_Y3ZMEHU6,A_G866D38U,2025-06-01 11:11:23,PCR,PCR: 57.8 mg/L,Resultados valorados en contexto clínico.
+R_8WPZ9PCP,A_G866D38U,2025-06-01 13:04:23,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_EIQD0W9B,A_G866D38U,2025-06-01 22:29:31,Gasometría,pH: 7.41; pCO2: 31 mmHg; pO2: 86 mmHg,Resultados valorados en contexto clínico.
+R_ZEJ0DUYH,A_G866D38U,2025-06-02 00:52:35,Gasometría,pH: 7.45; pCO2: 39 mmHg; pO2: 77 mmHg,Resultados valorados en contexto clínico.
+R_T03MXXTN,A_BM0C9CAE,2025-06-02 09:47:51,Hemograma,Hb: 9.2 g/dL; Leu: 12312/µL; Plq: 175076/µL,Resultados valorados en contexto clínico.
+R_7VJ81MJ9,A_G866D38U,2025-06-02 13:19:43,Procalcitonina,PCT: 1.9 ng/mL,Resultados valorados en contexto clínico.
+R_LGGSRB9G,A_G866D38U,2025-06-02 19:44:31,PCR,PCR: 28.9 mg/L,Resultados valorados en contexto clínico.
+R_R1IKCBH1,A_0XRL8450,2025-06-02 20:03:17,Gasometría,pH: 7.4; pCO2: 41 mmHg; pO2: 75 mmHg,Resultados valorados en contexto clínico.
+R_1WZJLKUE,A_G866D38U,2025-06-02 20:47:22,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_2S979ZMS,A_BM0C9CAE,2025-06-03 07:09:10,Bioquímica,Na: 145 mmol/L; K: 5.0 mmol/L; Cr: 1.11 mg/dL,Resultados valorados en contexto clínico.
+R_CQEYJF6I,A_BM0C9CAE,2025-06-03 07:29:24,Hemograma,Hb: 13.3 g/dL; Leu: 9788/µL; Plq: 284088/µL,Resultados valorados en contexto clínico.
+R_T68IRW0Y,A_BM0C9CAE,2025-06-03 12:50:46,Bioquímica,Na: 137 mmol/L; K: 4.9 mmol/L; Cr: 0.35 mg/dL,Resultados valorados en contexto clínico.
+R_8JB213M8,A_0XRL8450,2025-06-03 17:31:07,Procalcitonina,PCT: 0.65 ng/mL,Resultados valorados en contexto clínico.
+R_PI70TUDI,A_0XRL8450,2025-06-03 23:49:39,PCR,PCR: 39.5 mg/L,Resultados valorados en contexto clínico.
+R_RFVVV8P0,A_BM0C9CAE,2025-06-04 06:10:49,Procalcitonina,PCT: 0.47 ng/mL,Resultados valorados en contexto clínico.
+R_ANEGD788,A_BM0C9CAE,2025-06-04 11:14:38,Gasometría,pH: 7.39; pCO2: 39 mmHg; pO2: 58 mmHg,Resultados valorados en contexto clínico.
+R_Q6SCQ5IR,A_0XRL8450,2025-06-04 18:20:26,Bioquímica,Na: 134 mmol/L; K: 4.2 mmol/L; Cr: 1.11 mg/dL,Resultados valorados en contexto clínico.
+R_9L8NRXKE,A_A8I5HX4K,2025-06-07 14:24:22,Procalcitonina,PCT: 0.09 ng/mL,Resultados valorados en contexto clínico.
+R_Z9VWY9I6,A_7ILOE8LM,2025-06-07 21:52:06,PCR,PCR: 48.5 mg/L,Resultados valorados en contexto clínico.
+R_8XI0NRJS,A_7ILOE8LM,2025-06-07 23:29:09,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_KJ9043J1,A_A8I5HX4K,2025-06-08 10:28:07,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_N8EGFYPC,A_A8I5HX4K,2025-06-09 15:43:06,Gasometría,pH: 7.37; pCO2: 37 mmHg; pO2: 89 mmHg,Resultados valorados en contexto clínico.
+R_X8T4BMB8,A_7ILOE8LM,2025-06-09 15:59:32,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_N4W96TVI,A_A8I5HX4K,2025-06-10 21:14:58,Bioquímica,Na: 137 mmol/L; K: 3.3 mmol/L; Cr: 0.48 mg/dL,Resultados valorados en contexto clínico.
+R_TV8WQ02G,A_E15NPB21,2025-06-11 00:29:05,Gasometría,pH: 7.38; pCO2: 37 mmHg; pO2: 79 mmHg,Resultados valorados en contexto clínico.
+R_EI8K2MZE,A_A8I5HX4K,2025-06-11 06:59:39,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_88JFSP46,A_7ILOE8LM,2025-06-11 09:49:37,Bioquímica,Na: 142 mmol/L; K: 4.0 mmol/L; Cr: 1.45 mg/dL,Resultados valorados en contexto clínico.
+R_OTSPTT9V,A_E15NPB21,2025-06-12 22:19:48,Bioquímica,Na: 134 mmol/L; K: 3.5 mmol/L; Cr: 1.15 mg/dL,Resultados valorados en contexto clínico.
+R_JROGS0K9,A_2E8JMXV2,2025-06-13 05:34:15,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_LGA780WC,A_7ILOE8LM,2025-06-13 06:03:32,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_H9VSFW7Y,A_7ILOE8LM,2025-06-13 13:35:32,Procalcitonina,PCT: 1.04 ng/mL,Resultados valorados en contexto clínico.
+R_JB8QOSEM,A_2E8JMXV2,2025-06-13 23:00:14,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_NI05KV5C,A_2E8JMXV2,2025-06-13 23:04:07,PCR,PCR: 25.4 mg/L,Resultados valorados en contexto clínico.
+R_EAGRI5FC,A_2E8JMXV2,2025-06-14 00:37:13,Hemograma,Hb: 13.3 g/dL; Leu: 9917/µL; Plq: 242783/µL,Resultados valorados en contexto clínico.
+R_TOAPG6O8,A_2E8JMXV2,2025-06-14 06:15:49,PCR,PCR: 43.4 mg/L,Resultados valorados en contexto clínico.
+R_D93NDHQB,A_5C5ELWT4,2025-06-14 06:25:34,Procalcitonina,PCT: 0.16 ng/mL,Resultados valorados en contexto clínico.
+R_ONY6BVBU,A_2E8JMXV2,2025-06-14 16:48:17,Gasometría,pH: 7.43; pCO2: 35 mmHg; pO2: 81 mmHg,Resultados valorados en contexto clínico.
+R_B4PS4JBJ,A_E15NPB21,2025-06-14 19:11:52,Bioquímica,Na: 143 mmol/L; K: 4.3 mmol/L; Cr: 1.18 mg/dL,Resultados valorados en contexto clínico.
+R_T85VLDOS,A_5C5ELWT4,2025-06-14 22:02:45,Hemograma,Hb: 14.3 g/dL; Leu: 7744/µL; Plq: 285320/µL,Resultados valorados en contexto clínico.
+R_DP6N951K,A_2E8JMXV2,2025-06-14 22:12:24,Bioquímica,Na: 144 mmol/L; K: 3.1 mmol/L; Cr: 1.37 mg/dL,Resultados valorados en contexto clínico.
+R_M822PDNZ,A_2E8JMXV2,2025-06-15 02:18:00,Bioquímica,Na: 138 mmol/L; K: 3.9 mmol/L; Cr: 0.95 mg/dL,Resultados valorados en contexto clínico.
+R_BDXSXIZJ,A_E15NPB21,2025-06-15 10:25:20,PCR,PCR: 67.8 mg/L,Resultados valorados en contexto clínico.
+R_WIV71J34,A_E15NPB21,2025-06-16 07:17:54,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_CFKMQMRV,A_5C5ELWT4,2025-06-17 03:16:36,Bioquímica,Na: 136 mmol/L; K: 5.1 mmol/L; Cr: 1.01 mg/dL,Resultados valorados en contexto clínico.
+R_XTH0E0UZ,A_5C5ELWT4,2025-06-17 21:20:54,PCR,PCR: 85.0 mg/L,Resultados valorados en contexto clínico.
+R_XCBPDGZF,A_THL7KNHV,2025-06-17 22:12:36,PCR,PCR: 35.8 mg/L,Resultados valorados en contexto clínico.
+R_3VVCBDDB,A_THL7KNHV,2025-06-17 23:19:48,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_PZME3AM4,A_THL7KNHV,2025-06-18 03:23:58,Hemograma,Hb: 13.7 g/dL; Leu: 6787/µL; Plq: 372673/µL,Resultados valorados en contexto clínico.
+R_1ZOEWMRR,A_THL7KNHV,2025-06-18 19:43:55,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_BZ1ZQ6IG,A_5C5ELWT4,2025-06-19 05:59:26,Bioquímica,Na: 137 mmol/L; K: 3.2 mmol/L; Cr: 1.56 mg/dL,Resultados valorados en contexto clínico.
+R_1C919RQH,A_5C5ELWT4,2025-06-19 20:32:05,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_FZLT2XK6,A_E5XNPM6Y,2025-06-19 20:55:05,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_01KRP1ON,A_E5XNPM6Y,2025-06-19 21:39:58,Bioquímica,Na: 144 mmol/L; K: 4.3 mmol/L; Cr: 1.07 mg/dL,Resultados valorados en contexto clínico.
+R_VJXP9ELG,A_E5XNPM6Y,2025-06-19 22:42:54,Gasometría,pH: 7.43; pCO2: 41 mmHg; pO2: 69 mmHg,Resultados valorados en contexto clínico.
+R_0BERNY90,A_E5XNPM6Y,2025-06-20 02:36:32,Bioquímica,Na: 135 mmol/L; K: 4.1 mmol/L; Cr: 1.02 mg/dL,Resultados valorados en contexto clínico.
+R_ZYGIII6E,A_DAINWKRW,2025-06-20 07:10:25,Gasometría,pH: 7.36; pCO2: 46 mmHg; pO2: 80 mmHg,Resultados valorados en contexto clínico.
+R_9HYD3ZV7,A_5C5ELWT4,2025-06-20 11:08:32,Gasometría,pH: 7.29; pCO2: 30 mmHg; pO2: 56 mmHg,Resultados valorados en contexto clínico.
+R_Q3U2R4PO,A_Y8S796NF,2025-06-21 00:18:09,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_SOVFKJ1M,A_E5XNPM6Y,2025-06-21 00:59:50,PCR,PCR: 20.0 mg/L,Resultados valorados en contexto clínico.
+R_G03ZD45Q,A_Y8S796NF,2025-06-21 22:44:10,Procalcitonina,PCT: 0.32 ng/mL,Resultados valorados en contexto clínico.
+R_II76ZN0R,A_CNPX6RGV,2025-06-22 07:40:15,PCR,PCR: 58.2 mg/L,Resultados valorados en contexto clínico.
+R_IX038J3V,A_Y8S796NF,2025-06-22 09:26:07,PCR,PCR: 41.3 mg/L,Resultados valorados en contexto clínico.
+R_KZGX2LFO,A_E5XNPM6Y,2025-06-22 13:20:31,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_XS3VNBEJ,A_CNPX6RGV,2025-06-22 17:27:51,Bioquímica,Na: 135 mmol/L; K: 4.0 mmol/L; Cr: 1.26 mg/dL,Resultados valorados en contexto clínico.
+R_S7UEKKWA,A_Y8S796NF,2025-06-23 00:55:55,Procalcitonina,PCT: 1.56 ng/mL,Resultados valorados en contexto clínico.
+R_S9GFODWX,A_V30VTQWC,2025-06-23 02:57:17,Hemograma,Hb: 12.9 g/dL; Leu: 7361/µL; Plq: 202390/µL,Resultados valorados en contexto clínico.
+R_AJZ93DHS,A_CNPX6RGV,2025-06-23 04:44:02,Hemograma,Hb: 12.4 g/dL; Leu: 12428/µL; Plq: 340195/µL,Resultados valorados en contexto clínico.
+R_P3SYYXT4,A_V30VTQWC,2025-06-23 08:36:20,Gasometría,pH: 7.39; pCO2: 40 mmHg; pO2: 71 mmHg,Resultados valorados en contexto clínico.
+R_P5LGY4AV,A_E5XNPM6Y,2025-06-23 23:01:59,Bioquímica,Na: 134 mmol/L; K: 4.4 mmol/L; Cr: 1.04 mg/dL,Resultados valorados en contexto clínico.
+R_WIU3EZ5T,A_V30VTQWC,2025-06-24 16:26:36,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_UB35J4XA,A_Z0CZ0AHX,2025-06-25 03:02:33,Hemograma,Hb: 12.4 g/dL; Leu: 7671/µL; Plq: 246662/µL,Resultados valorados en contexto clínico.
+R_SMRJ3YRS,A_E5XNPM6Y,2025-06-25 06:23:02,PCR,PCR: 66.0 mg/L,Resultados valorados en contexto clínico.
+R_T2FSK7D7,A_R9RWGNPM,2025-06-25 06:49:27,Procalcitonina,PCT: 0.59 ng/mL,Resultados valorados en contexto clínico.
+R_V9EXYWW6,A_Z0CZ0AHX,2025-06-25 15:14:13,Procalcitonina,PCT: 0.85 ng/mL,Resultados valorados en contexto clínico.
+R_92O4ZDMY,A_R9RWGNPM,2025-06-25 17:23:03,Procalcitonina,PCT: 0.83 ng/mL,Resultados valorados en contexto clínico.
+R_XYH736N2,A_Y8S796NF,2025-06-25 19:49:29,Procalcitonina,PCT: 1.22 ng/mL,Resultados valorados en contexto clínico.
+R_HZFS9TR1,A_R9RWGNPM,2025-06-25 19:51:12,Hemograma,Hb: 13.6 g/dL; Leu: 9227/µL; Plq: 204506/µL,Resultados valorados en contexto clínico.
+R_30JPLMNP,A_R9RWGNPM,2025-06-25 23:20:16,Gasometría,pH: 7.36; pCO2: 40 mmHg; pO2: 72 mmHg,Resultados valorados en contexto clínico.
+R_DWSPLU79,A_V30VTQWC,2025-06-26 06:11:32,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_CPOYFVCN,A_V30VTQWC,2025-06-26 07:21:14,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_5EBR61WF,A_R9RWGNPM,2025-06-26 09:16:36,Procalcitonina,PCT: 0.65 ng/mL,Resultados valorados en contexto clínico.
+R_B30XE953,A_Y8S796NF,2025-06-26 09:38:43,PCR,PCR: 55.5 mg/L,Resultados valorados en contexto clínico.
+R_C9I642IX,A_X76AMYBM,2025-06-26 14:52:00,Bioquímica,Na: 133 mmol/L; K: 3.8 mmol/L; Cr: 0.87 mg/dL,Resultados valorados en contexto clínico.
+R_6JD2NTJU,A_X76AMYBM,2025-06-26 17:13:31,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_FEYLSIKP,A_5NCHKNLP,2025-06-26 20:09:01,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_P4ADC9B0,A_5NCHKNLP,2025-06-26 21:58:02,Bioquímica,Na: 131 mmol/L; K: 3.1 mmol/L; Cr: 1.03 mg/dL,Resultados valorados en contexto clínico.
+R_0W7YNHQH,A_DAINWKRW,2025-06-27 02:27:26,Procalcitonina,PCT: 0.89 ng/mL,Resultados valorados en contexto clínico.
+R_B89TKFEI,A_X76AMYBM,2025-06-27 10:51:45,Bioquímica,Na: 133 mmol/L; K: 4.2 mmol/L; Cr: 1.3 mg/dL,Resultados valorados en contexto clínico.
+R_989EMLF9,A_Y8S796NF,2025-06-27 11:52:50,Gasometría,pH: 7.38; pCO2: 47 mmHg; pO2: 72 mmHg,Resultados valorados en contexto clínico.
+R_4CPK91HC,A_V30VTQWC,2025-06-27 13:47:42,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_Q3WHETPL,A_K72IMW7Y,2025-06-27 15:39:25,Bioquímica,Na: 142 mmol/L; K: 4.1 mmol/L; Cr: 0.99 mg/dL,Resultados valorados en contexto clínico.
+R_PH53PPFH,A_DAINWKRW,2025-06-27 16:01:58,PCR,PCR: 50.5 mg/L,Resultados valorados en contexto clínico.
+R_OHL9TJFV,A_K72IMW7Y,2025-06-27 17:21:32,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_SYHHGMQW,A_X76AMYBM,2025-06-27 18:56:16,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_IL74B6KJ,A_K72IMW7Y,2025-06-27 19:03:00,Bioquímica,Na: 135 mmol/L; K: 4.0 mmol/L; Cr: 1.25 mg/dL,Resultados valorados en contexto clínico.
+R_L5MVIGMZ,A_K72IMW7Y,2025-06-27 22:41:06,Procalcitonina,PCT: 1.74 ng/mL,Resultados valorados en contexto clínico.
+R_RTZIUYUN,A_90TBOJ8T,2025-06-27 22:48:27,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_SBUB56BD,A_90TBOJ8T,2025-06-28 03:08:24,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_DNCPCDXJ,A_K72IMW7Y,2025-06-28 03:46:15,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_LV8DNYHY,A_X76AMYBM,2025-06-28 09:14:03,Procalcitonina,PCT: 0.26 ng/mL,Resultados valorados en contexto clínico.
+R_2RE2UJGC,A_5NCHKNLP,2025-06-28 12:43:50,Hemograma,Hb: 12.3 g/dL; Leu: 12984/µL; Plq: 232596/µL,Resultados valorados en contexto clínico.
+R_ZY93YUAH,A_Z0CZ0AHX,2025-06-28 15:29:11,Gasometría,pH: 7.42; pCO2: 39 mmHg; pO2: 94 mmHg,Resultados valorados en contexto clínico.
+R_3TQHOSSH,A_R9RWGNPM,2025-06-28 15:29:12,Bioquímica,Na: 146 mmol/L; K: 4.4 mmol/L; Cr: 0.91 mg/dL,Resultados valorados en contexto clínico.
+R_LHOJTYMM,A_Z0CZ0AHX,2025-06-28 20:03:49,Procalcitonina,PCT: 0.51 ng/mL,Resultados valorados en contexto clínico.
+R_U0MDCYM0,A_X76AMYBM,2025-06-29 04:32:58,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_F0ZM5RHG,A_Y8S796NF,2025-06-29 09:22:00,Gasometría,pH: 7.35; pCO2: 41 mmHg; pO2: 71 mmHg,Resultados valorados en contexto clínico.
+R_ANMS273F,A_V30VTQWC,2025-06-29 16:59:49,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_9U0MGHW8,A_R9RWGNPM,2025-06-29 21:54:36,Bioquímica,Na: 135 mmol/L; K: 3.6 mmol/L; Cr: 1.28 mg/dL,Resultados valorados en contexto clínico.
+R_LKHHPFD1,A_5NCHKNLP,2025-06-30 00:23:38,Bioquímica,Na: 135 mmol/L; K: 3.7 mmol/L; Cr: 1.51 mg/dL,Resultados valorados en contexto clínico.
+R_FCU4I6SX,A_Z0CZ0AHX,2025-06-30 05:18:09,Gasometría,pH: 7.33; pCO2: 33 mmHg; pO2: 61 mmHg,Resultados valorados en contexto clínico.
+R_UU7Y9P30,A_90TBOJ8T,2025-06-30 09:03:02,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_ACSI6EUW,A_R9RWGNPM,2025-06-30 11:51:11,Procalcitonina,PCT: 0.07 ng/mL,Resultados valorados en contexto clínico.
+R_4CRO90BX,A_X76AMYBM,2025-06-30 18:53:58,PCR,PCR: 66.0 mg/L,Resultados valorados en contexto clínico.
+R_D0ZVJ0O5,A_5NCHKNLP,2025-06-30 19:33:09,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_RQ2IVFT7,A_5NCHKNLP,2025-07-01 09:39:46,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_6ZEN8NWC,A_5NCHKNLP,2025-07-01 12:53:37,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_FXNACMP3,A_90TBOJ8T,2025-07-03 05:43:39,PCR,PCR: 24.1 mg/L,Resultados valorados en contexto clínico.
+R_280B1YE4,A_90TBOJ8T,2025-07-03 23:47:06,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_3R8V93TY,A_90TBOJ8T,2025-07-05 19:14:47,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_174E9MBU,A_2Q1G1MGB,2025-07-05 19:30:25,Bioquímica,Na: 129 mmol/L; K: 4.3 mmol/L; Cr: 1.92 mg/dL,Resultados valorados en contexto clínico.
+R_XPX6YU5X,A_90TBOJ8T,2025-07-05 21:57:32,Procalcitonina,PCT: 0.83 ng/mL,Resultados valorados en contexto clínico.
+R_YA6NIRTI,A_90TBOJ8T,2025-07-06 09:31:09,Gasometría,pH: 7.4; pCO2: 39 mmHg; pO2: 74 mmHg,Resultados valorados en contexto clínico.
+R_WAR8WN9I,A_2Q1G1MGB,2025-07-07 16:24:55,Procalcitonina,PCT: 0.38 ng/mL,Resultados valorados en contexto clínico.
+R_JG9LH0X2,A_6QMLP8JR,2025-07-08 01:43:32,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_2GCLDJ4A,A_2Q1G1MGB,2025-07-08 03:07:50,Procalcitonina,PCT: 1.51 ng/mL,Resultados valorados en contexto clínico.
+R_OZIVX35P,A_6QMLP8JR,2025-07-08 09:23:11,Gasometría,pH: 7.39; pCO2: 42 mmHg; pO2: 71 mmHg,Resultados valorados en contexto clínico.
+R_1RVMG1SH,A_2Q1G1MGB,2025-07-08 11:34:48,Bioquímica,Na: 134 mmol/L; K: 4.1 mmol/L; Cr: 0.95 mg/dL,Resultados valorados en contexto clínico.
+R_689IMGPR,A_6QMLP8JR,2025-07-09 20:58:44,Hemograma,Hb: 13.2 g/dL; Leu: 8553/µL; Plq: 153578/µL,Resultados valorados en contexto clínico.
+R_98AIFXPQ,A_IO32JQWD,2025-07-10 15:13:13,Hemograma,Hb: 10.5 g/dL; Leu: 12613/µL; Plq: 280073/µL,Resultados valorados en contexto clínico.
+R_0OSN2NX9,A_IO32JQWD,2025-07-11 01:07:52,Hemograma,Hb: 14.0 g/dL; Leu: 10061/µL; Plq: 236049/µL,Resultados valorados en contexto clínico.
+R_0M40R3IR,A_2Q1G1MGB,2025-07-11 02:45:56,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_NP12ASKZ,A_FYSLBPFT,2025-07-11 03:33:11,PCR,PCR: 34.7 mg/L,Resultados valorados en contexto clínico.
+R_IQTQSI8X,A_IO32JQWD,2025-07-11 11:28:57,Hemograma,Hb: 12.6 g/dL; Leu: 7617/µL; Plq: 308743/µL,Resultados valorados en contexto clínico.
+R_QDLGRSJH,A_FYSLBPFT,2025-07-11 16:55:21,Procalcitonina,PCT: 0.37 ng/mL,Resultados valorados en contexto clínico.
+R_EWZ0NBCO,A_6QMLP8JR,2025-07-11 17:15:52,Hemograma,Hb: 12.2 g/dL; Leu: 7944/µL; Plq: 200616/µL,Resultados valorados en contexto clínico.
+R_K2YO8E1P,A_IO32JQWD,2025-07-11 17:45:34,PCR,PCR: 48.8 mg/L,Resultados valorados en contexto clínico.
+R_QQQ6WSBR,A_NSLJFQSN,2025-07-12 12:22:53,Gasometría,pH: 7.4; pCO2: 36 mmHg; pO2: 95 mmHg,Resultados valorados en contexto clínico.
+R_VVX1L3ZU,A_WHZRRVGI,2025-07-12 14:53:12,PCR,PCR: 15.4 mg/L,Resultados valorados en contexto clínico.
+R_O5A8IPVA,A_WHZRRVGI,2025-07-12 17:44:27,Hemograma,Hb: 15.0 g/dL; Leu: 7890/µL; Plq: 265382/µL,Resultados valorados en contexto clínico.
+R_V5338LUS,A_IO32JQWD,2025-07-13 05:14:38,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_VKWAJ9WS,A_WHZRRVGI,2025-07-13 08:42:34,PCR,PCR: 5.8 mg/L,Resultados valorados en contexto clínico.
+R_AAI4EIVD,A_IO32JQWD,2025-07-13 22:51:28,PCR,PCR: 22.2 mg/L,Resultados valorados en contexto clínico.
+R_4RA4938H,A_2Q1G1MGB,2025-07-14 00:58:19,Bioquímica,Na: 140 mmol/L; K: 4.7 mmol/L; Cr: 0.61 mg/dL,Resultados valorados en contexto clínico.
+R_16DQWPIR,A_WHZRRVGI,2025-07-16 01:56:31,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_BJ5OJ2PG,A_FYSLBPFT,2025-07-16 02:51:11,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_ETPLMH1Q,A_6QMLP8JR,2025-07-16 08:57:00,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_V0JXELMP,A_NSLJFQSN,2025-07-16 16:11:15,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_GXKXSAXQ,A_A300VRCQ,2025-07-17 06:26:01,Procalcitonina,PCT: 0.22 ng/mL,Resultados valorados en contexto clínico.
+R_TOBK0OW4,A_A300VRCQ,2025-07-17 10:34:53,Hemograma,Hb: 16.0 g/dL; Leu: 2732/µL; Plq: 200384/µL,Resultados valorados en contexto clínico.
+R_49PXKQPQ,A_WHZRRVGI,2025-07-17 12:48:08,Procalcitonina,PCT: 0.2 ng/mL,Resultados valorados en contexto clínico.
+R_7RFLNH04,A_A300VRCQ,2025-07-17 13:28:32,PCR,PCR: 43.7 mg/L,Resultados valorados en contexto clínico.
+R_RBZFWP2Y,A_NSLJFQSN,2025-07-17 22:48:04,Gasometría,pH: 7.44; pCO2: 32 mmHg; pO2: 85 mmHg,Resultados valorados en contexto clínico.
+R_GL4EV5JC,A_A300VRCQ,2025-07-18 16:03:40,Procalcitonina,PCT: 0.56 ng/mL,Resultados valorados en contexto clínico.
+R_LTVG13AP,A_WHZRRVGI,2025-07-18 18:40:03,Gasometría,pH: 7.41; pCO2: 40 mmHg; pO2: 62 mmHg,Resultados valorados en contexto clínico.
+R_HNUKQAIP,A_A300VRCQ,2025-07-19 00:08:56,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_V9ISJ0V5,A_WHZRRVGI,2025-07-20 22:11:29,Gasometría,pH: 7.48; pCO2: 44 mmHg; pO2: 70 mmHg,Resultados valorados en contexto clínico.
+R_7HA2RSQ6,A_DY10ZE88,2025-07-23 17:47:09,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_AQQHLMG1,A_SK71Y9R8,2025-07-23 18:35:26,PCR,PCR: 51.4 mg/L,Resultados valorados en contexto clínico.
+R_9605XN14,A_SK71Y9R8,2025-07-24 01:46:13,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_5AYJII70,A_SK71Y9R8,2025-07-24 11:16:14,Procalcitonina,PCT: 1.25 ng/mL,Resultados valorados en contexto clínico.
+R_51257I9F,A_SK71Y9R8,2025-07-24 11:23:22,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_YMKO511I,A_SK71Y9R8,2025-07-24 11:45:20,Hemograma,Hb: 14.0 g/dL; Leu: 6777/µL; Plq: 280111/µL,Resultados valorados en contexto clínico.
+R_5P0QI8HT,A_DY10ZE88,2025-07-24 17:37:40,Gasometría,pH: 7.45; pCO2: 41 mmHg; pO2: 65 mmHg,Resultados valorados en contexto clínico.
+R_44TKHPIS,A_SK71Y9R8,2025-07-25 05:58:27,Gasometría,pH: 7.46; pCO2: 36 mmHg; pO2: 73 mmHg,Resultados valorados en contexto clínico.
+R_AIBVTZDN,A_SK71Y9R8,2025-07-25 09:29:49,Bioquímica,Na: 133 mmol/L; K: 4.7 mmol/L; Cr: 1.04 mg/dL,Resultados valorados en contexto clínico.
+R_401IGS57,A_7CDHNI7L,2025-07-26 18:26:27,Gasometría,pH: 7.45; pCO2: 34 mmHg; pO2: 70 mmHg,Resultados valorados en contexto clínico.
+R_BKBAWA5X,A_MH43NBG0,2025-07-26 20:45:17,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_AT4WT2UI,A_DY10ZE88,2025-07-27 01:08:34,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_BQOC53EG,A_MH43NBG0,2025-07-27 06:46:10,Bioquímica,Na: 133 mmol/L; K: 4.0 mmol/L; Cr: 0.97 mg/dL,Resultados valorados en contexto clínico.
+R_EZK42YSK,A_MH43NBG0,2025-07-27 07:26:49,Hemograma,Hb: 14.2 g/dL; Leu: 12334/µL; Plq: 240350/µL,Resultados valorados en contexto clínico.
+R_V4XT6K56,A_MH43NBG0,2025-07-27 09:15:58,PCR,PCR: 27.7 mg/L,Resultados valorados en contexto clínico.
+R_86JSYRJB,A_MH43NBG0,2025-07-27 10:02:12,Hemograma,Hb: 14.7 g/dL; Leu: 10600/µL; Plq: 259861/µL,Resultados valorados en contexto clínico.
+R_JZ5SL5EG,A_7CDHNI7L,2025-07-27 13:52:18,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_COIE362Z,A_MH43NBG0,2025-07-28 06:41:49,Gasometría,pH: 7.33; pCO2: 37 mmHg; pO2: 79 mmHg,Resultados valorados en contexto clínico.
+R_VKCFXT1S,A_7CDHNI7L,2025-07-29 00:42:44,Bioquímica,Na: 136 mmol/L; K: 4.4 mmol/L; Cr: 0.91 mg/dL,Resultados valorados en contexto clínico.
+R_CWLS40JQ,A_DY10ZE88,2025-07-29 05:27:01,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_7LSHKJCX,A_DY10ZE88,2025-07-30 23:21:33,PCR,PCR: 34.5 mg/L,Resultados valorados en contexto clínico.
+R_B3DKSXJM,A_7CDHNI7L,2025-08-02 10:08:08,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_1V431W8H,A_7CDHNI7L,2025-08-03 08:40:31,Bioquímica,Na: 136 mmol/L; K: 4.6 mmol/L; Cr: 1.28 mg/dL,Resultados valorados en contexto clínico.
+R_9JGZM4DW,A_E95GKL0C,2025-08-08 20:38:16,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_RT46812D,A_E95GKL0C,2025-08-08 21:47:10,Gasometría,pH: 7.38; pCO2: 26 mmHg; pO2: 66 mmHg,Resultados valorados en contexto clínico.
+R_K2V5VMF9,A_3PQBYXIU,2025-08-10 13:16:37,Hemograma,Hb: 14.0 g/dL; Leu: 9936/µL; Plq: 321554/µL,Resultados valorados en contexto clínico.
+R_I4W43PIA,A_AV41CY76,2025-08-10 19:20:20,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_39J43A8V,A_AV41CY76,2025-08-11 00:49:40,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_I0CMGD86,A_AV41CY76,2025-08-11 09:08:41,Gasometría,pH: 7.44; pCO2: 40 mmHg; pO2: 84 mmHg,Resultados valorados en contexto clínico.
+R_VSNYWMK1,A_AV41CY76,2025-08-11 11:44:45,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_W1ID693M,A_AV41CY76,2025-08-12 12:11:12,Hemograma,Hb: 15.2 g/dL; Leu: 10217/µL; Plq: 212902/µL,Resultados valorados en contexto clínico.
+R_INM8GIME,A_E95GKL0C,2025-08-13 11:42:10,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_DIWMHL30,A_AV41CY76,2025-08-13 11:53:28,Bioquímica,Na: 141 mmol/L; K: 5.0 mmol/L; Cr: 1.34 mg/dL,Resultados valorados en contexto clínico.
+R_9BPTC01O,A_AV41CY76,2025-08-13 19:07:27,Procalcitonina,PCT: 0.65 ng/mL,Resultados valorados en contexto clínico.
+R_VC40XIHQ,A_E95GKL0C,2025-08-14 04:26:19,Procalcitonina,PCT: 0.82 ng/mL,Resultados valorados en contexto clínico.
+R_L6O3409P,A_E95GKL0C,2025-08-14 14:54:02,PCR,PCR: 75.9 mg/L,Resultados valorados en contexto clínico.
+R_AR9QX363,A_3PQBYXIU,2025-08-15 02:43:49,Gasometría,pH: 7.41; pCO2: 43 mmHg; pO2: 73 mmHg,Resultados valorados en contexto clínico.
+R_4ZBF8Q5T,A_JRIMK9GZ,2025-08-15 06:01:23,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_M3L5ZYPR,A_3PQBYXIU,2025-08-15 06:11:46,Hemograma,Hb: 13.6 g/dL; Leu: 6213/µL; Plq: 295916/µL,Resultados valorados en contexto clínico.
+R_M4QV3DUD,A_E95GKL0C,2025-08-15 07:09:54,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_6KTF0LS6,A_E95GKL0C,2025-08-15 16:07:41,PCR,PCR: 29.3 mg/L,Resultados valorados en contexto clínico.
+R_4FAB230P,A_3PQBYXIU,2025-08-15 19:57:14,Hemograma,Hb: 13.0 g/dL; Leu: 4922/µL; Plq: 191249/µL,Resultados valorados en contexto clínico.
+R_QP7NNG2A,A_JRIMK9GZ,2025-08-15 22:43:26,Gasometría,pH: 7.32; pCO2: 35 mmHg; pO2: 71 mmHg,Resultados valorados en contexto clínico.
+R_F74Y25WU,A_3PQBYXIU,2025-08-16 04:37:09,Bioquímica,Na: 130 mmol/L; K: 5.6 mmol/L; Cr: 0.63 mg/dL,Resultados valorados en contexto clínico.
+R_L89I9EFD,A_E95GKL0C,2025-08-16 07:19:46,Procalcitonina,PCT: 0.74 ng/mL,Resultados valorados en contexto clínico.
+R_MIHN4VIN,A_3PQBYXIU,2025-08-16 10:04:51,Procalcitonina,PCT: 0.65 ng/mL,Resultados valorados en contexto clínico.
+R_YWOVWIB4,A_JRIMK9GZ,2025-08-16 13:46:44,Procalcitonina,PCT: 0.37 ng/mL,Resultados valorados en contexto clínico.
+R_6U2OA8KB,A_JRIMK9GZ,2025-08-17 04:49:33,Bioquímica,Na: 144 mmol/L; K: 4.8 mmol/L; Cr: 0.96 mg/dL,Resultados valorados en contexto clínico.
+R_MPZ7IBON,A_JRIMK9GZ,2025-08-17 07:12:59,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_GLKUTJZI,A_AV41CY76,2025-08-18 00:23:28,PCR,PCR: 10.7 mg/L,Resultados valorados en contexto clínico.
+R_I0PUMOO0,A_JRIMK9GZ,2025-08-18 01:36:33,Procalcitonina,PCT: 0.46 ng/mL,Resultados valorados en contexto clínico.
+R_HL3QDK06,A_JRIMK9GZ,2025-08-18 18:50:40,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_X9VTKX1T,A_2C1R0ONE,2025-08-20 01:47:35,Hemograma,Hb: 15.0 g/dL; Leu: 6213/µL; Plq: 150341/µL,Resultados valorados en contexto clínico.
+R_EFGTCCO7,A_FHP07HXC,2025-08-20 23:15:51,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_CJRA2EJ6,A_FHP07HXC,2025-08-21 05:37:42,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_S3OZJO3D,A_FHP07HXC,2025-08-21 17:44:53,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_EABXUE1D,A_FHP07HXC,2025-08-23 05:57:17,Bioquímica,Na: 145 mmol/L; K: 4.6 mmol/L; Cr: 1.09 mg/dL,Resultados valorados en contexto clínico.
+R_HD9T24SF,A_FHP07HXC,2025-08-23 15:28:43,Gasometría,pH: 7.44; pCO2: 58 mmHg; pO2: 71 mmHg,Resultados valorados en contexto clínico.
+R_3VAS1O7D,A_YF9MLGIZ,2025-08-25 12:38:20,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_127ELNU6,A_2C1R0ONE,2025-08-26 14:57:24,Bioquímica,Na: 131 mmol/L; K: 4.6 mmol/L; Cr: 0.98 mg/dL,Resultados valorados en contexto clínico.
+R_FJMZD9LP,A_BATAJD32,2025-08-27 03:07:56,Gasometría,pH: 7.38; pCO2: 36 mmHg; pO2: 91 mmHg,Resultados valorados en contexto clínico.
+R_ARHOTZMB,A_2C1R0ONE,2025-08-28 04:44:44,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_NJ2EBT30,A_BATAJD32,2025-08-28 16:52:12,PCR,PCR: 41.6 mg/L,Resultados valorados en contexto clínico.
+R_BZZW1FMN,A_GZM8A8Z4,2025-08-29 09:05:06,Bioquímica,Na: 133 mmol/L; K: 3.7 mmol/L; Cr: 1.05 mg/dL,Resultados valorados en contexto clínico.
+R_63P1QHXN,A_BP1O5FXM,2025-08-29 14:02:40,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_1Z7O8O3X,A_BATAJD32,2025-08-29 17:10:29,Gasometría,pH: 7.45; pCO2: 45 mmHg; pO2: 76 mmHg,Resultados valorados en contexto clínico.
+R_CPIOYDNY,A_BATAJD32,2025-08-29 18:29:29,Procalcitonina,PCT: 1.51 ng/mL,Resultados valorados en contexto clínico.
+R_KM2BDKH5,A_BATAJD32,2025-08-29 21:05:58,Bioquímica,Na: 136 mmol/L; K: 4.4 mmol/L; Cr: 1.43 mg/dL,Resultados valorados en contexto clínico.
+R_ZVZE4O7J,A_BATAJD32,2025-08-29 23:02:09,Procalcitonina,PCT: 1.09 ng/mL,Resultados valorados en contexto clínico.
+R_3D3TR0Y8,A_GZM8A8Z4,2025-08-30 11:45:42,PCR,PCR: 47.8 mg/L,Resultados valorados en contexto clínico.
+R_6G8DMJ30,A_BP1O5FXM,2025-08-30 11:47:50,Hemograma,Hb: 13.1 g/dL; Leu: 6409/µL; Plq: 170499/µL,Resultados valorados en contexto clínico.
+R_S254LV43,A_BATAJD32,2025-08-30 21:20:01,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_XK5SDD65,A_H1Y6GAVT,2025-08-31 03:49:03,Bioquímica,Na: 135 mmol/L; K: 3.5 mmol/L; Cr: 0.86 mg/dL,Resultados valorados en contexto clínico.
+R_30J6BRBW,A_JCPEVE8D,2025-08-31 04:52:43,Bioquímica,Na: 138 mmol/L; K: 4.7 mmol/L; Cr: 1.05 mg/dL,Resultados valorados en contexto clínico.
+R_1RFJYDK8,A_H1Y6GAVT,2025-08-31 05:12:47,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_2JDNQP8H,A_H1Y6GAVT,2025-08-31 07:38:29,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_LMJXTGIE,A_YF9MLGIZ,2025-08-31 09:08:50,Gasometría,pH: 7.37; pCO2: 41 mmHg; pO2: 72 mmHg,Resultados valorados en contexto clínico.
+R_C0BHB4XR,A_JCPEVE8D,2025-08-31 09:21:36,PCR,PCR: 11.2 mg/L,Resultados valorados en contexto clínico.
+R_QRN5FENS,A_JCPEVE8D,2025-08-31 13:01:49,PCR,PCR: 9.9 mg/L,Resultados valorados en contexto clínico.
+R_HRTEGUFV,A_BP1O5FXM,2025-08-31 13:12:31,Hemograma,Hb: 12.6 g/dL; Leu: 12422/µL; Plq: 222700/µL,Resultados valorados en contexto clínico.
+R_I1QGNDEP,A_JCPEVE8D,2025-08-31 13:26:25,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_U20VRINN,A_H1Y6GAVT,2025-08-31 17:27:17,PCR,PCR: 12.0 mg/L,Resultados valorados en contexto clínico.
+R_28F7CHL1,A_BATAJD32,2025-08-31 20:13:23,Procalcitonina,PCT: 0.46 ng/mL,Resultados valorados en contexto clínico.
+R_K8P26JRS,A_LG93D6AV,2025-08-31 20:31:55,Hemograma,Hb: 16.4 g/dL; Leu: 12077/µL; Plq: 154014/µL,Resultados valorados en contexto clínico.
+R_2H8Y98ZZ,A_LG93D6AV,2025-08-31 22:26:39,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_5TP6ZU3S,A_GZM8A8Z4,2025-09-01 01:42:43,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_GEYJKX4V,A_YF9MLGIZ,2025-09-01 05:51:06,Bioquímica,Na: 135 mmol/L; K: 4.7 mmol/L; Cr: 0.57 mg/dL,Resultados valorados en contexto clínico.
+R_G0ZYUP8K,A_1HDPYVUY,2025-09-01 08:58:42,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_Y6IM0ZEX,A_YF9MLGIZ,2025-09-01 11:56:24,Hemograma,Hb: 14.3 g/dL; Leu: 8741/µL; Plq: 219465/µL,Resultados valorados en contexto clínico.
+R_TE300EHO,A_1HDPYVUY,2025-09-01 12:35:17,PCR,PCR: 6.7 mg/L,Resultados valorados en contexto clínico.
+R_3WTEOWTH,A_LG93D6AV,2025-09-01 16:01:38,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_2YGKV3EE,A_H1Y6GAVT,2025-09-01 16:30:53,Hemograma,Hb: 14.6 g/dL; Leu: 10661/µL; Plq: 152372/µL,Resultados valorados en contexto clínico.
+R_QCTFGOLP,A_H1Y6GAVT,2025-09-02 13:16:14,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_G0XVB120,A_LG93D6AV,2025-09-02 16:15:17,Bioquímica,Na: 137 mmol/L; K: 4.0 mmol/L; Cr: 1.04 mg/dL,Resultados valorados en contexto clínico.
+R_6TLLB8H0,A_H1Y6GAVT,2025-09-03 01:03:15,Gasometría,pH: 7.39; pCO2: 39 mmHg; pO2: 82 mmHg,Resultados valorados en contexto clínico.
+R_PQC6LHSD,A_1HDPYVUY,2025-09-03 18:30:06,Bioquímica,Na: 141 mmol/L; K: 4.1 mmol/L; Cr: 0.57 mg/dL,Resultados valorados en contexto clínico.
+R_GT5IF76O,A_H1Y6GAVT,2025-09-04 03:34:39,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_3O3EMYZR,A_GZM8A8Z4,2025-09-05 01:18:44,Procalcitonina,PCT: 0.05 ng/mL,Resultados valorados en contexto clínico.
+R_NUVZXXHB,A_Q42FAN44,2025-09-07 00:46:33,Hemograma,Hb: 13.5 g/dL; Leu: 5146/µL; Plq: 358900/µL,Resultados valorados en contexto clínico.
+R_TFR3WFKQ,A_1HDPYVUY,2025-09-07 03:53:28,Procalcitonina,PCT: 0.9 ng/mL,Resultados valorados en contexto clínico.
+R_OXY8YLMV,A_1HDPYVUY,2025-09-07 06:26:46,PCR,PCR: 34.3 mg/L,Resultados valorados en contexto clínico.
+R_WWDNWPHI,A_8XDNSU0L,2025-09-10 13:15:08,Procalcitonina,PCT: 1.24 ng/mL,Resultados valorados en contexto clínico.
+R_JGY8F5HJ,A_8XDNSU0L,2025-09-11 06:01:06,Bioquímica,Na: 141 mmol/L; K: 5.1 mmol/L; Cr: 0.99 mg/dL,Resultados valorados en contexto clínico.
+R_2TD2JA9W,A_LW3YH4FH,2025-09-11 20:18:02,Procalcitonina,PCT: 0.85 ng/mL,Resultados valorados en contexto clínico.
+R_X5WOWVB0,A_8XDNSU0L,2025-09-12 09:23:59,Procalcitonina,PCT: 1.97 ng/mL,Resultados valorados en contexto clínico.
+R_JBZF8AQN,A_LW3YH4FH,2025-09-13 01:47:40,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_S9K9MX2F,A_Q42FAN44,2025-09-13 10:25:30,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_3JM8NII4,A_8XDNSU0L,2025-09-13 12:42:18,Gasometría,pH: 7.4; pCO2: 45 mmHg; pO2: 63 mmHg,Resultados valorados en contexto clínico.
+R_4JIAU5FK,A_Q42FAN44,2025-09-13 15:33:09,Gasometría,pH: 7.41; pCO2: 41 mmHg; pO2: 54 mmHg,Resultados valorados en contexto clínico.
+R_W1IQK7IV,A_8XDNSU0L,2025-09-13 17:52:54,PCR,PCR: 39.1 mg/L,Resultados valorados en contexto clínico.
+R_M046FK6L,A_9NNWXVJ0,2025-09-14 05:08:16,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_X4N3SULW,A_8XDNSU0L,2025-09-14 11:22:34,Bioquímica,Na: 143 mmol/L; K: 3.7 mmol/L; Cr: 0.94 mg/dL,Resultados valorados en contexto clínico.
+R_47GZWVTS,A_8XDNSU0L,2025-09-14 19:47:28,PCR,PCR: 35.8 mg/L,Resultados valorados en contexto clínico.
+R_X70GP5DK,A_9NNWXVJ0,2025-09-15 07:28:46,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_VWSJ3HFD,A_9NNWXVJ0,2025-09-16 05:50:36,Procalcitonina,PCT: 0.63 ng/mL,Resultados valorados en contexto clínico.
+R_61O24X6Y,A_LW3YH4FH,2025-09-16 17:15:47,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_VDCN3TVM,A_YIXLAQJI,2025-09-16 20:29:06,Gasometría,pH: 7.35; pCO2: 44 mmHg; pO2: 86 mmHg,Resultados valorados en contexto clínico.
+R_JBTZJAS8,A_YIXLAQJI,2025-09-16 23:24:45,Gasometría,pH: 7.42; pCO2: 40 mmHg; pO2: 76 mmHg,Resultados valorados en contexto clínico.
+R_J1CPGLZA,A_YIXLAQJI,2025-09-17 00:09:10,Gasometría,pH: 7.38; pCO2: 43 mmHg; pO2: 57 mmHg,Resultados valorados en contexto clínico.
+R_VV3AKAEZ,A_9NNWXVJ0,2025-09-18 08:53:47,PCR,PCR: 34.5 mg/L,Resultados valorados en contexto clínico.
+R_FK34TLBP,A_YIXLAQJI,2025-09-19 08:25:00,Procalcitonina,PCT: 0.09 ng/mL,Resultados valorados en contexto clínico.
+R_JRPTKWVF,A_CFPFIU5X,2025-09-20 06:56:14,Hemograma,Hb: 14.1 g/dL; Leu: 8825/µL; Plq: 200810/µL,Resultados valorados en contexto clínico.
+R_UW78WQRT,A_EDJOF843,2025-09-20 07:55:48,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_1VZX5BNW,A_CFPFIU5X,2025-09-20 09:06:41,Gasometría,pH: 7.32; pCO2: 41 mmHg; pO2: 75 mmHg,Resultados valorados en contexto clínico.
+R_8GR3TPD4,A_EDJOF843,2025-09-20 09:44:54,Gasometría,pH: 7.35; pCO2: 46 mmHg; pO2: 77 mmHg,Resultados valorados en contexto clínico.
+R_964QIH04,A_DS9U4YIJ,2025-09-20 17:58:37,Procalcitonina,PCT: 0.11 ng/mL,Resultados valorados en contexto clínico.
+R_14IDT8ZH,A_DS9U4YIJ,2025-09-20 22:16:17,Procalcitonina,PCT: 0.84 ng/mL,Resultados valorados en contexto clínico.
+R_Q8F7LP5Y,A_CFPFIU5X,2025-09-20 23:05:09,Procalcitonina,PCT: 2.14 ng/mL,Resultados valorados en contexto clínico.
+R_IUXJTK6K,A_9NNWXVJ0,2025-09-21 11:26:26,Gasometría,pH: 7.44; pCO2: 30 mmHg; pO2: 73 mmHg,Resultados valorados en contexto clínico.
+R_8BKCVPKD,A_9NNWXVJ0,2025-09-21 11:50:29,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_QHNOFCDD,A_DS9U4YIJ,2025-09-21 12:51:54,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_33YTQ7C5,A_CFPFIU5X,2025-09-21 13:04:58,Procalcitonina,PCT: 0.48 ng/mL,Resultados valorados en contexto clínico.
+R_IEMQ9E14,A_EDJOF843,2025-09-21 17:46:07,Procalcitonina,PCT: 0.2 ng/mL,Resultados valorados en contexto clínico.
+R_B4AKXF6G,A_9NNWXVJ0,2025-09-21 23:26:56,Hemograma,Hb: 16.3 g/dL; Leu: 7322/µL; Plq: 251482/µL,Resultados valorados en contexto clínico.
+R_H5UTGORW,A_CFPFIU5X,2025-09-22 02:34:40,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_1UI3DQM3,A_CFPFIU5X,2025-09-22 02:59:30,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_4Q65B69P,A_EDJOF843,2025-09-22 04:07:24,Gasometría,pH: 7.37; pCO2: 36 mmHg; pO2: 74 mmHg,Resultados valorados en contexto clínico.
+R_CCOJU0N4,A_DS9U4YIJ,2025-09-22 06:39:39,PCR,PCR: 28.3 mg/L,Resultados valorados en contexto clínico.
+R_TKCTGKV6,A_CFPFIU5X,2025-09-22 12:20:54,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_ZKGMS9J1,A_9NNWXVJ0,2025-09-23 00:56:52,Hemograma,Hb: 12.6 g/dL; Leu: 7618/µL; Plq: 357083/µL,Resultados valorados en contexto clínico.
+R_BSPIBSLJ,A_CFPFIU5X,2025-09-23 01:46:55,Procalcitonina,PCT: 0.93 ng/mL,Resultados valorados en contexto clínico.
+R_N9CDIV51,A_EDJOF843,2025-09-23 03:22:20,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_GK98GT0R,A_DS9U4YIJ,2025-09-23 03:22:40,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_CL9UYLRA,A_EDJOF843,2025-09-23 05:46:49,PCR,PCR: 4.4 mg/L,Resultados valorados en contexto clínico.
+R_2UNM404R,A_EDJOF843,2025-09-23 08:48:33,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_AOX3YBAE,A_2USW84HP,2025-09-23 18:38:45,Procalcitonina,PCT: 0.2 ng/mL,Resultados valorados en contexto clínico.
+R_CHNNQ8EX,A_3I7FSB57,2025-09-24 08:29:29,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_EVXLXQFE,A_2USW84HP,2025-09-25 00:49:46,Gasometría,pH: 7.34; pCO2: 42 mmHg; pO2: 78 mmHg,Resultados valorados en contexto clínico.
+R_AZ26WWJV,A_2USW84HP,2025-09-25 01:43:02,PCR,PCR: 59.0 mg/L,Resultados valorados en contexto clínico.
+R_V1S003OU,A_2USW84HP,2025-09-25 19:23:43,Hemograma,Hb: 14.0 g/dL; Leu: 8952/µL; Plq: 307771/µL,Resultados valorados en contexto clínico.
+R_YT00TPIU,A_DS9U4YIJ,2025-09-25 21:27:58,Bioquímica,Na: 139 mmol/L; K: 3.9 mmol/L; Cr: 0.87 mg/dL,Resultados valorados en contexto clínico.
+R_YBF5CUWR,A_BU39V1T3,2025-09-26 08:52:06,PCR,PCR: 2.8 mg/L,Resultados valorados en contexto clínico.
+R_YFMTPKVX,A_3I7FSB57,2025-09-27 13:15:31,Bioquímica,Na: 143 mmol/L; K: 4.3 mmol/L; Cr: 1.12 mg/dL,Resultados valorados en contexto clínico.
+R_LRQQLO1Z,A_RUJ2SKZ9,2025-09-27 21:25:23,Gasometría,pH: 7.38; pCO2: 34 mmHg; pO2: 68 mmHg,Resultados valorados en contexto clínico.
+R_TO79Z8GL,A_BU39V1T3,2025-09-28 01:32:14,PCR,PCR: 55.8 mg/L,Resultados valorados en contexto clínico.
+R_VPQZDAMQ,A_BU39V1T3,2025-09-29 01:58:52,TAC torácico,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_01DA2114,A_2USW84HP,2025-09-30 13:37:37,Gasometría,pH: 7.29; pCO2: 33 mmHg; pO2: 60 mmHg,Resultados valorados en contexto clínico.
+R_PDBL8X6C,A_RUJ2SKZ9,2025-10-01 00:25:35,Hemograma,Hb: 13.0 g/dL; Leu: 13318/µL; Plq: 197122/µL,Resultados valorados en contexto clínico.
+R_50FTIUPZ,A_V82D1383,2025-10-01 07:30:01,Procalcitonina,PCT: 1.04 ng/mL,Resultados valorados en contexto clínico.
+R_NEVMP9ZR,A_3I7FSB57,2025-10-01 10:26:28,Hemograma,Hb: 12.8 g/dL; Leu: 17892/µL; Plq: 135788/µL,Resultados valorados en contexto clínico.
+R_SBFF96YI,A_RUJ2SKZ9,2025-10-01 21:13:40,Bioquímica,Na: 137 mmol/L; K: 4.0 mmol/L; Cr: 0.99 mg/dL,Resultados valorados en contexto clínico.
+R_6DVL97JP,A_V82D1383,2025-10-02 11:41:11,Bioquímica,Na: 138 mmol/L; K: 3.4 mmol/L; Cr: 1.42 mg/dL,Resultados valorados en contexto clínico.
+R_G6QOQKJ3,A_V82D1383,2025-10-02 15:29:36,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.
+R_MQVXXF4R,A_RUJ2SKZ9,2025-10-03 08:16:19,Procalcitonina,PCT: 0.27 ng/mL,Resultados valorados en contexto clínico.
+R_9842IDZT,A_RUJ2SKZ9,2025-10-03 10:33:49,Hemograma,Hb: 12.7 g/dL; Leu: 4658/µL; Plq: 282835/µL,Resultados valorados en contexto clínico.
+R_6K3281X5,A_V82D1383,2025-10-03 23:33:39,Radiografía de tórax,Hallazgos compatibles con proceso infeccioso en lóbulo inferior derecho.,Resultados valorados en contexto clínico.

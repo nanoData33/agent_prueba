@@ -1,0 +1,352 @@
+procedure_id,admission_id,fecha,procedimiento,descripcion
+Prc_5ZY1HQZM,A_8GIVPBUD,2024-01-03 14:57:28,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_NDQ7IE3B,A_8GIVPBUD,2024-01-04 00:49:31,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_2Z2NELLE,A_X4D0VYJE,2024-01-05 06:30:13,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_BMK2QAKU,A_C2DNRNHR,2024-01-10 01:20:20,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_NOL0I7V2,A_C2DNRNHR,2024-01-10 02:22:11,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_95DQ8YHJ,A_SIZT9ZEF,2024-01-10 16:55:51,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_G154VRMV,A_C2DNRNHR,2024-01-10 22:51:15,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_PVEV0YIV,A_Z16L4E2F,2024-01-14 13:11:05,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_7KU9LTUL,A_OM71E29T,2024-01-14 20:56:37,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_4838R23R,A_P6V4HT7O,2024-01-18 02:49:28,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_W9Q66FJO,A_P6V4HT7O,2024-01-19 00:28:02,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_FMXWIF9G,A_35WCUFKJ,2024-01-27 03:24:44,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_PXLE75I1,A_8C7SQNMR,2024-02-02 16:54:52,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_5R74N9UI,A_344T2PWZ,2024-02-03 14:32:03,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_RXI20PIY,A_ZVEBXXDU,2024-02-07 07:33:53,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_0ZOP0CH2,A_344T2PWZ,2024-02-07 09:23:14,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_0QLNV8QV,A_ZVEBXXDU,2024-02-07 10:27:05,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_82BNTW9I,A_W5KYXPS2,2024-02-07 15:20:12,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_NVF9TFVK,A_ZVEBXXDU,2024-02-08 12:14:12,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_8EX41FZV,A_344T2PWZ,2024-02-08 19:29:19,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_NLKA6F00,A_GYHEPJWE,2024-02-11 00:36:49,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_SQDV25NY,A_4T0V9UV7,2024-02-12 02:13:50,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_27MNAMAM,A_GYHEPJWE,2024-02-12 19:19:51,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_HEMJQK5V,A_1I1SR9DX,2024-02-13 13:59:28,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_EM05TY6X,A_GYHEPJWE,2024-02-14 17:37:56,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_TG9VCDS3,A_KS62WNLH,2024-02-14 18:56:27,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_ZZBUCAAZ,A_4T0V9UV7,2024-02-16 04:31:15,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_KCZO0AEU,A_4T0V9UV7,2024-02-16 16:01:34,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_6T6JAITU,A_KS62WNLH,2024-02-16 22:28:14,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_GVBAIBPT,A_PR6X1OUN,2024-02-17 03:15:03,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_478EKUV5,A_PR6X1OUN,2024-02-19 05:01:56,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_ME2OUNRS,A_PR6X1OUN,2024-02-20 03:27:27,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_COQWGETB,A_M02OBXYS,2024-02-24 08:57:35,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_66EDX6CK,A_YY5CKFAJ,2024-02-24 19:52:47,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_S8QQK82D,A_YY5CKFAJ,2024-02-25 17:53:23,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_EFGPZGT9,A_67KR6A4Y,2024-02-25 19:31:16,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_7W8KKP7O,A_92FLS0V7,2024-02-26 22:19:58,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_9V2ZZ25N,A_SMM178UI,2024-02-28 00:18:56,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_BRZ56QF4,A_SMM178UI,2024-02-28 11:16:12,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_GCPU15MQ,A_92FLS0V7,2024-02-29 00:05:26,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_M3DKLO3P,A_73N4H68H,2024-02-29 06:22:58,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_F1EXPZ4W,A_73N4H68H,2024-02-29 09:33:40,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_DC7PR66C,A_92FLS0V7,2024-03-03 11:47:07,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_5304NHAA,A_M02OBXYS,2024-03-03 14:02:40,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_1YB3MT1G,A_FOIPQE80,2024-03-09 14:51:01,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_S1G3SBEL,A_6SK5PICN,2024-03-14 14:26:55,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_BBU8PV75,A_AJ5ALNEK,2024-03-15 19:09:02,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_P8OQGFKA,A_ME77LIIM,2024-03-16 12:38:49,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_SC5PL1W2,A_AJ5ALNEK,2024-03-17 01:42:18,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_KULYG086,A_ZES6CGLC,2024-03-17 05:42:41,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_8J809CUJ,A_ZES6CGLC,2024-03-18 17:13:33,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_UTZ631N2,A_AJ5ALNEK,2024-03-19 15:47:20,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_3VVK0EKP,A_54MWRAO5,2024-03-19 20:14:00,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_XP91605J,A_54MWRAO5,2024-03-25 11:24:19,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_VM0STUHK,A_PFTPNM9I,2024-03-25 12:27:18,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_UGR3FXXX,A_5MYHX5H0,2024-03-27 18:52:41,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_A2IWVUIR,A_5MYHX5H0,2024-03-29 04:49:36,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_KFW2VATZ,A_DMICDUBZ,2024-04-02 00:09:48,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_17P0D190,A_DMICDUBZ,2024-04-03 23:45:31,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_1BP5GA0I,A_AMDBYWOC,2024-04-05 05:35:45,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_IGM3WJS0,A_5XA6M6KI,2024-04-10 13:53:57,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_Y30LEUVL,A_05KNFOUZ,2024-04-11 10:48:09,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_Z3GLEHHD,A_IOWQ9I7D,2024-04-12 00:14:40,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_V1X4A3SS,A_IOWQ9I7D,2024-04-12 02:09:14,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_H3POODNS,A_YGR7GHJ7,2024-04-12 04:05:08,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_E6C1ZE3E,A_YGR7GHJ7,2024-04-12 18:08:12,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_I2L6A7CM,A_5XA6M6KI,2024-04-12 19:52:31,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_156DOA4X,A_DKI7EUXQ,2024-04-12 21:10:10,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_B0VJ8FL7,A_ZQI900EO,2024-04-13 15:34:18,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_X0KYOGU6,A_5XA6M6KI,2024-04-13 19:26:41,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_IHQ6R7AU,A_2FIOAG1I,2024-04-13 20:11:31,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_7YEY8YJ7,A_2FIOAG1I,2024-04-14 05:38:15,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_ER58V62Z,A_2FIOAG1I,2024-04-15 01:05:21,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_5OQZX197,A_IOWQ9I7D,2024-04-15 05:32:50,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_4E1W86DG,A_QNJRTWNB,2024-04-16 21:48:11,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_OGXDQ4PX,A_SP8GSG6F,2024-04-17 13:40:42,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_KOHA2UZG,A_2LIFID9K,2024-04-17 19:36:26,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_HIJCX8O3,A_QNJRTWNB,2024-04-18 17:56:40,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_KQKOA5C0,A_QNJRTWNB,2024-04-20 08:54:30,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_ZHLOE9A5,A_678UB5WM,2024-04-20 09:51:05,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_62TEA1BQ,A_YG7VMSCK,2024-04-20 16:03:19,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_W11485O6,A_SP8GSG6F,2024-04-21 01:20:51,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_EENN1EWK,A_678UB5WM,2024-04-21 09:36:33,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_9MMRJYKM,A_05KNFOUZ,2024-04-21 19:47:18,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_JPRIXZG3,A_YG7VMSCK,2024-04-22 04:43:49,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_5G7GWZW6,A_YG7VMSCK,2024-04-22 04:59:32,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_7H5U50BL,A_SP8GSG6F,2024-04-24 13:23:52,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_1LK3IX4U,A_I1F8IGKJ,2024-05-02 07:23:54,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_1LNZR5VR,A_RA8B7MLU,2024-05-03 10:40:18,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_M7CNE7R3,A_RV0PGRE6,2024-05-12 18:30:32,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_CR6WX0EM,A_83I8QWTT,2024-05-15 21:48:19,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_YURBWQR5,A_MAH0RP20,2024-05-19 00:36:44,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_H8R8GU33,A_1JNZDVFL,2024-05-19 04:06:18,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_M02J90JB,A_LAH0AORC,2024-05-23 05:33:35,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_M8XJ5GMC,A_BXQ1PSUI,2024-05-27 14:51:57,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_Y8PD6VNI,A_C514N9E5,2024-05-27 21:08:08,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_O9EUU27O,A_AM0I8AQC,2024-05-28 05:06:33,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_UKTU8QAT,A_C514N9E5,2024-05-28 12:48:31,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_E0OO7IVX,A_F4KR8TXL,2024-05-29 02:24:24,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_ZRGWXEX5,A_BXQ1PSUI,2024-05-29 08:44:38,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_8HDF9YK1,A_CUSJM0HI,2024-05-30 13:41:36,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_W1LL06L6,A_AM0I8AQC,2024-05-30 18:45:32,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_B1368B5P,A_F4KR8TXL,2024-05-30 19:02:30,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_KRZAAHMM,A_BXQ1PSUI,2024-05-31 16:33:01,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_A1CSYYYM,A_PB7XFYPX,2024-06-01 16:02:43,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_9JSNS43L,A_PB7XFYPX,2024-06-02 02:49:02,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_PLO9DMV1,A_CUSJM0HI,2024-06-02 23:03:57,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_FLBQ81O7,A_PB7XFYPX,2024-06-03 12:58:25,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_KS88O8KT,A_7M5N05MC,2024-06-05 02:31:30,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_GW4MZ3R7,A_WNR8XERY,2024-06-06 12:22:13,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_VGAIFDV8,A_7M5N05MC,2024-06-06 12:45:22,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_1L7DJAL7,A_7M5N05MC,2024-06-06 20:24:47,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_ETX1M61Q,A_W8GFSBLT,2024-06-17 01:13:32,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_AZW4LTKS,A_W8GFSBLT,2024-06-17 09:44:19,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_2RTVJFY2,A_W8GFSBLT,2024-06-18 05:07:46,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_5FLTLMB1,A_HVHUTTB7,2024-06-21 05:05:54,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_INZ3NHTY,A_HVHUTTB7,2024-06-21 07:20:43,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_EIVJ860V,A_HVHUTTB7,2024-06-21 18:49:28,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_BSHV8HCN,A_FDI4OOV2,2024-06-22 04:10:00,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_7N962JOP,A_2H11F4PF,2024-06-28 23:22:08,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_92NG3LBO,A_2H11F4PF,2024-07-01 01:47:23,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_E0C4P5G8,A_7JY5IYR4,2024-07-01 08:08:36,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_N0CDNFR7,A_2H11F4PF,2024-07-01 14:20:11,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_BHY1AGLU,A_IA0X3GK6,2024-07-09 11:44:51,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_ABW64TZA,A_IA0X3GK6,2024-07-09 23:55:52,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_JMLORJI4,A_JWQV99QL,2024-07-10 23:44:35,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_P2QAGUKN,A_YO16Q23G,2024-07-14 18:33:04,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_9HWGRL4G,A_YO16Q23G,2024-07-15 03:20:55,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_N3IJKFNZ,A_JZCJOHSN,2024-07-16 18:59:22,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_33U9AGSZ,A_O86WOCMY,2024-07-17 07:30:56,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_SI2KCRZE,A_LKIUK0YI,2024-07-18 05:49:47,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_48DWTRNG,A_LKIUK0YI,2024-07-20 01:30:53,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_ISSRHQ3I,A_LKIUK0YI,2024-07-21 00:34:24,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_B4GXAQ3Y,A_JZCJOHSN,2024-07-24 21:25:15,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_FG8WYTLE,A_BNWUEBYT,2024-07-26 16:32:16,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_NESAL3JQ,A_BNWUEBYT,2024-07-27 07:24:07,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_VQA5A3OG,A_FVR1I3KT,2024-08-04 15:04:13,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_NVOS559A,A_KDW7LAN5,2024-08-05 03:16:47,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_SQ7WOZTV,A_FVR1I3KT,2024-08-07 14:49:15,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_L9UDKVML,A_C296QVRN,2024-08-10 06:12:58,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_DR8XWZIX,A_82OWZ31U,2024-08-10 17:47:10,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_MJ8ZU5M2,A_82OWZ31U,2024-08-11 20:24:16,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_YP2RLAEJ,A_C296QVRN,2024-08-13 00:07:17,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_SH39S1NU,A_82OWZ31U,2024-08-13 00:35:31,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_UI83QPOM,A_M95D1BLN,2024-08-22 11:45:18,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_Y2W7CIHG,A_M95D1BLN,2024-08-23 06:03:28,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_8F4T7IWE,A_BCR60XDC,2024-09-04 00:28:05,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_ZU6K01O7,A_APN6LEZ9,2024-09-06 12:55:10,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_YQM111KA,A_58LXMJEL,2024-09-12 17:35:27,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_2OAJ664E,A_58LXMJEL,2024-09-13 07:10:05,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_HG2O9ZMP,A_S4QASMGM,2024-09-17 20:22:11,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_WD0M7F1G,A_LNBLETO0,2024-09-25 08:43:08,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_O1IP3HMY,A_NBGBTHSR,2024-09-27 05:21:25,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_1JAYF3LP,A_KIPMSQZX,2024-09-27 07:13:55,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_8OXYC0KZ,A_LNBLETO0,2024-09-27 17:26:44,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_A0UGQSWH,A_NBGBTHSR,2024-09-28 00:02:24,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_44HIDA0L,A_NBGBTHSR,2024-09-28 11:24:30,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_7H3752FK,A_LNBLETO0,2024-09-29 23:22:51,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_XICNZJOV,A_7V5N80OO,2024-10-02 09:43:12,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_G1PF7SUS,A_324BDVL0,2024-10-04 15:04:43,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_9WDYYPFZ,A_Q8XMZ80H,2024-10-04 22:28:49,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_ZQM4VP7Q,A_XDRX70OZ,2024-10-05 03:51:49,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_V2Q7IB3F,A_SCGZM6BY,2024-10-05 12:15:18,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_3LZK0KKO,A_324BDVL0,2024-10-05 20:13:44,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_WTD2TXJF,A_Q8XMZ80H,2024-10-05 20:24:45,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_HWFSI6ZO,A_SCGZM6BY,2024-10-09 03:19:42,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_CTITP2DI,A_H8N7A59Q,2024-10-17 05:13:53,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_B2AZWLD2,A_W7U8ZVT1,2024-10-18 11:49:56,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_H9AVY9XI,A_4GJ9O3NU,2024-10-19 23:24:03,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_U7HRIKJD,A_H8N7A59Q,2024-10-20 12:24:32,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_XE2Z465C,A_W7U8ZVT1,2024-10-21 05:02:42,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_XWL71W57,A_88J22RJU,2024-10-22 23:38:13,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_SX64TPDQ,A_W7U8ZVT1,2024-10-23 18:54:56,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_12QX1HYV,A_88J22RJU,2024-10-23 21:00:23,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_S6IBH4AX,A_88J22RJU,2024-10-25 05:25:49,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_NR268U4P,A_9DUPRW5K,2024-10-27 10:05:58,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_3IM4IY9V,A_9DUPRW5K,2024-10-28 06:18:22,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_N8JG83F7,A_OXD9Y8UI,2024-10-28 09:41:38,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_961BKIWH,A_OXD9Y8UI,2024-10-30 07:50:55,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_G2VTY7DZ,A_9DUPRW5K,2024-10-31 16:36:33,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_4NLAPHAV,A_PU6UD1CA,2024-11-01 05:32:24,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_CDWIZIAA,A_QAJVOWU5,2024-11-03 20:10:41,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_FB86GPNE,A_QAJVOWU5,2024-11-04 03:01:03,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_2YP11N1R,A_QAJVOWU5,2024-11-04 10:32:50,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_LSKTRHVL,A_PU6UD1CA,2024-11-07 11:50:40,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_KZPRN6ET,A_PU6UD1CA,2024-11-07 22:06:18,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_08HQ2NPU,A_JW9DURIB,2024-11-12 05:20:15,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_V8RM4TZ4,A_JW9DURIB,2024-11-12 19:40:43,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_U61FNBGK,A_GZ6BN8HQ,2024-11-13 09:45:54,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_0TBDU59B,A_J4JG53WZ,2024-11-29 09:20:53,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_41JHPUA7,A_J4JG53WZ,2024-11-29 21:04:02,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_19KH9Y5J,A_J4JG53WZ,2024-11-30 17:33:43,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_247NAMA3,A_WMY6SAH0,2024-12-06 07:46:01,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_CUNYK7U4,A_F7XC1IGM,2024-12-07 21:14:55,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_30I1CUWM,A_43B08NCS,2024-12-08 00:46:58,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_C1XDJDW6,A_F7XC1IGM,2024-12-08 02:40:40,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_4EX8M2D9,A_5NVLNVQA,2024-12-19 23:55:27,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_FUWXOXBR,A_WHTRAM8X,2024-12-21 16:31:53,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_YHFUR44S,A_5NVLNVQA,2024-12-21 18:02:50,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_ZK858OTE,A_5NVLNVQA,2024-12-23 16:27:52,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_EILQAYS4,A_YS43F1CG,2025-01-04 10:15:49,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_815O6L67,A_4WIF13TO,2025-01-05 19:36:49,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_EWZN29ZR,A_YS43F1CG,2025-01-06 03:14:44,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_YKOENW86,A_PA9TWMTP,2025-01-06 10:27:08,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_FSRZ401K,A_PA9TWMTP,2025-01-06 11:14:03,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_6AGL8FTQ,A_M43TBDXE,2025-01-09 16:00:15,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_NKB3Z9VX,A_M43TBDXE,2025-01-13 01:54:57,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_M9H9ONAG,A_QZWRAQ18,2025-01-13 20:46:45,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_SP9OEGXZ,A_PQOZGO70,2025-01-14 21:27:51,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_C9124D8A,A_PQOZGO70,2025-01-15 08:18:36,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_Y1UDBLQ2,A_QZWRAQ18,2025-01-16 03:34:45,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_ZD1CYOV4,A_QZWRAQ18,2025-01-18 01:08:35,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_NHYX59ZD,A_45IQN93E,2025-01-20 08:39:19,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_ALIHBBCJ,A_H1QJ3FVC,2025-01-21 03:09:12,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_PIG6Y2JO,A_H1QJ3FVC,2025-01-21 16:45:19,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_9257T9JT,A_HOQTRXTU,2025-01-22 09:47:48,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_J08TV6VZ,A_HOQTRXTU,2025-01-22 10:59:59,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_FV0RISOZ,A_45IQN93E,2025-01-23 15:03:46,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_9J9LL46Q,A_1MCWP28V,2025-02-07 09:23:07,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_X5QINQ2A,A_1MCWP28V,2025-02-08 04:18:06,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_ENJG4Y68,A_1MCWP28V,2025-02-10 03:35:25,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_H9VDQHHI,A_UJOW5LBG,2025-02-11 12:14:05,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_K53NI07D,A_YDSL3AJF,2025-02-15 04:41:48,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_TDHON4H9,A_YDSL3AJF,2025-02-15 19:10:36,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_ANYU50BZ,A_YDSL3AJF,2025-02-17 13:54:39,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_R70MR9D4,A_WVXGEOZL,2025-02-22 10:16:51,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_GXSGHV3G,A_WVXGEOZL,2025-02-22 16:49:26,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_CCCS0D1B,A_WVXGEOZL,2025-02-24 00:40:38,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_QRY1BVG1,A_OEBR9Y33,2025-02-25 16:38:58,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_XI7MM1ZK,A_W17YT6U7,2025-03-06 03:20:52,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_3TEJW46F,A_OPN1JTN0,2025-03-11 10:13:08,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_J5WMVX4G,A_7T2SXPB2,2025-03-12 12:42:42,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_7G88SP10,A_DGX7JR0G,2025-03-13 00:39:54,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_AJRGG9PF,A_7T2SXPB2,2025-03-13 09:10:36,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_IOP9SKMC,A_DGX7JR0G,2025-03-13 18:19:11,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_WYRHQCDG,A_7T2SXPB2,2025-03-14 04:24:06,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_PJRZSGMQ,A_USPBU62T,2025-03-21 18:28:51,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_WORO54F2,A_BY69GA8L,2025-03-25 09:46:16,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_IU8PNTKQ,A_XI4JDJJ5,2025-03-26 14:14:45,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_76VG4W59,A_XI4JDJJ5,2025-03-26 14:17:36,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_UHAOY2R8,A_95NCMVB3,2025-03-26 19:23:04,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_JHC6712H,A_PEGSUWY3,2025-03-31 01:49:35,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_O0ZXDMAX,A_J1KDYIRG,2025-03-31 16:59:33,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_PFXS2ZCQ,A_J1KDYIRG,2025-04-02 13:11:49,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_663VX7OA,A_J1KDYIRG,2025-04-03 18:52:55,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_YGBA2493,A_C213VY1A,2025-04-09 18:46:41,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_VSQNWLHB,A_C7GOI2EB,2025-04-12 10:07:47,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_E33OIP6G,A_C7GOI2EB,2025-04-17 20:49:55,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_4O2V9E33,A_CEKY1295,2025-04-19 04:49:43,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_YVI5VM4G,A_CEKY1295,2025-04-19 17:00:52,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_04R3NR1G,A_CEKY1295,2025-04-20 20:20:00,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_L2TLLUCH,A_Q3V0S0MX,2025-04-26 17:44:41,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_29WXKJUB,A_Q3V0S0MX,2025-04-26 17:45:32,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_7K0HGDTB,A_Q3V0S0MX,2025-04-28 19:29:42,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_M0COBM4L,A_OBIOHHVT,2025-04-29 20:08:06,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_L99QB0ZB,A_RUJDOW9P,2025-05-04 00:00:25,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_8DNNEXVF,A_YU7L4O8F,2025-05-09 12:28:44,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_RUWMNETR,A_YU7L4O8F,2025-05-10 20:08:04,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_7956X0DK,A_AJ9XTI3A,2025-05-14 21:20:19,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_05HD3PHQ,A_GEQR94ZM,2025-05-15 16:15:19,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_LUEXWHEG,A_GEQR94ZM,2025-05-16 04:26:35,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_J6TLEQDP,A_GEQR94ZM,2025-05-18 06:09:28,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_K68D88AS,A_AJ9XTI3A,2025-05-19 13:10:47,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_UGTMJJWI,A_5YD46YO0,2025-05-19 22:25:50,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_WLTBN3WZ,A_VES0OHG1,2025-05-21 08:03:58,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_1OGY1HBC,A_QFKDTJI3,2025-05-21 09:02:46,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_J2WZ0TWM,A_VES0OHG1,2025-05-21 17:34:16,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_35RVMIUN,A_VES0OHG1,2025-05-22 19:45:01,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_2G5AR0VV,A_G866D38U,2025-06-01 10:19:25,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_CXX5X7ZO,A_G866D38U,2025-06-01 19:04:50,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_90POBHZS,A_BM0C9CAE,2025-06-03 17:46:38,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_I3MJTNSG,A_BM0C9CAE,2025-06-04 03:51:56,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_D7TAPDXA,A_7ILOE8LM,2025-06-08 06:03:27,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_VLSUW8W7,A_E15NPB21,2025-06-11 17:05:24,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_B2CRB5VF,A_7ILOE8LM,2025-06-13 19:18:52,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_79Z5KJED,A_7ILOE8LM,2025-06-13 23:06:24,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_3H6P9D61,A_E15NPB21,2025-06-15 11:40:51,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_MKXVQV04,A_E15NPB21,2025-06-17 10:28:36,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_8TKFGXPZ,A_5C5ELWT4,2025-06-19 00:16:01,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_9C0FYF0F,A_R9RWGNPM,2025-06-26 10:30:03,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_TULGHYGX,A_V30VTQWC,2025-06-26 21:13:32,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_8K2XEAY7,A_Y8S796NF,2025-06-27 15:03:48,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_POHQU7D5,A_Z0CZ0AHX,2025-06-27 23:10:54,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_FHID5NOF,A_5NCHKNLP,2025-06-28 07:47:37,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_AAM99VRH,A_X76AMYBM,2025-06-29 00:32:06,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_DN5DNKI6,A_Z0CZ0AHX,2025-06-29 18:38:01,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_QSPUXYAB,A_R9RWGNPM,2025-06-30 00:31:24,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_46MHOBYK,A_90TBOJ8T,2025-06-30 02:19:54,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_LKALMJPM,A_X76AMYBM,2025-06-30 18:00:09,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_FLFUG0XB,A_X76AMYBM,2025-07-01 01:21:23,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_77TMNDZI,A_5NCHKNLP,2025-07-01 12:22:04,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_CVYZBUIY,A_6QMLP8JR,2025-07-08 16:11:44,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_K5VXZFRF,A_FYSLBPFT,2025-07-10 15:32:25,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_DVDRF5P4,A_IO32JQWD,2025-07-11 11:37:28,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_3OJUCCM0,A_NSLJFQSN,2025-07-13 00:37:25,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_D07T6LMO,A_IO32JQWD,2025-07-13 13:21:02,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_42372BO1,A_WHZRRVGI,2025-07-14 14:38:41,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_CRRSUGKM,A_NSLJFQSN,2025-07-14 16:45:53,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_1N17AIT9,A_NSLJFQSN,2025-07-14 22:30:14,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_CJTG3386,A_FYSLBPFT,2025-07-15 16:31:10,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_N322ZN9K,A_A300VRCQ,2025-07-18 16:55:19,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_FTNTEO59,A_DY10ZE88,2025-07-21 08:07:59,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_B0HQ2CWH,A_DY10ZE88,2025-07-24 04:09:05,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_83FURSKD,A_SK71Y9R8,2025-07-24 11:13:39,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_B8FPRG6A,A_SK71Y9R8,2025-07-25 06:33:40,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_3FDQ1N04,A_MH43NBG0,2025-07-26 12:35:45,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_3R1SLB50,A_DY10ZE88,2025-07-27 10:08:22,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_W0BKT86Z,A_MH43NBG0,2025-07-27 14:59:43,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_5NOQUIFU,A_7CDHNI7L,2025-07-29 13:32:54,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_0THEQR9J,A_AV41CY76,2025-08-14 23:49:45,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_22C2WA37,A_JRIMK9GZ,2025-08-16 10:10:16,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_M51HFWQP,A_JRIMK9GZ,2025-08-17 00:59:20,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_639J7CDY,A_JRIMK9GZ,2025-08-17 18:23:31,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_Z18BL4ZP,A_AV41CY76,2025-08-19 09:06:23,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_I5AIFQ21,A_AV41CY76,2025-08-19 09:16:46,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_HCKFH3IN,A_FHP07HXC,2025-08-22 08:32:05,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_42P007KE,A_2C1R0ONE,2025-08-23 06:31:05,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_Y1NEKWL2,A_2C1R0ONE,2025-08-24 15:57:26,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_1OZG98GD,A_FHP07HXC,2025-08-25 04:30:18,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_JED7RVHU,A_2C1R0ONE,2025-08-25 04:52:36,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_24N0P7DR,A_YF9MLGIZ,2025-08-29 22:08:09,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_AU2SXTBZ,A_JCPEVE8D,2025-08-31 02:37:25,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_O21VUB09,A_BATAJD32,2025-08-31 09:36:38,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_E2LDEMM5,A_GZM8A8Z4,2025-08-31 13:48:53,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_JNZZU55A,A_JCPEVE8D,2025-08-31 14:03:12,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_KYNEFK1X,A_JCPEVE8D,2025-08-31 14:05:26,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_8IGSY0PQ,A_BATAJD32,2025-08-31 16:32:59,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_AD3738KJ,A_H1Y6GAVT,2025-08-31 23:29:41,Intubación orotraqueal,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_AP6RRYT7,A_BP1O5FXM,2025-09-01 04:58:19,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_TX9X3BLR,A_BP1O5FXM,2025-09-03 02:32:00,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_K8HMEFC3,A_1HDPYVUY,2025-09-04 10:51:01,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_K8ZIB5GS,A_GZM8A8Z4,2025-09-04 11:10:37,Catéter venoso periférico,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_Z6070YJ8,A_GZM8A8Z4,2025-09-05 16:52:18,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_WOV8AQEI,A_BP1O5FXM,2025-09-06 02:23:03,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_S5ADOVS3,A_1HDPYVUY,2025-09-07 05:19:40,Drenaje pleural,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_HN2B1KIA,A_Q42FAN44,2025-09-07 10:38:41,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_KUH37ZFH,A_8XDNSU0L,2025-09-10 13:38:23,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_7GFA2Y1R,A_YIXLAQJI,2025-09-17 01:43:21,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_YCY33XZ0,A_YIXLAQJI,2025-09-17 05:47:20,Broncoscopia,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_PSNBYUO8,A_CFPFIU5X,2025-09-21 23:13:24,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_AQUSIO67,A_2USW84HP,2025-09-22 13:50:16,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_QFK2UYT7,A_EDJOF843,2025-09-22 23:28:03,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_MBD22U2B,A_DS9U4YIJ,2025-09-23 01:23:01,Colocación sonda nasogástrica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_IKUDOWDV,A_EDJOF843,2025-09-24 01:47:36,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_F9GOXT04,A_3I7FSB57,2025-09-26 00:58:58,Paracentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_KC250WI6,A_3I7FSB57,2025-09-28 20:49:48,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_4Z1S3814,A_2USW84HP,2025-09-29 08:17:29,Cirugía abierta,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_UF1T1Y46,A_3I7FSB57,2025-09-29 21:30:47,Catéter venoso central,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_FEC1Z0J4,A_2USW84HP,2025-09-30 04:07:38,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_51EWBHC2,A_V82D1383,2025-09-30 05:28:07,Toracocentesis,Realizado sin incidencias. Control posterior dentro de parámetros.
+Prc_P95OQD1P,A_V82D1383,2025-10-04 00:11:22,Laparoscopia diagnóstica,Realizado sin incidencias. Control posterior dentro de parámetros.
