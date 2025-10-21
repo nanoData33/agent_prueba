@@ -247,7 +247,8 @@ async function sendText() {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        chatInput: `Contexto previo:\n${context}\n\nNueva entrada del usuario:\n${text}`
+        type: "text",
+        content: `Contexto previo:\n${context}\n\nNueva entrada del usuario:\n${text}`
       })
     });
 
