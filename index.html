@@ -86,11 +86,11 @@
 </style>
 </head>
 <body>
-<header>🎙️ Asistente Clínico Inteligente – Test de Audio</header>
+<header>🎙️ Asistente Clínico Inteligente – Test Audio + Texto</header>
 
 <main>
   <div class="chat-box">
-    <h2>Prueba de envío de audio y texto a n8n</h2>
+    <h2>Prueba de envío combinado a n8n</h2>
     <div id="messages" class="messages"></div>
 
     <div class="input-area">
@@ -101,14 +101,14 @@
   </div>
 </main>
 
-<footer>© 2025 Asistente Clínico — Test Webhook Audio</footer>
+<footer>© 2025 Asistente Clínico — Test Webhook Audio/Texto</footer>
 
 <script src="https://unpkg.com/lucide@latest"></script>
 <script>
 lucide.createIcons();
 
 // === CONFIG ===
-const webhook = "https://rubaseval.app.n8n.cloud/webhook-test/audio-solo"; // <-- tu webhook real
+const webhook = "https://rubaseval.app.n8n.cloud/webhook-test/dedaluschataudio";
 const messagesDiv = document.getElementById("messages");
 const input = document.getElementById("userInput");
 
@@ -123,18 +123,24 @@ async function sendText() {
   input.value = "";
   appendMessage("bot", "<em>Procesando texto...</em>", true);
 
-  const res = await fetch(webhook, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      type: "text",
-      content: text
-    })
-  });
+  try {
+    const res = await fetch(webhook, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        type: "text",
+        content: text
+      })
+    });
 
-  const data = await res.text();
-  removeLoading();
-  appendMessage("bot", `<pre>${data}</pre>`);
+    const data = await res.text();
+    removeLoading();
+    appendMessage("bot", `<pre>${data}</pre>`);
+  } catch (err) {
+    removeLoading();
+    appendMessage("bot", "⚠️ Error de conexión con el asistente.");
+    console.error(err);
+  }
 }
 
 // === GRABACIÓN DE AUDIO ===
@@ -145,34 +151,39 @@ async function toggleRecording() {
   btn.innerHTML = recording ? "<i data-lucide='square'></i>" : "<i data-lucide='mic'></i>";
   lucide.createIcons();
 
-  if (recording) {
-    startRecording();
-  } else {
-    stopRecording();
-  }
+  if (recording) startRecording(); else stopRecording();
 }
 
 async function startRecording() {
-  const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-  mediaRecorder = new MediaRecorder(stream);
-  audioChunks = [];
-  mediaRecorder.ondataavailable = e => audioChunks.push(e.data);
-  mediaRecorder.onstop = async () => {
-    const blob = new Blob(audioChunks, { type: "audio/webm" });
-    appendMessage("user", "<i>Audio grabado enviado...</i>");
-    appendMessage("bot", "<em>Subiendo audio...</em>", true);
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    mediaRecorder = new MediaRecorder(stream);
+    audioChunks = [];
+    mediaRecorder.ondataavailable = e => audioChunks.push(e.data);
+    mediaRecorder.onstop = async () => {
+      const blob = new Blob(audioChunks, { type: "audio/webm" });
+      appendMessage("user", "<i>Audio grabado enviado...</i>");
+      appendMessage("bot", "<em>Subiendo audio...</em>", true);
 
-    const formData = new FormData();
-    formData.append("type", "audio");
-    formData.append("file", blob, "voz.webm");
+      const formData = new FormData();
+      formData.append("type", "audio");
+      formData.append("file", blob, "voz.webm");
 
-    const res = await fetch(webhook, { method: "POST", body: formData });
-    const data = await res.text();
-
-    removeLoading();
-    appendMessage("bot", `<pre>${data}</pre>`);
-  };
-  mediaRecorder.start();
+      try {
+        const res = await fetch(webhook, { method: "POST", body: formData });
+        const data = await res.text();
+        removeLoading();
+        appendMessage("bot", `<pre>${data}</pre>`);
+      } catch (err) {
+        removeLoading();
+        appendMessage("bot", "⚠️ Error al subir audio.");
+        console.error(err);
+      }
+    };
+    mediaRecorder.start();
+  } catch (error) {
+    appendMessage("bot", "⚠️ No se pudo acceder al micrófono.");
+  }
 }
 
 function stopRecording() {
