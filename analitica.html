@@ -190,7 +190,8 @@ async function analizar() {
   div.innerHTML = "<p>Analizando con lógica difusa...</p>";
 
   try {
-    const response = await fetch("https://pilarmas-logicadifusadedalus.hf.space/api/predict/", {
+    const response = await fetch("https://pilarmas-logicadifusadedalus.hf.space/run/predict", {
+, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(Object.values(valores))
