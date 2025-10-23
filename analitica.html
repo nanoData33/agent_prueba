@@ -3,88 +3,127 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>🧪 Identificar Patologías por Cohortes</title>
+  <title>🧪 Analizador de Analíticas</title>
 
-  <!-- Fuentes e iconos -->
+  <!-- Estilo coherente con el portal -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/lucide@latest"></script>
-
-  <!-- Librería PDF.js -->
   <script src="https://unpkg.com/pdfjs-dist@4.3.136/build/pdf.min.js"></script>
   <script>
-    /* ✅ Línea imprescindible para GitHub Pages */
     pdfjsLib.GlobalWorkerOptions.workerSrc =
       "https://unpkg.com/pdfjs-dist@4.3.136/build/pdf.worker.min.js";
   </script>
 
   <style>
     :root {
-      --verde: #00A699;
-      --gris: #F5F7FA;
-      --blanco: #FFFFFF;
-      --texto: #1E1E2F;
-      --sombra: rgba(0, 0, 0, 0.08);
+      --fondo: #f2efe9;
+      --card: #ffffff;
+      --texto: #2e2e2e;
+      --acento: #c08457;
+      --acento-hover: #a5673f;
+      --sombra: rgba(0, 0, 0, 0.1);
     }
-    * { box-sizing: border-box; }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      margin: 0;
       font-family: 'Poppins', sans-serif;
-      background: var(--gris);
+      background: var(--fondo);
+      color: var(--texto);
       display: flex;
       flex-direction: column;
       min-height: 100vh;
     }
+
     header {
-      background: var(--verde);
-      color: white;
-      padding: 20px 40px;
-      font-weight: 600;
-      text-align: center;
-      box-shadow: 0 2px 6px var(--sombra);
+      background: var(--card);
+      padding: 25px 40px;
+      box-shadow: 0 2px 10px var(--sombra);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
+
+    header h1 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
     main {
       flex: 1;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
-      padding: 40px 20px;
+      padding: 50px 20px;
+      animation: fadeIn 0.8s ease;
     }
-    .upload-box {
-      width: 100%;
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: var(--acento);
+    }
+
+    p {
+      color: #555;
       max-width: 600px;
-      background: var(--blanco);
-      border-radius: 16px;
-      box-shadow: 0 4px 10px var(--sombra);
-      padding: 30px;
+      margin-bottom: 30px;
+      line-height: 1.6;
       text-align: center;
+    }
+
+    .upload-box {
+      background: var(--card);
+      border-radius: 16px;
+      box-shadow: 0 4px 12px var(--sombra);
+      padding: 35px;
+      text-align: center;
+      width: 100%;
+      max-width: 650px;
       transition: all 0.3s ease;
     }
+
     .upload-box:hover {
-      transform: translateY(-2px);
+      transform: translateY(-4px);
       box-shadow: 0 8px 18px var(--sombra);
     }
-    h2 { color: var(--verde); margin-bottom: 10px; }
-    p { color: #555; font-size: 0.95em; }
+
     .drop-zone {
       margin-top: 20px;
       padding: 40px;
-      border: 2px dashed var(--verde);
+      border: 2px dashed var(--acento);
       border-radius: 14px;
-      background: #f9fdfa;
+      background: #fcfaf7;
       cursor: pointer;
       transition: all 0.25s ease;
     }
-    .drop-zone:hover { background: #ecfffc; }
-    .drop-zone input { display: none; }
+
+    .drop-zone:hover {
+      background: #f7eee8;
+    }
+
+    .drop-zone input {
+      display: none;
+    }
+
     .results {
       margin-top: 30px;
       text-align: left;
-      max-height: 300px;
-      overflow-y: auto;
       border-top: 1px solid #ddd;
       padding-top: 15px;
+      max-height: 320px;
+      overflow-y: auto;
     }
+
     .value-item {
       padding: 8px 0;
       border-bottom: 1px solid #eee;
@@ -92,40 +131,64 @@
       display: flex;
       justify-content: space-between;
     }
+
     button {
-      background: var(--verde);
+      background: var(--acento);
       color: white;
       border: none;
       border-radius: 10px;
-      padding: 10px 16px;
-      margin-top: 20px;
+      padding: 12px 22px;
+      margin-top: 25px;
       cursor: pointer;
       font-weight: 500;
       transition: background 0.25s;
     }
-    button:hover { background: #02887b; }
+
+    button:hover {
+      background: var(--acento-hover);
+    }
+
     footer {
+      background: var(--card);
       text-align: center;
       padding: 15px;
-      background: var(--blanco);
+      font-size: 0.85rem;
       color: #777;
-      font-size: 0.85em;
-      border-top: 1px solid #ddd;
+      box-shadow: 0 -2px 6px var(--sombra);
+    }
+
+    .back-btn {
+      border: 1px solid var(--acento);
+      background: transparent;
+      color: var(--acento);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 0.9em;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .back-btn:hover {
+      background: var(--acento);
+      color: white;
     }
   </style>
 </head>
 
 <body>
-  <header>🧩 Identificación de Patologías por Cohortes</header>
+  <header>
+    <h1><i data-lucide="flask-round"></i> Analizador de Analíticas</h1>
+    <button class="back-btn" onclick="window.location.href='index.html'">← Volver al Chat</button>
+  </header>
 
   <main>
     <div class="upload-box">
-      <h2>Subir Analítica del Paciente</h2>
-      <p>Puedes subir el PDF de una analítica (laboratorio, hospital o digital). El sistema extraerá automáticamente los valores relevantes.</p>
+      <h2>📄 Subir Analítica</h2>
+      <p>Carga un archivo PDF con resultados de laboratorio para analizar los valores automáticamente.</p>
 
       <label class="drop-zone" id="dropZone">
         <i data-lucide="upload-cloud"></i><br><br>
-        <span>Haz clic o arrastra el archivo aquí</span>
+        <span>Arrastra aquí tu archivo o haz clic para seleccionar</span>
         <input type="file" id="fileInput" accept=".pdf" />
       </label>
 
@@ -134,48 +197,47 @@
     </div>
   </main>
 
-  <footer>© 2025 Asistente Clínico Inteligente — Identificación por Cohortes</footer>
+  <footer>© 2025 Asistente Clínico Inteligente — Análisis de Analíticas Médicas</footer>
 
   <script>
     lucide.createIcons();
 
-    const dropZone = document.getElementById("dropZone");
-    const fileInput = document.getElementById("fileInput");
-    const resultsDiv = document.getElementById("results");
-    const nextBtn = document.getElementById("nextBtn");
+    const fileInput = document.getElementById('fileInput');
+    const dropZone = document.getElementById('dropZone');
+    const resultsDiv = document.getElementById('results');
+    const nextBtn = document.getElementById('nextBtn');
 
-    dropZone.addEventListener("click", () => fileInput.click());
-    dropZone.addEventListener("dragover", e => { e.preventDefault(); dropZone.style.background = "#e6fff8"; });
-    dropZone.addEventListener("dragleave", () => dropZone.style.background = "#f9fdfa");
-    dropZone.addEventListener("drop", e => {
+    dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.style.background = '#f7eee8'; });
+    dropZone.addEventListener('dragleave', () => dropZone.style.background = '#fcfaf7');
+    dropZone.addEventListener('drop', e => {
       e.preventDefault();
       const file = e.dataTransfer.files[0];
-      if (file && file.type === "application/pdf") readPDF(file);
+      if (file && file.type === "application/pdf") processPDF(file);
     });
-    fileInput.addEventListener("change", e => {
+
+    fileInput.addEventListener('change', e => {
       const file = e.target.files[0];
-      if (file && file.type === "application/pdf") readPDF(file);
+      if (file && file.type === "application/pdf") processPDF(file);
     });
 
-    async function readPDF(file) {
-      resultsDiv.innerHTML = "<em>📄 Leyendo el PDF...</em>";
-
+    async function processPDF(file) {
+      resultsDiv.innerHTML = "<em>📖 Leyendo el PDF...</em>";
       try {
         const arrayBuffer = await file.arrayBuffer();
         const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
 
-        let text = "";
-        for (let i = 0; i < pdf.numPages; i++) {
-          const page = await pdf.getPage(i + 1);
-          const content = await page.getTextContent();
-          const pageText = content.items.map(item => item.str).join(" ");
-          text += " " + pageText;
+        let fullText = "";
+        for (let i = 1; i <= pdf.numPages; i++) {
+          const page = await pdf.getPage(i);
+          const textContent = await page.getTextContent();
+          const pageText = textContent.items.map(item => item.str).join(" ");
+          fullText += " " + pageText;
         }
 
-        extractValues(text);
-      } catch (err) {
-        alert("No se pudieron leer valores del PDF.");
-        console.error(err);
+        extractValues(fullText);
+      } catch (error) {
+        alert("⚠️ No se pudieron leer valores del PDF.");
+        console.error(error);
       }
     }
 
@@ -200,20 +262,20 @@
       ];
 
       const resultados = [];
-      patterns.forEach(p => {
-        const m = text.match(p.re);
-        if (m) resultados.push({ nombre: p.nombre, valor: m[1] });
-      });
+      for (const p of patterns) {
+        const match = text.match(p.re);
+        if (match) resultados.push({ nombre: p.nombre, valor: match[1] });
+      }
 
       if (resultados.length === 0) {
         resultsDiv.innerHTML = "⚠️ No se detectaron valores reconocibles.";
       } else {
-        resultsDiv.innerHTML = "<h3>Resultados detectados:</h3>";
+        resultsDiv.innerHTML = "<h3>Valores detectados:</h3>";
         resultados.forEach(v => {
-          const div = document.createElement("div");
-          div.className = "value-item";
-          div.innerHTML = `<span>${v.nombre}</span> <strong>${v.valor}</strong>`;
-          resultsDiv.appendChild(div);
+          const item = document.createElement("div");
+          item.className = "value-item";
+          item.innerHTML = `<span>${v.nombre}</span><strong>${v.valor}</strong>`;
+          resultsDiv.appendChild(item);
         });
         nextBtn.style.display = "inline-block";
       }
