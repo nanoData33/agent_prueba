@@ -204,13 +204,13 @@ async function sendText() {
       messagesDiv.appendChild(botonGrafico);
     }
 
-    // 📋 Botón de dataset completo
-    if (data.consulta) {
-      const botonDataset = document.createElement("button");
-      botonDataset.textContent = "📋 Ver dataset completo";
-      botonDataset.className = "action";
-      botonDataset.onclick = () => abrirDataset(data.consulta, data.total_items);
-      messagesDiv.appendChild(botonDataset);
+    // 📋 Botón de datos / dataset completo
+    if (data.mostrar_boton_datos === true) {
+      const botonDatos = document.createElement("button");
+      botonDatos.textContent = "📋 Ver dataset completo";
+      botonDatos.className = "action";
+      botonDatos.onclick = () => abrirDataset(data.consulta, data.total_items);
+      messagesDiv.appendChild(botonDatos);
     }
 
     messagesDiv.scrollTop = messagesDiv.scrollHeight;
