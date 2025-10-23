@@ -1,376 +1,232 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Analítica Clínica</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Asistente Clínico – Análisis Difuso</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-  <script src="https://unpkg.com/lucide@latest"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest"></script>
 
-  <style>
-    :root {
-      --fondo: #f2efe9;
-      --card: #ffffff;
-      --texto: #2e2e2e;
-      --acento: #c08457;
-      --acento-hover: #a5673f;
-      --sombra: rgba(0, 0, 0, 0.1);
-    }
+<style>
+  :root {
+    --fondo: #f2efe9;
+    --card: #ffffff;
+    --texto: #2e2e2e;
+    --acento: #c08457;
+    --acento-hover: #a5673f;
+    --sombra: rgba(0, 0, 0, 0.1);
+  }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: var(--fondo);
-      color: var(--texto);
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--fondo);
+    color: var(--texto);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
 
-    header {
-      background: var(--card);
-      padding: 25px 40px;
-      box-shadow: 0 2px 10px var(--sombra);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+  header {
+    background: var(--card);
+    padding: 25px 40px;
+    box-shadow: 0 2px 10px var(--sombra);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    header h1 {
-      font-size: 1.4rem;
-      font-weight: 600;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
+  header h1 { font-size: 1.3rem; font-weight: 600; }
 
-    .back-btn {
-      border: 1px solid var(--acento);
-      background: transparent;
-      color: var(--acento);
-      padding: 8px 14px;
-      border-radius: 8px;
-      font-size: 0.9em;
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
 
-    .back-btn:hover {
-      background: var(--acento);
-      color: white;
-    }
+  .upload-box {
+    width: 100%;
+    max-width: 700px;
+    background: var(--card);
+    border-radius: 16px;
+    box-shadow: 0 4px 12px var(--sombra);
+    padding: 30px;
+    margin-top: 20px;
+  }
 
-    main {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      padding: 50px 20px;
-      animation: fadeIn 0.8s ease;
-    }
+  h2 { color: var(--acento); margin-bottom: 10px; }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
+  input, button {
+    font-family: inherit;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
 
-    h2 {
-      font-size: 2rem;
-      font-weight: 600;
-      margin-bottom: 15px;
-      color: var(--acento);
-    }
+  button {
+    background: var(--acento);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.25s;
+  }
 
-    p {
-      color: #555;
-      max-width: 600px;
-      margin-bottom: 30px;
-      line-height: 1.6;
-      text-align: center;
-    }
+  button:hover { background: var(--acento-hover); }
 
-    .upload-box {
-      background: var(--card);
-      border-radius: 16px;
-      box-shadow: 0 4px 12px var(--sombra);
-      padding: 35px;
-      text-align: center;
-      width: 100%;
-      max-width: 750px;
-      transition: all 0.3s ease;
-      margin-bottom: 40px;
-    }
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 20px;
+  }
 
-    .drop-zone {
-      margin-top: 25px;
-      padding: 55px 30px;
-      border: 2px dashed var(--acento);
-      border-radius: 14px;
-      background: #fdfaf7;
-      cursor: pointer;
-      transition: all 0.25s ease;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      color: var(--acento);
-      font-weight: 500;
-    }
+  .results {
+    margin-top: 30px;
+    background: #fffaf3;
+    border-radius: 10px;
+    padding: 20px;
+    border-left: 5px solid var(--acento);
+  }
 
-    .drop-zone:hover {
-      background: #faefe6;
-      border-color: var(--acento-hover);
-    }
+  .result-item {
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
 
-    .drop-zone i {
-      width: 42px;
-      height: 42px;
-      color: var(--acento);
-      margin-bottom: 12px;
-    }
+  footer {
+    background: var(--card);
+    text-align: center;
+    padding: 15px;
+    color: #777;
+    font-size: 0.9em;
+    box-shadow: 0 -2px 6px var(--sombra);
+  }
 
-    .drop-zone span {
-      font-size: 0.95rem;
-      color: #8b6e54;
-      text-align: center;
-      max-width: 250px;
-    }
+  .floating-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--acento);
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
 
-    .drop-zone input {
-      display: none;
-    }
-
-    .results {
-      margin-top: 30px;
-      text-align: left;
-      border-top: 1px solid #ddd;
-      padding-top: 15px;
-      max-height: 320px;
-      overflow-y: auto;
-    }
-
-    .value-item {
-      padding: 8px 0;
-      border-bottom: 1px solid #eee;
-      font-size: 0.95em;
-      display: flex;
-      justify-content: space-between;
-    }
-
-    button {
-      background: var(--acento);
-      color: white;
-      border: none;
-      border-radius: 10px;
-      padding: 12px 22px;
-      margin-top: 25px;
-      cursor: pointer;
-      font-weight: 500;
-      transition: background 0.25s;
-    }
-
-    button:hover { background: var(--acento-hover); }
-
-    .formulario {
-      background: var(--card);
-      border-radius: 16px;
-      box-shadow: 0 4px 12px var(--sombra);
-      padding: 30px;
-      width: 100%;
-      max-width: 750px;
-    }
-
-    .form-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-    }
-
-    label {
-      font-weight: 500;
-      font-size: 0.9rem;
-      margin-bottom: 5px;
-      display: block;
-    }
-
-    input {
-      width: 100%;
-      padding: 8px 10px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      font-size: 0.95rem;
-      background: #fdfdfc;
-    }
-
-    input:focus {
-      outline: none;
-      border-color: var(--acento);
-      box-shadow: 0 0 4px var(--acento-hover);
-    }
-
-    footer {
-      background: var(--card);
-      text-align: center;
-      padding: 15px;
-      font-size: 0.85rem;
-      color: #777;
-      box-shadow: 0 -2px 6px var(--sombra);
-    }
-
-    /* Chat flotante */
-    .chat-btn {
-      position: fixed;
-      bottom: 25px;
-      right: 25px;
-      background: var(--acento);
-      color: white;
-      width: 52px;
-      height: 52px;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0 4px 10px var(--sombra);
-      cursor: pointer;
-      transition: background 0.25s;
-      z-index: 10;
-    }
-
-    .chat-btn:hover { background: var(--acento-hover); }
-
-    .chat-box {
-      display: none;
-      position: fixed;
-      bottom: 90px;
-      right: 25px;
-      width: 300px;
-      background: var(--card);
-      border-radius: 12px;
-      box-shadow: 0 4px 12px var(--sombra);
-      padding: 15px;
-    }
-
-    .chat-box header {
-      font-weight: 600;
-      font-size: 0.95rem;
-      margin-bottom: 10px;
-    }
-
-    .chat-box textarea {
-      width: 100%;
-      height: 80px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      resize: none;
-      padding: 8px;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    .chat-box button {
-      margin-top: 10px;
-      width: 100%;
-    }
-  </style>
+  .floating-chat:hover { background: var(--acento-hover); }
+</style>
 </head>
 
 <body>
   <header>
-    <h1><i data-lucide="flask-round"></i> Analítica Clínica</h1>
-    <button class="back-btn" onclick="window.location.href='index.html'">Volver al inicio</button>
+    <h1>Asistente Clínico Inteligente</h1>
+    <button onclick="window.location.href='index.html'" class="back-btn">Volver al inicio</button>
   </header>
 
   <main>
     <div class="upload-box">
-      <h2>Subir Analítica</h2>
-      <p>Sube el PDF del laboratorio para que el sistema extraiga automáticamente los valores.</p>
+      <h2>Evaluación Difusa de Analítica</h2>
+      <p>Puedes subir un archivo o introducir los valores manualmente. El sistema aplicará reglas de lógica difusa y estimará probabilidades de patologías comunes.</p>
 
-      <label class="drop-zone" id="dropZone">
-        <i data-lucide="upload"></i>
-        <span>Arrastra aquí tu archivo o haz clic para seleccionarlo</span>
-        <input type="file" id="fileInput" accept=".pdf" />
-      </label>
+      <div style="margin-top:20px;">
+        <label for="fileInput">Subir PDF (opcional):</label>
+        <input type="file" id="fileInput" accept=".pdf" onchange="mockExtract()" />
+      </div>
 
-      <div class="results" id="results"></div>
-      <button id="nextBtn" style="display:none;">Continuar al análisis</button>
-    </div>
+      <h3 style="margin-top:30px;">Valores manuales</h3>
+      <div class="form-grid" id="formGrid">
+        <input type="number" id="glucosa" placeholder="Glucosa (mg/dL)">
+        <input type="number" id="colesterol" placeholder="Colesterol total (mg/dL)">
+        <input type="number" id="ldl" placeholder="LDL (mg/dL)">
+        <input type="number" id="hdl" placeholder="HDL (mg/dL)">
+        <input type="number" id="trigliceridos" placeholder="Triglicéridos (mg/dL)">
+        <input type="number" id="tsh" placeholder="TSH (uUI/mL)">
+        <input type="number" id="t4" placeholder="T4 libre (ng/dL)">
+        <input type="number" id="alt" placeholder="GPT / ALT (U/L)">
+        <input type="number" id="ast" placeholder="GOT / AST (U/L)">
+      </div>
 
-    <div class="formulario">
-      <h2>Formulario Manual</h2>
-      <form id="manualForm">
-        <div class="form-grid">
-          <div><label>Glucosa (mg/dL)</label><input type="number" id="glucosa"></div>
-          <div><label>Colesterol total</label><input type="number" id="colesterol"></div>
-          <div><label>HDL</label><input type="number" id="hdl"></div>
-          <div><label>LDL</label><input type="number" id="ldl"></div>
-          <div><label>Triglicéridos</label><input type="number" id="trigliceridos"></div>
-          <div><label>Urea</label><input type="number" id="urea"></div>
-          <div><label>Creatinina</label><input type="number" id="creatinina"></div>
-          <div><label>Ácido úrico</label><input type="number" id="acido"></div>
-          <div><label>TSH</label><input type="number" id="tsh"></div>
-          <div><label>T4 libre</label><input type="number" id="t4"></div>
-          <div><label>Vitamina D</label><input type="number" id="vitaminaD"></div>
-          <div><label>Ferritina</label><input type="number" id="ferritina"></div>
-        </div>
-        <button type="button" id="procesarManual">Procesar</button>
-      </form>
+      <button style="margin-top:25px;" onclick="analizar()">Analizar resultados</button>
+
+      <div class="results" id="resultados" style="display:none;"></div>
     </div>
   </main>
 
-  <div class="chat-btn" id="chatBtn"><i data-lucide="message-circle"></i></div>
-  <div class="chat-box" id="chatBox">
-    <header>Chat Asistente</header>
-    <textarea placeholder="Escribe tu consulta..."></textarea>
-    <button>Enviar</button>
-  </div>
+  <footer>© 2025 Asistente Clínico Inteligente — Evaluación Difusa</footer>
 
-  <footer>© 2025 Asistente Clínico — Todos los derechos reservados</footer>
+  <div class="floating-chat" title="Abrir chat con el asistente">
+    <i data-lucide="message-circle"></i>
+  </div>
 
   <script>
     lucide.createIcons();
 
-    const chatBtn = document.getElementById("chatBtn");
-    const chatBox = document.getElementById("chatBox");
-    chatBtn.addEventListener("click", () => {
-      chatBox.style.display = chatBox.style.display === "block" ? "none" : "block";
-    });
+    function mockExtract() {
+      alert("Lectura del PDF simulada. Puedes usar los campos manuales para evaluar la lógica difusa.");
+    }
 
-    const fileInput = document.getElementById("fileInput");
-    const resultsDiv = document.getElementById("results");
-    const nextBtn = document.getElementById("nextBtn");
-    const form = document.getElementById("manualForm");
+    function trapezoidal(x, a, b, c, d) {
+      if (x <= a || x >= d) return 0;
+      else if (x >= b && x <= c) return 1;
+      else if (x > a && x < b) return (x - a) / (b - a);
+      else return (d - x) / (d - c);
+    }
 
-    fileInput.addEventListener("change", e => {
-      const file = e.target.files[0];
-      if (!file) return;
-      resultsDiv.innerHTML = `<h3>Archivo cargado: ${file.name}</h3><p>Los valores serán procesados automáticamente.</p>`;
-      nextBtn.style.display = "inline-block";
-    });
+    function analizar() {
+      const g = parseFloat(document.getElementById('glucosa').value) || 0;
+      const c = parseFloat(document.getElementById('colesterol').value) || 0;
+      const ldl = parseFloat(document.getElementById('ldl').value) || 0;
+      const hdl = parseFloat(document.getElementById('hdl').value) || 0;
+      const trig = parseFloat(document.getElementById('trigliceridos').value) || 0;
+      const tsh = parseFloat(document.getElementById('tsh').value) || 0;
+      const t4 = parseFloat(document.getElementById('t4').value) || 0;
+      const alt = parseFloat(document.getElementById('alt').value) || 0;
+      const ast = parseFloat(document.getElementById('ast').value) || 0;
 
-    document.getElementById("procesarManual").addEventListener("click", () => {
-      const inputs = form.querySelectorAll("input");
-      const resultados = [];
+      // --- Reglas de lógica difusa reales ---
+      const diabetes = Math.max(
+        trapezoidal(g, 100, 110, 130, 160),
+        trapezoidal(trig, 150, 180, 250, 300)
+      );
 
-      inputs.forEach(input => {
-        if (input.value) resultados.push([input.previousElementSibling.textContent, input.value]);
+      const riesgoCardio = Math.max(
+        trapezoidal(c, 200, 220, 280, 320),
+        trapezoidal(ldl, 130, 150, 190, 220),
+        trapezoidal(hdl, 20, 30, 40, 50)
+      );
+
+      const hipotiroidismo = Math.max(
+        trapezoidal(tsh, 4.5, 5, 8, 12),
+        trapezoidal(t4, 0, 0.5, 0.7, 0.8)
+      );
+
+      const danoHepatico = Math.max(
+        trapezoidal(alt, 35, 45, 80, 120),
+        trapezoidal(ast, 35, 45, 80, 120)
+      );
+
+      const resultados = [
+        { nombre: "Riesgo de Diabetes", prob: (diabetes * 100).toFixed(1), regla: "Glucosa o triglicéridos elevados" },
+        { nombre: "Riesgo Cardiovascular", prob: (riesgoCardio * 100).toFixed(1), regla: "Colesterol o LDL altos, HDL bajo" },
+        { nombre: "Hipotiroidismo", prob: (hipotiroidismo * 100).toFixed(1), regla: "TSH alta y T4 baja" },
+        { nombre: "Posible daño hepático", prob: (danoHepatico * 100).toFixed(1), regla: "Elevación de ALT/AST" },
+      ];
+
+      const div = document.getElementById('resultados');
+      div.style.display = "block";
+      div.innerHTML = "<h3>Resultados de evaluación difusa:</h3>";
+      resultados.forEach(r => {
+        div.innerHTML += `<div class='result-item'><strong>${r.nombre}:</strong> ${r.prob}%<br><small>${r.regla}</small></div>`;
       });
-
-      if (resultados.length === 0) {
-        alert("Introduce al menos un valor para analizar.");
-        return;
-      }
-
-      resultsDiv.innerHTML = "<h3>Valores introducidos:</h3>";
-      resultados.forEach(([param, val]) => {
-        const div = document.createElement("div");
-        div.className = "value-item";
-        div.innerHTML = `<span>${param}</span><strong>${val}</strong>`;
-        resultsDiv.appendChild(div);
-      });
-      nextBtn.style.display = "inline-block";
-      window.scrollTo({ top: resultsDiv.offsetTop, behavior: 'smooth' });
-    });
+    }
   </script>
 </body>
 </html>
