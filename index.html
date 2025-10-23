@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Asistente Clínico – Audio y Texto</title>
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/lucide@latest"></script>
 
@@ -17,7 +18,6 @@
     --texto: #1E1E2F;
     --sombra: rgba(0,0,0,0.08);
   }
-
   * { box-sizing: border-box; }
   body {
     margin: 0;
@@ -27,7 +27,6 @@
     flex-direction: column;
     height: 100vh;
   }
-
   header {
     background: var(--azul);
     color: white;
@@ -35,7 +34,6 @@
     font-weight: 600;
     text-align: center;
   }
-
   main { display: flex; flex-direction: column; align-items: center; justify-content: center; flex: 1; }
   .chat-box {
     width: 90%;
@@ -45,7 +43,6 @@
     box-shadow: 0 4px 10px var(--sombra);
     padding: 20px;
   }
-
   h2 { color: var(--azul); margin-bottom: 10px; text-align: center; }
   .messages {
     height: 300px;
@@ -56,14 +53,10 @@
     margin-bottom: 10px;
     box-shadow: inset 0 0 4px var(--sombra);
   }
-
   .msg { margin-bottom: 10px; padding: 10px 14px; border-radius: 10px; }
   .msg.user { background: var(--cian); color: white; text-align: right; }
-  .msg.bot { background: #ebedff; color: #222; }
-
-  .input-area {
-    display: flex; align-items: center; gap: 10px;
-  }
+  .msg.bot { background: #ebedff; color: #222; white-space: pre-wrap; }
+  .input-area { display: flex; align-items: center; gap: 10px; }
   input {
     flex: 1; padding: 10px 14px;
     border: 1px solid #ccc;
@@ -81,10 +74,10 @@
   }
   button:hover { background: var(--violeta); }
   #recordBtn.recording { background: #b71c1c; }
-
   footer { text-align: center; padding: 10px; background: #fff; font-size: 0.9em; color: #666; }
 </style>
 </head>
+
 <body>
 <header>🎙️ Asistente Clínico Inteligente – Test Audio + Texto</header>
 
@@ -92,7 +85,6 @@
   <div class="chat-box">
     <h2>Prueba de envío combinado a n8n</h2>
     <div id="messages" class="messages"></div>
-
     <div class="input-area">
       <input id="userInput" placeholder="Escribe tu mensaje o graba audio..." />
       <button id="recordBtn" onclick="toggleRecording()"><i data-lucide='mic'></i></button>
@@ -103,12 +95,13 @@
 
 <footer>© 2025 Asistente Clínico — Test Webhook Audio/Texto</footer>
 
-<script src="https://unpkg.com/lucide@latest"></script>
 <script>
 lucide.createIcons();
 
-// === CONFIG ===
-const webhook = "https://rubaseval.app.n8n.cloud/webhook-test/dedaluschataudio";
+const webhook = "https://rubaseval.app.n8n.cloud/webhook/dedaluschataudio";
+const webhookGrafico = "https://rubaseval.app.n8n.cloud/webhook/generargrafico";
+const webhookDataset = "https://rubaseval.app.n8n.cloud/webhook/dataset";
+
 const messagesDiv = document.getElementById("messages");
 const input = document.getElementById("userInput");
 
@@ -119,6 +112,7 @@ let mediaRecorder, audioChunks = [];
 async function sendText() {
   const text = input.value.trim();
   if (!text) return;
+
   appendMessage("user", text);
   input.value = "";
   appendMessage("bot", "<em>Procesando texto...</em>", true);
@@ -127,30 +121,89 @@ async function sendText() {
     const res = await fetch(webhook, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        type: "text",
-        content: text
-      })
+      body: JSON.stringify({ type: "text", content: text })
     });
 
+    const data = await res.json(); 
+    removeLoading();
+
+    // Muestra el contenido natural y tabla generada (sin tocar esa parte)
+    appendMessage("bot", data.respuesta);
+
+    // 📊 Botón de gráfico
+    if (data.mostrar_boton_grafico) {
+      const botonGrafico = document.createElement("button");
+      botonGrafico.textContent = "📊 Generar gráfico";
+      botonGrafico.onclick = () => generarGrafico(data.respuesta, text);
+      messagesDiv.appendChild(botonGrafico);
+    }
+
+    // 📋 Botón de dataset completo
+    if (data.consulta) {
+      const botonDataset = document.createElement("button");
+      botonDataset.textContent = "📋 Ver dataset completo";
+      botonDataset.onclick = () => abrirDataset(data.consulta, data.total_items);
+      messagesDiv.appendChild(botonDataset);
+    }
+
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+
+  } catch (err) {
+    removeLoading();
+    appendMessage("bot", "⚠️ Error al procesar la respuesta del asistente.");
+    console.error("Error:", err);
+  }
+}
+
+// === FUNCIÓN PARA ENVIAR EL GRÁFICO ===
+async function generarGrafico(respuesta, consulta) {
+  appendMessage("bot", "<em>Generando gráfico...</em>", true);
+  try {
+    const res = await fetch(webhookGrafico, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ respuesta, consulta })
+    });
     const data = await res.text();
     removeLoading();
     appendMessage("bot", `<pre>${data}</pre>`);
   } catch (err) {
     removeLoading();
-    appendMessage("bot", "⚠️ Error de conexión con el asistente.");
-    console.error(err);
+    appendMessage("bot", "⚠️ Error al generar el gráfico.");
   }
 }
 
-// === GRABACIÓN DE AUDIO ===
+// === 🧩 Abrir dataset completo en pestaña nueva ===
+function abrirDataset(consultaSQL, totalItems) {
+  const form = document.createElement("form");
+  form.method = "POST";
+  form.action = webhookDataset;
+  form.target = "_blank"; // 👈 abre en nueva pestaña
+
+  const inputConsulta = document.createElement("input");
+  inputConsulta.type = "hidden";
+  inputConsulta.name = "consulta";
+  inputConsulta.value = consultaSQL;
+
+  const inputTotal = document.createElement("input");
+  inputTotal.type = "hidden";
+  inputTotal.name = "total_items";
+  inputTotal.value = totalItems;
+
+  form.appendChild(inputConsulta);
+  form.appendChild(inputTotal);
+  document.body.appendChild(form);
+  form.submit();
+  form.remove();
+}
+
+// === AUDIO ===
 async function toggleRecording() {
   const btn = document.getElementById("recordBtn");
   recording = !recording;
   btn.classList.toggle("recording");
   btn.innerHTML = recording ? "<i data-lucide='square'></i>" : "<i data-lucide='mic'></i>";
   lucide.createIcons();
-
   if (recording) startRecording(); else stopRecording();
 }
 
@@ -171,17 +224,16 @@ async function startRecording() {
 
       try {
         const res = await fetch(webhook, { method: "POST", body: formData });
-        const data = await res.text();
+        const data = await res.json();
         removeLoading();
-        appendMessage("bot", `<pre>${data}</pre>`);
+        appendMessage("bot", data.respuesta);
       } catch (err) {
         removeLoading();
         appendMessage("bot", "⚠️ Error al subir audio.");
-        console.error(err);
       }
     };
     mediaRecorder.start();
-  } catch (error) {
+  } catch {
     appendMessage("bot", "⚠️ No se pudo acceder al micrófono.");
   }
 }
