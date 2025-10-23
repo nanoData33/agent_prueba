@@ -166,67 +166,52 @@
     <i data-lucide="message-circle"></i>
   </div>
 
-  <script>
-    lucide.createIcons();
+<script>
+  lucide.createIcons();
 
-    function mockExtract() {
-      alert("Lectura del PDF aún no implementada. Puedes usar los campos manuales para evaluar la lógica difusa.");
-    }<script>
-async function analizar() {
-  const valores = {
-    glucosa: parseFloat(document.getElementById('glucosa').value) || 0,
-    colesterol: parseFloat(document.getElementById('colesterol').value) || 0,
-    ldl: parseFloat(document.getElementById('ldl').value) || 0,
-    hdl: parseFloat(document.getElementById('hdl').value) || 0,
-    trigliceridos: parseFloat(document.getElementById('trigliceridos').value) || 0,
-    tsh: parseFloat(document.getElementById('tsh').value) || 0,
-    t4: parseFloat(document.getElementById('t4').value) || 0,
-    alt: parseFloat(document.getElementById('alt').value) || 0,
-    ast: parseFloat(document.getElementById('ast').value) || 0
-  };
-
-  const div = document.getElementById('resultados');
-  div.style.display = "block";
-  div.innerHTML = "<p>Analizando con lógica difusa...</p>";
-  const response = await fetch("https://pilarmas-logicadifusadedalus.hf.space/fuzzy", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      glucosa: parseFloat(document.getElementById("glucosa").value) || 0,
-      colesterol: parseFloat(document.getElementById("colesterol").value) || 0,
-      tsh: parseFloat(document.getElementById("tsh").value) || 0,
-      t4: parseFloat(document.getElementById("t4").value) || 0,
-      alt: parseFloat(document.getElementById("alt").value) || 0,
-      ast: parseFloat(document.getElementById("ast").value) || 0
-    })
-  });
-
-
-    if (!response.ok) throw new Error("Error al conectar con el servidor");
-
-    const data = await response.json();
-
-    if (data.error) {
-      div.innerHTML = `<p style='color:red;'>⚠️ Error del modelo: ${data.error}</p>`;
-      return;
-    }
-
-    // Extraer los resultados
-    const resultados = data[0]?.data?.[0] || data[0] || {};
-    div.innerHTML = "<h3>Resultados de evaluación difusa:</h3>";
-    for (const [clave, valor] of Object.entries(resultados)) {
-      div.innerHTML += `<div class='result-item'>
-        <strong>${clave}:</strong> ${valor}%
-      </div>`;
-    }
-
-  } catch (error) {
-    console.error(error);
-    div.innerHTML = `<p style='color:red;'>❌ Error al conectar con el servidor: ${error.message}</p>`;
+  function mockExtract() {
+    alert("Lectura del PDF aún no implementada. Puedes usar los campos manuales para evaluar la lógica difusa.");
   }
-}
+
+  async function analizar() {
+    const div = document.getElementById('resultados');
+    div.style.display = "block";
+    div.innerHTML = "<p>Analizando con lógica difusa...</p>";
+
+    try {
+      const response = await fetch("https://pilarmas-logicadifusadedalus.hf.space/fuzzy", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          glucosa: parseFloat(document.getElementById("glucosa").value) || 0,
+          colesterol: parseFloat(document.getElementById("colesterol").value) || 0,
+          tsh: parseFloat(document.getElementById("tsh").value) || 0,
+          t4: parseFloat(document.getElementById("t4").value) || 0,
+          alt: parseFloat(document.getElementById("alt").value) || 0,
+          ast: parseFloat(document.getElementById("ast").value) || 0
+        })
+      });
+
+      if (!response.ok) throw new Error("Servidor no responde");
+
+      const data = await response.json();
+
+      if (data.error) {
+        div.innerHTML = `<p style='color:red;'>⚠️ Error del modelo: ${data.error}</p>`;
+        return;
+      }
+
+      div.innerHTML = "<h3>Resultados de evaluación difusa:</h3>";
+      for (const [clave, valor] of Object.entries(data)) {
+        div.innerHTML += `<div class='result-item'><strong>${clave}:</strong> ${valor}%</div>`;
+      }
+
+    } catch (error) {
+      console.error(error);
+      div.innerHTML = `<p style='color:red;'>❌ Error al conectar con el servidor: ${error.message}</p>`;
+    }
+  }
 </script>
 
-  </script>
 </body>
 </html>
