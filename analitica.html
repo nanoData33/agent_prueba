@@ -171,7 +171,7 @@
 
     function mockExtract() {
       alert("Lectura del PDF aún no implementada. Puedes usar los campos manuales para evaluar la lógica difusa.");
-    }
+    }<script>
 async function analizar() {
   const valores = {
     glucosa: parseFloat(document.getElementById('glucosa').value) || 0,
@@ -190,20 +190,30 @@ async function analizar() {
   div.innerHTML = "<p>Analizando con lógica difusa...</p>";
 
   try {
-    const response = await fetch("https://pilarmas-logicadifusadedalus.hf.space/run/predict", {
-, {
+    const response = await fetch("https://api-inference.huggingface.co/models/pilarmas/logicadifusadedalus", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(Object.values(valores))
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify({
+        inputs: Object.values(valores)
+      })
     });
 
     if (!response.ok) throw new Error("Error al conectar con el servidor");
 
     const data = await response.json();
 
-    // Formateamos los resultados
+    if (data.error) {
+      div.innerHTML = `<p style='color:red;'>⚠️ Error del modelo: ${data.error}</p>`;
+      return;
+    }
+
+    // Extraer los resultados
+    const resultados = data[0]?.data?.[0] || data[0] || {};
     div.innerHTML = "<h3>Resultados de evaluación difusa:</h3>";
-    for (const [clave, valor] of Object.entries(data.data[0])) {
+    for (const [clave, valor] of Object.entries(resultados)) {
       div.innerHTML += `<div class='result-item'>
         <strong>${clave}:</strong> ${valor}%
       </div>`;
@@ -214,6 +224,8 @@ async function analizar() {
     div.innerHTML = `<p style='color:red;'>❌ Error al conectar con el servidor: ${error.message}</p>`;
   }
 }
+</script>
+
   </script>
 </body>
 </html>
