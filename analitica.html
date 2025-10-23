@@ -7,6 +7,7 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/pdfjs-dist@4.3.136/build/pdf.min.js"></script>
 
   <style>
     :root {
@@ -16,7 +17,6 @@
       --texto: #1E1E2F;
       --sombra: rgba(0, 0, 0, 0.08);
     }
-
     * { box-sizing: border-box; }
     body {
       margin: 0;
@@ -26,7 +26,6 @@
       flex-direction: column;
       min-height: 100vh;
     }
-
     header {
       background: var(--verde);
       color: white;
@@ -35,7 +34,6 @@
       text-align: center;
       box-shadow: 0 2px 6px var(--sombra);
     }
-
     main {
       flex: 1;
       display: flex;
@@ -44,7 +42,6 @@
       justify-content: flex-start;
       padding: 40px 20px;
     }
-
     .upload-box {
       width: 100%;
       max-width: 600px;
@@ -55,22 +52,12 @@
       text-align: center;
       transition: all 0.3s ease;
     }
-
     .upload-box:hover {
       transform: translateY(-2px);
       box-shadow: 0 8px 18px var(--sombra);
     }
-
-    h2 {
-      color: var(--verde);
-      margin-bottom: 10px;
-    }
-
-    p {
-      color: #555;
-      font-size: 0.95em;
-    }
-
+    h2 { color: var(--verde); margin-bottom: 10px; }
+    p { color: #555; font-size: 0.95em; }
     .drop-zone {
       margin-top: 20px;
       padding: 40px;
@@ -80,15 +67,8 @@
       cursor: pointer;
       transition: all 0.25s ease;
     }
-
-    .drop-zone:hover {
-      background: #ecfffc;
-    }
-
-    .drop-zone input {
-      display: none;
-    }
-
+    .drop-zone:hover { background: #ecfffc; }
+    .drop-zone input { display: none; }
     .results {
       margin-top: 30px;
       text-align: left;
@@ -97,7 +77,6 @@
       border-top: 1px solid #ddd;
       padding-top: 15px;
     }
-
     .value-item {
       padding: 8px 0;
       border-bottom: 1px solid #eee;
@@ -105,7 +84,6 @@
       display: flex;
       justify-content: space-between;
     }
-
     button {
       background: var(--verde);
       color: white;
@@ -117,11 +95,7 @@
       font-weight: 500;
       transition: background 0.25s;
     }
-
-    button:hover {
-      background: #02887b;
-    }
-
+    button:hover { background: #02887b; }
     footer {
       text-align: center;
       padding: 15px;
@@ -158,66 +132,79 @@
   <script>
     lucide.createIcons();
 
-    const fileInput = document.getElementById('fileInput');
-    const dropZone = document.getElementById('dropZone');
-    const resultsDiv = document.getElementById('results');
-    const nextBtn = document.getElementById('nextBtn');
+    const dropZone = document.getElementById("dropZone");
+    const fileInput = document.getElementById("fileInput");
+    const resultsDiv = document.getElementById("results");
+    const nextBtn = document.getElementById("nextBtn");
 
-    // === Zona de arrastrar ===
-    dropZone.addEventListener('dragover', (e) => {
-      e.preventDefault();
-      dropZone.style.background = '#e6fff8';
-    });
-
-    dropZone.addEventListener('dragleave', () => {
-      dropZone.style.background = '#f9fdfa';
-    });
-
-    dropZone.addEventListener('drop', (e) => {
+    dropZone.addEventListener("click", () => fileInput.click());
+    dropZone.addEventListener("dragover", e => { e.preventDefault(); dropZone.style.background = "#e6fff8"; });
+    dropZone.addEventListener("dragleave", () => dropZone.style.background = "#f9fdfa");
+    dropZone.addEventListener("drop", e => {
       e.preventDefault();
       const file = e.dataTransfer.files[0];
-      if (file && file.type === "application/pdf") processFile(file);
+      if (file && file.type === "application/pdf") readPDF(file);
     });
-
-    fileInput.addEventListener('change', (e) => {
+    fileInput.addEventListener("change", e => {
       const file = e.target.files[0];
-      if (file && file.type === "application/pdf") processFile(file);
+      if (file && file.type === "application/pdf") readPDF(file);
     });
 
-    // === Procesar el PDF (envío al backend Python) ===
-    async function processFile(file) {
-      resultsDiv.innerHTML = "<em>📄 Analizando analítica...</em>";
+    async function readPDF(file) {
+      resultsDiv.innerHTML = "<em>📄 Leyendo el PDF...</em>";
 
-      const formData = new FormData();
-      formData.append("file", file);
+      const arrayBuffer = await file.arrayBuffer();
+      const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
 
-      try {
-        // 🔗 Endpoint Python (Flask o FastAPI)
-        const response = await fetch("http://localhost:5000/analizar_pdf", {
-          method: "POST",
-          body: formData
-        });
-
-        if (!response.ok) throw new Error("Error al procesar el PDF");
-
-        const data = await response.json();
-        showResults(data.valores);
-      } catch (error) {
-        resultsDiv.innerHTML = "⚠️ Error al analizar el archivo.";
-        console.error(error);
+      let text = "";
+      for (let i = 0; i < pdf.numPages; i++) {
+        const page = await pdf.getPage(i + 1);
+        const content = await page.getTextContent();
+        const pageText = content.items.map(item => item.str).join(" ");
+        text += " " + pageText;
       }
+
+      extractValues(text);
     }
 
-    // === Mostrar resultados extraídos ===
-    function showResults(valores) {
-      resultsDiv.innerHTML = "<h3>Resultados detectados:</h3>";
-      valores.forEach(v => {
-        const div = document.createElement("div");
-        div.className = "value-item";
-        div.innerHTML = `<span>${v.nombre}</span> <strong>${v.valor} ${v.unidad || ""}</strong>`;
-        resultsDiv.appendChild(div);
+    function extractValues(text) {
+      text = text.toLowerCase().replace(",", ".");
+      const patterns = [
+        { nombre: "Glucosa", re: /glucosa\s*[:\-]?\s*(\d+\.?\d*)/ },
+        { nombre: "Colesterol total", re: /colesterol\s*total\s*[:\-]?\s*(\d+\.?\d*)/ },
+        { nombre: "HDL", re: /hdl\s*[:\-]?\s*(\d+\.?\d*)/ },
+        { nombre: "LDL", re: /ldl\s*[:\-]?\s*(\d+\.?\d*)/ },
+        { nombre: "Triglicéridos", re: /triglic.*?[:\-]?\s*(\d+\.?\d*)/ },
+        { nombre: "Urea", re: /urea\s*[:\-]?\s*(\d+\.?\d*)/ },
+        { nombre: "Creatinina", re: /creatinina\s*[:\-]?\s*(\d+\.?\d*)/ },
+        { nombre: "Ácido úrico", re: /acido\s*urico\s*[:\-]?\s*(\d+\.?\d*)/ },
+        { nombre: "GOT", re: /got\s*[:\-]?\s*(\d+\.?\d*)/ },
+        { nombre: "GPT", re: /gpt\s*[:\-]?\s*(\d+\.?\d*)/ },
+        { nombre: "TSH", re: /tsh\s*[:\-]?\s*(\d+\.?\d*)/ },
+        { nombre: "T4 libre", re: /t4\s*libre\s*[:\-]?\s*(\d+\.?\d*)/ },
+        { nombre: "Vitamina D", re: /vitamina\s*d\s*[:\-]?\s*(\d+\.?\d*)/ },
+        { nombre: "Hemoglobina", re: /hemoglobina\s*[:\-]?\s*(\d+\.?\d*)/ },
+        { nombre: "Plaquetas", re: /plaquetas\s*[:\-]?\s*(\d+\.?\d*)/ }
+      ];
+
+      const resultados = [];
+      patterns.forEach(p => {
+        const m = text.match(p.re);
+        if (m) resultados.push({ nombre: p.nombre, valor: m[1] });
       });
-      nextBtn.style.display = "inline-block";
+
+      if (resultados.length === 0) {
+        resultsDiv.innerHTML = "⚠️ No se detectaron valores reconocibles.";
+      } else {
+        resultsDiv.innerHTML = "<h3>Resultados detectados:</h3>";
+        resultados.forEach(v => {
+          const div = document.createElement("div");
+          div.className = "value-item";
+          div.innerHTML = `<span>${v.nombre}</span> <strong>${v.valor}</strong>`;
+          resultsDiv.appendChild(div);
+        });
+        nextBtn.style.display = "inline-block";
+      }
     }
   </script>
 </body>
