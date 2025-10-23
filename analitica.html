@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analizador de Analíticas – Asistente Clínico</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<style>
+  :root {
+    --fondo: #f3f1eb;
+    --card: #ffffff;
+    --acento: #c08457;
+    --acento-hover: #a5673f;
+    --texto: #1f1f1f;
+    --sombra: rgba(0,0,0,0.1);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--fondo);
+    color: var(--texto);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  header {
+    background: var(--card);
+    padding: 18px 40px;
+    box-shadow: 0 2px 8px var(--sombra);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  header button {
+    background: var(--acento);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+    transition: background 0.25s;
+    font-weight: 500;
+  }
+  header button:hover { background: var(--acento-hover); }
+
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  h2 {
+    color: var(--acento);
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  p.subtitle {
+    color: #555;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .upload-box {
+    border: 2px dashed var(--acento);
+    background: var(--card);
+    border-radius: 14px;
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+    max-width: 600px;
+    transition: background 0.2s ease;
+  }
+  .upload-box:hover { background: #f7f5f0; }
+  .upload-box i {
+    width: 42px;
+    height: 42px;
+    color: var(--acento);
+    margin-bottom: 12px;
+  }
+  input[type="file"] { display: none; }
+
+  table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 750px;
+    background: var(--card);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px var(--sombra);
+  }
+  th, td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+  th {
+    background: var(--acento);
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+  }
+
+  .result-box {
+    margin-top: 30px;
+    padding: 20px;
+    background: linear-gradient(120deg, var(--acento), var(--acento-hover));
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px var(--sombra);
+    max-width: 750px;
+  }
+  .result-box h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+
+  footer {
+    background: var(--card);
+    text-align: center;
+    padding: 15px;
+    font-size: 0.85rem;
+    color: #666;
+    box-shadow: 0 -2px 8px var(--sombra);
+  }
+</style>
+</head>
+
+<body>
+<header>
+  <h1><i data-lucide="flask-round"></i> Analizador de Analíticas</h1>
+  <button onclick="window.open('chat.html', '_self')"><i data-lucide='message-circle'></i> Volver al Chat</button>
+</header>
+
+<main>
+  <h2>🧪 Subir Analítica</h2>
+  <p class="subtitle">Carga un archivo CSV o PDF con resultados de laboratorio para analizar los valores automáticamente.</p>
+
+  <label class="upload-box" for="fileInput" id="dropZone">
+    <i data-lucide="upload-cloud"></i>
+    <p>Arrastra aquí tu archivo o haz clic para seleccionar</p>
+    <input type="file" id="fileInput" accept=".csv,application/pdf">
+  </label>
+
+  <div id="tableContainer"></div>
+  <div id="resultContainer"></div>
+</main>
+
+<footer>© 2025 Asistente Clínico — Análisis de Analíticas Médicas</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.14.305/pdf.min.js"></script>
+<script>
+lucide.createIcons();
+
+const fileInput = document.getElementById("fileInput");
+const tableContainer = document.getElementById("tableContainer");
+const resultContainer = document.getElementById("resultContainer");
+
+fileInput.addEventListener("change", handleFile);
+
+async function handleFile(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+
+  const fileType = file.type;
+  if (fileType === "application/pdf") {
+    const text = await readPDF(file);
+    processText(text);
+  } else if (file.name.endsWith(".csv")) {
+    const text = await file.text();
+    processCSV(text);
+  } else {
+    alert("Formato no soportado. Sube un CSV o PDF.");
+  }
+}
+
+async function readPDF(file) {
+  const arrayBuffer = await file.arrayBuffer();
+  const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+  let text = "";
+  for (let i = 0; i < pdf.numPages; i++) {
+    const page = await pdf.getPage(i + 1);
+    const content = await page.getTextContent();
+    text += content.items.map(i => i.str).join(" ") + "\\n";
+  }
+  return text;
+}
+
+function processCSV(csv) {
+  const rows = csv.trim().split(/\\r?\\n/);
+  const headers = rows[0].split(",");
+  const table = document.createElement("table");
+  table.innerHTML = `
+    <thead><tr>${headers.map(h => `<th>${h}</th>`).join("")}</tr></thead>
+    <tbody>${rows.slice(1).map(r => `<tr>${r.split(",").map(c => `<td>${c}</td>`).join("")}</tr>`).join("")}</tbody>
+  `;
+  tableContainer.innerHTML = "";
+  tableContainer.appendChild(table);
+
+  const values = extractValuesFromCSV(headers, rows[1]);
+  classify(values);
+}
+
+function processText(text) {
+  const matches = text.match(/(\\w+):\\s*([\\d.]+)/g);
+  if (!matches) return alert("No se pudieron leer valores del PDF.");
+  const table = document.createElement("table");
+  table.innerHTML = `
+    <thead><tr><th>Parámetro</th><th>Valor</th></tr></thead>
+    <tbody>${matches.map(m => {
+      const [key, value] = m.split(":");
+      return `<tr><td>${key.trim()}</td><td>${value.trim()}</td></tr>`;
+    }).join("")}</tbody>
+  `;
+  tableContainer.innerHTML = "";
+  tableContainer.appendChild(table);
+
+  const values = {};
+  matches.forEach(m => {
+    const [k, v] = m.split(":");
+    values[k.trim()] = parseFloat(v);
+  });
+  classify(values);
+}
+
+function extractValuesFromCSV(headers, row) {
+  const cols = row.split(",");
+  const values = {};
+  headers.forEach((h, i) => values[h.trim()] = parseFloat(cols[i]));
+  return values;
+}
+
+function classify(values) {
+  // --- Ejemplo simple de reglas (aquí irán tus reglas difusas) ---
+  const imc = values.IMC || 27;
+  const hba1c = values.HbA1c || 6.3;
+  const colesterol = values.Colesterol || 210;
+
+  let riesgo = 0.3;
+  if (hba1c > 7 || imc > 30) riesgo = 0.8;
+  else if (hba1c > 6 || imc > 27) riesgo = 0.5;
+
+  resultContainer.innerHTML = `
+    <div class="result-box">
+      <h3>Resultado del Análisis</h3>
+      <p><strong>Riesgo estimado:</strong> ${(riesgo * 100).toFixed(1)}%</p>
+      <p>Factores clave: HbA1c = ${hba1c}, IMC = ${imc}, Colesterol = ${colesterol}</p>
+    </div>
+  `;
+}
+</script>
+</body>
+</html>
