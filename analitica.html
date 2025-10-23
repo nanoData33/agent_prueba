@@ -5,9 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>🧪 Identificar Patologías por Cohortes</title>
 
+  <!-- Fuentes e iconos -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Librería PDF.js -->
   <script src="https://unpkg.com/pdfjs-dist@4.3.136/build/pdf.min.js"></script>
+  <script>
+    /* ✅ Línea imprescindible para GitHub Pages */
+    pdfjsLib.GlobalWorkerOptions.workerSrc =
+      "https://unpkg.com/pdfjs-dist@4.3.136/build/pdf.worker.min.js";
+  </script>
 
   <style>
     :root {
@@ -122,7 +130,6 @@
       </label>
 
       <div class="results" id="results"></div>
-
       <button id="nextBtn" style="display:none;">➡ Continuar al análisis difuso</button>
     </div>
   </main>
@@ -153,18 +160,23 @@
     async function readPDF(file) {
       resultsDiv.innerHTML = "<em>📄 Leyendo el PDF...</em>";
 
-      const arrayBuffer = await file.arrayBuffer();
-      const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+      try {
+        const arrayBuffer = await file.arrayBuffer();
+        const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
 
-      let text = "";
-      for (let i = 0; i < pdf.numPages; i++) {
-        const page = await pdf.getPage(i + 1);
-        const content = await page.getTextContent();
-        const pageText = content.items.map(item => item.str).join(" ");
-        text += " " + pageText;
+        let text = "";
+        for (let i = 0; i < pdf.numPages; i++) {
+          const page = await pdf.getPage(i + 1);
+          const content = await page.getTextContent();
+          const pageText = content.items.map(item => item.str).join(" ");
+          text += " " + pageText;
+        }
+
+        extractValues(text);
+      } catch (err) {
+        alert("No se pudieron leer valores del PDF.");
+        console.error(err);
       }
-
-      extractValues(text);
     }
 
     function extractValues(text) {
