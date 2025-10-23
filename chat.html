@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Asistente Clínico – Chat Inteligente</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<style>
+  :root {
+    --fondo: #f3f1eb;
+    --card: #ffffff;
+    --acento: #c08457;
+    --acento-hover: #a5673f;
+    --gris-texto: #1f1f1f;
+    --sombra: rgba(0,0,0,0.08);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--fondo);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  header {
+    background: var(--card);
+    color: var(--gris-texto);
+    padding: 18px 40px;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 2px 8px var(--sombra);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  header button {
+    background: var(--acento);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.25s ease;
+  }
+  header button:hover { background: var(--acento-hover); }
+
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+  .chat-box {
+    width: 95%;
+    max-width: 850px;
+    background: var(--card);
+    border-radius: 16px;
+    box-shadow: 0 4px 12px var(--sombra);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  h2 {
+    color: var(--acento);
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .messages {
+    flex: 1;
+    overflow-y: auto;
+    background: #f9f7f5;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.05);
+  }
+  .msg {
+    margin-bottom: 12px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    line-height: 1.5;
+    max-width: 80%;
+    word-wrap: break-word;
+  }
+  .msg.user {
+    background: var(--acento);
+    color: white;
+    align-self: flex-end;
+    border-top-right-radius: 0;
+  }
+  .msg.bot {
+    background: #f0eae4;
+    color: var(--gris-texto);
+    align-self: flex-start;
+    border-top-left-radius: 0;
+  }
+  .input-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  input {
+    flex: 1;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 0.95rem;
+  }
+  button.action {
+    background: var(--acento);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: background 0.25s;
+  }
+  button.action:hover { background: var(--acento-hover); }
+  #recordBtn.recording { background: #b91c1c; }
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: var(--card);
+    font-size: 0.9em;
+    color: #666;
+    box-shadow: 0 -2px 8px var(--sombra);
+  }
+</style>
+</head>
+
+<body>
+<header>
+  <h1><i data-lucide="stethoscope"></i> Asistente Clínico Inteligente</h1>
+  <button onclick="window.open('analitica.html', '_blank')"><i data-lucide="flask-round"></i> Analizar Analítica</button>
+</header>
+
+<main>
+  <div class="chat-box">
+    <h2>💬 Chat Audio + Texto con n8n</h2>
+    <div id="messages" class="messages"></div>
+    <div class="input-area">
+      <input id="userInput" placeholder="Escribe tu mensaje o graba audio..." />
+      <button id="recordBtn" class="action" onclick="toggleRecording()"><i data-lucide='mic'></i></button>
+      <button class="action" onclick="sendText()"><i data-lucide='send'></i></button>
+    </div>
+  </div>
+</main>
+
+<footer>© 2025 Asistente Clínico — Chat Audio/Texto Integrado</footer>
+
+<script>
+lucide.createIcons();
+
+const webhook = "https://rubaseval.app.n8n.cloud/webhook-test/dedaluschataudio";
+const webhookGrafico = "https://rubaseval.app.n8n.cloud/webhook-test/generargrafico";
+const webhookDataset = "https://rubaseval.app.n8n.cloud/webhook-test/dataset";
+
+const messagesDiv = document.getElementById("messages");
+const input = document.getElementById("userInput");
+
+let recording = false;
+let mediaRecorder, audioChunks = [];
+
+// === ENVÍO DE TEXTO ===
+async function sendText() {
+  const text = input.value.trim();
+  if (!text) return;
+
+  appendMessage("user", text);
+  input.value = "";
+  appendMessage("bot", "<em>Procesando texto...</em>", true);
+
+  try {
+    const res = await fetch(webhook, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ type: "text", content: text })
+    });
+
+    const data = await res.json(); 
+    removeLoading();
+    appendMessage("bot", data.respuesta);
+
+    // 📊 Botón de gráfico
+    if (data.mostrar_boton_grafico) {
+      const botonGrafico = document.createElement("button");
+      botonGrafico.textContent = "📊 Generar gráfico";
+      botonGrafico.className = "action";
+      botonGrafico.onclick = () => generarGrafico(data.respuesta, text);
+      messagesDiv.appendChild(botonGrafico);
+    }
+
+    // 📋 Botón de dataset completo
+    if (data.consulta) {
+      const botonDataset = document.createElement("button");
+      botonDataset.textContent = "📋 Ver dataset completo";
+      botonDataset.className = "action";
+      botonDataset.onclick = () => abrirDataset(data.consulta, data.total_items);
+      messagesDiv.appendChild(botonDataset);
+    }
+
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+  } catch (err) {
+    removeLoading();
+    appendMessage("bot", "⚠️ Error al procesar la respuesta del asistente.");
+  }
+}
+
+// === GRÁFICO ===
+async function generarGrafico(respuesta, consulta) {
+  appendMessage("bot", "<em>Generando gráfico...</em>", true);
+  try {
+    const res = await fetch(webhookGrafico, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ respuesta, consulta })
+    });
+    const data = await res.text();
+    removeLoading();
+    appendMessage("bot", `<pre>${data}</pre>`);
+  } catch {
+    removeLoading();
+    appendMessage("bot", "⚠️ Error al generar el gráfico.");
+  }
+}
+
+// === DATASET ===
+function abrirDataset(consultaSQL, totalItems) {
+  const form = document.createElement("form");
+  form.method = "POST";
+  form.action = webhookDataset;
+  form.target = "_blank";
+
+  const inputConsulta = document.createElement("input");
+  inputConsulta.type = "hidden";
+  inputConsulta.name = "consulta";
+  inputConsulta.value = consultaSQL;
+
+  const inputTotal = document.createElement("input");
+  inputTotal.type = "hidden";
+  inputTotal.name = "total_items";
+  inputTotal.value = totalItems;
+
+  form.appendChild(inputConsulta);
+  form.appendChild(inputTotal);
+  document.body.appendChild(form);
+  form.submit();
+  form.remove();
+}
+
+// === AUDIO ===
+async function toggleRecording() {
+  const btn = document.getElementById("recordBtn");
+  recording = !recording;
+  btn.classList.toggle("recording");
+  btn.innerHTML = recording ? "<i data-lucide='square'></i>" : "<i data-lucide='mic'></i>";
+  lucide.createIcons();
+  if (recording) startRecording(); else stopRecording();
+}
+
+async function startRecording() {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    mediaRecorder = new MediaRecorder(stream);
+    audioChunks = [];
+    mediaRecorder.ondataavailable = e => audioChunks.push(e.data);
+    mediaRecorder.onstop = async () => {
+      const blob = new Blob(audioChunks, { type: "audio/webm" });
+      appendMessage("user", "<i>Audio grabado enviado...</i>");
+      appendMessage("bot", "<em>Subiendo audio...</em>", true);
+
+      const formData = new FormData();
+      formData.append("type", "audio");
+      formData.append("file", blob, "voz.webm");
+
+      try {
+        const res = await fetch(webhook, { method: "POST", body: formData });
+        const data = await res.json();
+        removeLoading();
+        appendMessage("bot", data.respuesta);
+      } catch {
+        removeLoading();
+        appendMessage("bot", "⚠️ Error al subir audio.");
+      }
+    };
+    mediaRecorder.start();
+  } catch {
+    appendMessage("bot", "⚠️ No se pudo acceder al micrófono.");
+  }
+}
+
+function stopRecording() {
+  if (mediaRecorder && mediaRecorder.state === "recording") mediaRecorder.stop();
+}
+
+// === MENSAJES ===
+function appendMessage(sender, html, isLoading=false) {
+  const msg = document.createElement("div");
+  msg.className = "msg " + sender;
+  msg.innerHTML = html;
+  if (isLoading) msg.id = "loading";
+  messagesDiv.appendChild(msg);
+  messagesDiv.scrollTop = messagesDiv.scrollHeight;
+}
+
+function removeLoading() {
+  const loading = document.getElementById("loading");
+  if (loading) loading.remove();
+}
+</script>
+</body>
+</html>
