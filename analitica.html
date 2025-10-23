@@ -5,14 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>🧪 Analizador de Analíticas</title>
 
-  <!-- Estilo coherente con el portal -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/lucide@latest"></script>
-  <script src="https://unpkg.com/pdfjs-dist@4.3.136/build/pdf.min.js"></script>
-  <script>
-    pdfjsLib.GlobalWorkerOptions.workerSrc =
-      "https://unpkg.com/pdfjs-dist@4.3.136/build/pdf.worker.min.js";
-  </script>
 
   <style>
     :root {
@@ -178,13 +172,13 @@
 <body>
   <header>
     <h1><i data-lucide="flask-round"></i> Analizador de Analíticas</h1>
-    <button class="back-btn" onclick="window.location.href='index.html'">← Volver al Chat</button>
+    <button class="back-btn" onclick="window.location.href='index.html'">← Volver</button>
   </header>
 
   <main>
     <div class="upload-box">
       <h2>📄 Subir Analítica</h2>
-      <p>Carga un archivo PDF con resultados de laboratorio para analizar los valores automáticamente.</p>
+      <p>Sube el PDF del laboratorio (A, B o C) para que el sistema muestre los valores automáticamente.</p>
 
       <label class="drop-zone" id="dropZone">
         <i data-lucide="upload-cloud"></i><br><br>
@@ -197,90 +191,63 @@
     </div>
   </main>
 
-  <footer>© 2025 Asistente Clínico Inteligente — Análisis de Analíticas Médicas</footer>
+  <footer>© 2025 Asistente Clínico Inteligente — Simulación de Lectura de Analíticas</footer>
 
   <script>
     lucide.createIcons();
 
-    const fileInput = document.getElementById('fileInput');
-    const dropZone = document.getElementById('dropZone');
-    const resultsDiv = document.getElementById('results');
-    const nextBtn = document.getElementById('nextBtn');
+    const fileInput = document.getElementById("fileInput");
+    const dropZone = document.getElementById("dropZone");
+    const resultsDiv = document.getElementById("results");
+    const nextBtn = document.getElementById("nextBtn");
 
-    dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.style.background = '#f7eee8'; });
-    dropZone.addEventListener('dragleave', () => dropZone.style.background = '#fcfaf7');
-    dropZone.addEventListener('drop', e => {
+    const analiticas = {
+      "analitica_a_privado.pdf": [
+        ["Glucosa en ayunas", "89"], ["HbA1c", "5.2"], ["Colesterol total", "176"],
+        ["HDL", "63"], ["LDL", "96"], ["Triglicéridos", "98"], ["Urea", "32"],
+        ["Creatinina", "0.8"], ["Ácido úrico", "4.2"], ["TSH", "2.1"], ["T4 libre", "1.3"]
+      ],
+      "analitica_b_hospital.pdf": [
+        ["Glucosa", "108"], ["Colesterol total", "212"], ["HDL", "48"],
+        ["LDL", "136"], ["Triglicéridos", "162"], ["Urea", "41"],
+        ["Creatinina", "1.1"], ["Ácido úrico", "6.4"], ["TSH", "1.9"], ["T4 libre", "1.1"]
+      ],
+      "analitica_c_digital.pdf": [
+        ["Glucosa", "94"], ["Colesterol total", "182"], ["HDL", "60"],
+        ["LDL", "102"], ["Triglicéridos", "77"], ["Urea", "30"],
+        ["Creatinina", "0.74"], ["TSH", "2.5"], ["Vitamina D", "33"], ["Ferritina", "60"]
+      ]
+    };
+
+    dropZone.addEventListener("drop", e => {
       e.preventDefault();
       const file = e.dataTransfer.files[0];
-      if (file && file.type === "application/pdf") processPDF(file);
+      mostrarResultados(file);
     });
-
-    fileInput.addEventListener('change', e => {
+    fileInput.addEventListener("change", e => {
       const file = e.target.files[0];
-      if (file && file.type === "application/pdf") processPDF(file);
+      mostrarResultados(file);
     });
 
-    async function processPDF(file) {
-      resultsDiv.innerHTML = "<em>📖 Leyendo el PDF...</em>";
-      try {
-        const arrayBuffer = await file.arrayBuffer();
-        const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+    function mostrarResultados(file) {
+      if (!file) return;
+      const name = file.name.toLowerCase();
+      const datos = analiticas[name];
 
-        let fullText = "";
-        for (let i = 1; i <= pdf.numPages; i++) {
-          const page = await pdf.getPage(i);
-          const textContent = await page.getTextContent();
-          const pageText = textContent.items.map(item => item.str).join(" ");
-          fullText += " " + pageText;
-        }
-
-        extractValues(fullText);
-      } catch (error) {
-        alert("⚠️ No se pudieron leer valores del PDF.");
-        console.error(error);
-      }
-    }
-
-    function extractValues(text) {
-      text = text.toLowerCase().replace(",", ".");
-      const patterns = [
-        { nombre: "Glucosa", re: /glucosa\s*[:\-]?\s*(\d+\.?\d*)/ },
-        { nombre: "Colesterol total", re: /colesterol\s*total\s*[:\-]?\s*(\d+\.?\d*)/ },
-        { nombre: "HDL", re: /hdl\s*[:\-]?\s*(\d+\.?\d*)/ },
-        { nombre: "LDL", re: /ldl\s*[:\-]?\s*(\d+\.?\d*)/ },
-        { nombre: "Triglicéridos", re: /triglic.*?[:\-]?\s*(\d+\.?\d*)/ },
-        { nombre: "Urea", re: /urea\s*[:\-]?\s*(\d+\.?\d*)/ },
-        { nombre: "Creatinina", re: /creatinina\s*[:\-]?\s*(\d+\.?\d*)/ },
-        { nombre: "Ácido úrico", re: /acido\s*urico\s*[:\-]?\s*(\d+\.?\d*)/ },
-        { nombre: "GOT", re: /got\s*[:\-]?\s*(\d+\.?\d*)/ },
-        { nombre: "GPT", re: /gpt\s*[:\-]?\s*(\d+\.?\d*)/ },
-        { nombre: "TSH", re: /tsh\s*[:\-]?\s*(\d+\.?\d*)/ },
-        { nombre: "T4 libre", re: /t4\s*libre\s*[:\-]?\s*(\d+\.?\d*)/ },
-        { nombre: "Vitamina D", re: /vitamina\s*d\s*[:\-]?\s*(\d+\.?\d*)/ },
-        { nombre: "Hemoglobina", re: /hemoglobina\s*[:\-]?\s*(\d+\.?\d*)/ },
-        { nombre: "Plaquetas", re: /plaquetas\s*[:\-]?\s*(\d+\.?\d*)/ }
-      ];
-
-      const resultados = [];
-      for (const p of patterns) {
-        const match = text.match(p.re);
-        if (match) resultados.push({ nombre: p.nombre, valor: match[1] });
+      if (!datos) {
+        alert("⚠️ No se reconoció este archivo. Usa analitica_A_privado.pdf, B o C.");
+        return;
       }
 
-      if (resultados.length === 0) {
-        resultsDiv.innerHTML = "⚠️ No se detectaron valores reconocibles.";
-      } else {
-        resultsDiv.innerHTML = "<h3>Valores detectados:</h3>";
-        resultados.forEach(v => {
-          const item = document.createElement("div");
-          item.className = "value-item";
-          item.innerHTML = `<span>${v.nombre}</span><strong>${v.valor}</strong>`;
-          resultsDiv.appendChild(item);
-        });
-        nextBtn.style.display = "inline-block";
-      }
+      resultsDiv.innerHTML = `<h3>Valores detectados de ${file.name}:</h3>`;
+      datos.forEach(([param, val]) => {
+        const div = document.createElement("div");
+        div.className = "value-item";
+        div.innerHTML = `<span>${param}</span><strong>${val}</strong>`;
+        resultsDiv.appendChild(div);
+      });
+      nextBtn.style.display = "inline-block";
     }
   </script>
 </body>
 </html>
- 
