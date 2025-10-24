@@ -165,9 +165,9 @@
 <script>
 lucide.createIcons();
 
-const webhook = "https://rubaseval.app.n8n.cloud/webhook/dedaluschataudio";
-const webhookGrafico = "https://rubaseval.app.n8n.cloud/webhook/generargrafico";
-const webhookDataset = "https://rubaseval.app.n8n.cloud/webhook/dataset";
+const webhook = "https://rubaseval.app.n8n.cloud/webhook-test/dedaluschataudio";
+const webhookGrafico = "https://rubaseval.app.n8n.cloud/webhook-test/generargrafico";
+const webhookDataset = "https://rubaseval.app.n8n.cloud/webhook-test/dataset";
 
 const messagesDiv = document.getElementById("messages");
 const input = document.getElementById("userInput");
@@ -191,7 +191,7 @@ async function sendText() {
       body: JSON.stringify({ type: "text", content: text })
     });
 
-    const data = await res.json(); 
+    const data = await res.json();
     removeLoading();
     appendMessage("bot", data.respuesta);
 
@@ -220,20 +220,78 @@ async function sendText() {
   }
 }
 
-// === GRÁFICO ===
+// === GRÁFICO (abre en nueva pestaña) ===
 async function generarGrafico(respuesta, consulta) {
   appendMessage("bot", "<em>Generando gráfico...</em>", true);
+
+  // 🧩 Abre la nueva pestaña inmediatamente para evitar bloqueo
+  const newWindow = window.open("", "_blank");
+
+  // 🎨 HTML temporal con spinner
+  newWindow.document.write(`
+    <html lang="es">
+    <head>
+      <title>Generando gráfico...</title>
+      <style>
+        body {
+          font-family: 'Poppins', sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          background: #f9f9f9;
+          margin: 0;
+        }
+        .spinner {
+          width: 60px;
+          height: 60px;
+          border: 6px solid #ddd;
+          border-top-color: #c08457;
+          border-radius: 50%;
+          animation: spin 1s linear infinite;
+          margin-bottom: 20px;
+        }
+        @keyframes spin {
+          to { transform: rotate(360deg); }
+        }
+        h3 {
+          color: #444;
+          font-weight: 500;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="spinner"></div>
+      <h3>Generando gráfico...</h3>
+    </body>
+    </html>
+  `);
+
   try {
+    // 🔄 Envía los datos al webhook
     const res = await fetch(webhookGrafico, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ respuesta, consulta })
     });
-    const data = await res.text();
+
+    const htmlContent = await res.text();
     removeLoading();
-    appendMessage("bot", `<pre>${data}</pre>`);
-  } catch {
+
+    // ✅ Sustituye el contenido del loader por el HTML real del gráfico
+    newWindow.document.open();
+    newWindow.document.write(htmlContent);
+    newWindow.document.close();
+
+    appendMessage("bot", "✅ Gráfico generado correctamente (abierto en nueva pestaña).");
+  } catch (error) {
     removeLoading();
+    newWindow.document.body.innerHTML = `
+      <div style="font-family:sans-serif;text-align:center;margin-top:40px;color:red;">
+        <h3>⚠️ Error al generar el gráfico</h3>
+        <p>${error.message}</p>
+      </div>`;
     appendMessage("bot", "⚠️ Error al generar el gráfico.");
   }
 }
