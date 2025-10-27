@@ -3,54 +3,51 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>CohortIQ – Visualizador Clínico</title>
+<title>CohortIQ – Asistente Clínico</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/lucide@latest"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
 <style>
 :root {
-  --fondo: #f5f7f5;
-  --card: #ffffff;
   --verde: #2f6e3e;
   --verde-oscuro: #245831;
   --gris: #3b3b3b;
-  --sombra: rgba(0,0,0,0.1);
+  --fondo: #f4f7f4;
+  --card: #ffffff;
 }
 body {
   font-family: "Poppins", sans-serif;
   background: var(--fondo);
-  color: var(--gris);
   margin: 0;
   display: flex;
   flex-direction: column;
   height: 100vh;
+  color: var(--gris);
 }
 header {
   background: var(--card);
+  padding: 15px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
-  box-shadow: 0 2px 8px var(--sombra);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 header h1 {
-  font-size: 1.2rem;
   color: var(--verde);
-  font-weight: 600;
   display: flex;
   align-items: center;
   gap: 8px;
+  font-size: 1.2rem;
 }
 header button {
   background: var(--verde);
-  color: #fff;
+  color: white;
   border: none;
   border-radius: 8px;
   padding: 8px 16px;
-  font-weight: 500;
   cursor: pointer;
+  font-weight: 500;
 }
 header button:hover { background: var(--verde-oscuro); }
 
@@ -61,23 +58,19 @@ main {
   gap: 20px;
   padding: 20px;
 }
-
 .chat-box, .tabla-box {
   background: var(--card);
   border-radius: 12px;
-  box-shadow: 0 4px 10px var(--sombra);
   padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
 }
-
 h2 {
   text-align: center;
   color: var(--verde);
   margin-bottom: 10px;
-  font-weight: 600;
 }
-
 .messages {
   flex: 1;
   overflow-y: auto;
@@ -85,52 +78,27 @@ h2 {
   border-radius: 10px;
   padding: 15px;
   margin-bottom: 10px;
-  box-shadow: inset 0 0 6px rgba(0,0,0,0.05);
 }
-
 .msg {
   margin-bottom: 12px;
   padding: 12px 15px;
-  border-radius: 12px;
-  line-height: 1.5;
+  border-radius: 10px;
   max-width: 85%;
-  word-wrap: break-word;
+  line-height: 1.5;
 }
 .msg.user {
   background: var(--verde);
   color: white;
   align-self: flex-end;
-  border-bottom-right-radius: 0;
 }
 .msg.bot {
   background: #e8f3e8;
   color: var(--gris);
   align-self: flex-start;
-  border-bottom-left-radius: 0;
 }
-
-.typing {
-  display: flex;
-  gap: 5px;
-  margin-top: 5px;
-  padding-left: 5px;
-}
-.dot {
-  width: 8px; height: 8px;
-  border-radius: 50%;
-  background: var(--verde);
-  animation: blink 1.2s infinite;
-}
-.dot:nth-child(2){ animation-delay: 0.2s; }
-.dot:nth-child(3){ animation-delay: 0.4s; }
-@keyframes blink {
-  0%, 80%, 100% { opacity: 0.3; transform: scale(0.8); }
-  40% { opacity: 1; transform: scale(1); }
-}
-
 .input-area {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 input {
   flex: 1;
@@ -143,50 +111,45 @@ button.action {
   color: white;
   border: none;
   border-radius: 10px;
-  padding: 10px 14px;
+  padding: 10px 16px;
   cursor: pointer;
 }
 button.action:hover { background: var(--verde-oscuro); }
 
 #tablaContainer {
   overflow-x: auto;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 15px;
+  margin-top: 10px;
   font-size: 0.9rem;
 }
 th, td {
   border: 1px solid #ddd;
   padding: 8px;
-  text-align: left;
 }
-th {
-  background: var(--verde);
-  color: white;
+th { background: var(--verde); color: white; }
+
+#chartButtons {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.btn-group {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 10px;
-  flex-wrap: wrap;
-}
 .btn-chart {
-  padding: 8px 12px;
+  padding: 8px 14px;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
   font-weight: 500;
   transition: 0.2s;
 }
-.btn-rec { background: var(--verde); color: white; }
-.btn-alt { background: #e6e8e6; color: var(--gris); }
-.btn-alt:hover { background: #d3d5d3; }
-.btn-rec:hover { background: var(--verde-oscuro); }
-
+.btn-chart.rec { background: var(--verde); color: white; }
+.btn-chart.alt { background: #e6e8e6; color: var(--gris); }
+.btn-chart.alt:hover { background: #d5d8d5; }
 canvas { width: 100% !important; height: 380px !important; }
 
 footer {
@@ -195,7 +158,7 @@ footer {
   padding: 8px;
   font-size: 0.85rem;
   color: #555;
-  box-shadow: 0 -2px 6px var(--sombra);
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
 }
 </style>
 </head>
@@ -203,15 +166,15 @@ footer {
 <body>
 <header>
   <h1><i data-lucide="stethoscope"></i> CohortIQ – Asistente Clínico</h1>
-  <button onclick="window.location.href='index.html'">Volver al Inicio</button>
+  <button onclick="window.location.href='index.html'">Volver</button>
 </header>
 
 <main>
   <div class="chat-box">
-    <h2>Chat con el Agente</h2>
+    <h2>Chat</h2>
     <div id="messages" class="messages"></div>
     <div class="input-area">
-      <input id="userInput" placeholder="Escribe tu mensaje..." />
+      <input id="userInput" placeholder="Escribe tu consulta..." />
       <button class="action" onclick="sendText()">Enviar</button>
     </div>
   </div>
@@ -224,43 +187,26 @@ footer {
   </div>
 </main>
 
-<footer>© 2025 CohortIQ – Plataforma Inteligente de Apoyo Clínico</footer>
+<footer>© 2025 CohortIQ</footer>
 
 <script>
 lucide.createIcons();
 
 const webhook = "https://rubaseval.app.n8n.cloud/webhook-test/dedaluschataudio";
 const webhookGrafico = "https://rubaseval.app.n8n.cloud/webhook-test/grafico";
-const supabaseUrl = "https://TU_URL_SUPABASE.supabase.co";
-const supabaseKey = "TU_API_KEY";
-const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
-let chartInstance = null;
-
-document.getElementById("userInput").addEventListener("keydown", (e) => {
-  if (e.key === "Enter") sendText();
-});
 
 function appendMessage(sender, text) {
-  const msg = document.createElement("div");
-  msg.className = "msg " + sender;
-  msg.innerText = text;
-  const box = document.getElementById("messages");
-  box.appendChild(msg);
-  box.scrollTop = box.scrollHeight;
+  const div = document.createElement("div");
+  div.className = "msg " + sender;
+  div.innerText = text;
+  document.getElementById("messages").appendChild(div);
+  const messages = document.getElementById("messages");
+  messages.scrollTop = messages.scrollHeight;
 }
 
-function showTyping() {
-  if (document.getElementById("typing")) return;
-  const div = document.createElement("div");
-  div.id = "typing";
-  div.className = "typing";
-  div.innerHTML = '<div class="dot"></div><div class="dot"></div><div class="dot"></div>';
-  document.getElementById("messages").appendChild(div);
-}
-function removeTyping() {
-  const t = document.getElementById("typing");
-  if (t) t.remove();
-}
+document.getElementById("userInput").addEventListener("keydown", e => {
+  if (e.key === "Enter") sendText();
+});
 
 async function sendText() {
   const input = document.getElementById("userInput");
@@ -268,37 +214,27 @@ async function sendText() {
   if (!text) return;
   appendMessage("user", text);
   input.value = "";
-  showTyping();
 
-  try {
-    const res = await fetch(webhook, {
-      method: "POST",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({type:"text", content:text})
-    });
-    const data = await res.json();
-    removeTyping();
+  const res = await fetch(webhook, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ type: "text", content: text })
+  });
+  const data = await res.json();
 
-    if (data.respuesta && !data.respuesta.includes("|")) appendMessage("bot", data.respuesta);
-
-    // Si devuelve tabla
-    if (typeof data.respuesta === "string" && data.respuesta.includes("|")) {
-      renderMarkdownTable(data.respuesta);
-      renderGraficarButton(data.sql, data.recomendacion, data.consulta);
-    }
-  } catch (err) {
-    console.error(err);
-    removeTyping();
-    appendMessage("bot", "Error al conectar con el agente.");
+  if (data.respuesta && data.respuesta.includes("|")) {
+    renderMarkdownTable(data.respuesta);
+    renderGraficarButton(data.sql, data.recomendacion, data.consulta);
+  } else {
+    appendMessage("bot", data.respuesta || "No hay respuesta del agente.");
   }
 }
 
-function renderMarkdownTable(text) {
-  const lines = text.trim().split("\n").filter(l => l.includes("|"));
+function renderMarkdownTable(md) {
+  const lines = md.trim().split("\n").filter(l => l.includes("|"));
   if (lines.length < 2) return;
   const headers = lines[0].split("|").map(h => h.trim()).filter(Boolean);
-  const rows = lines.slice(2).map(line => line.split("|").map(c => c.trim()).filter(Boolean));
-
+  const rows = lines.slice(2).map(l => l.split("|").map(c => c.trim()).filter(Boolean));
   let html = "<table><thead><tr>";
   headers.forEach(h => html += `<th>${h}</th>`);
   html += "</tr></thead><tbody>";
@@ -307,86 +243,45 @@ function renderMarkdownTable(text) {
   document.getElementById("tablaContainer").innerHTML = html;
 }
 
-// 🟩 Botón "Graficar"
+// ⬇️ BOTÓN GRAFICAR
 function renderGraficarButton(sql, recomendacion, consulta) {
-  const div = document.getElementById("chartButtons");
-  div.innerHTML = `
-    <button class="btn-rec" onclick='obtenerCamposGrafico(${JSON.stringify(sql)}, ${JSON.stringify(recomendacion)}, ${JSON.stringify(consulta)})'>
-      Graficar
-    </button>
-  `;
+  const cont = document.getElementById("chartButtons");
+  cont.innerHTML = `<button class="btn-chart rec" id="btnGraficar">📊 Graficar</button>`;
+  document.getElementById("btnGraficar").onclick = () => {
+    renderChartSelection(sql, recomendacion, consulta);
+  };
 }
 
-// 🟩 Llamada al segundo webhook
-async function obtenerCamposGrafico(sql, recomendacion, consulta) {
-  try {
-    const res = await fetch(webhookGrafico, {
-      method: "POST",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({ sql, consulta, decision: recomendacion })
-    });
-    const data = await res.json();
-    renderChartButtons(data.sql, data.chart_type, data.x, data.y, consulta);
-  } catch (err) {
-    console.error("Error al obtener datos de gráfico:", err);
-  }
-}
-
-// 🟩 Render de botones de tipo de gráfico
-function renderChartButtons(sql, chartType, x, y, consulta) {
-  const div = document.getElementById("chartButtons");
+// ⬇️ AL HACER CLICK EN GRAFICAR → mostrar todos los botones de tipo
+function renderChartSelection(sql, recomendacion, consulta) {
   const tipos = ["bar", "line", "scatter", "pie", "histogram"];
+  const rec = recomendacion.replace(/[()]/g, "").trim();
+  const orden = [rec, ...tipos.filter(t => t !== rec)];
 
-  const cleanType = chartType.replace(/[()]/g,"").trim();
-  const tiposOrdenados = [cleanType, ...tipos.filter(t => t !== cleanType)];
-
-  div.innerHTML = `
+  const cont = document.getElementById("chartButtons");
+  cont.innerHTML = `
     <p><strong>Selecciona tipo de gráfico:</strong></p>
-    <div class="btn-group">
-      ${tiposOrdenados.map(t => `
-        <button class="btn-chart ${t===cleanType ? "btn-rec" : "btn-alt"}"
-          onclick="renderChartFromSQL('${sql}','${t}','${x}','${y}')">
-          ${t===cleanType ? `Recomendado (${t})` : t}
-        </button>`).join("")}
-    </div>
+    ${orden.map(t => `
+      <button class="btn-chart ${t === rec ? "rec" : "alt"}"
+        onclick="enviarGrafico('${sql}','${t}','${consulta}')">
+        ${t === rec ? `Recomendado (${t})` : t}
+      </button>
+    `).join("")}
   `;
 }
 
-async function renderChartFromSQL(sql, chartType, xField, yField) {
+// ⬇️ AL SELECCIONAR UN GRÁFICO → manda POST al webhook
+async function enviarGrafico(sql, chartType, consulta) {
   try {
-    const { data, error } = await supabase.rpc("execute_sql_query", { query: sql });
-    if (error) throw error;
-    if (!data?.length) {
-      document.getElementById("tablaContainer").innerHTML = "Sin datos para graficar.";
-      return;
-    }
-
-    const labels = data.map(row => row[xField]);
-    const values = data.map(row => row[yField]);
-
-    const ctx = document.getElementById("chart").getContext("2d");
-    if (chartInstance) chartInstance.destroy();
-    chartInstance = new Chart(ctx, {
-      type: chartType,
-      data: {
-        labels,
-        datasets: [{
-          label: `${yField} vs ${xField}`,
-          data: values,
-          backgroundColor: "rgba(47,110,62,0.6)",
-          borderColor: "rgba(47,110,62,1)",
-          borderWidth: 1
-        }]
-      },
-      options: {
-        responsive: true,
-        plugins: { legend: { display: true } },
-        scales: { y: { beginAtZero: true } }
-      }
+    await fetch(webhookGrafico, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ sql, chart_type: chartType, consulta })
     });
+    appendMessage("bot", `📈 Gráfico solicitado (${chartType}) enviado al servidor.`);
   } catch (err) {
     console.error(err);
-    document.getElementById("tablaContainer").innerHTML = "Error al generar el gráfico.";
+    appendMessage("bot", "Error enviando gráfico al webhook.");
   }
 }
 </script>
