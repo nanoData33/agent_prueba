@@ -1,3 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CohortIQ – Visualizador Clínico</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<style>
+:root {
+  --fondo: #f5f7f5;
+  --card: #ffffff;
+  --verde: #2f6e3e;
+  --verde-oscuro: #245831;
+  --gris: #3b3b3b;
+  --sombra: rgba(0,0,0,0.1);
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--fondo);
+  color: var(--gris);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+header {
+  background: var(--card);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  box-shadow: 0 2px 8px var(--sombra);
+}
+header h1 {
+  font-size: 1.2rem;
+  color: var(--verde);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+header button {
+  background: var(--verde);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+header button:hover { background: var(--verde-oscuro); }
+
+main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.chat-box, .tabla-box {
+  background: var(--card);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px var(--sombra);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  color: var(--verde);
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  background: #f8faf8;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.05);
+}
+
+.msg {
+  margin-bottom: 12px;
+  padding: 12px 15px;
+  border-radius: 12px;
+  line-height: 1.5;
+  max-width: 85%;
+  word-wrap: break-word;
+}
+.msg.user {
+  background: var(--verde);
+  color: white;
+  align-self: flex-end;
+  border-bottom-right-radius: 0;
+}
+.msg.bot {
+  background: #e8f3e8;
+  color: var(--gris);
+  align-self: flex-start;
+  border-bottom-left-radius: 0;
+}
+
+.typing {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+.dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--verde);
+  animation: blink 1.2s infinite;
+}
+.dot:nth-child(2){ animation-delay: 0.2s; }
+.dot:nth-child(3){ animation-delay: 0.4s; }
+@keyframes blink {
+  0%, 80%, 100% { opacity: 0.3; transform: scale(0.8); }
+  40% { opacity: 1; transform: scale(1); }
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+button.action {
+  background: var(--verde);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+button.action:hover { background: var(--verde-oscuro); }
+
+#tablaContainer {
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background: var(--verde);
+  color: white;
+}
+
+.btn-group {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.btn-chart {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s;
+}
+.btn-rec { background: var(--verde); color: white; }
+.btn-alt { background: #e6e8e6; color: var(--gris); }
+.btn-alt:hover { background: #d3d5d3; }
+.btn-rec:hover { background: var(--verde-oscuro); }
+
+canvas { width: 100% !important; height: 380px !important; }
+
+footer {
+  background: var(--card);
+  text-align: center;
+  padding: 8px;
+  font-size: 0.85rem;
+  color: #555;
+  box-shadow: 0 -2px 6px var(--sombra);
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1><i data-lucide="stethoscope"></i> CohortIQ – Asistente Clínico</h1>
+  <button onclick="window.location.href='index.html'">Volver al Inicio</button>
+</header>
+
+<main>
+  <div class="chat-box">
+    <h2>Chat con el Agente</h2>
+    <div id="messages" class="messages"></div>
+    <div class="input-area">
+      <input id="userInput" placeholder="Escribe tu mensaje..." />
+      <button class="action" onclick="sendText()">Enviar</button>
+    </div>
+  </div>
+
+  <div class="tabla-box">
+    <h2>Resultados</h2>
+    <div id="tablaContainer">Esperando resultados...</div>
+    <div id="chartButtons"></div>
+    <canvas id="chart"></canvas>
+  </div>
+</main>
+
+<footer>© 2025 CohortIQ – Plataforma Inteligente de Apoyo Clínico</footer>
+
 <script>
 lucide.createIcons();
 
@@ -56,7 +284,7 @@ async function sendText() {
     // Si devuelve tabla
     if (typeof data.respuesta === "string" && data.respuesta.includes("|")) {
       renderMarkdownTable(data.respuesta);
-      renderGraficarButton(data.sql, data.recomendacion, data.consulta); // 🟩 NUEVO
+      renderGraficarButton(data.sql, data.recomendacion, data.consulta);
     }
   } catch (err) {
     console.error(err);
@@ -79,7 +307,7 @@ function renderMarkdownTable(text) {
   document.getElementById("tablaContainer").innerHTML = html;
 }
 
-// 🟩 NUEVO: botón “Graficar”
+// 🟩 Botón "Graficar"
 function renderGraficarButton(sql, recomendacion, consulta) {
   const div = document.getElementById("chartButtons");
   div.innerHTML = `
@@ -89,7 +317,7 @@ function renderGraficarButton(sql, recomendacion, consulta) {
   `;
 }
 
-// 🟩 NUEVO: llama al segundo webhook para obtener x, y, chart_type
+// 🟩 Llamada al segundo webhook
 async function obtenerCamposGrafico(sql, recomendacion, consulta) {
   try {
     const res = await fetch(webhookGrafico, {
@@ -104,11 +332,11 @@ async function obtenerCamposGrafico(sql, recomendacion, consulta) {
   }
 }
 
+// 🟩 Render de botones de tipo de gráfico
 function renderChartButtons(sql, chartType, x, y, consulta) {
   const div = document.getElementById("chartButtons");
   const tipos = ["bar", "line", "scatter", "pie", "histogram"];
 
-  // 🟩 Poner recomendado al principio
   const cleanType = chartType.replace(/[()]/g,"").trim();
   const tiposOrdenados = [cleanType, ...tipos.filter(t => t !== cleanType)];
 
@@ -162,3 +390,5 @@ async function renderChartFromSQL(sql, chartType, xField, yField) {
   }
 }
 </script>
+</body>
+</html>
