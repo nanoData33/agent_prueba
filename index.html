@@ -169,12 +169,20 @@
 
 <body>
   <header>
-    <h1><i data-lucide="stethoscope"></i> Asistente Clínico Inteligente</h1>
-    <div class="btn-bar">
-      <button onclick="window.open('chat.html', '_self')"><i data-lucide='message-circle'></i> Chat</button>
-      <button onclick="window.open('analitica.html', '_self')"><i data-lucide='flask-round'></i> Analítica</button>
-    </div>
-  </header>
+  <h1><i data-lucide="stethoscope"></i> Asistente Clínico Inteligente</h1>
+  <div class="btn-bar">
+    <button onclick="window.open('chat.html', '_self')">
+      <i data-lucide='message-circle'></i> Chat
+    </button>
+    <button onclick="window.open('analitica.html', '_self')">
+      <i data-lucide='flask-round'></i> Analítica
+    </button>
+    <!-- 👇 NUEVO BOTÓN DE CIERRE DE SESIÓN -->
+    <button onclick="logout()" style="border-color:#d9534f; color:#d9534f;">
+      <i data-lucide="log-out"></i> Cerrar sesión
+    </button>
+  </div>
+</header>
 
   <main>
     <h2>Bienvenido al Asistente Clínico</h2>
@@ -203,8 +211,14 @@
 
   <footer>© 2025 Asistente Clínico – Plataforma de Apoyo Inteligente</footer>
 
-  <script>
-    lucide.createIcons();
-  </script>
+<script>
+  lucide.createIcons();
+
+  function logout() {
+    localStorage.removeItem('medico');
+    window.location.href = 'login.html';
+  }
+</script>
+
 </body>
 </html>
