@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Inicio de Sesión | Asistente Clínico</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<style>
+  :root {
+    --fondo: #f2efe9;
+    --card: #ffffff;
+    --texto: #2e2e2e;
+    --acento: #c08457;
+    --acento-hover: #a5673f;
+    --sombra: rgba(0, 0, 0, 0.1);
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--fondo);
+    color: var(--texto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .login-box {
+    background: var(--card);
+    box-shadow: 0 4px 12px var(--sombra);
+    border-radius: 16px;
+    padding: 40px 35px;
+    width: 350px;
+    text-align: center;
+  }
+
+  h1 {
+    color: var(--acento);
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+  }
+
+  p {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+  }
+
+  button {
+    width: 100%;
+    background: var(--acento);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background 0.25s;
+  }
+
+  button:hover { background: var(--acento-hover); }
+
+  #error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    height: 18px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 12px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #888;
+  }
+</style>
+</head>
+
+<body>
+  <div class="login-box">
+    <h1><i data-lucide="stethoscope"></i> Asistente Clínico</h1>
+    <p>Acceso restringido al personal médico</p>
+
+    <input type="email" id="email" placeholder="Correo institucional" />
+    <input type="password" id="password" placeholder="Contraseña" />
+    <button onclick="login()">Iniciar sesión</button>
+
+    <p id="error"></p>
+  </div>
+
+  <footer>© 2025 Asistente Clínico Inteligente</footer>
+
+  <script>
+    lucide.createIcons();
+
+    // Usuarios simulados (como si vinieran de tu tabla 'medicos')
+    const medicos = [
+      { correo_login: 'laura.gomez@clinicapp.com', contraseña: '1234', nombre: 'Dra. Laura Gómez' },
+      { correo_login: 'carlos.perez@clinicapp.com', contraseña: '1234', nombre: 'Dr. Carlos Pérez' },
+      { correo_login: 'ana.ruiz@clinicapp.com', contraseña: '1234', nombre: 'Dra. Ana Ruiz' },
+      { correo_login: 'miguel.torres@clinicapp.com', contraseña: '1234', nombre: 'Dr. Miguel Torres' }
+    ];
+
+    function login() {
+      const email = document.getElementById('email').value.trim();
+      const pass = document.getElementById('password').value.trim();
+      const error = document.getElementById('error');
+
+      const user = medicos.find(u => u.correo_login === email && u.contraseña === pass);
+
+      if (user) {
+        localStorage.setItem('medico', JSON.stringify(user));
+        window.location.href = 'index.html';
+      } else {
+        error.textContent = 'Correo o contraseña incorrectos.';
+      }
+    }
+  </script>
+</body>
+</html>
